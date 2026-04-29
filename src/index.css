@@ -1,0 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-ink: 0 0 0;
+    --color-paper: 245 245 243;
+    --color-canvas: 255 255 255;
+    --color-rule: 229 229 225;
+    --color-muted: 85 85 85;
+    --color-whisper: 154 154 149;
+  }
+
+  .dark {
+    --color-ink: 245 245 243;
+    --color-paper: 10 10 10;
+    --color-canvas: 20 20 19;
+    --color-rule: 42 42 40;
+    --color-muted: 160 160 155;
+    --color-whisper: 107 107 102;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(var(--color-paper));
+    color: rgb(var(--color-ink));
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background: rgb(var(--color-ink));
+    color: rgb(var(--color-paper));
+  }
+}
+
+@layer components {
+  .small-caps {
+    font-family: 'JetBrains Mono', monospace;
+    letter-spacing: 0.3em;
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  .display {
+    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: -0.02em;
+  }
+
+  .paper-grain {
+    background-color: rgb(var(--color-canvas));
+    background-image:
+      radial-gradient(rgba(0, 0, 0, 0.018) 1px, transparent 1px),
+      radial-gradient(rgba(0, 0, 0, 0.012) 1px, transparent 1px);
+    background-size: 3px 3px, 7px 7px;
+    background-position: 0 0, 1px 2px;
+  }
+
+  .dark .paper-grain {
+    background-image:
+      radial-gradient(rgba(255, 255, 255, 0.022) 1px, transparent 1px),
+      radial-gradient(rgba(255, 255, 255, 0.015) 1px, transparent 1px);
+  }
+
+  .institution-rule {
+    background:
+      linear-gradient(to right, currentColor 50%, transparent 50%) repeat-x,
+      transparent;
+    background-size: 4px 1px;
+    height: 1px;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Subtle hover for the dossier cards */
+  .dossier-shadow {
+    box-shadow:
+      0 1px 0 rgba(0, 0, 0, 0.04),
+      0 4px 12px -2px rgba(0, 0, 0, 0.04),
+      0 24px 48px -16px rgba(0, 0, 0, 0.08);
+  }
+
+  .dossier-shadow-deep {
+    box-shadow:
+      0 1px 0 rgba(0, 0, 0, 0.06),
+      0 8px 24px -4px rgba(0, 0, 0, 0.08),
+      0 40px 80px -24px rgba(0, 0, 0, 0.16);
+  }
+}
+
+/* Marquee animation */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.marquee-track {
+  animation: marquee 60s linear infinite;
+}
+
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+/* Card flip on archive cycle */
+.card-stage {
+  perspective: 1500px;
+}
+
+/* Subtle rotating ticker for velocity indicators */
+@keyframes pulse-velocity {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 1; }
+}
+
+.velocity-pulse {
+  animation: pulse-velocity 2s ease-in-out infinite;
+}
+
+/* Reveal-on-scroll baseline */
+.reveal {
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.8s cubic-bezier(0.2, 0, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0, 0.2, 1);
+}
+
+.reveal.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
