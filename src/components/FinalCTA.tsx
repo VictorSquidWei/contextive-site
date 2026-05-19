@@ -30,14 +30,14 @@ export function FinalCTA() {
   }
 
   return (
-    <section className="bg-paper border-y border-rule px-6 lg:px-12 py-24 lg:py-32">
-      <div className="max-w-screen-xl mx-auto grid lg:grid-cols-12 gap-12 items-center">
-        <div className="lg:col-span-7 space-y-6">
+    <section className="bg-paper border-y border-rule px-6 lg:px-12 py-12 lg:py-16">
+      <div className="max-w-screen-xl mx-auto grid lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+        <div className="lg:col-span-7 space-y-4">
           <span className="small-caps text-muted">// 05 — Subscribe</span>
-          <h2 className="font-display font-bold tracking-tight text-4xl sm:text-5xl lg:text-6xl leading-[0.95] text-balance">
+          <h2 className="font-display font-bold tracking-tight text-3xl sm:text-4xl lg:text-5xl leading-[0.95] text-balance">
             See the words that decide the story.
           </h2>
-          <p className="text-muted text-lg leading-relaxed max-w-xl">
+          <p className="text-muted text-base leading-relaxed max-w-xl">
             Weekly intelligence files. The terms doing the rhetorical work, who's
             using them, and what each word reveals about what comes next.
           </p>
@@ -45,7 +45,7 @@ export function FinalCTA() {
 
         <div className="lg:col-span-5">
           {!submitted ? (
-            <form onSubmit={handleSubmit} className="space-y-4">
+            <form onSubmit={handleSubmit} className="space-y-3">
               <label className="small-caps text-muted block">Archive Access ID</label>
               <input
                 type="email"
@@ -53,12 +53,12 @@ export function FinalCTA() {
                 placeholder="your@email.com"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="w-full bg-canvas border border-rule px-4 py-4 text-sm focus:outline-none focus:border-ink focus:ring-1 focus:ring-ink placeholder:text-whisper transition-colors"
+                className="w-full bg-canvas border border-rule px-4 py-3 text-sm focus:outline-none focus:border-ink focus:ring-1 focus:ring-ink placeholder:text-whisper transition-colors"
               />
               <button
                 type="submit"
                 disabled={submitting}
-                className="w-full bg-ink text-paper py-4 small-caps hover:bg-ink/85 active:scale-[0.99] transition-all disabled:opacity-60"
+                className="w-full bg-ink text-paper py-3 small-caps hover:bg-ink/85 active:scale-[0.99] transition-all disabled:opacity-60"
               >
                 {submitting ? 'Submitting...' : 'Subscribe to the dispatch'}
               </button>
@@ -67,7 +67,7 @@ export function FinalCTA() {
               </p>
             </form>
           ) : (
-            <div className="border border-ink p-6 bg-canvas space-y-3">
+            <div className="border border-ink p-4 bg-canvas space-y-2">
               <div className="small-caps text-ink">Subscription Confirmed</div>
               <p className="text-sm text-muted leading-relaxed">
                 Welcome to the archive. Check your inbox.

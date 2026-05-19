@@ -1,7 +1,9 @@
 import { Logo } from './Logo';
 import { SOCIAL_LINKS } from '../data/terms';
 
-const SocialIcon = ({ kind }: { kind: 'substack' | 'twitter' | 'instagram' | 'web' }) => {
+type ChannelKind = 'substack' | 'twitter' | 'instagram' | 'web';
+
+const SocialIcon = ({ kind }: { kind: ChannelKind }) => {
   const common = 'w-5 h-5';
   switch (kind) {
     case 'web':
@@ -34,17 +36,21 @@ const SocialIcon = ({ kind }: { kind: 'substack' | 'twitter' | 'instagram' | 'we
   }
 };
 
-const SocialRow = ({
-  label,
-  value,
-  href,
-  kind,
-}: {
+interface Channel {
   label: string;
   value: string;
   href?: string;
-  kind: 'substack' | 'twitter' | 'instagram' | 'web';
-}) => {
+  kind: ChannelKind;
+}
+
+const CHANNELS: Channel[] = [
+  { label: 'WEB',         value: 'contextive.ai',                       kind: 'web' },
+  { label: 'SUBSTACK',    value: 'open.substack.com/pub/contextive',    href: SOCIAL_LINKS.substack,  kind: 'substack' },
+  { label: 'X / TWITTER', value: 'x.com/contextive_ai',                 href: SOCIAL_LINKS.twitter,   kind: 'twitter' },
+  { label: 'INSTAGRAM',   value: 'www.instagram.com/contextive.ai',     href: SOCIAL_LINKS.instagram, kind: 'instagram' },
+];
+
+const ChannelTile = ({ label, value, href, kind }: Channel) => {
   const Wrapper: any = href ? 'a' : 'div';
   const props = href
     ? { href, target: '_blank', rel: 'noopener noreferrer' }
@@ -53,36 +59,31 @@ const SocialRow = ({
   return (
     <Wrapper
       {...props}
-      className={`flex items-center gap-5 py-5 border-b border-paper/15 dark:border-ink/15 ${
-        href ? 'group hover:bg-paper/5 dark:hover:bg-ink/5 transition-colors -mx-3 px-3' : ''
-      }`}
+      title={value}
+      className="group flex items-center gap-3 p-3 border border-paper/15 dark:border-ink/15 hover:border-paper/40 dark:hover:border-ink/40 transition-colors"
     >
-      <div className="w-12 h-12 border border-paper/30 dark:border-ink/30 flex items-center justify-center text-paper dark:text-ink shrink-0 group-hover:border-paper dark:group-hover:border-ink transition-colors">
+      <div className="w-10 h-10 border border-paper/30 dark:border-ink/30 flex items-center justify-center text-paper dark:text-ink shrink-0 group-hover:border-paper dark:group-hover:border-ink transition-colors">
         <SocialIcon kind={kind} />
       </div>
       <div className="flex-1 min-w-0">
-        <div className="small-caps text-paper/40 dark:text-ink/40 mb-1">{label}</div>
-        <div className="font-display font-bold text-base sm:text-lg text-paper dark:text-ink truncate">
+        <div className="small-caps text-paper/40 dark:text-ink/40 leading-none">{label}</div>
+        <div className="font-display font-bold text-xs text-paper dark:text-ink truncate mt-1">
           {value}
         </div>
       </div>
-      {href && (
-        <span className="small-caps text-paper/40 dark:text-ink/40 group-hover:text-paper dark:group-hover:text-ink transition-colors hidden sm:inline">
-          →
-        </span>
-      )}
     </Wrapper>
   );
 };
 
 export function Footer() {
   return (
-    <footer className="bg-ink text-paper dark:bg-canvas dark:text-ink px-6 lg:px-12 py-20 lg:py-28">
+    <footer className="bg-ink text-paper dark:bg-canvas dark:text-ink px-6 lg:px-12 py-12 lg:py-16">
       <div className="max-w-screen-xl mx-auto">
-        {/* Logo + heading */}
-        <div className="grid lg:grid-cols-12 gap-12 mb-12">
-          <div className="lg:col-span-5">
-            <Logo className="text-paper dark:text-ink mb-6" />
+        {/* Top compact row */}
+        <div className="grid lg:grid-cols-12 gap-8 lg:gap-12 mb-10">
+          {/* Brand */}
+          <div className="lg:col-span-5 space-y-4">
+            <Logo className="text-paper dark:text-ink" />
             <p className="text-paper/60 dark:text-ink/60 text-sm leading-relaxed max-w-md">
               Contextive is a language intelligence system. We track the words that move
               markets, shape policy, and frame perception — and explain what each one is
@@ -90,41 +91,24 @@ export function Footer() {
             </p>
           </div>
 
+          {/* Channels grid */}
           <div className="lg:col-span-7">
-            <div className="small-caps text-paper/40 dark:text-ink/40 mb-2">// CHANNELS</div>
-            <SocialRow
-              label="WEB"
-              value="contextive.ai"
-              kind="web"
-            />
-            <SocialRow
-              label="SUBSTACK"
-              value="open.substack.com/pub/contextive"
-              href={SOCIAL_LINKS.substack}
-              kind="substack"
-            />
-            <SocialRow
-              label="X / TWITTER"
-              value="x.com/contextive_ai"
-              href={SOCIAL_LINKS.twitter}
-              kind="twitter"
-            />
-            <SocialRow
-              label="INSTAGRAM"
-              value="www.instagram.com/contextive.ai"
-              href={SOCIAL_LINKS.instagram}
-              kind="instagram"
-            />
+            <div className="small-caps text-paper/40 dark:text-ink/40 mb-3">// CHANNELS</div>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+              {CHANNELS.map((c) => (
+                <ChannelTile {...c} key={c.label} />
+              ))}
+            </div>
           </div>
         </div>
 
         {/* Bottom strip */}
-        <div className="pt-10 border-t border-paper/15 dark:border-ink/15 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6 small-caps text-paper/40 dark:text-ink/40">
-          <div className="flex flex-col gap-1">
+        <div className="pt-6 border-t border-paper/15 dark:border-ink/15 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 small-caps text-paper/40 dark:text-ink/40 text-[10px]">
+          <div className="flex flex-wrap gap-x-6 gap-y-1">
             <span>© 2026 CONTEXTIVE INTELLIGENCE</span>
             <span>SIGNAL ARCHIVE // LONDON · SF</span>
           </div>
-          <div className="flex gap-8">
+          <div className="flex gap-6">
             <a href="#thesis" className="hover:text-paper dark:hover:text-ink transition-colors">PROTOCOL</a>
             <a href="#archive" className="hover:text-paper dark:hover:text-ink transition-colors">ARCHIVE</a>
             <a href="#system" className="hover:text-paper dark:hover:text-ink transition-colors">STATUS</a>

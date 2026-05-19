@@ -1,4 +1,5 @@
 import { Nav } from './components/Nav';
+import { SectionReveal } from './components/SectionReveal';
 import { Hero } from './components/Hero';
 import { Ticker } from './components/Ticker';
 import { Thesis } from './components/Thesis';
@@ -14,16 +15,16 @@ function App() {
     <div className="min-h-screen bg-paper text-ink">
       <Nav />
       <main>
-        <Hero />
-        <Ticker />
-        <Thesis />
-        <Archive />
-        <Manifesto />
-        <Campaigns />
-        <System />
-        <FinalCTA />
+        <SectionReveal><Hero /></SectionReveal>
+        <SectionReveal><Ticker /></SectionReveal>
+        <SectionReveal><Thesis /></SectionReveal>
+        <SectionReveal><Archive /></SectionReveal>
+        <SectionReveal><Manifesto /></SectionReveal>
+        <SectionReveal><Campaigns /></SectionReveal>
+        <SectionReveal><System /></SectionReveal>
+        <SectionReveal><FinalCTA /></SectionReveal>
       </main>
-      <Footer />
+      <SectionReveal><Footer /></SectionReveal>
     </div>
   );
 }

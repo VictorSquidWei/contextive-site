@@ -282,6 +282,7 @@ export const CAMPAIGNS = [
   {
     id: 'geopolitics',
     label: 'CAMPAIGN 01',
+    shortTitle: 'Geopolitics',
     title: 'The Language of Geopolitics',
     period: 'Q2 2026',
     description:
@@ -305,6 +306,7 @@ export const CAMPAIGNS = [
   {
     id: 'ai-work',
     label: 'CAMPAIGN 02',
+    shortTitle: 'AI & Work',
     title: 'The Language of AI and Work',
     period: 'Q2 2026',
     description:
