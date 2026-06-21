@@ -25,36 +25,27 @@ export function Hero() {
     return () => clearInterval(id);
   }, []);
 
-  async function handleSubmit(e: React.FormEvent) {
+  function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    if (!email || submitting) return;
-
+    if (submitting) return;
+    const clean = email.trim().toLowerCase();
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(clean)) {
+      setError('Enter a valid email address.');
+      return;
+    }
     setSubmitting(true);
     setError(null);
-
-    try {
-      // Try the API endpoint (works on Vercel/Netlify when deployed with the included function)
-      const res = await fetch('/api/subscribe', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email }),
-      });
-
-      if (res.ok) {
-        setSubmitted(true);
-        setEmail('');
-      } else {
-        // Fallback: open Substack subscribe page
-        window.open(`${SUBSTACK_SUBSCRIBE}?email=${encodeURIComponent(email)}`, '_blank');
-        setSubmitted(true);
-      }
-    } catch (err) {
-      // No backend — open Substack directly with the email pre-filled
-      window.open(`${SUBSTACK_SUBSCRIBE}?email=${encodeURIComponent(email)}`, '_blank');
-      setSubmitted(true);
-    } finally {
-      setSubmitting(false);
-    }
+    // Open our Substack page on the click itself (so it isn't popup-blocked) —
+    // subscribing there is revenue, and the email is pre-filled.
+    window.open(`${SUBSTACK_SUBSCRIBE}?email=${encodeURIComponent(clean)}`, '_blank', 'noopener');
+    // Record to our own list in the background, for later email automation.
+    fetch('/api/subscribe', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email: clean }),
+    }).catch(() => {});
+    setSubmitted(true);
+    setSubmitting(false);
   }
 
   return (
@@ -108,15 +99,23 @@ export function Hero() {
                     {submitting ? 'Submitting' : 'Access Archive'}
                   </button>
                 </div>
-                {error && <p className="small-caps text-red-700">{error}</p>}
+                {error && <p className="small-caps text-ink">{error}</p>}
               </form>
             ) : (
-              <div className="border border-ink p-5 bg-canvas">
-                <div className="small-caps text-ink mb-2">Subscription Confirmed</div>
+              <div className="border border-ink p-5 bg-canvas space-y-3">
+                <div className="small-caps text-ink">You're on the list</div>
                 <p className="text-sm text-muted leading-relaxed">
-                  Check your inbox for the next intelligence file. If you don't see it
-                  within 60 seconds, the Substack tab will guide you through.
+                  We've opened Substack in a new tab to confirm your subscription. If it
+                  didn't open, use the link below.
                 </p>
+                <a
+                  href={`${SUBSTACK_SUBSCRIBE}?email=${encodeURIComponent(email)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 small-caps text-ink border border-ink px-4 py-2 hover:bg-ink hover:text-paper transition-colors"
+                >
+                  Confirm on Substack →
+                </a>
               </div>
             )}
 

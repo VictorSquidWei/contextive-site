@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Logo } from './Logo';
 import { SOCIAL_LINKS } from '../data/terms';
 
@@ -44,7 +45,7 @@ interface Channel {
 }
 
 const CHANNELS: Channel[] = [
-  { label: 'WEB',         value: 'contextive.ai',                       kind: 'web' },
+  { label: 'WEB',         value: 'contextive.info',                     kind: 'web' },
   { label: 'SUBSTACK',    value: 'open.substack.com/pub/contextive',    href: SOCIAL_LINKS.substack,  kind: 'substack' },
   { label: 'X / TWITTER', value: 'x.com/contextive_ai',                 href: SOCIAL_LINKS.twitter,   kind: 'twitter' },
   { label: 'INSTAGRAM',   value: 'www.instagram.com/contextive.ai',     href: SOCIAL_LINKS.instagram, kind: 'instagram' },
@@ -106,12 +107,11 @@ export function Footer() {
         <div className="pt-6 border-t border-paper/15 dark:border-ink/15 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 small-caps text-paper/40 dark:text-ink/40 text-[10px]">
           <div className="flex flex-wrap gap-x-6 gap-y-1">
             <span>© 2026 CONTEXTIVE INTELLIGENCE</span>
-            <span>SIGNAL ARCHIVE // LONDON · SF</span>
+            <span>SEATTLE, UNITED STATES</span>
           </div>
           <div className="flex gap-6">
-            <a href="#thesis" className="hover:text-paper dark:hover:text-ink transition-colors">PROTOCOL</a>
-            <a href="#archive" className="hover:text-paper dark:hover:text-ink transition-colors">ARCHIVE</a>
-            <a href="#system" className="hover:text-paper dark:hover:text-ink transition-colors">STATUS</a>
+            <Link to="/" className="hover:text-paper dark:hover:text-ink transition-colors">HOME</Link>
+            <Link to="/" className="hover:text-paper dark:hover:text-ink transition-colors">CAMPAIGNS</Link>
           </div>
         </div>
       </div>

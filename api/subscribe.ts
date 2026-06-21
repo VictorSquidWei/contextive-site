@@ -1,41 +1,60 @@
 // Vercel serverless function: POST /api/subscribe
-// Subscribes an email to the Contextive Substack publication.
-// Works automatically when deployed to Vercel — no env vars required.
 //
-// On Netlify: rename this file to netlify/functions/subscribe.ts
-// (Netlify uses a slightly different handler signature — see README)
+// Two jobs:
+//   1) Record the email to OUR OWN list (so we can automate emails later).
+//   2) Forward to Substack's free-subscription endpoint (the client also opens the
+//      Substack page, since subscribing there is revenue).
+//
+// Our-list persistence (all best-effort; configure any/all):
+//   - SUBSCRIBE_WEBHOOK_URL : POST { email, ts, source } to a webhook you own
+//       (e.g. a Google Apps Script bound to a Sheet, Zapier, Make). Easiest durable store.
+//   - Vercel KV / Upstash (KV_REST_API_URL + KV_REST_API_TOKEN): appends to a "subscribers" set.
+//   - Always console.log("[subscribe] ...") so signups land in Vercel runtime logs
+//     until a store above is wired — nothing is lost in the meantime.
 
-const SUBSTACK_URL = 'https://contextive.substack.com/api/v1/free';
+const SUBSTACK_FREE = 'https://contextive.substack.com/api/v1/free';
+const SUBSTACK_SUBSCRIBE = 'https://contextive.substack.com/subscribe';
+const SITE = 'https://contextive.info';
 
 interface RequestBody {
   email?: string;
 }
 
-export default async function handler(req: any, res: any) {
-  // CORS for local dev
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+async function recordToOurList(email: string, source: string): Promise<void> {
+  const ts = new Date().toISOString();
+  // Guaranteed capture: visible in Vercel runtime logs.
+  console.log(`[subscribe] ${ts} ${email} (${source})`);
 
-  if (req.method === 'OPTIONS') {
-    return res.status(204).end();
-  }
-
-  if (req.method !== 'POST') {
-    return res.status(405).json({ error: 'Method not allowed' });
-  }
-
-  try {
-    const body: RequestBody = typeof req.body === 'string' ? JSON.parse(req.body) : req.body;
-    const email = body?.email?.trim().toLowerCase();
-
-    if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-      return res.status(400).json({ error: 'Invalid email' });
+  const webhook = process.env.SUBSCRIBE_WEBHOOK_URL;
+  if (webhook) {
+    try {
+      await fetch(webhook, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, ts, source }),
+      });
+    } catch (e) {
+      console.error('[subscribe] webhook failed', e);
     }
+  }
 
-    // Forward to Substack's free-subscription endpoint.
-    // Substack accepts this format for public publications.
-    const substackRes = await fetch(SUBSTACK_URL, {
+  const kvUrl = process.env.KV_REST_API_URL;
+  const kvToken = process.env.KV_REST_API_TOKEN;
+  if (kvUrl && kvToken) {
+    try {
+      await fetch(`${kvUrl}/sadd/subscribers/${encodeURIComponent(email)}`, {
+        method: 'POST',
+        headers: { Authorization: `Bearer ${kvToken}` },
+      });
+    } catch (e) {
+      console.error('[subscribe] kv failed', e);
+    }
+  }
+}
+
+async function forwardToSubstack(email: string): Promise<boolean> {
+  try {
+    const r = await fetch(SUBSTACK_FREE, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -43,31 +62,45 @@ export default async function handler(req: any, res: any) {
       },
       body: JSON.stringify({
         email,
-        first_url: 'https://contextive.ai',
+        first_url: SITE,
         first_referrer: '',
-        current_url: 'https://contextive.ai',
+        current_url: SITE,
         current_referrer: '',
         referral_code: '',
         source: 'subscribe_page',
       }),
     });
+    return r.ok;
+  } catch {
+    return false;
+  }
+}
 
-    // Substack returns 200 even when the email is already subscribed,
-    // so we treat any 2xx as success.
-    if (substackRes.ok) {
-      return res.status(200).json({ ok: true });
+export default async function handler(req: any, res: any) {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+
+  if (req.method === 'OPTIONS') return res.status(204).end();
+  if (req.method !== 'POST') return res.status(405).json({ ok: false, error: 'Method not allowed' });
+
+  try {
+    const body: RequestBody = typeof req.body === 'string' ? JSON.parse(req.body || '{}') : req.body || {};
+    const email = body?.email?.trim().toLowerCase();
+
+    if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      return res.status(400).json({ ok: false, error: 'Invalid email' });
     }
 
-    // If Substack rejects, fall through and tell the client to redirect.
-    return res.status(502).json({
-      ok: false,
-      fallback: `https://contextive.substack.com/subscribe?email=${encodeURIComponent(email)}`,
+    await recordToOurList(email, 'site'); // our list — the part we automate from later
+    await forwardToSubstack(email); // best-effort revenue subscription
+
+    return res.status(200).json({
+      ok: true,
+      substackUrl: `${SUBSTACK_SUBSCRIBE}?email=${encodeURIComponent(email)}`,
     });
-  } catch (err: any) {
-    return res.status(500).json({
-      ok: false,
-      error: 'Subscription service unavailable',
-      fallback: 'https://contextive.substack.com/subscribe',
-    });
+  } catch {
+    // Never break the user flow; the client also opens Substack directly.
+    return res.status(200).json({ ok: true, substackUrl: SUBSTACK_SUBSCRIBE });
   }
 }

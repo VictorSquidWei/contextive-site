@@ -6,27 +6,21 @@ export function FinalCTA() {
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
 
-  async function handleSubmit(e: React.FormEvent) {
+  function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    if (!email || submitting) return;
+    if (submitting) return;
+    const clean = email.trim().toLowerCase();
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(clean)) return;
     setSubmitting(true);
-    try {
-      const res = await fetch('/api/subscribe', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email }),
-      });
-      if (!res.ok) {
-        window.open(`${SUBSTACK_SUBSCRIBE}?email=${encodeURIComponent(email)}`, '_blank');
-      }
-      setSubmitted(true);
-      setEmail('');
-    } catch {
-      window.open(`${SUBSTACK_SUBSCRIBE}?email=${encodeURIComponent(email)}`, '_blank');
-      setSubmitted(true);
-    } finally {
-      setSubmitting(false);
-    }
+    // Open Substack on the click (revenue), then record to our own list in the background.
+    window.open(`${SUBSTACK_SUBSCRIBE}?email=${encodeURIComponent(clean)}`, '_blank', 'noopener');
+    fetch('/api/subscribe', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email: clean }),
+    }).catch(() => {});
+    setSubmitted(true);
+    setSubmitting(false);
   }
 
   return (
@@ -67,11 +61,19 @@ export function FinalCTA() {
               </p>
             </form>
           ) : (
-            <div className="border border-ink p-4 bg-canvas space-y-2">
-              <div className="small-caps text-ink">Subscription Confirmed</div>
+            <div className="border border-ink p-4 bg-canvas space-y-3">
+              <div className="small-caps text-ink">You're on the list</div>
               <p className="text-sm text-muted leading-relaxed">
-                Welcome to the archive. Check your inbox.
+                We've opened Substack to confirm your subscription. If it didn't open, use the link below.
               </p>
+              <a
+                href={`${SUBSTACK_SUBSCRIBE}?email=${encodeURIComponent(email)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 small-caps text-ink border border-ink px-4 py-2 hover:bg-ink hover:text-paper transition-colors"
+              >
+                Confirm on Substack →
+              </a>
             </div>
           )}
         </div>

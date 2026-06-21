@@ -1,30 +1,38 @@
+import { Routes, Route, Navigate } from 'react-router-dom';
 import { Nav } from './components/Nav';
+import { Footer } from './components/Footer';
 import { SectionReveal } from './components/SectionReveal';
 import { Hero } from './components/Hero';
-import { Ticker } from './components/Ticker';
-import { Thesis } from './components/Thesis';
-import { Archive } from './components/Archive';
-import { Manifesto } from './components/Manifesto';
-import { Campaigns } from './components/Campaigns';
-import { System } from './components/System';
+import { CampaignIndex } from './components/CampaignIndex';
 import { FinalCTA } from './components/FinalCTA';
-import { Footer } from './components/Footer';
+import { CampaignPage } from './components/CampaignPage';
+
+function HomePage() {
+  return (
+    <main>
+      <SectionReveal>
+        <Hero />
+      </SectionReveal>
+      <SectionReveal>
+        <CampaignIndex />
+      </SectionReveal>
+      <SectionReveal>
+        <FinalCTA />
+      </SectionReveal>
+    </main>
+  );
+}
 
 function App() {
   return (
     <div className="min-h-screen bg-paper text-ink">
       <Nav />
-      <main>
-        <SectionReveal><Hero /></SectionReveal>
-        <SectionReveal><Ticker /></SectionReveal>
-        <SectionReveal><Thesis /></SectionReveal>
-        <SectionReveal><Archive /></SectionReveal>
-        <SectionReveal><Manifesto /></SectionReveal>
-        <SectionReveal><Campaigns /></SectionReveal>
-        <SectionReveal><System /></SectionReveal>
-        <SectionReveal><FinalCTA /></SectionReveal>
-      </main>
-      <SectionReveal><Footer /></SectionReveal>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/campaigns/:id" element={<CampaignPage />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
+      <Footer />
     </div>
   );
 }
