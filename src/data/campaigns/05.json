@@ -91,7 +91,7 @@
       "domainTag": "LIVED EXPERIENCE / SENTIMENT",
       "measurement": {
         "status": "measured",
-        "velocityIndex": 92,
+        "velocityIndex": 100,
         "adoptionStage": "spreading",
         "deltas": {
           "d30": 275,
@@ -143,7 +143,7 @@
       "domainTag": "ATTRIBUTION / POPULIST",
       "measurement": {
         "status": "measured",
-        "velocityIndex": 44,
+        "velocityIndex": 0,
         "adoptionStage": "declining",
         "deltas": {
           "d30": -41,
@@ -186,7 +186,7 @@
       "domainTag": "LIVED EXPERIENCE / PRODUCT",
       "measurement": {
         "status": "pending",
-        "reason": "awaiting pipeline run"
+        "reason": "no coverage series returned"
       },
       "platforms": [
         "TikTok",
@@ -210,8 +210,35 @@
       "cluster": "A",
       "domainTag": "REGULATORY / CONSUMER",
       "measurement": {
-        "status": "pending",
-        "reason": "awaiting pipeline run"
+        "status": "measured",
+        "velocityIndex": 38,
+        "adoptionStage": "declining",
+        "deltas": {
+          "d30": -33.5,
+          "d90": -30.8,
+          "yoy": -79.1
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2025-05-09",
+            "z": 4.18
+          },
+          {
+            "date": "2025-10-01",
+            "z": 2.76
+          },
+          {
+            "date": "2025-09-16",
+            "z": 2.21
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.001103,
+          "note": "GDELT coverage-intensity proxy (share of monitored coverage), not literal mentions/M",
+          "proxy": true
+        },
+        "retrievedAt": "2026-06-21T10:23:25+00:00"
       },
       "platforms": [
         "consumer-finance press",
@@ -236,8 +263,35 @@
       "cluster": "A",
       "domainTag": "MORAL-LEGAL / POPULIST",
       "measurement": {
-        "status": "pending",
-        "reason": "awaiting pipeline run"
+        "status": "measured",
+        "velocityIndex": 25,
+        "adoptionStage": "rising",
+        "deltas": {
+          "d30": 18.1,
+          "d90": 92.1,
+          "yoy": 88.5
+        },
+        "sentiment": -1.79,
+        "inflections": [
+          {
+            "date": "2026-03-17",
+            "z": 2.65
+          },
+          {
+            "date": "2026-03-27",
+            "z": 2.55
+          },
+          {
+            "date": "2026-03-07",
+            "z": 2.39
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.01385,
+          "note": "GDELT coverage-intensity proxy (share of monitored coverage), not literal mentions/M",
+          "proxy": true
+        },
+        "retrievedAt": "2026-06-21T10:24:31+00:00"
       },
       "platforms": [
         "political comms",
@@ -262,8 +316,31 @@
       "cluster": "A",
       "domainTag": "LIVED EXPERIENCE / LEVEL",
       "measurement": {
-        "status": "pending",
-        "reason": "awaiting pipeline run"
+        "status": "measured",
+        "velocityIndex": 62,
+        "adoptionStage": "rising",
+        "deltas": {
+          "d30": 9,
+          "d90": -6.8,
+          "yoy": 99.8
+        },
+        "sentiment": -0.54,
+        "inflections": [
+          {
+            "date": "2026-02-22",
+            "z": 2.6
+          },
+          {
+            "date": "2025-12-07",
+            "z": 2.1
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.252647,
+          "note": "GDELT coverage-intensity proxy (share of monitored coverage), not literal mentions/M",
+          "proxy": true
+        },
+        "retrievedAt": "2026-06-21T10:25:43+00:00"
       },
       "platforms": [
         "mainstream press",
@@ -296,21 +373,34 @@
       "domainTag": "MACRO OUTLOOK / INSTITUTIONAL",
       "measurement": {
         "status": "measured",
-        "velocityIndex": 60,
-        "adoptionStage": "contested",
+        "velocityIndex": 12,
+        "adoptionStage": "fading",
         "deltas": {
-          "d30": -12,
-          "d90": -21,
-          "yoy": -37
+          "d30": -7.2,
+          "d90": -48,
+          "yoy": -35.6
         },
-        "sentiment": 0.7,
-        "inflections": [],
+        "sentiment": -0.79,
+        "inflections": [
+          {
+            "date": "2025-09-15",
+            "z": 2.69
+          },
+          {
+            "date": "2025-10-11",
+            "z": 2.53
+          },
+          {
+            "date": "2026-02-14",
+            "z": 2.07
+          }
+        ],
         "corpusDensity": {
-          "value": 0.41,
+          "value": 0.00343,
           "note": "GDELT coverage-intensity proxy (share of monitored coverage), not literal mentions/M",
           "proxy": true
         },
-        "retrievedAt": "2026-06-09T00:00:00Z"
+        "retrievedAt": "2026-06-21T10:26:26+00:00"
       },
       "platforms": [
         "financial TV",
@@ -343,7 +433,7 @@
       "domainTag": "MACRO / TECHNICAL",
       "measurement": {
         "status": "pending",
-        "reason": "awaiting pipeline run"
+        "reason": "no coverage series returned"
       },
       "platforms": [
         "Fed communications",
@@ -369,8 +459,35 @@
       "cluster": "B",
       "domainTag": "MACRO / RATES",
       "measurement": {
-        "status": "pending",
-        "reason": "awaiting pipeline run"
+        "status": "measured",
+        "velocityIndex": 50,
+        "adoptionStage": "rising",
+        "deltas": {
+          "d30": -19.8,
+          "d90": 115.8,
+          "yoy": 293.6
+        },
+        "sentiment": -1.34,
+        "inflections": [
+          {
+            "date": "2026-03-09",
+            "z": 2.88
+          },
+          {
+            "date": "2026-03-29",
+            "z": 2.21
+          },
+          {
+            "date": "2026-03-19",
+            "z": 2.19
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.016727,
+          "note": "GDELT coverage-intensity proxy (share of monitored coverage), not literal mentions/M",
+          "proxy": true
+        },
+        "retrievedAt": "2026-06-21T10:28:37+00:00"
       },
       "platforms": [
         "Fed communications",
@@ -396,7 +513,7 @@
       "domainTag": "MACRO / DISTRIBUTION",
       "measurement": {
         "status": "pending",
-        "reason": "awaiting pipeline run"
+        "reason": "no coverage series returned"
       },
       "platforms": [
         "economics commentary",
@@ -427,8 +544,35 @@
       "cluster": "B",
       "domainTag": "MACRO / LABOR",
       "measurement": {
-        "status": "pending",
-        "reason": "awaiting pipeline run"
+        "status": "measured",
+        "velocityIndex": 75,
+        "adoptionStage": "contested",
+        "deltas": {
+          "d30": 90.3,
+          "d90": -28.7,
+          "yoy": 20
+        },
+        "sentiment": -1.78,
+        "inflections": [
+          {
+            "date": "2025-08-04",
+            "z": 2.59
+          },
+          {
+            "date": "2026-02-18",
+            "z": 2.29
+          },
+          {
+            "date": "2025-05-05",
+            "z": 2.26
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.016267,
+          "note": "GDELT coverage-intensity proxy (share of monitored coverage), not literal mentions/M",
+          "proxy": true
+        },
+        "retrievedAt": "2026-06-21T10:30:36+00:00"
       },
       "platforms": [
         "BLS-cycle coverage",
@@ -454,7 +598,7 @@
       "domainTag": "MACRO / INFLATION PATH",
       "measurement": {
         "status": "pending",
-        "reason": "awaiting pipeline run"
+        "reason": "no coverage series returned"
       },
       "platforms": [
         "Fed communications",
@@ -480,7 +624,7 @@
       "domainTag": "ATTRIBUTION / SYMMETRIC",
       "measurement": {
         "status": "pending",
-        "reason": "awaiting pipeline run"
+        "reason": "no coverage series returned"
       },
       "platforms": [
         "economics commentary",
@@ -512,7 +656,7 @@
       "domainTag": "ATTRIBUTION / PARTISAN",
       "measurement": {
         "status": "pending",
-        "reason": "awaiting pipeline run"
+        "reason": "no coverage series returned"
       },
       "platforms": [
         "partisan comms (both sides, alternating)",
@@ -544,7 +688,7 @@
       "domainTag": "MOBILIZATION / SLOGAN",
       "measurement": {
         "status": "pending",
-        "reason": "awaiting pipeline run"
+        "reason": "no coverage series returned"
       },
       "platforms": [
         "campaign comms (all sides)",
@@ -570,7 +714,7 @@
       "domainTag": "SYSTEMIC CRITIQUE / LEFT",
       "measurement": {
         "status": "pending",
-        "reason": "awaiting pipeline run"
+        "reason": "no coverage series returned"
       },
       "platforms": [
         "TikTok",
@@ -596,8 +740,35 @@
       "cluster": "C",
       "domainTag": "MOBILIZATION / CYCLICAL",
       "measurement": {
-        "status": "pending",
-        "reason": "awaiting pipeline run"
+        "status": "measured",
+        "velocityIndex": 88,
+        "adoptionStage": "rising",
+        "deltas": {
+          "d30": 81,
+          "d90": 10.5,
+          "yoy": 56.2
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2025-08-08",
+            "z": 4.89
+          },
+          {
+            "date": "2025-12-07",
+            "z": 3.22
+          },
+          {
+            "date": "2025-07-11",
+            "z": 2.19
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.00038,
+          "note": "GDELT coverage-intensity proxy (share of monitored coverage), not literal mentions/M",
+          "proxy": true
+        },
+        "retrievedAt": "2026-06-21T10:41:04+00:00"
       },
       "platforms": [
         "campaign comms (both sides)",
@@ -617,7 +788,7 @@
       "whereContested": "It invites baseline-shopping: every side picks the comparison year that flatters its case, and the same data answers both ways. It is midterm-coded and symmetric — the out-party always asks it. The brand tracks its cyclical reactivation, not the answer."
     }
   ],
-  "generatedAt": "2026-06-09T00:00:00Z",
+  "generatedAt": "2026-06-21T10:41:04+00:00",
   "refDate": "2026-06-09",
   "source": "GDELT DOC 2.0 (timelinevol + timelinetone)"
 }
