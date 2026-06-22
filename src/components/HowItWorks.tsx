@@ -99,6 +99,7 @@ function ExtractionDiagram() {
         <style>{`
           .lbl { font-family: 'JetBrains Mono', monospace; font-size: 12px; letter-spacing: 0.12em; fill: currentColor; }
           .lbl-mute { fill: rgb(var(--color-muted)); }
+          .sub { font-family: 'JetBrains Mono', monospace; font-size: 8px; letter-spacing: 0.06em; fill: rgb(var(--color-muted)); }
           .grp { font-family: 'JetBrains Mono', monospace; font-size: 10px; letter-spacing: 0.28em; fill: rgb(var(--color-whisper)); }
           .node-lbl { font-family: 'Space Grotesk', sans-serif; font-weight: 700; fill: currentColor; }
           .stroke-rule { stroke: rgb(var(--color-rule)); }
@@ -109,11 +110,11 @@ function ExtractionDiagram() {
         <text x="28" y="40" className="grp">THE OPEN RECORD — MEASURED</text>
         <text x="28" y="224" className="grp">PLATFORM SPREAD — EDITORIAL</text>
 
-        {/* connector paths: sources → GDELT node (x≈360) */}
+        {/* connector paths: sources → GDELT node (box left edge x=362) */}
         {SOURCES_MEASURED.map((_, i) => (
           <path
             key={`a${i}`}
-            d={`M 150 ${yFor('a', i)} C 250 ${yFor('a', i)}, 280 200, 380 200`}
+            d={`M 150 ${yFor('a', i)} C 250 ${yFor('a', i)}, 290 200, 362 200`}
             fill="none"
             className="stroke-ink flow-line"
             strokeWidth="1.5"
@@ -123,7 +124,7 @@ function ExtractionDiagram() {
         {SOURCES_EDITORIAL.map((_, i) => (
           <path
             key={`b${i}`}
-            d={`M 150 ${yFor('b', i)} C 250 ${yFor('b', i)}, 300 248, 380 240`}
+            d={`M 150 ${yFor('b', i)} C 250 ${yFor('b', i)}, 320 232, 362 214`}
             fill="none"
             className="stroke-rule flow-line flow-line-slow"
             strokeWidth="1.5"
@@ -145,22 +146,22 @@ function ExtractionDiagram() {
           </g>
         ))}
 
-        {/* GDELT node */}
+        {/* GDELT node — widened so the sublabel sits inside */}
         <g className="node-pulse" style={{ transformOrigin: '440px 200px' }}>
-          <rect x="380" y="168" width="120" height="64" fill="none" className="stroke-ink" strokeWidth="2" />
-          <text x="440" y="194" textAnchor="middle" className="node-lbl" fontSize="18">GDELT</text>
-          <text x="440" y="214" textAnchor="middle" className="lbl lbl-mute" fontSize="9">COVERAGE INTENSITY</text>
+          <rect x="362" y="166" width="156" height="68" fill="none" className="stroke-ink" strokeWidth="2" />
+          <text x="440" y="197" textAnchor="middle" className="node-lbl" fontSize="20">GDELT</text>
+          <text x="440" y="217" textAnchor="middle" className="sub">COVERAGE INTENSITY</text>
         </g>
 
         {/* GDELT → signal */}
-        <path d="M 500 200 C 580 200, 600 200, 660 200" fill="none" className="stroke-ink flow-line flow-line-fast" strokeWidth="2" />
+        <path d="M 518 200 C 585 200, 610 200, 660 200" fill="none" className="stroke-ink flow-line flow-line-fast" strokeWidth="2" />
 
         {/* Signal node */}
         <g>
           <rect x="660" y="150" width="132" height="100" fill="none" className="stroke-ink" strokeWidth="2" />
           <text x="726" y="184" textAnchor="middle" className="node-lbl" fontSize="15">SEVEN</text>
           <text x="726" y="206" textAnchor="middle" className="node-lbl" fontSize="15">SIGNALS</text>
-          <text x="726" y="230" textAnchor="middle" className="lbl lbl-mute" fontSize="9">PER TERM</text>
+          <text x="726" y="230" textAnchor="middle" className="sub">PER TERM</text>
         </g>
       </svg>
     </div>
@@ -413,24 +414,33 @@ export function HowItWorks() {
 
       {/* CTA */}
       <section className="px-6 lg:px-12 py-20 lg:py-28 border-t border-rule">
-        <div className="max-w-screen-xl mx-auto flex flex-col items-start gap-8">
-          <h2 className="font-display font-bold text-3xl sm:text-4xl lg:text-5xl leading-tight max-w-2xl text-balance">
-            See the method on a live campaign
-          </h2>
-          <div className="flex flex-col sm:flex-row gap-4">
+        <div className="max-w-screen-xl mx-auto grid lg:grid-cols-12 gap-10 lg:gap-16 items-center">
+          <div className="lg:col-span-7 space-y-5">
+            <Eyebrow>Go deeper</Eyebrow>
+            <h2 className="font-display font-bold text-3xl sm:text-4xl lg:text-5xl leading-tight text-balance">
+              See the method on a live campaign
+            </h2>
+            <p className="text-muted leading-relaxed max-w-[460px]">
+              The signal layer, working in real time on the vocabulary of the Iran-war ceasefire —
+              measured, not estimated.
+            </p>
+          </div>
+          <div className="lg:col-span-5 flex flex-col gap-3 lg:border-l lg:border-rule lg:pl-12">
+            <span className="small-caps text-whisper">Live now · measured signal</span>
             <Link
               to="/campaigns/06-iran-war"
-              className="inline-flex items-center gap-2 small-caps text-paper bg-ink px-6 py-4 hover:bg-ink/85 transition-colors"
+              className="group inline-flex items-center justify-between gap-6 small-caps text-paper bg-ink px-6 py-4 hover:bg-ink/85 transition-colors"
             >
-              Campaign 06 — the Iran war →
+              <span>Campaign 06 — the Iran war</span>
+              <span className="transition-transform duration-300 group-hover:translate-x-1.5">→</span>
             </Link>
             <a
               href={SUBSTACK_SUBSCRIBE}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 small-caps text-ink border border-ink px-6 py-4 hover:bg-ink hover:text-paper transition-colors"
+              className="inline-flex items-center justify-center gap-2 small-caps text-ink border border-ink px-6 py-4 hover:bg-ink hover:text-paper transition-colors"
             >
-              Subscribe
+              Subscribe to the dispatch
             </a>
           </div>
         </div>
