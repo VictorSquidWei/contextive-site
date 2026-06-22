@@ -8,6 +8,7 @@ import { FinalCTA } from './components/FinalCTA';
 import { CampaignPage } from './components/CampaignPage';
 import { HowItWorks } from './components/HowItWorks';
 import { HowItWorksTeaser } from './components/HowItWorksTeaser';
+import { Analytics } from '@vercel/analytics/react';
 
 function HomePage() {
   return (
@@ -39,6 +40,7 @@ function App() {
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       <Footer />
+      <Analytics />
     </div>
   );
 }
