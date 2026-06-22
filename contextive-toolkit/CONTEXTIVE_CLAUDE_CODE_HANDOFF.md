@@ -1,205 +1,131 @@
-# Contextive — Claude Code Handoff (v2)
+# Contextive — Claude Code Handoff (v3)
 
-**Purpose:** bring this Claude Code session up to full operating capacity on Contextive — the
-campaigns, the data pipeline, the document generators, and the live website. The project is
-moving here from web chat because this is where it can actually *run*: the pipeline reaches GDELT,
-git/Vercel auth is local, and the files persist.
+**Owner:** Victor · **Live site:** contextive.info · **Repo:** `github.com/VictorSquidWei/contextive-site` (currently **public**)
 
-This folder (`contextive-toolkit/`) is self-contained. Read order:
-`CONTEXTIVE_CLAUDE_CODE_HANDOFF.md` (this) → `CONTEXTIVE_CAMPAIGN_SKILL.md` (process manual) →
-`README.md` (runbook) → `web/WEBSITE_INTEGRATION.md` (site).
-
-**Owner:** Victor · **Live site:** contextive.info · **Repo:** `https://github.com/VictorSquidWei/contextive-site.git`
+Standing orientation for a fresh session. Read the **Resume here** block first (current state as of
+2026-06-21); everything below it is durable context. Keep the non-negotiables and the firewall
+verbatim.
 
 ---
 
-## Session update — 2026-06-21 (site revamp shipped, config installed)
+## Resume here — current state (2026-06-21)
 
-Treat this as current; the sections below are the original orientation.
-- **Website revamp shipped + live.** The site is now data-driven per-campaign: a unified contract
-  (`src/data/campaign.ts`), a converter (`scripts/build-campaign.mjs`: `campaign.json` + `cards.json`
-  → `src/data/campaigns/<nn>.json`), react-router routes `/campaigns/<nn>-<slug>` + a Vercel SPA
-  rewrite, a simplified homepage index, and an upgraded `SignalCard` (measured / pending / editorial).
-  Campaigns 01–02 are reconciled from the legacy `src/data/terms.ts` via `src/data/legacy.ts`. All
-  five campaigns are live on contextive.info.
-- **03/04/05 built + measured.** C03 (Bodies & Food) and C04 (Primaries — firewalled, no named
-  person on the public page) authored from the briefs and live-measured; C05 (Economy) at **9/17
-  measured, 8 pending**. Coverage is partial because **GDELT rate-limits this client hard
-  (~5–7 terms/run)**; the rest render "measurement pending" and fill via spaced top-up runs.
-- **Divergence flagged.** Live GDELT reverses several brief figures (the briefs over-stated
-  momentum on ~half the terms) — e.g. C03 "seed oils" brief +617%/surging vs measured −40%/fading;
-  C04 "America First" brief +75% vs −14%. The site shows **measured** numbers, never the brief's.
-- **Email capture rebuilt.** `api/subscribe.ts` records to our own list (webhook/KV hook + log) and
-  forwards to Substack; the form opens Substack prefilled and always confirms. Footer → Seattle.
-- **Config pack installed** (this `CLAUDE.md` + `/handoff` `/new-brief` `/new-instructions`
-  `/new-graphics` `/update-site` + the `contextive-campaign` skill), with the Claude Design media
-  pipeline baked into `/new-instructions` + `/new-graphics`. **The repo was set to PRIVATE** before
-  committing the config (it carries internal material). Commands live in `contextive-site/.claude/`
-  — open Claude Code with `contextive-site` as the folder to see them.
-- **Environment quirk:** the toolkit's *code* (pipeline/, generators/) is not on the shell-executable
-  disk here — only `data/`. The pipeline runs from a materialized copy in the session scratchpad;
-  the docx generators would need the same. Use `python` (not `python3`) on this Windows box.
-- **Open threads:** finish C05 measurement (re-verify vibecession/greedflation + the 8 pending),
-  top up C03/C04 pending, and regenerate the C05 brief docx once the generators are materialized.
+The website revamp **and** the Claude Code config pack are **shipped and live**.
 
-## 0. This session's operating capacity (what's wired up)
+- **Site (live on contextive.info):** data-driven per-campaign architecture. Unified contract
+  `src/data/campaign.ts`; converter `scripts/build-campaign.mjs` (`campaign.json` + `cards.json` →
+  `src/data/campaigns/<nn>.json`); react-router `/campaigns/<nn>-<slug>` + a Vercel SPA rewrite in
+  `vercel.json`; simplified homepage (Hero + campaign index + CTA); `SignalCard` renders
+  measured / pending / editorial. Campaigns 01–02 are reconciled from the legacy
+  `src/data/terms.ts` via `src/data/legacy.ts`; 03/04/05 are JSON in `src/data/campaigns/`. Email
+  capture (`api/subscribe.ts`) records to our own list (webhook/KV hook + log) **and** opens
+  Substack prefilled, always confirms; footer says "Seattle, United States."
+- **All five campaigns are live**, but measured coverage is **partial** (see GDELT note): **C03 6/17,
+  C04 5/17, C05 9/17** measured; the rest render **"measurement pending."** Top up with spaced
+  pipeline re-runs (a few terms land per run).
+- **Measurement divergence (flag every time):** live GDELT reverses several brief figures — the
+  hand-built briefs over-stated momentum on ~half the terms (e.g. C03 "seed oils" brief
+  +617%/surging vs measured −40%/fading; C04 "America First" +75% vs −14%). The site/briefs must
+  show **measured** numbers, never the brief's.
+- **Repo/deploy:** production deploy on Vercel is `READY`; contextive.info serves it. **The repo is
+  PUBLIC** — Victor's explicit call (he needs the config/commands live). Consequence: the config
+  docs (this handoff, the skill, incl. the C04 audit text) are visible on GitHub, though not served
+  by the site. **WARNING: setting the repo PRIVATE blocks the Vercel deploy** (Vercel loses git
+  access → deploy state `BLOCKED`). If you ever go private, re-grant Vercel's GitHub App access to
+  the repo, then redeploy.
+- **Config installed:** `CLAUDE.md` (repo root) + slash commands `/handoff /new-brief
+  /new-instructions /new-graphics /update-site` + the `contextive-campaign` skill, in
+  `contextive-site/.claude/`. The **Claude Design** media pipeline ("contextive design system") is
+  baked into `/new-instructions` + `/new-graphics`: exec docs hand Courtney per-card prompts
+  pre-filled from `cards.json`.
+- **Open threads:** (1) finish measurement — re-verify the pending terms across 03/04/05 (C05's
+  vibecession & greedflation are currently carried from documented figures, not re-verified live).
+  (2) **Regenerate the C05 brief `.docx`** — blocked because the toolkit's generators aren't on the
+  shell-executable disk (see Environment); inputs `campaign05_campaign.json` + enriched
+  `campaign05_terms.json` are authored and ready. (3) Standing weekly cadence for the next campaign.
 
-- **Run the pipeline for real.** `pipeline/signal_pipeline.py` reaches GDELT from this machine —
-  no browser workaround. `python3 pipeline/signal_pipeline.py --terms data/campaign05_terms.json
-  --out data/campaign05_cards.json`. (The web sandbox couldn't reach GDELT; that's the main reason
-  the project moved here.)
-- **Operate the website.** The **Vercel connector is fully set up** in this Claude Code app: read
-  projects/deployments/build logs and verify deploys. Team `team_QmqXaFOedaDKjV8Fix000nkc`,
-  project `prj_vG2F3INghrWd8trVkfM0znEmYB7X` (`contextive-site-test`, Vite).
-- **Commit + ship.** Victor's Claude Code has **personal plugins for commit + GitHub** — use them
-  for the commit/push step. The repo is Git-connected to Vercel, so **push to `main` →
-  auto-deploy.** The push is Victor's action (his credentials); Claude Code prepares the diff and
-  drives the plugin, then verifies via the Vercel connector + browser.
-- **Generate documents.** `generators/build_brief.js` and `generators/build_exec_doc.js` produce
-  the house-style brief and Courtney doc; both validate. `npm install` once (docx@9.6.1).
+## How to work in this repo (read this)
+- **Open Claude Code with `contextive-site` as the folder.** That's the git repo, where `CLAUDE.md`
+  + `.claude/` (commands + skill) live natively and are version-controlled. If you open one level up
+  (`…\contextive-source\contextive-source`), a stopgap mirror of the commands + a `CLAUDE.md` is
+  there too, but `contextive-site` is canonical.
+- Slash commands register at **session start** — they won't appear if added mid-session.
 
-So this instance can: measure a campaign → generate its brief and Courtney doc → build/update the
-site → ship it. Everything below is the context for doing that well.
+## Environment gotchas (these bite)
+- Python is **`python`** (3.14), not `python3`. Node v22.
+- **The toolkit's CODE (`pipeline/`, `generators/`) is NOT on the shell-executable disk here** — the
+  repo's `contextive-toolkit/` holds only the *docs* (vendored so `CLAUDE.md` @imports resolve). A
+  full toolkit copy *with code* lives at `E:\Contextive\08 Misc\files\contextive-toolkit\contextive-toolkit\`,
+  and the original `data/` at `E:\Contextive\files\contextive-toolkit\contextive-toolkit\data\`. To
+  RUN the pipeline or the docx generators, **materialize them to a shell-accessible path first**
+  (a working copy of `signal_pipeline.py` is in the session scratchpad). This is why brief/exec-doc
+  generation needs a setup step.
+- **GDELT rate-limits hard** (~1 req/5s + a punishing extended cooldown). The pipeline self-throttles;
+  even so expect ~5–7 measured terms per run, the rest `pending`. Never fire manual GDELT curls right
+  before a run (it trips the cooldown that cascades through the run). Measure as-of a campaign's
+  moment with `--ref-date`; `velocity_index` is a within-set percentile (recompute when you merge runs).
+- **Vercel:** team `team_QmqXaFOedaDKjV8Fix000nkc`, project `prj_vG2F3INghrWd8trVkfM0znEmYB7X`
+  (`contextive-site-test`, Vite). Push to `main` → auto-deploy (when public / Vercel has access).
+  Verify via the connector + browser. The project API only enumerates `.vercel.app` aliases;
+  contextive.info IS attached (confirm in browser, not just the API).
 
----
+## What Contextive is
+A **language-intelligence brand** tracking how vocabulary gains momentum and shifts meaning —
+**velocity, not verdict** — published as "intelligence brief" campaigns across Substack, X,
+Instagram. **Firewall (verbatim, never improvise):** "We track how the words have been used and how
+fast they are winning, not whether the underlying politics is correct."
 
-## 1. What Contextive is
+## Roles + media pipeline
+- **Victor** — research, strategy, infra, pipeline; signs off on every brief + Courtney doc.
+- **Courtney** — publishing, visual/Instagram, scheduling; drafts with ChatGPT (你的好朋友). She now
+  builds **all** social/visual content in **Claude Design** with the shared **"contextive design
+  system"** (monochrome, monospace, dossier-card vocabulary) — no Canva, no hand-built cards. Card
+  numbers come from the measured `cards.json`. Courtney-doc tone is Victor's call per campaign
+  (default warm: 宝宝, asides).
 
-A **language-intelligence brand**. It tracks how specific vocabulary gains momentum, shifts
-meaning, and wins cultural arguments — often before the evidence matures. Framing: an intelligence
-archive about **velocity, not verdict**. Campaigns publish across **Substack, X, Instagram**.
+## Non-negotiables (outrank everything but safety)
+1. **Measure, don't estimate.** Numbers from `signal_pipeline.py`; unmeasurable = pending, never
+   guessed. A measured number that kills a narrative IS the story — flag it before shipping.
+2. **Firewall, verbatim** (above).
+3. **No named person in a critical sentence** — quote patterns of speech, never an individual.
+4. **Equal weight across the three clusters**; paraphrase each term's contestation paragraph.
+5. **No visual partisanship:** monochrome/typographic, no candidate imagery, no red/blue palette.
+6. **Pre-publication review on every ship day** → PASS/FLAG/BLOCK (partisan tilt, named-person,
+   voice leak, numerical accuracy, headline misread). Any BLOCK is a hard stop; never cut for time.
+7. Tone of Courtney docs is Victor's per-campaign call.
 
-**Positioning + firewall (verbatim, don't improvise):**
-> "We track how the words have been used and how fast they are winning, not whether the underlying
-> politics is correct."
+## Campaign lineage
+01 geopolitics · 02 AI & work · 03 bodies & food (MAHA/GLP-1) · 04 primaries (May 19 2026) ·
+**05 the economy** (June 2026 inflation re-acceleration; defining tension "soft landing" vs
+"vibecession"). Per campaign: research brief (17 cards / 3 clusters / 7 signal fields) → Week 01
+"trailer" → Week 02 launch (2 Substack, 2 X threads, 1 carousel over 8 working days) → editorial
+passes → optional ads. Brief releases a week ahead; the mid-Week-02 weekend is a hard reset.
 
-Presence: site **contextive.info**; Substack `open.substack.com/pub/contextive`; X
-`x.com/contextive_ai`; Instagram `www.instagram.com/contextive.ai`. (Earlier planning said
-`contextive.ai`; the live domain is **`.info`**.)
+## The signal layer + why we measure
+The differentiator is the signal layer; credibility depends on the numbers being real. A C04 audit
+found the hand-built numbers were off in magnitude and timing ("MAGA Warrior" ~+1,714% YoY not
+~+600%; "principled" flat not +164%). Live measurement is the default now. Seven fields: platforms,
+corpus density (GDELT coverage-intensity proxy, labelled), velocity index 0–100 (within-set
+percentile), inflection points (dated z-peaks), sentiment −5..+5, co-occurrence, adoption stage.
 
-## 2. Roles
+## The toolkit
+`pipeline/signal_pipeline.py` (GDELT measurement; `--terms`/`--demo`/`--from-raw`, `--ref-date`),
+`generators/build_brief.js` + `build_exec_doc.js` (house-style docx), `generators/lib/house_style.js`,
+`schema/*.json` (contracts), `data/` (term sets + examples). **Plus** the site converter
+`contextive-site/scripts/build-campaign.mjs`. Reminder: the *code* must be materialized to a
+shell-accessible path to run here.
 
-- **Victor** — owner: research briefs, strategy, infra, pipeline. Signs off on every brief and
-  Courtney doc. Requests a post-completion audit after major deliverables.
-- **Courtney** — execution: publishing, visual/Instagram, scheduling, engagement. Drafts with
-  ChatGPT (你的好朋友). Moving from Canva → Claude Design for social assets. Stronger on visual than
-  technical writing.
+## The website + ship loop
+New per-campaign architecture (see Resume here). Loop: edit repo → build/preview → commit + push
+to `main` (push is Victor's action via his GitHub plugin) → Vercel auto-builds → verify via the
+connector + contextive.info. The slash command `/update-site <nn>` runs this for a campaign.
 
-**Tone of Courtney docs:** warm by default (宝宝, asides, end-of-day notes); neutral when Victor
-asks. C04 was neutral; **C05 reverted to warm** per his explicit request — treat tone as his
-per-campaign call. The `tone` field in `exec_doc.json` toggles it.
-
-## 3. Non-negotiable brand rules
-
-Outrank everything except safety; tighten on political/medical topics.
-
-- Voice: minimal, analytical, evenhanded — analyst tracking a vocabulary war, never an op-ed.
-- Charged terms get scare quotes on first use, analyst-tracked after.
-- **No named person in a critical sentence.** Quote patterns of speech, never a person.
-- **Equal weight** across clusters; each term's contestation paragraph *is* the position —
-  paraphrase from it.
-- Visual partisanship forbidden: no candidate photos, no party logos, no red/blue palette;
-  monochrome typographic cards.
-- **Pre-publication review** on every ship day → PASS/FLAG/BLOCK per category (partisan tilt,
-  named-person, voice leak, numerical accuracy, headline misread). Any BLOCK is a hard stop;
-  never cut for time. (The exec-doc generator renders this block automatically on `is_ship_day`.)
-
-## 4. Campaign lineage
-
-| # | Topic | Anchor |
-|---|---|---|
-| 01 | Geopolitics vocabulary | reciprocal, ceasefire, de-risking, proxy war… |
-| 02 | AI & Work vocabulary | agentic, promptwashing, AI slop, vibe coding… |
-| 03 | The Language of Bodies and Food | MAHA / GLP-1 / health |
-| 04 | The Language of Primaries | May 19, 2026 US primaries |
-| 05 | The Language of the Economy | June 2026 inflation re-acceleration — **in progress** |
-
-**Per campaign:** research brief (17 cards / 3 clusters, 7 signal fields each) → Week 01 "trailer"
-→ Week 02 launch (2 Substack, 2 X threads, 1 carousel over 8 working days) → editorial passes →
-optional ads. Brief releases one week ahead; the mid-Week-02 weekend is a hard reset.
-
-**Victor is attaching the Campaign 03, 04, 05 briefs to this session** so it can build their
-content into the website (see §8).
-
-## 5. Signal layer — measure, don't estimate
-
-The differentiator is the signal layer, and credibility depends on the numbers being real. A C04
-audit found the hand-built numbers were off in magnitude *and* timing ("MAGA Warrior" measured
-~+1,714% YoY, not ~+600%, peaking early March not primary night; "endorsement machine" +767% on
-tiny volume; "principled" flat, not the +164% a whole post was built on). **Victor accepted that
-live measurement is the default.** Pending beats fabricated; if a measured number kills a planned
-narrative, that's the story — flag it before shipping.
-
-Seven fields, sourced: platforms (editorial + GDELT domains) · corpus density (GDELT
-coverage-intensity proxy, *labelled as a proxy*) · velocity 0–100 (within-set percentile of
-30d-mean ÷ 90d-baseline) · inflection points (z-score peaks, dated) · sentiment −5..+5 (clamped
-GDELT tone) · co-occurrence (GDELT context / editorial) · adoption stage (rule-based classifier).
-`pipeline/signal_pipeline.py` computes all of these.
-
-## 6. Current state — Campaign 05 ("The Language of the Economy")
-
-**Anchor:** June 2026 inflation back to 3.8% (three-year high) on an energy/tariff shock; markets
-at records while ~⅔ of households cut back; midterms looming; Powell → Warsh. The data-vs-vibes
-gap is the cycle. **Defining tension:** "soft landing" vs "vibecession."
-
-**Clusters (17 terms):** A lived-experience/populist (vibecession, greedflation, shrinkflation,
-junk fees, price gouging, affordability) · B institutional/macro (soft landing, disinflation,
-higher for longer, K-shaped, real wages, last-mile) · C political-blame (tariff tax, "[admin]flation",
-cost-of-living crisis, late-stage capitalism, "are you better off").
-
-**Measured so far:** vibecession (+617% YoY, velocity 92, spreading) · soft landing (−37% YoY,
-velocity 60, contested) · greedflation (−86% YoY, velocity 44, declining). **14 terms pending** —
-`data/campaign05_terms.json` is ready; **first task: run the pipeline to complete them, then
-regenerate the brief.** The Week 02 doc is built (8 days Jun 24–Jul 3; 2 Substack, 2 X threads, 1
-carousel; warm tone; long-distance-adjusted; tracking table for 13 deliverables).
-
-## 7. The toolkit (this folder)
-
-Built and tested. See `README.md` for the runbook and `CONTEXTIVE_CAMPAIGN_SKILL.md` for the docx
-house style (Space Grotesk/Inter/JetBrains Mono; ink `111111`/`1A1A1A`, mute `555555`, cream
-`F5F5F3`; US Letter; dividers = paragraph borders not tables; prompt/callout boxes = `cantSplit`
-rows; metadata grids = borderless tables; no `\n`, no unicode bullets). Both generators run
-standalone with no args to rebuild the bundled examples — a quick post-`npm install` smoke test.
-
-> This resolves the old carried-over action item ("add `pipeline/`, `generators/`, `schema/`"):
-> the code now exists here. Commit it into the repo (or wherever Victor keeps the toolkit) so it
-> persists.
-
-## 8. Website — operate it, and build the attached briefs in
-
-Stack: Vite + React + TS + Tailwind; `api/subscribe.ts` serverless fn → Substack; term data in
-`src/data/terms.ts` (campaigns 01–02 at build time); CSS-variable theming with `ThemeToggle`.
-Current live homepage is already a minimal redesign ("Language is leverage", access-ID aesthetic,
-dossier card, "Institutional clarity", "THE SYSTEM" three pillars, footer).
-
-**Victor's revamp:** (1) simplify the homepage to one strong idea + one action; (2) give **each
-campaign its own sub-space** instead of a flat archive grid; the homepage becomes a clean index.
-
-**The integration principle (full detail in `web/WEBSITE_INTEGRATION.md`):** make each campaign
-page **data-driven from the same `cards.json` the pipeline produces** — the web version of
-"measure, don't estimate," so site and briefs never diverge. Reconcile `src/data/terms.ts` with
-the pipeline's card shape into one contract; add a small converter
-(`campaign.json` + `cards.json` → `src/data/campaigns/<nn>.json`); render per-campaign pages at
-`/campaigns/<nn>-<slug>`. Keep the monochrome/no-partisan-palette/equal-weight rules on the site.
-
-**For the attached 03/04/05 briefs:** extract each brief's clusters, term cards, signal readings,
-and defining tension into the per-campaign JSON shape, build the page, wire it into the simplified
-homepage. C05's 14 pending cards render as "measurement pending" until the pipeline run completes.
-
-**The ship loop:** edit repo → build/preview → commit + push via the GitHub plugin (push stays
-Victor's) → Vercel auto-builds → verify via the Vercel connector + browser. On a failed build,
-pull logs through the connector and fix forward. Read the `frontend-design` skill before reshaping UI.
-
-## 9. Boot sequence
-
-1. Read this → the skill → README → web guide.
-2. `npm install`; smoke-test the generators (`node generators/build_brief.js`, `node generators/build_exec_doc.js`).
-3. **Campaign:** run `signal_pipeline.py` on `campaign05_terms.json` → complete cards →
-   regenerate the brief. Flag any narrative-killing number to Victor.
-4. **Website:** open the repo, map components to the live site, confirm the simplified-homepage +
-   per-campaign-subspace plan and the unified data contract with Victor, build the attached
-   briefs in, push to deploy.
-5. Apply the brand rules + pre-publication review before declaring anything done.
-
-**When in doubt:** measure before asserting; paraphrase the contestation paragraph; keep the
-firewall verbatim; no named person in a critical sentence; pending beats fabricated.
+## Boot sequence (next session)
+1. `CLAUDE.md` auto-loads this handoff + the `contextive-campaign` skill; project memory auto-recalls.
+2. Read **Resume here**. Confirm what's measured vs pending and what's live.
+3. To run the pipeline/generators, materialize the toolkit code to a shell path first.
+4. New campaign: `/new-brief <nn> <topic>` → review → `/update-site <nn>` (gated preview → Victor
+   pushes) → `/new-instructions <nn>` (warm/neutral) → `/new-graphics <nn>` → publish → `/handoff`.
+5. Apply brand rules + the pre-publication review before declaring anything done. When in doubt:
+   measure before asserting, paraphrase the contestation paragraph, keep the firewall verbatim,
+   no named person in a critical sentence, pending beats fabricated.
