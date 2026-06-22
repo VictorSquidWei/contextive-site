@@ -176,3 +176,50 @@
     transition: none;
   }
 }
+
+/* ── How Contextive works — methodology page ───────────────────────────── */
+
+/* Data flowing through the pipeline (animated dashed strokes) */
+@keyframes flow-dash {
+  to { stroke-dashoffset: -240; }
+}
+.flow-line {
+  stroke-dasharray: 4 8;
+  animation: flow-dash 6s linear infinite;
+}
+.flow-line-slow { animation-duration: 9s; }
+.flow-line-fast { animation-duration: 4s; }
+
+/* The crowd field — countless small marks, each blinking on its own clock */
+@keyframes crowd-twinkle {
+  0%, 100% { opacity: 0.12; transform: rotate(45deg) scale(0.7); }
+  50%      { opacity: 0.85; transform: rotate(45deg) scale(1); }
+}
+.crowd-dot {
+  animation: crowd-twinkle 3.4s ease-in-out infinite;
+  transform-origin: center;
+}
+
+/* A node quietly pulsing as it ingests */
+@keyframes node-pulse {
+  0%, 100% { transform: scale(1); opacity: 0.9; }
+  50%      { transform: scale(1.06); opacity: 1; }
+}
+.node-pulse { animation: node-pulse 3s ease-in-out infinite; }
+
+/* Scanning sweep across the coverage field */
+@keyframes scan-sweep {
+  0%   { transform: translateX(-110%); }
+  100% { transform: translateX(110%); }
+}
+.scan-sweep { animation: scan-sweep 4.5s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  .flow-line,
+  .crowd-dot,
+  .node-pulse,
+  .scan-sweep {
+    animation: none;
+  }
+  .crowd-dot { opacity: 0.5; }
+}

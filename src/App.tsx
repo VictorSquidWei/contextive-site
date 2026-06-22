@@ -6,6 +6,7 @@ import { Hero } from './components/Hero';
 import { CampaignIndex } from './components/CampaignIndex';
 import { FinalCTA } from './components/FinalCTA';
 import { CampaignPage } from './components/CampaignPage';
+import { HowItWorks } from './components/HowItWorks';
 
 function HomePage() {
   return (
@@ -29,6 +30,7 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/how-it-works" element={<HowItWorks />} />
         <Route path="/campaigns/:id" element={<CampaignPage />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
