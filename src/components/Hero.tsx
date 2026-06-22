@@ -49,7 +49,7 @@ export function Hero() {
   }
 
   return (
-    <section id="top" className="relative pt-12 pb-24 lg:pt-20 lg:pb-32 px-6 lg:px-12">
+    <section id="top" className="relative pt-10 pb-16 lg:pt-16 lg:pb-20 px-6 lg:px-12">
       <div className="max-w-screen-xl mx-auto grid lg:grid-cols-12 gap-12 lg:gap-20 items-start">
         {/* LEFT: Headline + form */}
         <div className="lg:col-span-7 space-y-10">

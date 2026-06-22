@@ -91,7 +91,7 @@ function ExtractionDiagram() {
   return (
     <div className="border border-rule bg-canvas paper-grain p-4 sm:p-8 overflow-x-auto">
       <svg
-        viewBox="0 0 820 440"
+        viewBox="0 24 820 362"
         className="w-full min-w-[560px] text-ink"
         role="img"
         aria-label="Tracked terms are measured against the open media record via GDELT, with cross-platform spread read editorially on top, producing seven signal fields."
@@ -220,7 +220,7 @@ export function HowItWorks() {
   return (
     <main className="overflow-x-hidden">
       {/* HERO */}
-      <section className="px-6 lg:px-12 pt-12 pb-16 lg:pt-20 lg:pb-24">
+      <section className="px-6 lg:px-12 pt-10 pb-12 lg:pt-14 lg:pb-14">
         <div className="max-w-screen-xl mx-auto">
           <motion.div
             initial="hidden"
@@ -242,7 +242,7 @@ export function HowItWorks() {
       </section>
 
       {/* 1 — THE CROWD */}
-      <section className="px-6 lg:px-12 py-16 lg:py-24 border-t border-rule">
+      <section className="px-6 lg:px-12 py-12 lg:py-16 border-t border-rule">
         <div className="max-w-screen-xl mx-auto grid lg:grid-cols-12 gap-10 lg:gap-16 items-center">
           <motion.div
             initial="hidden"
@@ -268,7 +268,7 @@ export function HowItWorks() {
       </section>
 
       {/* 2 — THE OPEN RECORD / GDELT */}
-      <section className="px-6 lg:px-12 py-16 lg:py-24 border-t border-rule">
+      <section className="px-6 lg:px-12 py-12 lg:py-16 border-t border-rule">
         <div className="max-w-screen-xl mx-auto space-y-10">
           <motion.div
             initial="hidden"
@@ -302,7 +302,7 @@ export function HowItWorks() {
       </section>
 
       {/* 3 — SEVEN SIGNALS */}
-      <section className="px-6 lg:px-12 py-16 lg:py-24 border-t border-rule">
+      <section className="px-6 lg:px-12 py-12 lg:py-16 border-t border-rule">
         <div className="max-w-screen-xl mx-auto grid lg:grid-cols-12 gap-10 lg:gap-16 items-start">
           <motion.div
             initial="hidden"
@@ -344,7 +344,7 @@ export function HowItWorks() {
       </section>
 
       {/* 4 — MEASURE, DON'T ESTIMATE */}
-      <section className="px-6 lg:px-12 py-16 lg:py-24 border-t border-rule">
+      <section className="px-6 lg:px-12 py-12 lg:py-16 border-t border-rule">
         <div className="max-w-screen-xl mx-auto grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
           <motion.div
             initial="hidden"
@@ -388,7 +388,7 @@ export function HowItWorks() {
       </section>
 
       {/* 5 — FIREWALL */}
-      <section className="px-6 lg:px-12 py-16 lg:py-24 border-t border-rule">
+      <section className="px-6 lg:px-12 py-12 lg:py-16 border-t border-rule">
         <div className="max-w-screen-xl mx-auto">
           <motion.div
             initial="hidden"
@@ -413,7 +413,7 @@ export function HowItWorks() {
       </section>
 
       {/* CTA */}
-      <section className="px-6 lg:px-12 py-20 lg:py-28 border-t border-rule">
+      <section className="px-6 lg:px-12 py-14 lg:py-20 border-t border-rule">
         <div className="max-w-screen-xl mx-auto grid lg:grid-cols-12 gap-10 lg:gap-16 items-center">
           <div className="lg:col-span-7 space-y-5">
             <Eyebrow>Go deeper</Eyebrow>

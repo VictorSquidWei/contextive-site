@@ -40,7 +40,7 @@ function MiniFlow() {
 
 export function HowItWorksTeaser() {
   return (
-    <section className="px-6 lg:px-12 py-16 lg:py-24 border-t border-rule bg-canvas">
+    <section className="px-6 lg:px-12 py-12 lg:py-16 border-t border-rule bg-canvas">
       <div className="max-w-screen-xl mx-auto grid lg:grid-cols-12 gap-10 lg:gap-16 items-center">
         <div className="lg:col-span-6 space-y-5">
           <div className="flex items-center gap-3">

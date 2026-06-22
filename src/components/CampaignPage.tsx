@@ -82,7 +82,7 @@ export function CampaignPage() {
 
       {/* Clusters + term cards */}
       <section className="px-6 lg:px-12 py-12 lg:py-16">
-        <div className="max-w-screen-xl mx-auto space-y-16">
+        <div className="max-w-screen-xl mx-auto space-y-12">
           {hasClusters
             ? c.clusters!.map((cl) => {
                 const terms = byCluster(cl.key);

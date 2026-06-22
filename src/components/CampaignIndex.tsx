@@ -4,7 +4,7 @@ import { campaignPath, measuredCount } from '../data/campaign';
 
 export function CampaignIndex() {
   return (
-    <section id="campaigns" className="px-6 lg:px-12 py-20 lg:py-28 bg-paper">
+    <section id="campaigns" className="px-6 lg:px-12 py-14 lg:py-20 bg-paper">
       <div className="max-w-screen-xl mx-auto">
         <div className="mb-12 lg:mb-16">
           <span className="small-caps text-muted">// Campaigns</span>
