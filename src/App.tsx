@@ -7,6 +7,7 @@ import { CampaignIndex } from './components/CampaignIndex';
 import { FinalCTA } from './components/FinalCTA';
 import { CampaignPage } from './components/CampaignPage';
 import { HowItWorks } from './components/HowItWorks';
+import { HowItWorksTeaser } from './components/HowItWorksTeaser';
 
 function HomePage() {
   return (
@@ -16,6 +17,9 @@ function HomePage() {
       </SectionReveal>
       <SectionReveal>
         <CampaignIndex />
+      </SectionReveal>
+      <SectionReveal>
+        <HowItWorksTeaser />
       </SectionReveal>
       <SectionReveal>
         <FinalCTA />

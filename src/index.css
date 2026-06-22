@@ -214,11 +214,26 @@
 }
 .scan-sweep { animation: scan-sweep 4.5s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
 
+/* Flowing dashed rail for HTML (homepage methodology teaser) */
+@keyframes flow-rail {
+  to { background-position: -28px 0; }
+}
+.flow-rail {
+  background-image: repeating-linear-gradient(
+    to right,
+    currentColor 0 7px,
+    transparent 7px 14px
+  );
+  background-size: 28px 100%;
+  animation: flow-rail 1.4s linear infinite;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .flow-line,
   .crowd-dot,
   .node-pulse,
-  .scan-sweep {
+  .scan-sweep,
+  .flow-rail {
     animation: none;
   }
   .crowd-dot { opacity: 0.5; }
