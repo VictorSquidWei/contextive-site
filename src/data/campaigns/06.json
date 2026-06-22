@@ -156,8 +156,31 @@
       "cluster": "A",
       "domainTag": "LIVED EXPERIENCE / COMMITMENT",
       "measurement": {
-        "status": "pending",
-        "reason": "no coverage series returned"
+        "status": "measured",
+        "velocityIndex": 38,
+        "adoptionStage": "contested",
+        "deltas": {
+          "d30": 14.5,
+          "d90": -55.9,
+          "yoy": 20.6
+        },
+        "sentiment": -1.12,
+        "inflections": [
+          {
+            "date": "2026-01-01",
+            "z": 3.45
+          },
+          {
+            "date": "2026-02-28",
+            "z": 2.71
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.014897,
+          "note": "GDELT coverage-intensity proxy (share of monitored coverage), not literal mentions/M",
+          "proxy": true
+        },
+        "retrievedAt": "2026-06-22T01:58:24+00:00"
       },
       "platforms": [
         "X",
@@ -256,7 +279,7 @@
       "domainTag": "STRATEGIC / WAR AIM",
       "measurement": {
         "status": "measured",
-        "velocityIndex": 17,
+        "velocityIndex": 12,
         "adoptionStage": "rising",
         "deltas": {
           "d30": -9.2,
@@ -423,8 +446,35 @@
       "cluster": "B",
       "domainTag": "STRATEGIC / OFF-RAMP",
       "measurement": {
-        "status": "pending",
-        "reason": "no coverage series returned"
+        "status": "measured",
+        "velocityIndex": 50,
+        "adoptionStage": "contested",
+        "deltas": {
+          "d30": -1.3,
+          "d90": 7.2,
+          "yoy": -2.1
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-04-08",
+            "z": 2.45
+          },
+          {
+            "date": "2026-03-29",
+            "z": 2.42
+          },
+          {
+            "date": "2026-02-26",
+            "z": 2.34
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.102657,
+          "note": "GDELT coverage-intensity proxy (share of monitored coverage), not literal mentions/M",
+          "proxy": true
+        },
+        "retrievedAt": "2026-06-22T02:06:33+00:00"
       },
       "platforms": [
         "policy press",
@@ -490,7 +540,7 @@
       "domainTag": "STRATEGIC / NUCLEAR TIMELINE",
       "measurement": {
         "status": "measured",
-        "velocityIndex": 83,
+        "velocityIndex": 88,
         "adoptionStage": "rising",
         "deltas": {
           "d30": -12.5,
@@ -550,7 +600,7 @@
       "domainTag": "ATTRIBUTION / CONTESTED CREED",
       "measurement": {
         "status": "measured",
-        "velocityIndex": 33,
+        "velocityIndex": 25,
         "adoptionStage": "contested",
         "deltas": {
           "d30": -15.4,
@@ -635,7 +685,7 @@
       "domainTag": "ATTRIBUTION / VICTORY FRAME",
       "measurement": {
         "status": "measured",
-        "velocityIndex": 50,
+        "velocityIndex": 62,
         "adoptionStage": "fading",
         "deltas": {
           "d30": 37.1,
@@ -761,7 +811,7 @@
       "domainTag": "ATTRIBUTION / PREMATURE-VICTORY ECHO",
       "measurement": {
         "status": "measured",
-        "velocityIndex": 67,
+        "velocityIndex": 75,
         "adoptionStage": "contested",
         "deltas": {
           "d30": 20.7,
@@ -811,7 +861,7 @@
       ]
     }
   ],
-  "generatedAt": "2026-06-22T00:41:33+00:00",
+  "generatedAt": "2026-06-22T02:15:45+00:00",
   "refDate": "2026-06-21",
   "source": "GDELT DOC 2.0 (timelinevol + timelinetone)"
 }
