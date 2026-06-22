@@ -12,11 +12,13 @@ import type { Campaign } from '../campaign';
 import c03 from './03.json';
 import c04 from './04.json';
 import c05 from './05.json';
+import c06 from './06.json';
 
 const measuredCampaigns: Campaign[] = [
   c03 as unknown as Campaign,
   c04 as unknown as Campaign,
   c05 as unknown as Campaign,
+  c06 as unknown as Campaign,
 ];
 
 /** Every campaign, newest last (sorted by number). */
