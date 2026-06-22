@@ -256,7 +256,7 @@
       "domainTag": "STRATEGIC / WAR AIM",
       "measurement": {
         "status": "measured",
-        "velocityIndex": 20,
+        "velocityIndex": 17,
         "adoptionStage": "rising",
         "deltas": {
           "d30": -9.2,
@@ -490,7 +490,7 @@
       "domainTag": "STRATEGIC / NUCLEAR TIMELINE",
       "measurement": {
         "status": "measured",
-        "velocityIndex": 80,
+        "velocityIndex": 83,
         "adoptionStage": "rising",
         "deltas": {
           "d30": -12.5,
@@ -550,7 +550,7 @@
       "domainTag": "ATTRIBUTION / CONTESTED CREED",
       "measurement": {
         "status": "measured",
-        "velocityIndex": 40,
+        "velocityIndex": 33,
         "adoptionStage": "contested",
         "deltas": {
           "d30": -15.4,
@@ -634,8 +634,35 @@
       "cluster": "C",
       "domainTag": "ATTRIBUTION / VICTORY FRAME",
       "measurement": {
-        "status": "pending",
-        "reason": "no coverage series returned"
+        "status": "measured",
+        "velocityIndex": 50,
+        "adoptionStage": "fading",
+        "deltas": {
+          "d30": 37.1,
+          "d90": -52.8,
+          "yoy": -51.7
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-01-05",
+            "z": 3.24
+          },
+          {
+            "date": "2025-12-03",
+            "z": 3.19
+          },
+          {
+            "date": "2026-02-27",
+            "z": 2.17
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.004607,
+          "note": "GDELT coverage-intensity proxy (share of monitored coverage), not literal mentions/M",
+          "proxy": true
+        },
+        "retrievedAt": "2026-06-22T00:37:35+00:00"
       },
       "platforms": [
         "cable news",
@@ -734,7 +761,7 @@
       "domainTag": "ATTRIBUTION / PREMATURE-VICTORY ECHO",
       "measurement": {
         "status": "measured",
-        "velocityIndex": 60,
+        "velocityIndex": 67,
         "adoptionStage": "contested",
         "deltas": {
           "d30": 20.7,
@@ -784,7 +811,7 @@
       ]
     }
   ],
-  "generatedAt": "2026-06-21T23:49:53+00:00",
+  "generatedAt": "2026-06-22T00:41:33+00:00",
   "refDate": "2026-06-21",
   "source": "GDELT DOC 2.0 (timelinevol + timelinetone)"
 }
