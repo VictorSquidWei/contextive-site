@@ -48,7 +48,7 @@ const CHANNELS: Channel[] = [
   { label: 'WEB',         value: 'contextive.info',                     kind: 'web' },
   { label: 'SUBSTACK',    value: 'open.substack.com/pub/contextive',    href: SOCIAL_LINKS.substack,  kind: 'substack' },
   { label: 'X / TWITTER', value: 'x.com/contextive_ai',                 href: SOCIAL_LINKS.twitter,   kind: 'twitter' },
-  { label: 'INSTAGRAM',   value: 'www.instagram.com/contextive.ai',     href: SOCIAL_LINKS.instagram, kind: 'instagram' },
+  { label: 'INSTAGRAM',   value: 'www.instagram.com/contextive.info',   href: SOCIAL_LINKS.instagram, kind: 'instagram' },
 ];
 
 const ChannelTile = ({ label, value, href, kind }: Channel) => {
@@ -86,9 +86,9 @@ export function Footer() {
           <div className="lg:col-span-5 space-y-4">
             <Logo className="text-paper dark:text-ink" />
             <p className="text-paper/60 dark:text-ink/60 text-sm leading-relaxed max-w-md">
-              Contextive is a language intelligence system. We track the words that move
-              markets, shape policy, and frame perception — and explain what each one is
-              doing.
+              Contextive is a language-intelligence system. We measure how public language
+              gains momentum and shifts meaning — velocity, not verdict — across politics,
+              the economy, AI, and culture.
             </p>
           </div>
 

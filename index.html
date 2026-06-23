@@ -7,24 +7,63 @@
     <meta name="theme-color" content="#F5F5F3" />
 
     <title>Contextive — Language Intelligence</title>
-    <meta name="description" content="Contextive tracks the words that move markets, shape policy, and frame perception. Institutional-grade language intelligence for decision-makers." />
+    <meta name="description" content="Contextive measures how public language gains momentum and shifts meaning across politics, the economy, AI, and culture — velocity, not verdict. Intelligence-brief campaigns tracking the words that are winning the argument." />
+    <link rel="canonical" href="https://contextive.info/" />
 
     <!-- Open Graph -->
     <meta property="og:title" content="Contextive — Language Intelligence" />
-    <meta property="og:description" content="The words move first. The market follows. Contextive tracks high-leverage language across politics, finance, AI, and culture." />
+    <meta property="og:description" content="How public language gains momentum and shifts meaning — velocity, not verdict. Contextive tracks the words winning the argument across politics, the economy, AI, and culture." />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://contextive.ai" />
+    <meta property="og:url" content="https://contextive.info" />
+    <meta property="og:site_name" content="Contextive" />
+    <meta property="og:image" content="https://contextive.info/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Contextive — Language Intelligence. Velocity, not verdict." />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@contextive_ai" />
     <meta name="twitter:title" content="Contextive — Language Intelligence" />
-    <meta name="twitter:description" content="The words move first. The market follows." />
+    <meta name="twitter:description" content="Velocity, not verdict — the words winning the argument across politics, the economy, AI, and culture." />
+    <meta name="twitter:image" content="https://contextive.info/og-image.png" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+
+    <!-- Structured data — disambiguates this Contextive (language / narrative intelligence) from
+         the DDD developer tool at contextive.tech and the Microsoft 365 workspace at contextive.com -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://contextive.info/#organization",
+          "name": "Contextive",
+          "alternateName": "Contextive Intelligence",
+          "url": "https://contextive.info",
+          "description": "Contextive is a language-intelligence brand that measures how public language gains momentum and shifts meaning — velocity, not verdict — across politics, the economy, AI, and culture.",
+          "foundingLocation": "Seattle, United States",
+          "sameAs": [
+            "https://open.substack.com/pub/contextive",
+            "https://x.com/contextive_ai",
+            "https://www.instagram.com/contextive.info"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://contextive.info/#website",
+          "name": "Contextive",
+          "url": "https://contextive.info",
+          "publisher": { "@id": "https://contextive.info/#organization" },
+          "description": "Language intelligence tracking how public vocabulary gains momentum and shifts meaning across politics, the economy, AI, and culture."
+        }
+      ]
+    }
+    </script>
   </head>
   <body class="antialiased bg-paper text-ink">
     <div id="root"></div>

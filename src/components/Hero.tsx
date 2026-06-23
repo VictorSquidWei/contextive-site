@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
-import { TERM_FILES, SUBSTACK_SUBSCRIBE } from '../data/terms';
+import { TERM_FILES } from '../data/terms';
 import { DossierCard } from './DossierCard';
+import { WaitlistForm } from './WaitlistForm';
 
 const HERO_CARDS = [
   TERM_FILES.find((t) => t.term === 'AGENTIC')!,
@@ -12,10 +13,6 @@ const HERO_CARDS = [
 
 export function Hero() {
   const [index, setIndex] = useState(0);
-  const [email, setEmail] = useState('');
-  const [submitting, setSubmitting] = useState(false);
-  const [submitted, setSubmitted] = useState(false);
-  const [error, setError] = useState<string | null>(null);
 
   // Auto-cycle the hero cards
   useEffect(() => {
@@ -25,29 +22,6 @@ export function Hero() {
     return () => clearInterval(id);
   }, []);
 
-  function handleSubmit(e: React.FormEvent) {
-    e.preventDefault();
-    if (submitting) return;
-    const clean = email.trim().toLowerCase();
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(clean)) {
-      setError('Enter a valid email address.');
-      return;
-    }
-    setSubmitting(true);
-    setError(null);
-    // Open our Substack page on the click itself (so it isn't popup-blocked) —
-    // subscribing there is revenue, and the email is pre-filled.
-    window.open(`${SUBSTACK_SUBSCRIBE}?email=${encodeURIComponent(clean)}`, '_blank', 'noopener');
-    // Record to our own list in the background, for later email automation.
-    fetch('/api/subscribe', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ email: clean }),
-    }).catch(() => {});
-    setSubmitted(true);
-    setSubmitting(false);
-  }
-
   return (
     <section id="top" className="relative pt-10 pb-16 lg:pt-16 lg:pb-20 px-6 lg:px-12">
       <div className="max-w-screen-xl mx-auto grid lg:grid-cols-12 gap-12 lg:gap-20 items-start">
@@ -56,7 +30,7 @@ export function Hero() {
           <div className="space-y-2">
             <div className="flex items-center gap-3">
               <span className="inline-block w-2 h-2 bg-ink rotate-45" />
-              <span className="small-caps text-muted">Intelligence Archive // Active Cycle 02</span>
+              <span className="small-caps text-muted">Intelligence Archive // Active Cycle 06</span>
             </div>
           </div>
 
@@ -72,52 +46,14 @@ export function Hero() {
           </h1>
 
           <p className="text-base lg:text-lg text-muted max-w-[480px] leading-relaxed text-balance">
-            The words move first. The market follows. Contextive tracks high-leverage
-            language across politics, finance, AI, and culture — and decodes what each
-            word is doing before it shows up in the data.
+            The words move first. Contextive measures how public language gains momentum
+            and shifts meaning across politics, the economy, AI, and culture — tracking
+            which words are winning the argument before the verdict is in.
           </p>
 
-          {/* Waitlist form */}
-          <div id="waitlist" className="max-w-md space-y-4">
-            {!submitted ? (
-              <form onSubmit={handleSubmit} className="flex flex-col gap-3">
-                <div className="flex flex-col sm:flex-row gap-3">
-                  <input
-                    type="email"
-                    required
-                    autoComplete="email"
-                    placeholder="your@email.com"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    className="flex-1 bg-canvas border border-rule px-4 py-4 text-sm focus:outline-none focus:border-ink focus:ring-1 focus:ring-ink placeholder:text-whisper transition-colors"
-                  />
-                  <button
-                    type="submit"
-                    disabled={submitting}
-                    className="bg-ink text-paper px-6 py-4 small-caps hover:bg-ink/85 active:scale-[0.98] transition-all disabled:opacity-60"
-                  >
-                    {submitting ? 'Submitting' : 'Access Archive'}
-                  </button>
-                </div>
-                {error && <p className="small-caps text-ink">{error}</p>}
-              </form>
-            ) : (
-              <div className="border border-ink p-5 bg-canvas space-y-3">
-                <div className="small-caps text-ink">You're on the list</div>
-                <p className="text-sm text-muted leading-relaxed">
-                  We've opened Substack in a new tab to confirm your subscription. If it
-                  didn't open, use the link below.
-                </p>
-                <a
-                  href={`${SUBSTACK_SUBSCRIBE}?email=${encodeURIComponent(email)}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 small-caps text-ink border border-ink px-4 py-2 hover:bg-ink hover:text-paper transition-colors"
-                >
-                  Confirm on Substack →
-                </a>
-              </div>
-            )}
+          {/* Email capture — records to our list + opens the dispatch on Substack */}
+          <div className="max-w-md space-y-4">
+            <WaitlistForm source="hero" layout="row" submitLabel="Access Archive" anchorId="waitlist" />
 
             <div className="flex flex-col gap-2 pt-2">
               <div className="flex items-center gap-3 text-muted">

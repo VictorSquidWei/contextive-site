@@ -18,6 +18,7 @@ const SITE = 'https://contextive.info';
 
 interface RequestBody {
   email?: string;
+  source?: string;
 }
 
 async function recordToOurList(email: string, source: string): Promise<void> {
@@ -92,7 +93,11 @@ export default async function handler(req: any, res: any) {
       return res.status(400).json({ ok: false, error: 'Invalid email' });
     }
 
-    await recordToOurList(email, 'site'); // our list — the part we automate from later
+    // Where the signup came from (e.g. "api-waitlist", "hero", "final-cta"), so the
+    // API-waitlist intent is distinguishable from plain dispatch signups in our list.
+    const source = (body?.source || 'site').replace(/[^a-z0-9_-]/gi, '').slice(0, 32) || 'site';
+
+    await recordToOurList(email, source); // our list — the part we automate from later
     await forwardToSubstack(email); // best-effort revenue subscription
 
     return res.status(200).json({

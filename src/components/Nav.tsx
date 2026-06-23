@@ -5,8 +5,9 @@ import { ThemeToggle } from './ThemeToggle';
 import { SOCIAL_LINKS } from '../data/terms';
 
 const LINKS = [
-  { to: '/', label: 'Campaigns' },
+  { to: '/#campaigns', label: 'Campaigns' },
   { to: '/how-it-works', label: 'How it works' },
+  { to: '/waitlist', label: 'API' },
 ];
 
 export function Nav() {
@@ -25,6 +26,16 @@ export function Nav() {
   useEffect(() => {
     setMenuOpen(false);
   }, [location.pathname]);
+
+  // "Campaigns" jumps to the homepage campaign section: scroll in place if already
+  // home, otherwise let the link navigate to /#campaigns (HomePage scrolls on mount).
+  function handleNavClick(e: React.MouseEvent, to: string) {
+    if (to === '/#campaigns' && location.pathname === '/') {
+      e.preventDefault();
+      document.getElementById('campaigns')?.scrollIntoView({ behavior: 'smooth' });
+    }
+    setMenuOpen(false);
+  }
 
   return (
     <nav
@@ -45,6 +56,7 @@ export function Nav() {
             <Link
               key={l.to}
               to={l.to}
+              onClick={(e) => handleNavClick(e, l.to)}
               className="small-caps text-muted hover:text-ink transition-colors"
             >
               {l.label}
@@ -101,6 +113,7 @@ export function Nav() {
             <Link
               key={l.to}
               to={l.to}
+              onClick={(e) => handleNavClick(e, l.to)}
               className="small-caps text-muted hover:text-ink py-3 border-b border-rule transition-colors"
             >
               {l.label}

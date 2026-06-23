@@ -228,13 +228,23 @@
   animation: flow-rail 1.4s linear infinite;
 }
 
+/* API teaser: blinking query cursor */
+@keyframes api-cursor {
+  0%, 49%   { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+.api-cursor { animation: api-cursor 1.1s step-end infinite; }
+
 @media (prefers-reduced-motion: reduce) {
   .flow-line,
   .crowd-dot,
   .node-pulse,
   .scan-sweep,
-  .flow-rail {
+  .flow-rail,
+  .api-cursor,
+  .velocity-pulse {
     animation: none;
   }
   .crowd-dot { opacity: 0.5; }
+  .api-cursor { opacity: 1; }
 }
