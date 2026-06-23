@@ -21,19 +21,21 @@ interface RequestBody {
   source?: string;
 }
 
-async function recordToOurList(email: string, source: string): Promise<void> {
+async function recordToOurList(email: string, source: string): Promise<boolean> {
   const ts = new Date().toISOString();
-  // Guaranteed capture: visible in Vercel runtime logs.
+  // Always logged (visible in Vercel runtime logs) even if no durable store is set.
   console.log(`[subscribe] ${ts} ${email} (${source})`);
+  let stored = false;
 
   const webhook = process.env.SUBSCRIBE_WEBHOOK_URL;
   if (webhook) {
     try {
-      await fetch(webhook, {
+      const r = await fetch(webhook, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, ts, source }),
       });
+      stored = stored || r.ok;
     } catch (e) {
       console.error('[subscribe] webhook failed', e);
     }
@@ -43,14 +45,23 @@ async function recordToOurList(email: string, source: string): Promise<void> {
   const kvToken = process.env.KV_REST_API_TOKEN;
   if (kvUrl && kvToken) {
     try {
-      await fetch(`${kvUrl}/sadd/subscribers/${encodeURIComponent(email)}`, {
+      const r = await fetch(`${kvUrl}/sadd/subscribers/${encodeURIComponent(email)}`, {
         method: 'POST',
         headers: { Authorization: `Bearer ${kvToken}` },
       });
+      stored = stored || r.ok;
     } catch (e) {
       console.error('[subscribe] kv failed', e);
     }
   }
+
+  if (!webhook && !kvUrl) {
+    console.warn(
+      '[subscribe] no durable store configured — set SUBSCRIBE_WEBHOOK_URL or Vercel KV; ' +
+        'signup is only in runtime logs (see scripts/SUBSCRIBE_SETUP.md)',
+    );
+  }
+  return stored;
 }
 
 async function forwardToSubstack(email: string): Promise<boolean> {
@@ -97,11 +108,12 @@ export default async function handler(req: any, res: any) {
     // API-waitlist intent is distinguishable from plain dispatch signups in our list.
     const source = (body?.source || 'site').replace(/[^a-z0-9_-]/gi, '').slice(0, 32) || 'site';
 
-    await recordToOurList(email, source); // our list — the part we automate from later
+    const stored = await recordToOurList(email, source); // our list — the part we automate from later
     await forwardToSubstack(email); // best-effort revenue subscription
 
     return res.status(200).json({
       ok: true,
+      stored,
       substackUrl: `${SUBSTACK_SUBSCRIBE}?email=${encodeURIComponent(email)}`,
     });
   } catch {
