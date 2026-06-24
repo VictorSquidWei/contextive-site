@@ -1,28 +1,8 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { WaitlistForm } from './WaitlistForm';
+import { SampleResponse } from './SampleResponse';
 import { FIREWALL } from '../data/campaign';
-
-// A real, measured reading (ceasefire, Campaign 06, retrieved 2026-06-21) — never invented.
-// Doubles as the concrete product artifact: the shape of a /v1/terms response.
-const SAMPLE_RESPONSE = `GET /v1/terms/ceasefire
-
-{
-  "term": "ceasefire",
-  "as_of": "2026-06-21",
-  "source": "gdelt-doc-2.0",
-  "status": "measured",
-  "velocity_index": 100,
-  "adoption_stage": "spreading",
-  "change": { "d30": -2.4, "d90": 424.9, "yoy": 250.6 },
-  "sentiment": -3.48,
-  "inflections": [
-    { "date": "2026-04-15", "z": 3.37 },
-    { "date": "2026-04-05", "z": 2.02 }
-  ],
-  "co_occurrence": ["MOU", "truce", "60 days", "negotiations"],
-  "methodology_version": "1.0"
-}`;
 
 const WHAT_YOU_GET = [
   ['Velocity', 'How fast a phrase is gaining or losing ground — momentum, not a snapshot.'],
@@ -95,21 +75,9 @@ export function Waitlist() {
             </div>
           </div>
 
-          {/* Concrete artifact: a real response */}
+          {/* Concrete artifact: a real response (becomes a live API round-trip when VITE_CONTEXTIVE_API_URL is set) */}
           <div className="lg:col-span-5 w-full min-w-0">
-            <div className="border border-rule bg-ink text-paper overflow-hidden">
-              <div className="flex items-center justify-between px-4 py-3 border-b border-paper/15">
-                <span className="small-caps text-paper/50 text-[10px]">Sample response</span>
-                <span className="small-caps text-paper/50 text-[10px]">measured · 21 Jun 2026</span>
-              </div>
-              <pre className="px-4 py-4 overflow-x-auto text-[11px] leading-relaxed font-mono text-paper/90">
-{SAMPLE_RESPONSE}
-              </pre>
-            </div>
-            <p className="small-caps text-whisper text-[10px] mt-3 leading-relaxed">
-              A real measured reading. Terms we cannot yet measure return{' '}
-              <span className="text-muted">status: pending</span> — never a fabricated number.
-            </p>
+            <SampleResponse />
           </div>
         </div>
 
