@@ -1,17 +1,8 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { WaitlistForm } from './WaitlistForm';
-import { SampleResponse } from './SampleResponse';
+import { SignalExplorer } from './SignalExplorer';
 import { FIREWALL } from '../data/campaign';
-
-const WHAT_YOU_GET = [
-  ['Velocity', 'How fast a phrase is gaining or losing ground — momentum, not a snapshot.'],
-  ['Inflection points', 'The dated moments coverage broke from its baseline.'],
-  ['Adoption stage', 'Where a term sits on the niche-to-mainstream curve.'],
-  ['Sentiment & co-occurrence', 'Average tone, and the words it travels with.'],
-  ['compare(a, b)', 'Two phrases head to head — the defining-tension primitive, e.g. obliterated vs ceasefire.'],
-  ['Measured or pending', 'A figure we can measure, or an honest pending — never a guess.'],
-];
 
 const WHO_ITS_FOR = [
   ['Comms & public affairs', 'Know whether your framing is winning against the opposing one — before the polling confirms it.'],
@@ -43,56 +34,35 @@ export function Waitlist() {
     <main className="px-6 lg:px-12 py-12 lg:py-20">
       <div className="max-w-screen-xl mx-auto">
         {/* Hero */}
-        <div className="grid lg:grid-cols-12 gap-12 lg:gap-20 items-start">
-          <div className="lg:col-span-7 space-y-8">
-            <div className="flex items-center gap-3">
-              <span className="inline-block w-2 h-2 bg-ink rotate-45" />
-              <span className="small-caps text-muted">The Contextive API // Coming soon</span>
-            </div>
-
-            <h1 className="font-display font-bold leading-[0.95] tracking-tight text-balance text-[2.75rem] sm:text-[3.5rem] lg:text-[4.5rem]">
-              The signal, as an API.
-            </h1>
-
-            <p className="text-base lg:text-lg text-muted max-w-[520px] leading-relaxed text-balance">
-              Every word Contextive tracks is a measured signal — momentum, inflection, adoption
-              stage, tone — drawn from the open news and media record. The API puts that signal in
-              your stack: query any phrase, get back how fast it is moving and where it is heading.
-              Velocity, not verdict.
+        <header className="max-w-3xl">
+          <div className="flex items-center gap-3">
+            <span className="inline-block w-2 h-2 bg-ink rotate-45" />
+            <span className="small-caps text-muted">The Contextive API // Coming soon</span>
+          </div>
+          <h1 className="font-display font-bold leading-[0.95] tracking-tight text-balance text-[2.75rem] sm:text-[3.5rem] lg:text-[4.5rem] mt-6">
+            The signal, as an API.
+          </h1>
+          <p className="text-base lg:text-lg text-muted max-w-[560px] leading-relaxed text-balance mt-6">
+            Query any phrase, get back how fast it is moving in the open news and media record —
+            velocity, inflection, adoption stage, tone. The measured signal behind every campaign,
+            in your stack. Velocity, not verdict.
+          </p>
+          <div className="max-w-md space-y-3 mt-8">
+            <span className="small-caps text-muted block">Request early access</span>
+            <WaitlistForm
+              source="api-waitlist"
+              layout="row"
+              submitLabel="Join the waitlist"
+              confirmBody="You're on the API waitlist — and we've opened Substack so the intelligence dispatch comes with it. If the tab didn't open, use the link below."
+            />
+            <p className="small-caps text-whisper text-[10px]">
+              Joins the waitlist + the weekly dispatch. No spam.
             </p>
-
-            <div className="max-w-md space-y-3">
-              <span className="small-caps text-muted block">Request early access</span>
-              <WaitlistForm
-                source="api-waitlist"
-                layout="row"
-                submitLabel="Join the waitlist"
-                confirmBody="You're on the API waitlist — and we've opened Substack so the intelligence dispatch comes with it. If the tab didn't open, use the link below."
-              />
-              <p className="small-caps text-whisper text-[10px]">
-                Joins the waitlist + the weekly dispatch. No spam.
-              </p>
-            </div>
           </div>
+        </header>
 
-          {/* Concrete artifact: a real response (becomes a live API round-trip when VITE_CONTEXTIVE_API_URL is set) */}
-          <div className="lg:col-span-5 w-full min-w-0">
-            <SampleResponse />
-          </div>
-        </div>
-
-        {/* What you get */}
-        <section className="mt-20 lg:mt-28">
-          <div className="small-caps text-muted mb-6">// What a query returns</div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-px bg-rule border border-rule">
-            {WHAT_YOU_GET.map(([title, body]) => (
-              <div key={title} className="bg-paper p-5 space-y-2">
-                <div className="font-display font-bold text-ink">{title}</div>
-                <p className="text-sm text-muted leading-relaxed">{body}</p>
-              </div>
-            ))}
-          </div>
-        </section>
+        {/* Interactive centerpiece — pick a measured term, watch the card move; toggle compare() */}
+        <SignalExplorer />
 
         {/* Who it's for */}
         <section className="mt-16 lg:mt-24">
@@ -107,7 +77,7 @@ export function Waitlist() {
           </div>
         </section>
 
-        {/* What's a tracked term */}
+        {/* What's a tracked term — the billing unit, leading into pricing */}
         <section className="mt-16 lg:mt-24">
           <div className="grid lg:grid-cols-12 gap-10 lg:gap-12 items-start">
             <div className="lg:col-span-5 space-y-4">
@@ -197,7 +167,7 @@ export function Waitlist() {
           </div>
         </section>
 
-        {/* Honest by design */}
+        {/* Honest by design + final CTA */}
         <section className="mt-16 lg:mt-24 border-t border-rule pt-10">
           <div className="grid lg:grid-cols-12 gap-8 items-start">
             <div className="lg:col-span-7 space-y-3">
