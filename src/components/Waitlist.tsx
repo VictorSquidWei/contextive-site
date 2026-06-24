@@ -67,7 +67,7 @@ export function Waitlist() {
         {/* Who it's for */}
         <section className="mt-16 lg:mt-24">
           <div className="small-caps text-muted mb-6">// Who it's for</div>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {WHO_ITS_FOR.map(([title, body]) => (
               <div key={title} className="space-y-2">
                 <div className="font-display font-bold text-lg text-ink">{title}</div>
@@ -79,7 +79,7 @@ export function Waitlist() {
 
         {/* What's a tracked term — the billing unit, leading into pricing */}
         <section className="mt-16 lg:mt-24">
-          <div className="grid lg:grid-cols-12 gap-10 lg:gap-12 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-start">
             <div className="lg:col-span-5 space-y-4">
               <div className="small-caps text-muted">// What's a tracked term</div>
               <h2 className="font-display font-bold text-2xl sm:text-3xl leading-tight text-balance">
@@ -93,7 +93,7 @@ export function Waitlist() {
                 unit your plan is counted in.
               </p>
             </div>
-            <div className="lg:col-span-7 grid sm:grid-cols-2 gap-px bg-rule border border-rule">
+            <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-px bg-rule border border-rule">
               <div className="bg-paper p-6 space-y-2">
                 <div className="small-caps text-muted">A lookup</div>
                 <p className="text-sm text-muted leading-relaxed">
@@ -111,7 +111,7 @@ export function Waitlist() {
             </div>
           </div>
 
-          <div className="grid sm:grid-cols-2 gap-px bg-rule border border-rule mt-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-px bg-rule border border-rule mt-8">
             <div className="bg-paper p-6 space-y-2">
               <div className="flex items-baseline gap-2">
                 <span className="font-display font-bold text-3xl text-ink">10</span>
@@ -141,7 +141,7 @@ export function Waitlist() {
             <div className="small-caps text-muted">// Early-access pricing</div>
             <div className="small-caps text-whisper text-[10px]">Launch pricing · usage beyond plan is metered · subject to change</div>
           </div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-px bg-rule border border-rule">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-px bg-rule border border-rule">
             {PRICING.map((tier) => (
               <div
                 key={tier.name}
@@ -169,7 +169,7 @@ export function Waitlist() {
 
         {/* Honest by design + final CTA */}
         <section className="mt-16 lg:mt-24 border-t border-rule pt-10">
-          <div className="grid lg:grid-cols-12 gap-8 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
             <div className="lg:col-span-7 space-y-3">
               <div className="small-caps text-muted">// Honest by design</div>
               <p className="text-base text-muted leading-relaxed max-w-2xl">

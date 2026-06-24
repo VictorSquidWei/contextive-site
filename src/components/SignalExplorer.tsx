@@ -62,7 +62,7 @@ function VelocityBar({ value, dark = false }: { value: number | null; dark?: boo
 
 function SignalCard({ t, compact = false }: { t: DemoTerm; compact?: boolean }) {
   return (
-    <div className="relative border border-rule bg-paper paper-grain overflow-hidden h-full">
+    <div className="relative border border-rule bg-paper paper-grain overflow-hidden h-full min-w-0">
       {/* scanning sheen */}
       <div className="pointer-events-none absolute inset-0 overflow-hidden" aria-hidden="true">
         <div className="scan-sweep absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-transparent via-ink/[0.05] to-transparent" />
@@ -273,12 +273,12 @@ export function SignalExplorer() {
       </div>
 
       {mode === 'explore' ? (
-        <div className="grid lg:grid-cols-2 gap-px bg-rule border border-rule">
-          <div className="bg-paper">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-px bg-rule border border-rule">
+          <div className="bg-paper min-w-0">
             <SignalCard t={current} />
           </div>
           {/* request / response panel */}
-          <div className="bg-ink text-paper flex flex-col">
+          <div className="bg-ink text-paper flex flex-col min-w-0">
             <div className="flex items-center justify-between px-4 py-3 border-b border-paper/15">
               <span className="font-mono text-[11px] text-paper/80 truncate">GET /v1/terms/{current.slug}</span>
               <button
@@ -321,16 +321,16 @@ export function SignalExplorer() {
         <div className="space-y-4">
           {/* leader banner */}
           <div className="border border-ink bg-ink text-paper px-5 py-4 flex flex-wrap items-center justify-between gap-3">
-            <span className="font-mono text-[11px] text-paper/70">
+            <span className="font-mono text-[11px] text-paper/70 min-w-0 break-words">
               compare(<span className="text-paper">{termA.term}</span>, <span className="text-paper">{termB.term}</span>)
             </span>
             <span className="font-display font-bold text-sm sm:text-base">
               {leader ? <><span className="text-paper">{leader.term}</span> leads by {gap} velocity</> : 'Dead heat'}
             </span>
           </div>
-          <div className="grid sm:grid-cols-2 gap-px bg-rule border border-rule">
-            <div className="bg-paper"><SignalCard t={termA} compact /></div>
-            <div className="bg-paper"><SignalCard t={termB} compact /></div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-px bg-rule border border-rule">
+            <div className="bg-paper min-w-0"><SignalCard t={termA} compact /></div>
+            <div className="bg-paper min-w-0"><SignalCard t={termB} compact /></div>
           </div>
           <p className="small-caps text-whisper text-[10px]">
             Tap two phrases above to set the matchup. The defining-tension primitive — e.g. obliterated vs ceasefire.
