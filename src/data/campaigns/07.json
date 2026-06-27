@@ -1,0 +1,862 @@
+{
+  "number": "07",
+  "slug": "money",
+  "id": "07-money",
+  "label": "CAMPAIGN 07",
+  "title": "The Language of Money",
+  "shortTitle": "Money",
+  "period": "June 2026",
+  "status": "in-progress",
+  "signalBasis": "measured",
+  "firewall": "We track how the words have been used and how fast they are winning, not whether the underlying politics is correct.",
+  "summary": "One money, two vocabularies — and the measured answer is that the whole language of escaping the dollar is cooling at once, with its loudest word narrating its own funeral. Among the eight terms measured so far, 'debasement trade' — the Wall Street name for the bet against fiat — is the top of the set at velocity 100, up 374 percent over thirty days yet down 73 percent over ninety: its coverage is spiking not on conviction but on the story of its own unwind, the 'is the debasement trade dead?' wave. It is loud because it is dying. The fade is broad, not isolated: 'digital gold' is down 43 percent on the quarter (velocity 29), 'store of value' is contested and down 42 percent on the quarter, 'inflation hedge' is fading (velocity 14, down 45 percent over thirty days), 'sound money' is down 16 percent on the quarter and fading, and the skeptics' own jab, 'magic internet money,' has gone dormant at velocity 0. The haven pitch, the hedge instinct, and the trade are losing altitude together. The one measured exception runs the other way and only modestly: 'hard money,' read on a tightened crypto-creed query, is up 88.6 percent over ninety days and spreading (velocity 86) — a real but contained riser, not a runaway, and not the story.",
+  "anchor": "Through 2025 and into 2026 the argument over money itself moved from the crypto fringe to the center of finance. The first federal stablecoin law brought dollar-pegged digital tokens inside the regulatory perimeter, with final rules due in mid-2026; banks and asset managers raced to tokenize funds, bonds, and deposits; the dollar's share of global reserves fell below 57 percent for the first time since 1995; and gold and Bitcoin, bought together for years as a hedge against currency 'debasement,' climbed to records — then, in mid-2026, fell together as the 'debasement trade' that drove them began to unwind. The same money now carries two incompatible vocabularies: one that says fiat is failing and scarce money will replace it, and one that says the dollar is quietly absorbing its challengers.",
+  "thesis": [
+    "One money, two vocabularies — and the measured answer is that the whole language of escaping the dollar is cooling at once, with its loudest word narrating its own funeral. Among the eight terms measured so far, 'debasement trade' — the Wall Street name for the bet against fiat — is the top of the set at velocity 100, up 374 percent over thirty days yet down 73 percent over ninety: its coverage is spiking not on conviction but on the story of its own unwind, the 'is the debasement trade dead?' wave. It is loud because it is dying. The fade is broad, not isolated: 'digital gold' is down 43 percent on the quarter (velocity 29), 'store of value' is contested and down 42 percent on the quarter, 'inflation hedge' is fading (velocity 14, down 45 percent over thirty days), 'sound money' is down 16 percent on the quarter and fading, and the skeptics' own jab, 'magic internet money,' has gone dormant at velocity 0. The haven pitch, the hedge instinct, and the trade are losing altitude together. The one measured exception runs the other way and only modestly: 'hard money,' read on a tightened crypto-creed query, is up 88.6 percent over ninety days and spreading (velocity 86) — a real but contained riser, not a runaway, and not the story.",
+    "Contextive tracks how fast each name is winning, not whether any claim about money is correct. The defining tension this cycle is velocity versus verdict, anchored on 'debasement trade': a word can dominate the coverage at the precise moment the thing it names is being abandoned. Measured, the trade word sits at velocity 100 yet is down 73 percent over ninety days — the same shape as the prior cycle's collapsed victory word, surging on the narrative of its own unwind rather than its triumph. Read alongside the broad fade of the escape-the-dollar lexicon, the pattern is clear: the bet against the dollar is quietly being abandoned across the vocabulary, and its loudest moment is its obituary. 'Hard money' is the honest counter-note — a modest measured riser, up 88.6 percent over ninety days on a noise-filtered query — but it carries no part of the spine. We report that velocity, not a verdict on whether scarce money is right or whether the dollar is failing."
+  ],
+  "definingTension": {
+    "a": "Debasement trade: velocity",
+    "b": "verdict",
+    "note": "The cycle's measured spine, and it is a single word turned against itself. 'Debasement trade' is the Wall Street name for the bet against fiat — buying gold and Bitcoin together on the thesis that governments keep spending and currencies keep weakening. Measured, it is the top of the entire set at velocity 100, up 374 percent over thirty days yet down 73 percent over ninety, with sentiment slightly negative (−0.28). The two halves are the whole point: the coverage is spiking on the story of the trade's own unwind — the 'is the debasement trade dead?' wave — not on any conviction that it is right. It is loud precisely because it is dying, the same shape as the prior cycle's collapsed victory word. And it is not collapsing alone. The escape-the-dollar lexicon cools around it in step: 'digital gold' down 43 percent on the quarter, 'store of value' down 42 percent on the quarter, 'inflation hedge' fading at velocity 14, 'sound money' down 16 percent on the quarter, 'magic internet money' dormant at velocity 0. Read together, the measured pattern is that the bet against the dollar is quietly being abandoned across the vocabulary, and its loudest moment is its funeral. We do not adjudicate whether the dollar is failing or whether scarce money is right; we report that the word for the bet is at peak visibility at the exact moment the bet is being unwound. ('Hard money' is the one modest measured riser — up 88.6 percent over ninety days on a noise-filtered query — and it is an honest counter-note, not the spine.)"
+  },
+  "clusters": [
+    {
+      "key": "A",
+      "name": "Is my money safe?",
+      "blurb": "How money is named from the saver's chair — the instinct to protect what you have from a currency you have been taught not to trust. This register runs on anxiety and personal stake: it reaches for gold, Bitcoin, or anything scarce, and it spikes with each inflation scare, each reserve-share headline, each fear that the dollar in the account is quietly worth less."
+    },
+    {
+      "key": "B",
+      "name": "The new plumbing",
+      "blurb": "The vocabulary of the institutions rebuilding money's infrastructure — stablecoins, tokenization, the reserve system, the central bank's own digital answer. Engineered and policy-driven, it is where the dollar, the blockchain, and the regulator meet, and where a single phrase like 'debasement trade' can carry a whole market's thesis about where money is going."
+    },
+    {
+      "key": "C",
+      "name": "What counts as money",
+      "blurb": "The creeds and epithets that turn money into an identity. Its defining feature is symmetry: the same asset is called the future of money by one camp and a joke by the other — 'sound money' virtue against 'Ponzi' dismissal, 'hard money' discipline against 'magic internet money' — a vocabulary war fought over the meaning of the word money itself."
+    }
+  ],
+  "pillars": [
+    {
+      "title": "The loudest word is the dying one",
+      "body": "The cycle's lede, and it is a velocity-versus-verdict showcase. The obvious story would have the bet against the dollar rising in the coverage as it rose in the market; what actually measured is the inverse. 'Debasement trade' is the top of the whole set at velocity 100, up 374 percent over thirty days yet down 73 percent over ninety — it stays maximally visible at the exact moment strategists declare it over, coverage spiking on its own unwind rather than its conviction, the same shape as the prior cycle's collapsed victory word. And the fade is broad, not a single word's bad quarter: 'digital gold' and 'store of value' are each down more than 40 percent on the quarter, 'inflation hedge' is fading at velocity 14, 'sound money' is down 16 percent and fading, and the skeptics' 'magic internet money' has gone dormant at velocity 0. The whole language of escaping the dollar is cooling at once. The highest-stakes piece is built on that gap between visibility and direction: the bet against the dollar is quietly being abandoned across the lexicon, and the word for it is at peak coverage because the press is narrating its funeral. ('Hard money' is the one modest measured exception — up 88.6 percent over ninety days on a noise-filtered query, spreading — surfaced honestly as a counter-note, never as the headline.)"
+    },
+    {
+      "title": "The hedge that didn't hedge",
+      "body": "'Digital gold,' 'inflation hedge,' and 'debasement trade' against the 2026 unwind — a case study in velocity versus verdict. When the havens fell together, the words built to describe them were the first thing to break; the measured collapse of a market phrase, tracked in real time, is the clearest demonstration of the signal layer on a live claim about money."
+    },
+    {
+      "title": "Sound money as a creed",
+      "body": "How a value claim argues on even as the trade built on it collapses — measured honestly, with no surge to inflate. The creed vocabulary is not surging. 'Sound money' reads velocity 57 but is down 16 percent on the quarter and fading; 'hard money,' read on a tightened crypto-creed query, is up 88.6 percent over ninety days and spreading (velocity 86) — a modest riser, not a runaway, and the only word in the cluster pointing up. Set against the broad cooling of the market vocabulary, the measured point is not that the creed is winning but that creed-language persists and keeps arguing even while the portfolio strategy named 'debasement trade' unwinds: the banners that assert a virtue ('sound,' 'hard') and assign a vice ('fiat' as epithet, pending) outlast the trade word that priced them. The signal layer is catching a belief system still propagating through language at a measured, modest pace — which is precisely what the brand measures and refuses to adjudicate. We do not rule on whether scarce money is sound; we report that the creed words argue on while the trade word funerals."
+    }
+  ],
+  "tensions": [
+    {
+      "a": "Debasement trade: velocity",
+      "b": "verdict",
+      "title": "Debasement trade: velocity vs verdict",
+      "body": "The cycle's measured spine, and it is a single word turned against itself. 'Debasement trade' is the Wall Street name for the bet against fiat — buying gold and Bitcoin together on the thesis that governments keep spending and currencies keep weakening. Measured, it is the top of the entire set at velocity 100, up 374 percent over thirty days yet down 73 percent over ninety, with sentiment slightly negative (−0.28). The two halves are the whole point: the coverage is spiking on the story of the trade's own unwind — the 'is the debasement trade dead?' wave — not on any conviction that it is right. It is loud precisely because it is dying, the same shape as the prior cycle's collapsed victory word. And it is not collapsing alone. The escape-the-dollar lexicon cools around it in step: 'digital gold' down 43 percent on the quarter, 'store of value' down 42 percent on the quarter, 'inflation hedge' fading at velocity 14, 'sound money' down 16 percent on the quarter, 'magic internet money' dormant at velocity 0. Read together, the measured pattern is that the bet against the dollar is quietly being abandoned across the vocabulary, and its loudest moment is its funeral. We do not adjudicate whether the dollar is failing or whether scarce money is right; we report that the word for the bet is at peak visibility at the exact moment the bet is being unwound. ('Hard money' is the one modest measured riser — up 88.6 percent over ninety days on a noise-filtered query — and it is an honest counter-note, not the spine.)"
+    },
+    {
+      "a": "Digital gold",
+      "b": "inflation hedge",
+      "title": "Digital gold vs inflation hedge",
+      "body": "Two names for the same promise — that a scarce asset will protect you when prices rise. They collide with the record: for years the havens were said to have earned the title, then in 2026 they fell alongside the very risk assets they were meant to hedge against, as inflation fears cooled and rate hikes returned. The contest is whether 'digital gold' is a haven or a high-beta bet wearing a haven's name — and the measured velocity of each word, set against the unwind, is the test."
+    },
+    {
+      "a": "Store of value",
+      "b": "Ponzi",
+      "title": "Store of value vs Ponzi",
+      "body": "The legitimacy of an entire asset class compressed into a pair of phrases. 'Store of value' claims that crypto holds worth and deserves trust; 'Ponzi' claims its price depends only on the next buyer and names the whole thing a confidence game. Both spike on the same drawdowns, pointing in opposite directions — one to a maturing form of money, one to a fraud finally exposed. The argument is over trust, and it is not resolved by price."
+    },
+    {
+      "a": "Death of the dollar",
+      "b": "de-dollarization",
+      "title": "Death of the dollar vs de-dollarization",
+      "body": "The fear word against the measured one. 'Death of the dollar' says the currency is ending; 'de-dollarization' names a slow, partial retreat in reserve share and trade settlement. They track the same trend through opposite lenses — one popular and catastrophic, one institutional and gradual — and their relative velocity reads as a thermometer for how close the public believes the end actually is."
+    },
+    {
+      "a": "Sound money",
+      "b": "fiat",
+      "title": "Sound money vs fiat",
+      "body": "The cycle's core creed clash, fought over which kind of money deserves respect. 'Sound money' asserts that only currency which cannot be debased — gold, Bitcoin — is honest; 'fiat,' wielded as an epithet, frames all government money as backed by nothing but decree and destined to fail. Each word is a verdict disguised as a description, and the contest is whether scarcity is integrity or whether 'fiat' simply names the money that every working economy already runs on."
+    }
+  ],
+  "terms": [
+    {
+      "ref": "C07-A1",
+      "term": "store of value",
+      "cluster": "A",
+      "domainTag": "LIVED EXPERIENCE / SAVINGS",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 43,
+        "adoptionStage": "contested",
+        "deltas": {
+          "d30": 23.3,
+          "d90": -42.4,
+          "yoy": -20.2
+        },
+        "sentiment": 0.89,
+        "inflections": [
+          {
+            "date": "2026-02-05",
+            "z": 2.42
+          },
+          {
+            "date": "2025-10-17",
+            "z": 2.36
+          },
+          {
+            "date": "2025-10-05",
+            "z": 2.35
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.004977,
+          "note": "GDELT coverage-intensity proxy (share of monitored coverage), not literal mentions/M",
+          "proxy": true
+        },
+        "retrievedAt": "2026-06-26T21:05:34+00:00"
+      },
+      "platforms": [
+        "X",
+        "financial media",
+        "YouTube",
+        "Reddit"
+      ],
+      "coOccurrence": [
+        "gold",
+        "bitcoin",
+        "inflation",
+        "savings"
+      ],
+      "whatItDoes": "The test every form of money is asked to pass — whether it holds its worth over time. It is the phrase ordinary savers reach for when deciding what to trust, migrating from the economics textbook into everyday arguments about gold, Bitcoin, cash, and the dollar itself.",
+      "whereContested": "The contest is over what qualifies. To one camp only scarce assets — gold, Bitcoin — can be a true store of value, and fiat fails by design; to another, a holding that can halve in months stores nothing, and the dollar's stability is exactly the point. The phrase is a claim about trust as much as about price.",
+      "verbatims": [
+        {
+          "quote": "is cash even a store of value anymore?",
+          "attribution": "recurring saver pattern"
+        },
+        {
+          "quote": "a thing that drops 50% isn't a store of value",
+          "attribution": "skeptic pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C07-A2",
+      "term": "digital gold",
+      "cluster": "A",
+      "domainTag": "LIVED EXPERIENCE / THE PITCH",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 29,
+        "adoptionStage": "contested",
+        "deltas": {
+          "d30": 15.9,
+          "d90": -42.9,
+          "yoy": 4.6
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2025-09-03",
+            "z": 3.29
+          },
+          {
+            "date": "2026-02-25",
+            "z": 2.9
+          },
+          {
+            "date": "2026-02-02",
+            "z": 2.55
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.004983,
+          "note": "GDELT coverage-intensity proxy (share of monitored coverage), not literal mentions/M",
+          "proxy": true
+        },
+        "retrievedAt": "2026-06-26T21:53:38+00:00"
+      },
+      "platforms": [
+        "X",
+        "financial media",
+        "YouTube"
+      ],
+      "coOccurrence": [
+        "gold",
+        "scarcity",
+        "hedge",
+        "halving"
+      ],
+      "whatItDoes": "The metaphor that sells Bitcoin to the cautious — scarcity and safety borrowed from the oldest store of value and attached to the newest. It compresses a complex asset into a single reassuring image and is the on-ramp phrase for the first-time buyer.",
+      "whereContested": "Proponents argue the comparison is now earned, a fixed supply behaving like a hedge; skeptics note that when gold and Bitcoin fell together the 'digital gold' claim was the first casualty. Whether Bitcoin trades like a haven or like a risk asset is the question the metaphor papers over.",
+      "verbatims": [
+        {
+          "quote": "Bitcoin is just digital gold",
+          "attribution": "recurring proponent pitch"
+        },
+        {
+          "quote": "digital gold isn't supposed to crash with stocks",
+          "attribution": "skeptic pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C07-A3",
+      "term": "death of the dollar",
+      "cluster": "A",
+      "domainTag": "LIVED EXPERIENCE / FEAR",
+      "measurement": {
+        "status": "pending",
+        "reason": "no coverage series returned"
+      },
+      "platforms": [
+        "X",
+        "YouTube",
+        "Google Search",
+        "financial media"
+      ],
+      "coOccurrence": [
+        "de-dollarization",
+        "BRICS",
+        "reserve currency",
+        "gold"
+      ],
+      "whatItDoes": "The maximal fear frame for the currency — that the dollar is not weakening but ending. It runs on anxiety rather than data, spiking with each new reserve-share headline, and converts an abstract macro trend into a personal question about what one's savings will be worth.",
+      "whereContested": "To those using it, falling reserve share and record central-bank gold buying are the early signs of a collapse already underway; to those rejecting it, the dollar remains first among currencies and 'death' catastrophizes a slow, partial rebalancing. The phrase's velocity tracks fear, not the exchange rate.",
+      "verbatims": [
+        {
+          "quote": "this is the death of the dollar",
+          "attribution": "recurring alarm pattern"
+        },
+        {
+          "quote": "people have predicted the dollar's death for fifty years",
+          "attribution": "rebuttal pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C07-A4",
+      "term": "money printing",
+      "cluster": "A",
+      "domainTag": "LIVED EXPERIENCE / BLAME",
+      "measurement": {
+        "status": "pending",
+        "reason": "no coverage series returned"
+      },
+      "platforms": [
+        "X",
+        "Reddit",
+        "YouTube"
+      ],
+      "coOccurrence": [
+        "inflation",
+        "Fed",
+        "debasement",
+        "stimulus"
+      ],
+      "whatItDoes": "The popular name for the cause of lost purchasing power — the image of a central bank conjuring currency and thinning everyone's savings. It is the folk-economics engine behind the whole hedge instinct, the reason given for buying anything scarce.",
+      "whereContested": "Used as an indictment, it names monetary expansion as theft by inflation; rejected, it is dismissed as a slogan that misreads how money and reserves actually work. The phrase carries an entire theory of who is responsible for the cost of living, compressed into two words.",
+      "verbatims": [
+        {
+          "quote": "they just print more and your savings shrink",
+          "attribution": "recurring complaint pattern"
+        },
+        {
+          "quote": "money printer go brrr",
+          "attribution": "viral meme framing"
+        }
+      ]
+    },
+    {
+      "ref": "C07-A5",
+      "term": "inflation hedge",
+      "cluster": "A",
+      "domainTag": "LIVED EXPERIENCE / PROTECTION",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 14,
+        "adoptionStage": "fading",
+        "deltas": {
+          "d30": -44.7,
+          "d90": -0.5,
+          "yoy": -38.9
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2025-10-09",
+            "z": 3.12
+          },
+          {
+            "date": "2025-06-07",
+            "z": 3.09
+          },
+          {
+            "date": "2025-10-19",
+            "z": 2.78
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.00214,
+          "note": "GDELT coverage-intensity proxy (share of monitored coverage), not literal mentions/M",
+          "proxy": true
+        },
+        "retrievedAt": "2026-06-26T21:10:36+00:00"
+      },
+      "platforms": [
+        "financial media",
+        "X",
+        "YouTube"
+      ],
+      "coOccurrence": [
+        "gold",
+        "bitcoin",
+        "real assets",
+        "CPI"
+      ],
+      "whatItDoes": "The job description every alternative asset applies for — protection against rising prices. It is the rational core of the hedge instinct, the phrase that turns a fear of debasement into a portfolio decision about gold, Bitcoin, or real assets.",
+      "whereContested": "The contest is performance: defenders point to years when scarce assets outran inflation, critics point to the months when the supposed hedges fell as inflation fears cooled and rate hikes returned. Whether these assets hedge inflation or merely track liquidity is the unresolved question beneath the label.",
+      "verbatims": [
+        {
+          "quote": "Bitcoin is my inflation hedge",
+          "attribution": "recurring holder pattern"
+        },
+        {
+          "quote": "some hedge — it falls when rates rise",
+          "attribution": "skeptic pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C07-B1",
+      "term": "stablecoin",
+      "cluster": "B",
+      "domainTag": "INSTITUTIONAL / DOLLAR RAILS",
+      "measurement": {
+        "status": "pending",
+        "reason": "no coverage series returned"
+      },
+      "platforms": [
+        "financial media",
+        "policy press",
+        "X"
+      ],
+      "coOccurrence": [
+        "GENIUS Act",
+        "Tether",
+        "USDC",
+        "reserves"
+      ],
+      "whatItDoes": "The dollar-pegged digital token that became crypto's first mass-market product — and, with federal rules arriving, its most consequential. It names the rails on which tokenized money is being built, the vocabulary of an industry moving from speculation to plumbing.",
+      "whereContested": "Boosters frame it as the dollar's upgrade — instant, global, reserve-backed — extending dollar dominance rather than threatening it; critics warn of shadow banking, run risk, and a private currency wearing a public uniform. The word sits exactly where crypto and the dollar stop being opponents and become the same system.",
+      "verbatims": [
+        {
+          "quote": "stablecoins are how the dollar wins the internet",
+          "attribution": "recurring industry framing"
+        },
+        {
+          "quote": "a stablecoin is a money-market fund with worse disclosure",
+          "attribution": "analyst caution pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C07-B2",
+      "term": "tokenization",
+      "cluster": "B",
+      "domainTag": "INSTITUTIONAL / REAL-WORLD ASSETS",
+      "measurement": {
+        "status": "pending",
+        "reason": "no coverage series returned"
+      },
+      "platforms": [
+        "financial media",
+        "policy press",
+        "X"
+      ],
+      "coOccurrence": [
+        "real-world assets",
+        "RWA",
+        "treasuries",
+        "settlement"
+      ],
+      "whatItDoes": "The conversion of ordinary assets — bonds, funds, deposits, property — into blockchain tokens. It is the institutional era's organizing word, the promise that the financial system's back office can be rebuilt on the same rails as crypto.",
+      "whereContested": "Advocates describe a faster, cheaper, always-on market; skeptics ask what tokenization adds beyond a database that already works, and whether 'on-chain' is substance or branding. The contest is whether this is genuine infrastructure or the speculative impulse rebranded for institutions.",
+      "verbatims": [
+        {
+          "quote": "everything will be tokenized",
+          "attribution": "recurring industry framing"
+        },
+        {
+          "quote": "we already have ledgers — what does the token add?",
+          "attribution": "skeptic pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C07-B3",
+      "term": "debasement trade",
+      "cluster": "B",
+      "domainTag": "INSTITUTIONAL / THE BET",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 100,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 374.2,
+          "d90": -73.4,
+          "yoy": null
+        },
+        "sentiment": -0.28,
+        "inflections": [
+          {
+            "date": "2025-10-05",
+            "z": 2.86
+          },
+          {
+            "date": "2026-01-26",
+            "z": 2.66
+          },
+          {
+            "date": "2025-10-15",
+            "z": 2.06
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.001043,
+          "note": "GDELT coverage-intensity proxy (share of monitored coverage), not literal mentions/M",
+          "proxy": true
+        },
+        "retrievedAt": "2026-06-26T21:14:08+00:00"
+      },
+      "platforms": [
+        "financial media",
+        "X",
+        "research notes"
+      ],
+      "coOccurrence": [
+        "gold",
+        "bitcoin",
+        "fiscal",
+        "unwind"
+      ],
+      "whatItDoes": "The Wall Street name for the bet against fiat — buying gold and Bitcoin together on the thesis that governments will keep spending and currencies will keep weakening. It is the framing that turned a crypto creed into a portfolio strategy with a name analysts could trade.",
+      "whereContested": "For most of the prior year it was the dominant market narrative; more recently it is the word being abandoned, as gold and Bitcoin fell together and strategists declared the trade out of favor. The contest is no longer whether the trade is right but whether it is over — which makes its own velocity the story.",
+      "verbatims": [
+        {
+          "quote": "the debasement trade is the trade of the decade",
+          "attribution": "recurring bull framing"
+        },
+        {
+          "quote": "the debasement trade is unwinding",
+          "attribution": "strategist pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C07-B4",
+      "term": "de-dollarization",
+      "cluster": "B",
+      "domainTag": "INSTITUTIONAL / RESERVE SHIFT",
+      "measurement": {
+        "status": "pending",
+        "reason": "no coverage series returned"
+      },
+      "platforms": [
+        "financial media",
+        "policy press",
+        "X"
+      ],
+      "coOccurrence": [
+        "BRICS",
+        "reserve currency",
+        "yuan",
+        "gold"
+      ],
+      "whatItDoes": "The slow retreat of the dollar from global trade and reserves — the macro process the lived-experience 'death of the dollar' fears in miniature. It names a measurable shift: reserve share, alternative payment systems, central-bank gold.",
+      "whereContested": "One reading sees an accelerating, deliberate move away from a weaponized dollar; another sees a gentle rebalancing toward a multipolar system in which the dollar stays first among several. The contest is over speed and meaning — a collapse, or a long and partial drift.",
+      "verbatims": [
+        {
+          "quote": "de-dollarization is accelerating",
+          "attribution": "recurring framing"
+        },
+        {
+          "quote": "the dollar has been first among equals for a century and still is",
+          "attribution": "rebuttal pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C07-B5",
+      "term": "digital dollar",
+      "cluster": "B",
+      "domainTag": "INSTITUTIONAL / STATE MONEY",
+      "measurement": {
+        "status": "pending",
+        "reason": "no coverage series returned"
+      },
+      "platforms": [
+        "policy press",
+        "X",
+        "cable news"
+      ],
+      "coOccurrence": [
+        "surveillance",
+        "stablecoin",
+        "Fed",
+        "privacy"
+      ],
+      "whatItDoes": "The state's own answer to crypto — a central-bank-issued digital currency. It is the institutional counterpart to the private stablecoin, and the term where monetary policy collides directly with questions of surveillance and control.",
+      "whereContested": "Advocates frame it as modern, inclusive public money; opponents frame it as programmable state surveillance, and the backlash has been sharp enough that private stablecoins advanced while the public version stalled. The word carries a fight over who should be allowed to issue digital money at all.",
+      "verbatims": [
+        {
+          "quote": "a digital dollar is just financial surveillance",
+          "attribution": "recurring opposition pattern"
+        },
+        {
+          "quote": "public money should be public infrastructure",
+          "attribution": "advocate pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C07-B6",
+      "term": "fiscal dominance",
+      "cluster": "B",
+      "domainTag": "INSTITUTIONAL / THE DIAGNOSIS",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 71,
+        "adoptionStage": "spreading",
+        "deltas": {
+          "d30": -29.4,
+          "d90": -35.5,
+          "yoy": 300
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-01-03",
+            "z": 2.47
+          },
+          {
+            "date": "2025-08-29",
+            "z": 2.39
+          },
+          {
+            "date": "2026-02-07",
+            "z": 2.2
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.00044,
+          "note": "GDELT coverage-intensity proxy (share of monitored coverage), not literal mentions/M",
+          "proxy": true
+        },
+        "retrievedAt": "2026-06-26T21:17:53+00:00"
+      },
+      "platforms": [
+        "research notes",
+        "financial media",
+        "policy press"
+      ],
+      "coOccurrence": [
+        "deficit",
+        "debt",
+        "Fed independence",
+        "yields"
+      ],
+      "whatItDoes": "The economists' term for the moment government debt grows so large that monetary policy bends to serve it — the technical diagnosis underneath the popular 'money printing' complaint. It is the institutional vocabulary for why a currency might be structurally weakened.",
+      "whereContested": "Some treat it as the real, measurable engine of debasement and the rational basis for the hedge; others argue the term is invoked prematurely, a sophisticated-sounding frame for an outcome that has not arrived. It is 'money printing' translated into the language of the seminar room.",
+      "verbatims": [
+        {
+          "quote": "this is fiscal dominance in real time",
+          "attribution": "recurring analyst framing"
+        },
+        {
+          "quote": "we're nowhere near fiscal dominance",
+          "attribution": "rebuttal pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C07-C1",
+      "term": "sound money",
+      "cluster": "C",
+      "domainTag": "ATTRIBUTION / THE CREED",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 57,
+        "adoptionStage": "fading",
+        "deltas": {
+          "d30": 52.5,
+          "d90": -15.8,
+          "yoy": -46
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2025-10-02",
+            "z": 5.05
+          },
+          {
+            "date": "2025-05-27",
+            "z": 4.01
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.00245,
+          "note": "GDELT coverage-intensity proxy (share of monitored coverage), not literal mentions/M",
+          "proxy": true
+        },
+        "retrievedAt": "2026-06-26T22:02:33+00:00"
+      },
+      "platforms": [
+        "X",
+        "podcasts",
+        "YouTube"
+      ],
+      "coOccurrence": [
+        "gold standard",
+        "bitcoin",
+        "discipline",
+        "fiat"
+      ],
+      "whatItDoes": "The movement's foundational creed — money that cannot be debased, whether gold or Bitcoin. It is less a description than a banner, asserting that scarce, rule-bound money is morally and economically superior to a currency a government can expand at will.",
+      "whereContested": "To believers it names a return to discipline and honest savings; to critics it is nostalgia for a gold-standard world whose rigidity did real harm, and a volatile asset is the opposite of 'sound.' The phrase claims a virtue — soundness — that its opponents say it has not earned.",
+      "verbatims": [
+        {
+          "quote": "Bitcoin is sound money",
+          "attribution": "recurring creed pattern"
+        },
+        {
+          "quote": "there's nothing sound about an asset that swings 50%",
+          "attribution": "skeptic pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C07-C2",
+      "term": "fiat",
+      "cluster": "C",
+      "domainTag": "ATTRIBUTION / THE EPITHET",
+      "measurement": {
+        "status": "pending",
+        "reason": "no coverage series returned"
+      },
+      "platforms": [
+        "X",
+        "Reddit",
+        "podcasts"
+      ],
+      "coOccurrence": [
+        "debasement",
+        "dollar",
+        "decree",
+        "bitcoin"
+      ],
+      "whatItDoes": "Once a neutral economics term, now an epithet — a way of naming government-issued money as backed by nothing but decree. In the movement's usage it does the rhetorical work of making the dollar sound provisional and Bitcoin sound permanent.",
+      "whereContested": "Used as a slur, 'fiat' frames all state money as inherently fragile and doomed; rejected, the framing is dismissed as a marketing device, since the same 'fiat' underpins every functioning economy on earth. The contest is whether 'fiat' names a flaw or simply names money.",
+      "verbatims": [
+        {
+          "quote": "fiat is a melting ice cube",
+          "attribution": "recurring movement framing"
+        },
+        {
+          "quote": "you pay your rent in fiat and you're fine",
+          "attribution": "rebuttal pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C07-C3",
+      "term": "ponzi",
+      "cluster": "C",
+      "domainTag": "ATTRIBUTION / THE CHARGE",
+      "measurement": {
+        "status": "pending",
+        "reason": "no coverage series returned"
+      },
+      "platforms": [
+        "X",
+        "Reddit",
+        "comment sections"
+      ],
+      "coOccurrence": [
+        "scheme",
+        "greater fool",
+        "fraud",
+        "crash"
+      ],
+      "whatItDoes": "The skeptics' defining charge against crypto — that its value depends on a constant flow of new buyers rather than any underlying worth. It is the single word that frames the whole asset class as a confidence game, and it spikes on every drawdown.",
+      "whereContested": "To those who use it, the crashes are proof the structure was always a Ponzi; to those who reject it, the label is lazy, applied to any volatile asset its critics dislike, and confuses speculation with fraud. The word assigns motive — deception — rather than describing price.",
+      "verbatims": [
+        {
+          "quote": "it was always a Ponzi",
+          "attribution": "recurring skeptic pattern"
+        },
+        {
+          "quote": "volatile isn't the same as fraudulent",
+          "attribution": "rebuttal pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C07-C4",
+      "term": "magic internet money",
+      "cluster": "C",
+      "domainTag": "ATTRIBUTION / THE DISMISSAL",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 0,
+        "adoptionStage": "dormant",
+        "deltas": {
+          "d30": -100,
+          "d90": -79.8,
+          "yoy": -100
+        },
+        "sentiment": 0.08,
+        "inflections": [
+          {
+            "date": "2025-12-08",
+            "z": 2.48
+          },
+          {
+            "date": "2026-02-22",
+            "z": 2.3
+          },
+          {
+            "date": "2026-06-24",
+            "z": 2.27
+          }
+        ],
+        "corpusDensity": {
+          "value": 0,
+          "note": "GDELT coverage-intensity proxy (share of monitored coverage), not literal mentions/M",
+          "proxy": true
+        },
+        "retrievedAt": "2026-06-26T21:22:19+00:00"
+      },
+      "platforms": [
+        "X",
+        "Reddit",
+        "TikTok"
+      ],
+      "coOccurrence": [
+        "scam",
+        "HODL",
+        "irony",
+        "speculation"
+      ],
+      "whatItDoes": "The mocking nickname that compresses the skeptic's whole case into three words — that crypto is unserious, conjured from nothing, believed in only by the credulous. It began as an insult and was half-reclaimed as an ironic badge, which is its own kind of signal.",
+      "whereContested": "Detractors use it to deny crypto the dignity of the word 'money'; holders wear it ironically, turning the insult into in-group identity. The phrase's contest is over seriousness itself — whether the thing deserves to be discussed as money or only as a joke.",
+      "verbatims": [
+        {
+          "quote": "it's just magic internet money",
+          "attribution": "recurring dismissal pattern"
+        },
+        {
+          "quote": "have fun staying poor",
+          "attribution": "in-group reclaim pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C07-C5",
+      "term": "Bitcoin standard",
+      "cluster": "C",
+      "domainTag": "ATTRIBUTION / THE ENDGAME",
+      "measurement": {
+        "status": "pending",
+        "reason": "no coverage series returned"
+      },
+      "platforms": [
+        "X",
+        "podcasts",
+        "YouTube"
+      ],
+      "coOccurrence": [
+        "gold standard",
+        "maximalist",
+        "fiat",
+        "hyperbitcoinization"
+      ],
+      "whatItDoes": "The maximalist endgame — a world that prices and saves in Bitcoin the way an earlier one ran on gold. It names the most expansive version of the creed, in which Bitcoin does not hedge the system but replaces it.",
+      "whereContested": "To adherents it is the logical destination of sound-money logic; to critics it is a fantasy that mistakes a speculative asset for a monetary system and forgets why the gold standard was abandoned. The phrase marks the far pole of the whole argument over what money should be.",
+      "verbatims": [
+        {
+          "quote": "we're going to a Bitcoin standard",
+          "attribution": "recurring maximalist pattern"
+        },
+        {
+          "quote": "the gold standard ended for reasons",
+          "attribution": "rebuttal pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C07-C6",
+      "term": "hard money",
+      "cluster": "C",
+      "domainTag": "ATTRIBUTION / THE VIRTUE",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 86,
+        "adoptionStage": "spreading",
+        "deltas": {
+          "d30": 49.5,
+          "d90": 88.6,
+          "yoy": 199
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2025-10-02",
+            "z": 6.22
+          },
+          {
+            "date": "2026-06-02",
+            "z": 2.02
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.000523,
+          "note": "GDELT coverage-intensity proxy (share of monitored coverage), not literal mentions/M",
+          "proxy": true
+        },
+        "retrievedAt": "2026-06-26T22:29:12+00:00"
+      },
+      "platforms": [
+        "X",
+        "podcasts",
+        "YouTube"
+      ],
+      "coOccurrence": [
+        "scarcity",
+        "gold",
+        "discipline",
+        "deflation"
+      ],
+      "whatItDoes": "The companion creed to 'sound money' — currency whose supply cannot be inflated, prized for the discipline it imposes. It frames scarcity as a virtue and the power to create money as a vice, and it is the value claim beneath the entire hedge instinct.",
+      "whereContested": "Believers see hard money as protection against political manipulation of the currency; critics see a recipe for the deflationary spirals hard-money regimes historically produced, and argue flexibility is a feature, not a flaw. The contest is whether rigidity is integrity or a known mistake.",
+      "verbatims": [
+        {
+          "quote": "hard money keeps governments honest",
+          "attribution": "recurring creed pattern"
+        },
+        {
+          "quote": "hard money is how downturns became depressions",
+          "attribution": "rebuttal pattern"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-06-26T21:24:37+00:00",
+  "refDate": "2026-06-25",
+  "source": "GDELT DOC 2.0 (timelinevol + timelinetone) | merged top-up 2026-06-25 | hard money verified (strict query) 2026-06-25"
+}
