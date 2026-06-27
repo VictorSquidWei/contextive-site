@@ -9,46 +9,46 @@
   "status": "in-progress",
   "signalBasis": "measured",
   "firewall": "We track how the words have been used and how fast they are winning, not whether the underlying politics is correct.",
-  "summary": "One primary, several languages. The same results are described by a loyalty vocabulary, an institutional vocabulary, and a dissident/opposition vocabulary — and the cluster that wins reframes the contest before the votes are counted.",
-  "anchor": "May 2026: a multi-state primary night consolidated a loyalty vocabulary on one side of a party and surfaced a counter-frame on the other side of the aisle. Each result was reported in a vocabulary the opposing side does not recognize as neutral — the same vote named several incompatible ways before midnight.",
+  "summary": "One primary, several languages. The same results get described by a loyalty vocabulary, an institutional vocabulary, and a dissident vocabulary. The cluster that wins reframes the contest before the votes are counted.",
+  "anchor": "May 2026: a multi-state primary night consolidated a loyalty vocabulary on one side of a party and surfaced a counter-frame on the other. Each result was reported in a vocabulary the opposing side does not accept as neutral. The same vote got named several incompatible ways before midnight.",
   "thesis": [
-    "One primary, several languages. The same results are described by a loyalty vocabulary, an institutional vocabulary, and a dissident/opposition vocabulary — and the cluster that wins reframes the contest before the votes are counted.",
-    "Contextive tracks how each vocabulary is used and how fast it is winning, not whether the underlying politics is correct. The brand cannot be seen to call any of these terms wrong — only to call them measurable."
+    "One primary, several languages. The same results get described by a loyalty vocabulary, an institutional vocabulary, and a dissident vocabulary. The cluster that wins reframes the contest before the votes are counted.",
+    "Contextive tracks how each vocabulary is used and how fast it is winning, not whether the underlying politics is correct. The brand calls none of these terms wrong, only measurable."
   ],
   "definingTension": {
     "a": "MAGA Warrior",
     "b": "RINO",
-    "note": "Same person, two vocabularies: the credential and the slur, positive and negative space on a single loyalty axis. The audience-sentiment split on these terms is the widest measured in the cycle."
+    "note": "One subject, two vocabularies: the credential and the slur, positive and negative space on a single loyalty axis. The audience sentiment split on these terms is the widest measured in the cycle."
   },
   "clusters": [
     {
       "key": "A",
       "name": "MAGA / loyalty",
-      "blurb": "The dominant intra-party vocabulary, operationalized into a primary-night performance metric — reframing a contest between two candidates into a referendum on loyalty to a single leader."
+      "blurb": "The dominant intra-party vocabulary, turned into a primary-night performance metric. It reframes a contest between two candidates into a referendum on loyalty to a single leader."
     },
     {
       "key": "B",
       "name": "Establishment / institutional",
-      "blurb": "The procedural vocabulary of operatives, analysts, and donor briefings — built top-down to convert a contest of personalities into turnout, demographics, and margin. Most visible when it fails to explain an outcome."
+      "blurb": "The procedural vocabulary of operatives, analysts, and donor briefings, built to convert a contest of personalities into turnout, demographics, and margin. Most visible when it fails to explain an outcome."
     },
     {
       "key": "C",
       "name": "Dissident / resistance",
-      "blurb": "The flanking vocabularies that name what the loyalty cluster is doing — from inside the party and from across the aisle — pointing at the same target but unable to share a sentence without losing an audience."
+      "blurb": "The flanking vocabularies that name what the loyalty cluster is doing, from inside the party and from across the aisle. They point at the same target but cannot share a sentence without losing an audience."
     }
   ],
   "pillars": [
     {
       "title": "The loyalty vocabulary",
-      "body": "MAGA Warrior, RINO, purge, endorsement machine — how a vocabulary won a primary night before the votes were counted."
+      "body": "MAGA Warrior, RINO, purge, endorsement machine: how a vocabulary won a primary night before the votes were counted."
     },
     {
       "title": "Three vocabularies, one primary",
-      "body": "Principled, MAGA Warrior, revenge campaign, fight back — the same outcome named in incompatible registers, and which one the press lets stand without scare quotes."
+      "body": "Principled, MAGA Warrior, revenge campaign, fight back: the same outcome named in incompatible registers, and which one the press lets stand without scare quotes."
     },
     {
       "title": "The signal issue",
-      "body": "The cycle's highest-velocity terms read against the one in decline — what the velocity index says about where the contest is heading."
+      "body": "The cycle's fastest-rising terms read against the one in decline, and what the velocity index says about where the contest is heading."
     }
   ],
   "tensions": [
@@ -56,31 +56,31 @@
       "a": "MAGA Warrior",
       "b": "RINO",
       "title": "MAGA Warrior vs RINO",
-      "body": "Same person, two vocabularies: the credential and the slur, positive and negative space on a single loyalty axis. The audience-sentiment split on these terms is the widest measured in the cycle."
+      "body": "One subject, two vocabularies: the credential and the slur, positive and negative space on a single loyalty axis. The audience sentiment split on these terms is the widest measured in the cycle."
     },
     {
       "a": "Purge",
       "b": "endorsement machine",
       "title": "Purge vs endorsement machine",
-      "body": "The same activity, two framings that disagree about whether it is a violation or a system. Both appear in mainstream headlines on the same night — and which one an outlet leads with is its actual editorial position on the cycle, even when its formal stance is neutral."
+      "body": "The same activity, two framings that disagree about whether it is a violation or a system. Both appear in mainstream headlines on the same night. Which one an outlet leads with is its real editorial position on the cycle, even when its formal stance is neutral."
     },
     {
       "a": "Electable",
       "b": "fighter",
       "title": "Electable vs fighter",
-      "body": "Direct adversaries. One treats a primary as a forecasting question about a general election; the other as a contest about disposition. The cycle adjudicated decisively toward 'fighter,' and the analyst class knows it is losing the term and says so."
+      "body": "Direct adversaries. One treats a primary as a forecasting question about a general election, the other as a contest about disposition. The cycle adjudicated decisively toward 'fighter,' and the analyst class knows it is losing the term and says so."
     },
     {
       "a": "Principled",
       "b": "MAGA Warrior",
       "title": "Principled vs MAGA Warrior",
-      "body": "Two incompatible theories of what a member of Congress is for: loyalty to a document versus loyalty to a leader. The cleanest single-axis collision in the cycle."
+      "body": "Two incompatible theories of what a member of Congress is for: loyalty to a document versus loyalty to a leader. The cleanest single axis collision in the cycle."
     },
     {
       "a": "Revenge campaign",
       "b": "fight back",
       "title": "Revenge campaign vs fight back",
-      "body": "A cross-aisle adjacency no side will publicly claim: a press-analytical frame, a dissident self-description, and an opposition rallying cry all name the same target in registers the other audiences will not borrow. When several vocabularies converge on one target without converging on one label, the constituency has not yet found its language."
+      "body": "A cross-aisle adjacency no side will publicly claim. A press frame, a dissident self-description, and an opposition rallying cry all name the same target in registers the other audiences will not borrow. When several vocabularies converge on one target without converging on one label, the constituency has not yet found its language."
     }
   ],
   "terms": [
@@ -131,8 +131,8 @@
         "loyal",
         "real Republican"
       ],
-      "whatItDoes": "Compresses a complex loyalty assessment into a single warlike identity tag. 'Warrior' imports the moral charge of combat into what is, procedurally, a question about whether a member will vote with the conference — relocating the qualification for office from record to willingness to fight on a leader's behalf.",
-      "whereContested": "Mainstream reporters use it in quotation marks and attribute it, preserving the term while denying it institutional adoption. The most effective contest comes from inside the loyalty cluster itself: when an endorsed candidate underperforms, the phrase reads as inflation rather than commitment.",
+      "whatItDoes": "Compresses a loyalty assessment into a single warlike identity tag. 'Warrior' imports the moral charge of combat into what is, procedurally, a question of whether a member will vote with the conference. It relocates the qualification for office from record to willingness to fight for a leader.",
+      "whereContested": "Mainstream reporters use it in quotation marks and attribute it, preserving the term while denying it institutional adoption. The sharpest contest comes from inside the loyalty cluster: when an endorsed candidate underperforms, the phrase reads as inflation, not commitment.",
       "verbatims": [
         {
           "quote": "A totally reliable MAGA Warrior who has stood with us through it all.",
@@ -164,8 +164,8 @@
         "sellout",
         "donor class"
       ],
-      "whatItDoes": "Defines party membership by behavior toward a single leader rather than by policy, record, or platform. Its elegance is that it cannot be argued with on the merits — once applied, the defense ('I have a 95% rating') implicitly accepts the frame. It converts membership from a credential into a continuous loyalty test.",
-      "whereContested": "Two counters have emerged — reclamation (wearing it ironically) and escalation (naming the accusers) — both with limited traction outside their own audiences. The contest is asymmetric: engaging dignifies the frame, but not engaging cedes the term.",
+      "whatItDoes": "Defines party membership by behavior toward a single leader, not by policy, record, or platform. Its elegance is that it cannot be argued on the merits: once applied, the defense ('I have a 95% rating') accepts the frame. Membership turns from a credential into a continuous loyalty test.",
+      "whereContested": "Two counters have emerged: reclamation (wearing it ironically) and escalation (naming the accusers). Both have limited traction outside their own audiences. The contest is asymmetric. Engaging dignifies the frame, but not engaging cedes the term.",
       "verbatims": [
         {
           "quote": "He's a RINO who has served for fourteen years.",
@@ -196,11 +196,11 @@
         "dissent",
         "knock off"
       ],
-      "whatItDoes": "Imports the moral and historical weight of authoritarian internal-party discipline into the description of a normal primary. The word does the argument: a contest in which a leader campaigns against a sitting incumbent is mechanically a primary; calling it a purge tells the reader what to feel about the mechanics.",
-      "whereContested": "One side argues the word is hysterical and that primaries are what parties exist to conduct. The counter is procedurally correct and rhetorically losing, because the term also describes a real pattern. The contest is over whether describing the pattern accurately is itself unfair to it.",
+      "whatItDoes": "Imports the moral and historical weight of authoritarian party discipline into the description of a normal primary. The word does the argument. A leader campaigning against a sitting incumbent is mechanically a primary; calling it a purge tells the reader what to feel about the mechanics.",
+      "whereContested": "One side argues the word is hysterical and that primaries are what parties exist to conduct. The counter is procedurally correct and rhetorically losing, because the term also names a real pattern. The contest is whether describing the pattern accurately is itself unfair to it.",
       "verbatims": [
         {
-          "quote": "Longtime incumbent knocked off in a heated primary — the latest in the political purge.",
+          "quote": "Longtime incumbent knocked off in a heated primary, the latest in the political purge.",
           "attribution": "national headline construction, May 2026"
         }
       ]
@@ -251,8 +251,8 @@
         "our country",
         "working class"
       ],
-      "whatItDoes": "Marks a candidate as belonging to a coherent policy bundle (restrictive immigration, protectionist trade, restrained intervention) without requiring them to spell it out. The phrase carries its positions in its name; in a primary it functions as a shorthand credential. The economy of the phrase is its strategic value.",
-      "whereContested": "Less contested than co-located. Opposition vocabulary engages the specific policies ('tariffs,' 'deportation') rather than the umbrella — tactically reasonable, strategically costly, because it leaves the umbrella term unchallenged and lets it become the default name for a worldview.",
+      "whatItDoes": "Marks a candidate as belonging to a coherent policy bundle (restrictive immigration, protectionist trade, restrained intervention) without making them spell it out. The phrase carries its positions in its name; in a primary it works as a shorthand credential. Its economy is its strategic value.",
+      "whereContested": "Less contested than co-located. Opposition vocabulary engages the specific policies ('tariffs,' 'deportation') rather than the umbrella. That is tactically reasonable but strategically costly, because it leaves the umbrella term unchallenged and lets it become the default name for a worldview.",
       "verbatims": [
         {
           "quote": "Every America First Republican in this state is on the ballot today, and every one deserves your vote.",
@@ -284,8 +284,8 @@
         "working class",
         "stand up"
       ],
-      "whatItDoes": "Names a temperamental qualification rather than a substantive one — unwilling to compromise, eager to confront, willing to take hits the institutional party would advise against. It functions as the antonym of 'statesman,' and the audience-flipping is the point: it is the credential the establishment cannot grant.",
-      "whereContested": "Not contested as a term; contested as a measurement. What counts as fighting — a vote, a filmed confrontation, a skipped hearing? The proliferation of fighting behaviors has produced a proliferation of fighter claims, and the term is fracturing by being too easy to claim — used on both sides with different operating manuals.",
+      "whatItDoes": "Names a temperamental qualification, not a substantive one: unwilling to compromise, eager to confront, willing to take hits the institutional party would advise against. It works as the antonym of 'statesman,' and the audience flip is the point. It is the credential the establishment cannot grant.",
+      "whereContested": "Not contested as a term, contested as a measurement. What counts as fighting: a vote, a filmed confrontation, a skipped hearing? A proliferation of fighting behaviors has produced a proliferation of fighter claims. The term is fracturing by being too easy to claim, used on both sides with different operating manuals.",
       "verbatims": [
         {
           "quote": "I'm not a politician. I'm a fighter. And I will fight every day for the people of this district.",
@@ -344,8 +344,8 @@
         "hold the line",
         "backed"
       ],
-      "whatItDoes": "Converts a series of discrete personal decisions into a system — a machine with inputs, outputs, and a win rate. By naming endorsements as a machine, the press constructs the metric by which a leader's political power gets evaluated: not whether the party wins general elections, but whether endorsees win primaries.",
-      "whereContested": "The loyalty side is comfortable with the framing because the metric is one they expect to win. The contest is that the machine's metric (primary wins) is not the party's metric (general-election wins) — a structurally weak counter, because the vocabulary has already set the scoreboard.",
+      "whatItDoes": "Converts a series of discrete personal decisions into a system: a machine with inputs, outputs, and a win rate. By naming endorsements as a machine, the press builds the metric a leader's political power gets judged by, not whether the party wins general elections but whether endorsees win primaries.",
+      "whereContested": "The loyalty side is comfortable with the framing because the metric is one they expect to win. The contest is that the machine's metric (primary wins) is not the party's metric (general-election wins). It is a structurally weak counter, because the vocabulary has already set the scoreboard.",
       "verbatims": [
         {
           "quote": "The endorsement machine notches another win, but a big midterm test still lies ahead.",
@@ -376,8 +376,8 @@
         "district",
         "redistricting"
       ],
-      "whatItDoes": "Names a familiar procedural category in a way that flattens the distinction between a long-shot insurgent and a well-funded, leader-backed campaign. The flattening is the structural weakness this cycle: a phrase built to describe uphill battles now also describes downhill ones, and the reader cannot tell which from the phrase.",
-      "whereContested": "Not contested as a term; contested as a description. Rigorous writers now distinguish 'leader-backed' from 'grassroots' challengers; looser writers use the bare term and let the reader fill in. The drift is in progress — the unmodified phrase may soon default to 'leader-backed.'",
+      "whatItDoes": "Names a familiar procedural category in a way that flattens the distinction between a long-shot insurgent and a well-funded, leader-backed campaign. That flattening is the structural weakness this cycle. A phrase built to describe uphill battles now also describes downhill ones, and the reader cannot tell which from the phrase.",
+      "whereContested": "Not contested as a term, contested as a description. Rigorous writers now distinguish 'leader-backed' from 'grassroots' challengers; looser writers use the bare term and let the reader fill in. The drift is in progress, and the unmodified phrase may soon default to 'leader-backed.'",
       "verbatims": [
         {
           "quote": "The incumbent's primary challenger was leader-backed and ran a one-issue campaign.",
@@ -435,8 +435,8 @@
         "recruitment",
         "no incumbent"
       ],
-      "whatItDoes": "Names a procedural condition (no sitting incumbent) and presupposes its strategic implications — heavier fundraising, larger fields, harder committee fights. One of the cluster's purest examples of institutional vocabulary working invisibly: it never appears in the op-ed, it appears in the chart that frames the op-ed.",
-      "whereContested": "Effectively uncontested — technical, defensible, useful to every audience. The only friction is the bookkeeping convention of when a seat counts as 'open' after an incumbent loses a primary, which itself quietly shapes the coverage.",
+      "whatItDoes": "Names a procedural condition (no sitting incumbent) and presupposes its strategic implications: heavier fundraising, larger fields, harder committee fights. It is one of the cluster's purest cases of institutional vocabulary working invisibly. It never appears in the op-ed; it appears in the chart that frames the op-ed.",
+      "whereContested": "Effectively uncontested: technical, defensible, useful to every audience. The only friction is the bookkeeping convention of when a seat counts as 'open' after an incumbent loses a primary, which itself quietly shapes the coverage.",
       "verbatims": [
         {
           "quote": "With the governorship term-limited and the field cleared, it is the most contested open seat of the cycle.",
@@ -467,8 +467,8 @@
         "consolidation",
         "late money"
       ],
-      "whatItDoes": "Names a discrete procedural event with two consequential side effects the framing hides: a turnout collapse (runoff electorates are a fraction of primary ones) and a re-funding cycle (a second chance to raise late money, often out-of-state). The vocabulary is a polite shorthand for what is, behaviorally, a different election.",
-      "whereContested": "Uncontested as a term, but a long-running structural debate sits underneath it: advocates argue runoffs depress lower-income and non-white turnout; defenders argue they produce majority-supported nominees in crowded fields. Neither side engages the word; both operate inside it.",
+      "whatItDoes": "Names a discrete procedural event with two consequential side effects the framing hides: a turnout collapse (runoff electorates are a fraction of primary ones) and a refunding cycle (a second chance to raise late money, often out of state). The vocabulary is a polite shorthand for what is, behaviorally, a different election.",
+      "whereContested": "Uncontested as a term, but a long-running structural debate sits underneath it. Advocates argue runoffs depress lower-income and non-white turnout; defenders argue they produce majority-supported nominees in crowded fields. Neither side engages the word; both operate inside it.",
       "verbatims": [
         {
           "quote": "The two candidates head to a June runoff after neither cleared fifty percent on Tuesday.",
@@ -499,8 +499,8 @@
         "persuasion",
         "crossover"
       ],
-      "whatItDoes": "Names a candidate's likelihood of winning a general election in a way that presupposes the analyst can forecast it. The phrase converts a forecasting question into a credentialing one — a rating that becomes permission to fund and endorse. Its strength was forecasting accuracy; its post-2016 weakness is that the analyst class knows the forecasting has degraded and uses the term anyway.",
-      "whereContested": "The most actively contested term in its cluster. From inside the analyst class, a quiet admission that the models miss what the audience supplies; from outside, the charge that 'electable' is a code word for 'won't embarrass the donors.' The vocabulary has not changed; trust in it has eroded.",
+      "whatItDoes": "Names a candidate's likelihood of winning a general election in a way that presupposes the analyst can forecast it. It converts a forecasting question into a credentialing one: a rating that becomes permission to fund and endorse. Its strength was forecasting accuracy; its post-2016 weakness is that the analyst class knows the forecasting has degraded and uses the term anyway.",
+      "whereContested": "The most actively contested term in its cluster. From inside the analyst class, a quiet admission that the models miss what the audience supplies. From outside, the charge that 'electable' is a code word for 'won't embarrass the donors.' The vocabulary has not changed; trust in it has eroded.",
       "verbatims": [
         {
           "quote": "Whether the front-runner is the most electable Republican is the question donors are paying analysts not to answer in writing.",
@@ -558,8 +558,8 @@
         "margin",
         "suburban"
       ],
-      "whatItDoes": "Imports a military-strategic frame onto electoral geography, doing two jobs at once: concentrating attention on a small subset of states and districts, and justifying the resource asymmetries that follow. It is the linguistic infrastructure of the modern spend pattern — without the term, the spend pattern requires explanation.",
-      "whereContested": "Mildly contested as a metaphor, not as a category. The live friction is the threshold: how close is close enough? Reclassifying a state in or out of the category moves billions in advertising. The category is not contested; its boundary is.",
+      "whatItDoes": "Imports a military-strategic frame onto electoral geography, doing two jobs at once: concentrating attention on a small subset of states and districts, and justifying the resource asymmetries that follow. It is the linguistic infrastructure of the modern spend pattern. Without the term, that pattern needs explaining.",
+      "whereContested": "Mildly contested as a metaphor, not as a category. The live friction is the threshold: how close is close enough? Reclassifying a state in or out moves billions in advertising. The category is not contested; its boundary is.",
       "verbatims": [
         {
           "quote": "The state remains the cycle's indispensable battleground, and the primary did not change that.",
@@ -590,8 +590,8 @@
         "swing voter",
         "persuasion"
       ],
-      "whatItDoes": "Names a position on a left–right spectrum and assumes that spectrum is the operative dimension of political life. Its vulnerability this cycle is that the operative dimension has shifted to a loyalty–dissent axis the term has no purchase on — a moderate by the old definition can be loyal or disloyal by the new one.",
-      "whereContested": "Less contested than displaced — left behind rather than attacked. Attempts to revive it as a virtue have limited reach; in the other coalition the term is now ambiguous between a cycle-functional and a cycle-irrelevant referent. One of the cycle's few terms in active decline.",
+      "whatItDoes": "Names a position on a left-right spectrum and assumes that spectrum is the operative dimension of political life. Its vulnerability this cycle is that the operative dimension has shifted to a loyalty-dissent axis the term has no purchase on. A moderate by the old definition can be loyal or disloyal by the new one.",
+      "whereContested": "Less contested than displaced, left behind rather than attacked. Attempts to revive it as a virtue have limited reach. In the other coalition the term is now ambiguous between a cycle-functional and a cycle-irrelevant referent. One of the cycle's few terms in active decline.",
       "verbatims": [
         {
           "quote": "The last moderate in the field finished fourth and conceded before midnight.",
@@ -622,8 +622,8 @@
         "hold the line",
         "never voted for"
       ],
-      "whatItDoes": "Asserts that a speaker's breaks with the party are not pique or positioning but consequences of an unchanging commitment to a higher document. It is a structural defense against the loyalty critique: if you are loyal to the Constitution, the loyalty critique becomes a request to be disloyal to it.",
-      "whereContested": "From one side, 'principled' is a polite word for 'won't help' — operationally devastating in primaries. From inside the press, the term is marked with quotation marks by the same outlets that drop them for loyalty-cluster terms — a marking asymmetry that is itself a measurable signal of how the contest has been positioned.",
+      "whatItDoes": "Asserts that a speaker's breaks with the party are not pique or positioning but consequences of an unchanging commitment to a higher document. It is a structural defense against the loyalty critique. If you are loyal to the Constitution, that critique becomes a request to be disloyal to it.",
+      "whereContested": "From one side, 'principled' is a polite word for 'won't help,' operationally devastating in primaries. From inside the press, the same outlets mark the term with quotation marks while dropping them for loyalty-cluster terms. That marking asymmetry is itself a measurable signal of how the contest has been positioned.",
       "verbatims": [
         {
           "quote": "If lawmakers follow the Constitution, we have a republic.",
@@ -654,8 +654,8 @@
         "lonely vote",
         "limited government"
       ],
-      "whatItDoes": "Names a small, specific position (limited government, fiscal restraint, civil-liberties caution, non-interventionism) that maps cleanly onto neither party's current operating vocabulary. Descriptively accurate and politically inert — in primary contexts it now mostly describes candidates who are losing.",
-      "whereContested": "Not contested as a term; contested as a viable identity. Its most telling development is near-disappearance from candidate self-description — those who would once have run as 'fiscal hawks' now run as 'fighters' or 'constitutional,' both of which test better. The vocabulary has not died; it has been bypassed.",
+      "whatItDoes": "Names a small, specific position (limited government, fiscal restraint, civil-liberties caution, non-interventionism) that maps cleanly onto neither party's current operating vocabulary. Descriptively accurate and politically inert. In primary contexts it now mostly describes candidates who are losing.",
+      "whereContested": "Not contested as a term, contested as a viable identity. The telling development is its near-disappearance from candidate self-description. Those who would once have run as 'fiscal hawks' now run as 'fighters' or 'constitutional,' both of which test better. The vocabulary has not died; it has been bypassed.",
       "verbatims": [
         {
           "quote": "The libertarian-leaning engineer the party leadership targeted conceded shortly after eight.",
@@ -686,8 +686,8 @@
         "late money",
         "shadow campaign"
       ],
-      "whatItDoes": "Names a category of undisclosed-donor spending in a way that pre-loads a verdict — 'dark': hidden, suspicious, illegitimate. It has done this work since 2010; what is new is the audiences using it. When a dissident uses it to describe spending from their own coalition's side, the term breaks out of its original enclosure.",
-      "whereContested": "Contested from both sides of the campaign-finance debate — defenders say undisclosed spending is the harm it names; critics say it collapses lawful issue-advocacy into one suspicion-coded category. The cycle's tell is its cross-coalition spread: the same coalition uses it in one room and resists it in another.",
+      "whatItDoes": "Names a category of undisclosed-donor spending in a way that preloads a verdict. 'Dark' means hidden, suspicious, illegitimate. It has done this work since 2010; what is new is the audiences using it. When a dissident uses it for spending from their own coalition, the term breaks out of its original enclosure.",
+      "whereContested": "Contested from both sides of the campaign-finance debate. Defenders say undisclosed spending is the harm it names; critics say it collapses lawful issue-advocacy into one suspicion-coded category. The cycle's tell is its cross-coalition spread. The same coalition uses it in one room and resists it in another.",
       "verbatims": [
         {
           "quote": "Thirty-five million dollars in foreign-aligned dark money buried the last principled holdout.",
@@ -718,8 +718,8 @@
         "payback",
         "retribution"
       ],
-      "whatItDoes": "Names the activity of a sitting leader campaigning against members of his own party who crossed him, in a vocabulary borrowed from organized-crime and authoritarian-regime reporting. Its strength is descriptive accuracy in specific cases; its weakness is that it is more melodramatic than the primary electorate experiences the event as being.",
-      "whereContested": "One side argues the framing projects authoritarian motives onto normal political activity. The counter is that the same activity by a different leader would attract the same framing, and that the consistency is what makes the vocabulary analytical rather than partisan. A defining contest that runs beyond the primary calendar.",
+      "whatItDoes": "Names the activity of a sitting leader campaigning against members of his own party who crossed him, in a vocabulary borrowed from organized-crime and authoritarian-regime reporting. Its strength is descriptive accuracy in specific cases. Its weakness is that it is more melodramatic than the primary electorate experiences the event as being.",
+      "whereContested": "One side argues the framing projects authoritarian motives onto normal political activity. The counter is that the same activity by any leader would attract the same framing, and that consistency is what makes the vocabulary analytical rather than partisan. A defining contest that runs beyond the primary calendar.",
       "verbatims": [
         {
           "quote": "So far, the political revenge campaigns have been remarkably effective.",
@@ -750,11 +750,11 @@
         "not for sale",
         "every vote"
       ],
-      "whatItDoes": "Frames a political project as defensive against a categorically different threat than a normal opposing party. Its strength is making turnout-based persuasion legible; its weakness, by its tenth year, is non-linear scaling — each cycle's 'most important election of our lifetimes' mobilizes marginally less than the last, so the vocabulary works more as ritual than fresh argument.",
-      "whereContested": "From inside the coalition, a quiet acknowledgment that the framing has saturated and needs successor vocabulary grounded in concrete local stakes. From outside, the charge that its broad predictions have not materialized — partial, since the claims are hard to falsify cycle by cycle, but it has weakened the framing's mainstream reception.",
+      "whatItDoes": "Frames a political project as defensive against a categorically different threat than a normal opposing party. Its strength is making turnout-based persuasion legible. Its weakness, by its tenth year, is diminishing returns. Each cycle's 'most important election of our lifetimes' mobilizes marginally less than the last, so the vocabulary works more as ritual than fresh argument.",
+      "whereContested": "From inside the coalition, a quiet acknowledgment that the framing has saturated and needs successor vocabulary grounded in concrete local stakes. From outside, the charge that its broad predictions have not materialized. That charge is partial, since the claims are hard to falsify cycle by cycle, but it has weakened the framing's mainstream reception.",
       "verbatims": [
         {
-          "quote": "Tonight the state sent a clear message — it isn't for sale, and we are going to take it back.",
+          "quote": "Tonight the state sent a clear message. It isn't for sale, and we are going to take it back.",
           "attribution": "primary-night acceptance pattern, May 2026"
         }
       ]

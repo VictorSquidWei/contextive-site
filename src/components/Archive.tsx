@@ -19,14 +19,14 @@ export function Archive() {
         {/* Header */}
         <div className="grid lg:grid-cols-12 gap-12 mb-16">
           <div className="lg:col-span-7">
-            <span className="small-caps text-muted">// 02 — Archive</span>
+            <span className="small-caps text-muted">// 02 Archive</span>
             <h2 className="font-display font-bold tracking-tight text-4xl lg:text-5xl mt-6 leading-[1.0] text-balance">
               Sample intelligence files.
             </h2>
             <p className="text-muted mt-6 max-w-2xl leading-relaxed">
-              A live cross-section of the Contextive archive. Each file tracks one
-              high-leverage term across velocity, sentiment, and platform behavior — with the
-              context note explaining what the word is doing.
+              A live cross section of the Contextive archive. Each file tracks one
+              high leverage term across velocity, sentiment, and platform behavior. The
+              context note explains what the word is doing.
             </p>
           </div>
 

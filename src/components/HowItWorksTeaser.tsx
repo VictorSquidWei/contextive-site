@@ -51,7 +51,7 @@ export function HowItWorksTeaser() {
             How a word becomes a measured signal
           </h2>
           <p className="text-muted leading-relaxed max-w-[440px]">
-            From the open record to a number you can check — velocity, not verdict.
+            From the open record to a number you can check: velocity, not verdict.
             See the signal layer, animated.
           </p>
           <Link

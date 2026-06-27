@@ -47,7 +47,7 @@ export function Hero() {
 
           <p className="text-base lg:text-lg text-muted max-w-[480px] leading-relaxed text-balance">
             The words move first. Contextive measures how public language gains momentum
-            and shifts meaning across politics, the economy, AI, and culture — tracking
+            and shifts meaning across politics, the economy, AI, and culture. It tracks
             which words are winning the argument before the verdict is in.
           </p>
 
@@ -58,11 +58,11 @@ export function Hero() {
             <div className="flex flex-col gap-2 pt-2">
               <div className="flex items-center gap-3 text-muted">
                 <div className="w-1.5 h-1.5 bg-ink rotate-45" />
-                <span className="small-caps text-[9px]">Cross-platform velocity tracking</span>
+                <span className="small-caps text-[9px]">Cross platform velocity tracking</span>
               </div>
               <div className="flex items-center gap-3 text-muted">
                 <div className="w-1.5 h-1.5 bg-ink rotate-45" />
-                <span className="small-caps text-[9px]">Human-reviewed signal files</span>
+                <span className="small-caps text-[9px]">Human reviewed signal files</span>
               </div>
               <div className="flex items-center gap-3 text-muted">
                 <div className="w-1.5 h-1.5 bg-ink rotate-45" />

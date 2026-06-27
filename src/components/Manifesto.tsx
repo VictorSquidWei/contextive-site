@@ -23,7 +23,7 @@ export function Manifesto() {
             </p>
             <footer className="flex items-center gap-3 small-caps text-paper/60 dark:text-ink/60">
               <span className="w-6 h-px bg-paper/40 dark:bg-ink/40" />
-              <span>FROM "THE WORDS THAT MOVE MARKETS" — CONTEXTIVE</span>
+              <span>FROM "THE WORDS THAT MOVE MARKETS" / CONTEXTIVE</span>
             </footer>
           </blockquote>
         </div>

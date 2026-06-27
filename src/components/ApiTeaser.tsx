@@ -67,7 +67,7 @@ export function ApiTeaser() {
             Put the signal in your stack
           </h2>
           <p className="text-muted leading-relaxed max-w-[440px]">
-            Query any phrase, get its measured momentum back as structured data — velocity,
+            Query any phrase, get its measured momentum back as structured data: velocity,
             inflection, adoption stage. The same signal behind every campaign, as an API.
           </p>
           <Link

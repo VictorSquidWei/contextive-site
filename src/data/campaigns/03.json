@@ -9,46 +9,46 @@
   "status": "in-progress",
   "signalBasis": "measured",
   "firewall": "We track how the words have been used and how fast they are winning, not whether the underlying politics is correct.",
-  "summary": "One body, three languages. What people eat, take, and weigh is now described by three vocabularies — MAHA / real-food, medical establishment, and consumer / cultural — that talk past each other about the same metabolic facts.",
-  "anchor": "2026: a counter-establishment health vocabulary has moved into federal communications, while the GLP-1 wave has rewritten the consumer language of body, appetite, and weight faster than any clinical concept in modern memory — and the fat-acceptance and body-neutrality movements have fractured the vocabulary that came before.",
+  "summary": "One body, three languages. What people eat, take, and weigh is now described by three vocabularies (MAHA real-food, medical establishment, and consumer culture) that talk past each other about the same metabolic facts.",
+  "anchor": "2026: a counter-establishment health vocabulary has entered federal communications. The GLP-1 wave has rewritten the consumer language of body, appetite, and weight faster than any clinical concept in modern memory, and the fat-acceptance and body-neutrality movements have fractured the vocabulary that came before.",
   "thesis": [
-    "One body, three languages. What people eat, take, and weigh is now described by three vocabularies — MAHA / real-food, medical establishment, and consumer / cultural — that talk past each other about the same metabolic facts.",
-    "Contextive tracks how each vocabulary is used and how fast it is winning, not whether its underlying health claim is correct. Every actor is bilingual under pressure: the same facts get re-vocabularied several times before lunch."
+    "One body, three languages. What people eat, take, and weigh is now described by three vocabularies (MAHA real-food, medical establishment, and consumer culture) that talk past each other about the same metabolic facts.",
+    "Contextive tracks how each vocabulary is used and how fast it is winning, not whether its underlying health claim is correct. Every actor is bilingual under pressure. The same facts get re-vocabularied several times before lunch."
   ],
   "definingTension": {
     "a": "Obesity as a disease",
     "b": "fat acceptance",
-    "note": "Direct adversaries. The disease-model framing and the fat-acceptance framing are structurally incompatible, and the GLP-1 wave has expanded the audience for one and contracted the audience for the other — without either side updating its vocabulary. The widest audience-sentiment split in the cycle."
+    "note": "Direct adversaries. The disease model and the fat-acceptance framing are structurally incompatible. The GLP-1 wave has expanded the audience for one and shrunk the audience for the other, and neither side has updated its vocabulary. The widest audience-sentiment split in the cycle."
   },
   "clusters": [
     {
       "key": "A",
-      "name": "MAHA / real-food",
-      "blurb": "The counter-establishment health vocabulary elevated into federal communications — nutrition reframed from a quantitative question (calories, macros) into a categorical one (real / not real)."
+      "name": "MAHA / real food",
+      "blurb": "The counter-establishment health vocabulary elevated into federal communications. It reframes nutrition from a quantitative question (calories, macros) into a categorical one: real or not real."
     },
     {
       "key": "B",
       "name": "Medical establishment",
-      "blurb": "The clinical and pharmacological vocabulary of payers, prescribers, and pharma — converting a moral argument about willpower into a clinical one about a chronic condition."
+      "blurb": "The clinical and pharmacological vocabulary of payers, prescribers, and pharma. It converts a moral argument about willpower into a clinical one about a chronic condition."
     },
     {
       "key": "C",
       "name": "Consumer / cultural",
-      "blurb": "The bottom-up vocabulary that emerged around the GLP-1 wave and body image — the fastest-moving cluster, where users and observers coin the words first."
+      "blurb": "The bottom-up vocabulary that grew around the GLP-1 wave and body image. It is the fastest-moving cluster, where users and observers coin the words first."
     }
   ],
   "pillars": [
     {
       "title": "The MAHA vocabulary",
-      "body": "Ultra-processed, seed oils, Big Food, chronic disease epidemic — a counter-establishment vocabulary that won the argument before the evidence base matured."
+      "body": "Ultra-processed, seed oils, Big Food, chronic disease epidemic: a counter-establishment vocabulary that won the argument before the evidence base matured."
     },
     {
       "title": "The GLP-1 stack",
-      "body": "GLP-1, Ozempic face, food noise, anti-obesity medication — three vocabularies for the same patient, code-switched by room."
+      "body": "GLP-1, Ozempic face, food noise, anti-obesity medication. Three vocabularies for one patient, switched by room."
     },
     {
       "title": "The signal issue",
-      "body": "The highest-velocity terms read against the one term in decline — what the velocity index says about where the metabolic narrative is heading."
+      "body": "The highest-velocity terms read against the one term in decline: what the velocity index says about where the metabolic narrative is heading."
     }
   ],
   "tensions": [
@@ -56,31 +56,31 @@
       "a": "Obesity as a disease",
       "b": "fat acceptance",
       "title": "Obesity as a disease vs fat acceptance",
-      "body": "Direct adversaries. The disease-model framing and the fat-acceptance framing are structurally incompatible, and the GLP-1 wave has expanded the audience for one and contracted the audience for the other — without either side updating its vocabulary. The widest audience-sentiment split in the cycle."
+      "body": "Direct adversaries. The disease model and the fat-acceptance framing are structurally incompatible. The GLP-1 wave expanded the audience for one and shrank the other, and neither side updated its vocabulary. The widest audience-sentiment split in the cycle."
     },
     {
       "a": "GLP-1",
       "b": "Ozempic face meets food noise",
       "title": "GLP-1 meets Ozempic face meets food noise",
-      "body": "Three vocabularies for the same patient: the clinical category, the observer's aesthetic verdict from outside, and the patient's own word for the effect from inside. The same person uses all three depending on who is in the room — and here, unusually, the patient's own word is the most positive of the three."
+      "body": "Three vocabularies for one patient: the clinical category, the observer's aesthetic verdict from outside, and the patient's own word for the effect from inside. One person uses all three depending on the room. Unusually, the patient's own word is the most positive."
     },
     {
       "a": "Ultra-processed",
       "b": "shelf-stable",
       "title": "Ultra-processed vs shelf-stable",
-      "body": "Same product, two vocabularies. From one side an indictment; from the food-supply side a feature. Both are accurate. The bridge that goes unnamed: most ultra-processing exists because shelf-stability and affordability demand it, and the fight is over whether to say that trade-off out loud."
+      "body": "Same product, two vocabularies. From one side an indictment; from the food-supply side a feature. Both are accurate. The unnamed bridge: most ultra-processing exists because shelf-stability and affordability demand it. The fight is over whether to say that trade-off out loud."
     },
     {
       "a": "Food as medicine",
       "b": "anti-obesity medication",
       "title": "Food as medicine vs anti-obesity medication",
-      "body": "Both phrases want to be the standard of care — one wants the prescription pad to deliver produce, the other an injection. They share the disease-model framing but compete for the same dollar. The vocabulary tells you which future a system is betting on, two years before the budget does."
+      "body": "Both phrases want to be the standard of care. One wants the prescription pad to deliver produce, the other an injection. They share the disease model but compete for the same dollar. The vocabulary tells you which future a system is betting on, two years before the budget does."
     },
     {
       "a": "Chronic disease epidemic",
       "b": "evidence-based",
       "title": "Chronic disease epidemic vs evidence-based",
-      "body": "Two vocabularies of authority fighting for jurisdiction. One names a problem and presupposes the solution (root-cause, lifestyle); the other requires any solution clear a methodology bar built for short-term, single-intervention questions and poorly suited to long-term dietary ones."
+      "body": "Two vocabularies of authority fighting for jurisdiction. One names a problem and presupposes the solution (root cause, lifestyle). The other requires any solution to clear a methodology bar built for short-term, single-intervention questions and poorly suited to long-term dietary ones."
     }
   ],
   "terms": [
@@ -108,8 +108,8 @@
         "ingredient list",
         "formulation"
       ],
-      "whatItDoes": "Compresses a complex food-science classification into a single moral category, relocating harm from the molecule (sugar, fat, salt) to the manufacturing process. A high-sugar product can reformulate; an ultra-processed one cannot, because the category is structural.",
-      "whereContested": "Food scientists argue the category is too broad — it groups protein bars with snack cakes. Industry contests the boundary, not the frame, which is the tell that the linguistic battle is largely settled and only the regulatory aftermath remains.",
+      "whatItDoes": "Compresses a complex food-science classification into one moral category, moving harm from the molecule (sugar, fat, salt) to the manufacturing process. A high-sugar product can reformulate; an ultra-processed one cannot, because the category is structural.",
+      "whereContested": "Food scientists call the category too broad: it groups protein bars with snack cakes. Industry contests the boundary, not the frame. That is the tell that the linguistic battle is largely settled and only the regulatory aftermath remains.",
       "verbatims": [
         {
           "quote": "We do not have a hunger problem. We have an ultra-processed food problem.",
@@ -161,8 +161,8 @@
         "industrial",
         "ancestral"
       ],
-      "whatItDoes": "Names a specific category of villain (industrial vegetable oils) as a concrete entry point into a larger critique of industrial food. Where 'ultra-processed' is a category, 'seed oils' is a hit list — brands can announce a switch and immediately occupy the high ground.",
-      "whereContested": "Mainstream nutrition science still rates seed oils neutral-to-positive on cardiovascular endpoints. The scientific debate is live, but the linguistic outcome is decided — a textbook case of a term outrunning its evidence base.",
+      "whatItDoes": "Names a specific villain (industrial vegetable oils) as a concrete entry point into a larger critique of industrial food. Where 'ultra-processed' is a category, 'seed oils' is a hit list. Brands can announce a switch and immediately occupy the high ground.",
+      "whereContested": "Mainstream nutrition science still rates seed oils neutral to positive on cardiovascular endpoints. The scientific debate is live, but the linguistic outcome is decided: a textbook case of a term outrunning its evidence base.",
       "verbatims": [
         {
           "quote": "Cooked in beef tallow, not seed oils.",
@@ -220,8 +220,8 @@
         "root cause",
         "lifestyle"
       ],
-      "whatItDoes": "Imports the urgency of an epidemic — acute, spreading, demanding intervention — into a category (chronic conditions) that previously read as slow and individual. The upgrade from 'unfortunate' to 'emergency' is what justifies aggressive, population-wide policy.",
-      "whereContested": "Epidemiologists object that 'epidemic' has a technical definition that does not fit chronic-condition prevalence. The objection is correct and, by now, beside the point — what is fought over is which conditions count and which interventions earn the budget the framing unlocked.",
+      "whatItDoes": "Imports the urgency of an epidemic (acute, spreading, demanding intervention) into a category, chronic conditions, that once read as slow and individual. The upgrade from 'unfortunate' to 'emergency' justifies aggressive, population-wide policy.",
+      "whereContested": "Epidemiologists object that 'epidemic' has a technical definition that does not fit chronic-condition prevalence. The objection is correct and, by now, beside the point. The fight is over which conditions count and which interventions earn the budget the framing unlocked.",
       "verbatims": [
         {
           "quote": "We are in a chronic disease epidemic, and the data has been telling us this for twenty years.",
@@ -251,8 +251,8 @@
         "lifestyle medicine",
         "prevention"
       ],
-      "whatItDoes": "Reframes food from cost center to clinical asset — and does it without attacking pharmaceuticals, which makes it the diplomatic vocabulary of the moment. Federal health, the wellness movement, and a hospital system can all sign on without a fight.",
-      "whereContested": "Skeptics note it has produced more programs than measurable outcomes, and warn it could become the next 'wellness' — a category that absorbs budget and brand affinity without delivering. The contest is whether it hardens into a payment model or softens into marketing.",
+      "whatItDoes": "Reframes food from cost center to clinical asset without attacking pharmaceuticals, which makes it the diplomatic vocabulary of the moment. Federal health, the wellness movement, and a hospital system can all sign on without a fight.",
+      "whereContested": "Skeptics note it has produced more programs than measurable outcomes, and warn it could become the next 'wellness': a category that absorbs budget and brand affinity without delivering. The contest is whether it hardens into a payment model or softens into marketing.",
       "verbatims": [
         {
           "quote": "Food as medicine is not a metaphor when the prescription is paid for by the plan.",
@@ -283,8 +283,8 @@
         "additives",
         "industry"
       ],
-      "whatItDoes": "Borrows the moral charge of 'Big Tobacco' and applies it to processed-food manufacturers. The 'Big X' construction pre-loads the conclusion — it implies coordination, capture, and obstruction-of-public-health regardless of whether any specific allegation is proven.",
-      "whereContested": "Industry comms shops have learned not to engage the term directly — engaging dignifies the frame — and to push specifics instead. That is the right move and also the surrender: once you stop contesting the category, the category becomes the default.",
+      "whatItDoes": "Borrows the moral charge of 'Big Tobacco' and applies it to processed-food manufacturers. The 'Big X' construction pre-loads the conclusion. It implies coordination, capture, and obstruction of public health regardless of whether any specific allegation is proven.",
+      "whereContested": "Industry comms shops have learned not to engage the term directly, since engaging dignifies the frame, and to push specifics instead. That is the right move and also the surrender: once you stop contesting the category, the category becomes the default.",
       "verbatims": [
         {
           "quote": "Big Food is the next Big Tobacco. The only question is how long the regulatory lag is.",
@@ -317,8 +317,8 @@
         "freedom",
         "food sovereignty"
       ],
-      "whatItDoes": "Both operate as identity markers more than nutritional claims. 'Real food' implies a binary the speaker has crossed; 'raw milk' goes further, importing a libertarian frame (food sovereignty, freedom from regulation) into a dietary claim. The term is a flag.",
-      "whereContested": "'Real food' is barely contested — too diffuse to attack, too aspirational to dismiss. 'Raw milk' is the cycle's hottest food-safety contest: public-health professionals warn of pathogen risk while advocates frame regulation as paternalism, and the legalization wave rolls regardless of the data.",
+      "whatItDoes": "Both operate as identity markers more than nutritional claims. 'Real food' implies a binary the speaker has crossed. 'Raw milk' goes further, importing a libertarian frame (food sovereignty, freedom from regulation) into a dietary claim. The term is a flag.",
+      "whereContested": "'Real food' is barely contested: too diffuse to attack, too aspirational to dismiss. 'Raw milk' is the cycle's hottest food-safety contest. Public-health professionals warn of pathogen risk while advocates frame regulation as paternalism, and the legalization wave rolls regardless of the data.",
       "verbatims": [
         {
           "quote": "Buying raw milk has stopped being about milk and started being about which side you are on.",
@@ -351,8 +351,8 @@
         "agonist",
         "side effects"
       ],
-      "whatItDoes": "Functions as a category noun for a class of drugs without naming a brand — useful for generality and for dignifying the conversation. 'GLP-1' sounds clinical in a way 'Ozempic' and 'skinny shot' do not; the same person says 'GLP-1' to a clinician and 'Ozempic' to a friend.",
-      "whereContested": "Less contested than co-located. Clinical, payer, and patient discourse all agree on the term and disagree on coverage, side effects, outcomes, and price. It is the rare zone of consensus inside a fragmented vocabulary — the bridge term whose code-switching is the cleanest signal in the cluster.",
+      "whatItDoes": "Functions as a category noun for a class of drugs without naming a brand, useful for generality and for dignifying the conversation. 'GLP-1' sounds clinical where 'Ozempic' and 'skinny shot' do not. The same person says 'GLP-1' to a clinician and 'Ozempic' to a friend.",
+      "whereContested": "Less contested than co-located. Clinical, payer, and patient discourse all agree on the term and disagree on coverage, side effects, outcomes, and price. It is a rare zone of consensus inside a fragmented vocabulary: the bridge term whose code-switching is the cleanest signal in the cluster.",
       "verbatims": [
         {
           "quote": "I started a GLP-1 in March. The food noise stopped within a week.",
@@ -384,8 +384,8 @@
         "coverage",
         "formulary"
       ],
-      "whatItDoes": "Reframes prescribing from 'weight loss' (cosmetic, not covered) to 'anti-obesity medication' (clinical, indicated, coverable). The reframe is the strategy — insurance does not pay for diet drugs, it pays for medications that treat disease states. The term is the infrastructure the coverage argument rests on.",
-      "whereContested": "Awkward by design — built for plan documents, not TikToks. MAHA-side critics argue it medicalizes a behavioral condition; obesity-medicine critics argue it still stigmatizes patients. The friction is over whether to name the condition in the medication name at all.",
+      "whatItDoes": "Reframes prescribing from 'weight loss' (cosmetic, not covered) to 'anti-obesity medication' (clinical, indicated, coverable). The reframe is the strategy. Insurance does not pay for diet drugs; it pays for medications that treat disease states. The term is the infrastructure the coverage argument rests on.",
+      "whereContested": "Awkward by design, built for plan documents, not TikToks. MAHA-side critics say it medicalizes a behavioral condition; obesity-medicine critics say it still stigmatizes patients. The friction is over whether to name the condition in the medication name at all.",
       "verbatims": [
         {
           "quote": "We are not paying for weight loss. We are covering anti-obesity medication for chronic disease management.",
@@ -416,8 +416,8 @@
         "fasting",
         "insulin sensitivity"
       ],
-      "whatItDoes": "Names a state rather than a metric (weight, BMI), which lets clinicians, wellness communicators, and pharma describe the same goal in a vocabulary that travels across rooms. It is the most fluent code-switching term in the cycle — almost every other term has a strong audience tilt; this one does not.",
-      "whereContested": "Its blandness is its strength and weakness: because everyone agrees with it, no one argues with it, so it does less analytic work than the contested terms. The genuine debate over its operational definition stays inside the vocabulary; the term itself is uncontested.",
+      "whatItDoes": "Names a state rather than a metric (weight, BMI), letting clinicians, wellness communicators, and pharma describe the same goal in a vocabulary that travels across rooms. It is the most fluent code-switching term in the cycle. Almost every other term has a strong audience tilt; this one does not.",
+      "whereContested": "Its blandness is its strength and weakness. Because everyone agrees with it, no one argues with it, so it does less analytic work than the contested terms. The real debate over its operational definition stays inside the vocabulary; the term itself is uncontested.",
       "verbatims": [
         {
           "quote": "Metabolic health is the rare phrase a cardiologist, a coach, and a cabinet official can use in one sentence and all mean something compatible.",
@@ -475,8 +475,8 @@
         "standard of care",
         "rigorous"
       ],
-      "whatItDoes": "Functions as an authority claim with a methodological pedigree. Inside mainstream medicine the term is unmarked — it is simply what good medicine is. Outside it, the term has gained an audience-specific second meaning: a stamp the establishment uses to dismiss inconvenient claims.",
-      "whereContested": "The sharpest contest is inside medicine, not outside it: researchers increasingly admit the gold-standard trial framework fits long-term dietary questions poorly. When the people who wrote the rules say the rules do not fit the question, the term's authority depends on that not being noticed.",
+      "whatItDoes": "Functions as an authority claim with a methodological pedigree. Inside mainstream medicine the term is unmarked: simply what good medicine is. Outside it, the term has gained a second meaning, a stamp the establishment uses to dismiss inconvenient claims.",
+      "whereContested": "The sharpest contest is inside medicine, not outside it. Researchers increasingly admit the gold-standard trial framework fits long-term dietary questions poorly. When the people who wrote the rules say the rules do not fit the question, the term's authority depends on that not being noticed.",
       "verbatims": [
         {
           "quote": "When 'evidence-based' becomes a side, you have already lost the argument it was supposed to settle.",
@@ -508,8 +508,8 @@
         "coverage",
         "stigma"
       ],
-      "whatItDoes": "Converts a moral category (obesity as outcome of behavior) into a clinical one (chronic relapsing condition). That conversion is the linguistic precondition for insurance coverage, employer benefits, and pharmaceutical indication — policy infrastructure dressed as a medical claim.",
-      "whereContested": "Two opposing critiques share a target: the lifestyle/MAHA side argues the framing medicalizes a behavioral condition and conveniently benefits drugmakers; the fat-acceptance side argues it pathologizes bodies and reinforces stigma. The phrase has more enemies than its placid clinical surface suggests.",
+      "whatItDoes": "Converts a moral category (obesity as the outcome of behavior) into a clinical one (chronic relapsing condition). That conversion is the linguistic precondition for insurance coverage, employer benefits, and pharmaceutical indication: policy infrastructure dressed as a medical claim.",
+      "whereContested": "Two opposing critiques share a target. The lifestyle/MAHA side says the framing medicalizes a behavioral condition and conveniently benefits drugmakers; the fat-acceptance side says it pathologizes bodies and reinforces stigma. The phrase has more enemies than its placid clinical surface suggests.",
       "verbatims": [
         {
           "quote": "Whether obesity is a disease is a clinical question that has been settled and a political question that has not.",
@@ -567,8 +567,8 @@
         "holistic",
         "journey"
       ],
-      "whatItDoes": "A softening euphemism — it implies an ongoing, controllable, non-pathologized process, built to be patient-acceptable and HR-acceptable. It does its job by saying nothing too sharp, which is also why it carries limited analytic content.",
-      "whereContested": "Mostly being displaced rather than disputed: programs are rebranding as 'metabolic health' or 'anti-obesity medication' depending on the audience they want. It is the vocabulary that loses when the audience polarizes, because it was built for a consensus that no longer exists.",
+      "whatItDoes": "A softening euphemism. It implies an ongoing, controllable, non-pathologized process, built to be acceptable to both patient and HR. It works by saying nothing too sharp, which is also why it carries limited analytic content.",
+      "whereContested": "Mostly being displaced rather than disputed. Programs rebrand as 'metabolic health' or 'anti-obesity medication' depending on the audience they want. It is the vocabulary that loses when the audience polarizes, because it was built for a consensus that no longer exists.",
       "verbatims": [
         {
           "quote": "Weight management used to mean diet and exercise. Now it means whichever of the new vocabularies you are willing to pay for.",
@@ -601,8 +601,8 @@
         "before-and-after",
         "celebrity"
       ],
-      "whatItDoes": "Names a side effect from the outside — the observer's verdict, not the patient's experience. It is a tell-vocabulary: it lets one watcher signal to another that they have spotted the drug behind the body. That signaling function is what makes it sticky.",
-      "whereContested": "Aesthetic medicine has split: some clinicians embrace it because it sells adjacent procedures, others argue it stigmatizes patients and is inaccurate (any rapid weight loss produces the effect). The clinical correction has not slowed it, because the term is about being-seen, not pharmacology.",
+      "whatItDoes": "Names a side effect from the outside: the observer's verdict, not the patient's experience. It is a tell, letting one watcher signal to another that they have spotted the drug behind the body. That signaling function makes it sticky.",
+      "whereContested": "Aesthetic medicine has split. Some clinicians embrace it because it sells adjacent procedures; others say it stigmatizes patients and is inaccurate, since any rapid weight loss produces the effect. The clinical correction has not slowed it, because the term is about being seen, not pharmacology.",
       "verbatims": [
         {
           "quote": "You can see the GLP-1 in her cheeks before she announces it.",
@@ -661,8 +661,8 @@
         "brain",
         "switched off"
       ],
-      "whatItDoes": "Names an internal phenomenon — constant intrusive thoughts about food — that had no popular handle. It works because users recognize it the moment they hear it, and because the relief (the noise stops) is what these drugs actually do experientially, more than any number on a scale.",
-      "whereContested": "Barely contested — there is no organized opposition. The only friction is clinical-research debate over whether 'food noise' is distinct from ordinary hunger; the patient community does not care, because the term is theirs and it works. It is the rare term that traveled up from patients to clinicians.",
+      "whatItDoes": "Names an internal phenomenon, constant intrusive thoughts about food, that had no popular handle. It works because users recognize it the moment they hear it, and because the relief (the noise stops) is what these drugs actually do experientially, more than any number on a scale.",
+      "whereContested": "Barely contested; there is no organized opposition. The only friction is a clinical-research debate over whether 'food noise' is distinct from ordinary hunger. The patient community does not care, because the term is theirs and it works. It is a rare term that traveled up from patients to clinicians.",
       "verbatims": [
         {
           "quote": "I did not know how loud the food noise was until it stopped.",
@@ -694,8 +694,8 @@
         "secret",
         "before-and-after"
       ],
-      "whatItDoes": "Strips the medical framing entirely and names the drug by its desired aesthetic outcome. It makes the use case unambiguous in a way the clinical vocabulary deliberately avoids — the conversation said out loud.",
-      "whereContested": "Pharma and clinical vocabulary explicitly avoid the term — off-brand, off-indication, reputationally costly — and it has flourished in spite of (or because of) that rejection. One of the cleanest cases of a term whose strength is that the institutions hate it.",
+      "whatItDoes": "Strips the medical framing entirely and names the drug by its desired aesthetic outcome. It makes the use case unambiguous where the clinical vocabulary deliberately avoids it: the conversation said out loud.",
+      "whereContested": "Pharma and clinical vocabulary explicitly avoid the term (off-brand, off-indication, reputationally costly), and it has flourished in spite of, or because of, that rejection. One of the cleanest cases of a term whose strength is that the institutions hate it.",
       "verbatims": [
         {
           "quote": "Half the wedding party was on the skinny shot. None of them said 'GLP-1' once.",
@@ -745,8 +745,8 @@
         "neutral",
         "peace"
       ],
-      "whatItDoes": "Replaces the affirmative project of body positivity ('love every part of your body') with a lower-bar one ('feel neutral about your body'). The reframe lowers the cost of entry — neutrality is achievable where mandated love often is not — and is more compatible with an era of visibly changing bodies.",
-      "whereContested": "Inside body positivity, neutrality reads as a retreat — trading the political claim that all bodies are celebrated for a personal claim that one's own body is fine. The contest is whether it is mature pragmatism or quiet capitulation, and the capitulation case has strengthened as intentional weight loss has normalized.",
+      "whatItDoes": "Replaces the affirmative project of body positivity ('love every part of your body') with a lower-bar one ('feel neutral about your body'). The reframe lowers the cost of entry, since neutrality is achievable where mandated love often is not, and it fits an era of visibly changing bodies.",
+      "whereContested": "Inside body positivity, neutrality reads as a retreat: trading the political claim that all bodies are celebrated for a personal claim that one's own body is fine. The contest is whether it is mature pragmatism or quiet capitulation, and the capitulation case has strengthened as intentional weight loss has normalized.",
       "verbatims": [
         {
           "quote": "Body positivity asked me to love my body. Body neutrality let me get on with my life.",
@@ -777,8 +777,8 @@
         "intuitive eating",
         "pathologization"
       ],
-      "whatItDoes": "Asserts that fat bodies are not pathological and that weight stigma — not weight itself — is the primary harm. The movement vocabulary has not changed; the cultural ground beneath it has, as the GLP-1 wave converted many would-be allies into intentional users of a weight-loss drug.",
-      "whereContested": "The most actively contested vocabulary in its cluster, and asymmetrically: intact and rigorous inside the movement, but socially redefined outside it. It is the only declining term in a cycle defined by acceleration — why it is in retreat is the story.",
+      "whatItDoes": "Asserts that fat bodies are not pathological and that weight stigma, not weight itself, is the primary harm. The movement vocabulary has not changed; the cultural ground beneath it has, as the GLP-1 wave turned many would-be allies into intentional users of a weight-loss drug.",
+      "whereContested": "The most actively contested vocabulary in its cluster, and asymmetrically: intact and rigorous inside the movement, but socially redefined outside it. It is the only declining term in a cycle defined by acceleration, and why it is in retreat is the story.",
       "verbatims": [
         {
           "quote": "Fat acceptance did not lose the argument. It lost the audience to a drug.",

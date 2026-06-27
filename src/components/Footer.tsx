@@ -86,8 +86,8 @@ export function Footer() {
           <div className="lg:col-span-5 space-y-4">
             <Logo className="text-paper dark:text-ink" />
             <p className="text-paper/60 dark:text-ink/60 text-sm leading-relaxed max-w-md">
-              Contextive is a language-intelligence system. We measure how public language
-              gains momentum and shifts meaning — velocity, not verdict — across politics,
+              Contextive is a language intelligence system. We measure how public language
+              gains momentum and shifts meaning (velocity, not verdict) across politics,
               the economy, AI, and culture.
             </p>
           </div>

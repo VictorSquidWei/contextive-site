@@ -94,7 +94,7 @@ function ExtractionDiagram() {
         viewBox="0 24 820 362"
         className="w-full min-w-[560px] text-ink"
         role="img"
-        aria-label="Tracked terms are measured against the open media record via GDELT, with cross-platform spread read editorially on top, producing seven signal fields."
+        aria-label="Tracked terms are measured against the open media record via GDELT, with cross platform spread read editorially on top, producing seven signal fields."
       >
         <style>{`
           .lbl { font-family: 'JetBrains Mono', monospace; font-size: 12px; letter-spacing: 0.12em; fill: currentColor; }
@@ -107,8 +107,8 @@ function ExtractionDiagram() {
         `}</style>
 
         {/* group captions */}
-        <text x="28" y="40" className="grp">THE OPEN RECORD — MEASURED</text>
-        <text x="28" y="224" className="grp">PLATFORM SPREAD — EDITORIAL</text>
+        <text x="28" y="40" className="grp">THE OPEN RECORD / MEASURED</text>
+        <text x="28" y="224" className="grp">PLATFORM SPREAD / EDITORIAL</text>
 
         {/* connector paths: sources → GDELT node (box left edge x=362) */}
         {SOURCES_MEASURED.map((_, i) => (
@@ -170,12 +170,12 @@ function ExtractionDiagram() {
 
 const SIGNALS: { field: string; def: string }[] = [
   { field: 'Velocity index', def: '30-day momentum against a 90-day baseline, ranked 0–100 within the set.' },
-  { field: 'Corpus density', def: 'Share of monitored coverage — a labelled proxy, not literal mention counts.' },
+  { field: 'Corpus density', def: 'Share of monitored coverage: a labelled proxy, not literal mention counts.' },
   { field: 'Inflection points', def: 'Dated peaks where coverage broke from its own trend.' },
   { field: 'Sentiment', def: 'Average tone of the coverage, clamped to −5…+5.' },
   { field: 'Co-occurrence', def: 'The words a term travels with.' },
-  { field: 'Adoption stage', def: 'Where the term sits in its life cycle — emerging to fading.' },
-  { field: 'Platforms spiking', def: 'Where it surges across platforms — read editorially on top.' },
+  { field: 'Adoption stage', def: 'Where the term sits in its life cycle, from emerging to fading.' },
+  { field: 'Platforms spiking', def: 'Where it surges across platforms, read editorially on top.' },
 ];
 
 /* ── A live signal card assembling itself (real measured example) ───────── */
@@ -209,7 +209,7 @@ function SignalDemo() {
       </div>
 
       <p className="text-sm text-muted leading-relaxed mt-5">
-        A real reading from Campaign 06. The card is filled from the measured series —
+        A real reading from Campaign 06. The card is filled from the measured series,
         the same numbers the brief and the carousel use. Nothing here is keyed by hand.
       </p>
     </div>
@@ -233,7 +233,7 @@ export function HowItWorks() {
               How a word becomes a measured signal
             </h1>
             <p className="text-base lg:text-lg text-muted max-w-[560px] leading-relaxed text-balance">
-              Contextive tracks how language gains momentum — <em className="italic">velocity, not verdict</em>.
+              Contextive tracks how language gains momentum: <em className="italic">velocity, not verdict</em>.
               No opinions, no estimates. Here is the path from the open public record to a
               number you can check.
             </p>
@@ -251,12 +251,12 @@ export function HowItWorks() {
             variants={REVEAL}
             className="lg:col-span-5 space-y-5"
           >
-            <span className="small-caps text-whisper">01 — Source</span>
+            <span className="small-caps text-whisper">01 / Source</span>
             <h2 className="font-display font-bold text-3xl sm:text-4xl lg:text-5xl leading-tight">
               It starts with the crowd
             </h2>
             <p className="text-muted leading-relaxed">
-              Every cultural argument is fought in public — millions of posts, headlines,
+              Every cultural argument is fought in public, across millions of posts, headlines,
               broadcasts and threads. No single account decides a word's fate; the pattern
               does. Contextive watches the whole field, never the loudest voice.
             </p>
@@ -277,16 +277,16 @@ export function HowItWorks() {
             variants={REVEAL}
             className="max-w-2xl space-y-5"
           >
-            <span className="small-caps text-whisper">02 — Extraction</span>
+            <span className="small-caps text-whisper">02 / Extraction</span>
             <h2 className="font-display font-bold text-3xl sm:text-4xl lg:text-5xl leading-tight">
               We read the open record
             </h2>
             <p className="text-muted leading-relaxed">
               Each tracked term becomes a query against{' '}
-              <span className="text-ink">GDELT</span> — the Global Database of Events,
+              <span className="text-ink">GDELT</span>, the Global Database of Events,
               Language and Tone, which monitors the world's news and media in near real
-              time. The result is a measured coverage-intensity series, not a guess. Where
-              a term surges across social platforms is read editorially on top — labelled
+              time. The result is a measured series of coverage intensity, not a guess. Where
+              a term surges across social platforms is read editorially on top, labelled
               as such, never blended into the measurement.
             </p>
           </motion.div>
@@ -311,7 +311,7 @@ export function HowItWorks() {
             variants={REVEAL}
             className="lg:col-span-6 space-y-6"
           >
-            <span className="small-caps text-whisper">03 — Signal</span>
+            <span className="small-caps text-whisper">03 / Signal</span>
             <h2 className="font-display font-bold text-3xl sm:text-4xl lg:text-5xl leading-tight">
               From coverage to signal
             </h2>
@@ -353,12 +353,12 @@ export function HowItWorks() {
             variants={REVEAL}
             className="space-y-5"
           >
-            <span className="small-caps text-whisper">04 — The rule</span>
+            <span className="small-caps text-whisper">04 / The rule</span>
             <h2 className="font-display font-bold text-3xl sm:text-4xl lg:text-5xl leading-tight">
               Measure, don't estimate
             </h2>
             <p className="text-muted leading-relaxed">
-              If a term can't be measured, we don't invent a number — the card reads
+              If a term can't be measured, we don't invent a number. The card reads
               <span className="text-ink"> measurement pending</span> until the data lands.
               And when a measured number kills a planned narrative, that is the story, not
               something to bury.
@@ -397,7 +397,7 @@ export function HowItWorks() {
             variants={REVEAL}
             className="max-w-4xl"
           >
-            <span className="small-caps text-whisper">05 — The firewall</span>
+            <span className="small-caps text-whisper">05 / The firewall</span>
             <blockquote className="border-l-2 border-ink pl-6 sm:pl-8 mt-6">
               <p className="font-display font-bold text-2xl sm:text-3xl lg:text-4xl leading-snug text-balance">
                 “We track how the words have been used and how fast they are winning, not
@@ -421,8 +421,8 @@ export function HowItWorks() {
               See the method on a live campaign
             </h2>
             <p className="text-muted leading-relaxed max-w-[460px]">
-              The signal layer, working in real time on the vocabulary of the Iran-war ceasefire —
-              measured, not estimated.
+              The signal layer, working in real time on the vocabulary of the Iran war ceasefire.
+              Measured, not estimated.
             </p>
           </div>
           <div className="lg:col-span-5 flex flex-col gap-3 lg:border-l lg:border-rule lg:pl-12">
@@ -431,7 +431,7 @@ export function HowItWorks() {
               to="/campaigns/06-iran-war"
               className="group inline-flex items-center justify-between gap-6 small-caps text-paper bg-ink px-6 py-4 hover:bg-ink/85 transition-colors"
             >
-              <span>Campaign 06 — the Iran war</span>
+              <span>Campaign 06 / the Iran war</span>
               <span className="transition-transform duration-300 group-hover:translate-x-1.5">→</span>
             </Link>
             <a

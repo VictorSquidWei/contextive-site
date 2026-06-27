@@ -78,7 +78,7 @@ export function SignalCard({ term }: { term: CampaignTerm }) {
           <span className="velocity-pulse" aria-hidden>
             ◷
           </span>
-          MEASUREMENT PENDING — {m.reason || 'awaiting pipeline run'}
+          MEASUREMENT PENDING: {m.reason || 'awaiting pipeline run'}
         </div>
       ) : measured ? (
         <div className="space-y-4 border-y border-ink/10 py-4">
@@ -119,7 +119,7 @@ export function SignalCard({ term }: { term: CampaignTerm }) {
           )}
           {m.corpusDensity?.proxy && (
             <div className="small-caps text-ink/35 text-[9px] leading-relaxed">
-              Coverage-intensity proxy — not literal mentions/M
+              Coverage intensity proxy, not literal mentions/M
             </div>
           )}
         </div>

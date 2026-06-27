@@ -42,7 +42,7 @@ export function Campaigns() {
         {/* Header row: eyebrow + headline left, controls right */}
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-4 mb-6">
           <div>
-            <span className="small-caps text-muted">// 03 — Campaigns</span>
+            <span className="small-caps text-muted">// 03 Campaigns</span>
             <h2 className="font-display font-bold tracking-tight text-3xl lg:text-4xl mt-4 leading-[1.0] text-balance">
               The vocabulary war, by campaign.
             </h2>

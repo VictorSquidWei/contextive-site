@@ -12,7 +12,7 @@ export function CampaignIndex() {
             One vocabulary war per cycle.
           </h2>
           <p className="text-muted mt-6 max-w-2xl leading-relaxed">
-            Each campaign maps how a single moment gets named in incompatible ways — tracked by how
+            Each campaign maps how a single moment gets named in incompatible ways, tracked by how
             fast each name is winning, measured against open coverage data, not estimated.
           </p>
         </div>

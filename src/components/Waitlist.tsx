@@ -5,7 +5,7 @@ import { SignalExplorer } from './SignalExplorer';
 import { FIREWALL } from '../data/campaign';
 
 const WHO_ITS_FOR = [
-  ['Comms & public affairs', 'Know whether your framing is winning against the opposing one — before the polling confirms it.'],
+  ['Comms & public affairs', 'Know whether your framing is winning against the opposing one before the polling confirms it.'],
   ['Brand & trend intelligence', 'Catch a term crossing from niche to mainstream while it still matters.'],
   ['Newsrooms & researchers', 'A measured, citable read on which language is moving, and when it moved.'],
 ];
@@ -43,7 +43,7 @@ export function Waitlist() {
             The signal, as an API.
           </h1>
           <p className="text-base lg:text-lg text-muted max-w-[560px] leading-relaxed text-balance mt-6">
-            Query any phrase, get back how fast it is moving in the open news and media record —
+            Query any phrase, get back how fast it is moving in the open news and media record:
             velocity, inflection, adoption stage, tone. The measured signal behind every campaign,
             in your stack. Velocity, not verdict.
           </p>
@@ -53,7 +53,7 @@ export function Waitlist() {
               source="api-waitlist"
               layout="row"
               submitLabel="Join the waitlist"
-              confirmBody="You're on the API waitlist — and we've opened Substack so the intelligence dispatch comes with it. If the tab didn't open, use the link below."
+              confirmBody="You're on the API waitlist. We've opened Substack too, so the intelligence dispatch comes with it. If the tab didn't open, use the link below."
             />
             <p className="small-caps text-whisper text-[10px]">
               Joins the waitlist + the weekly dispatch. No spam.
@@ -86,10 +86,10 @@ export function Waitlist() {
                 A tracked term is a phrase you keep under watch.
               </h2>
               <p className="text-muted leading-relaxed">
-                Most queries are one-off lookups — a phrase's reading right now. A{' '}
-                <span className="text-ink font-medium">tracked term</span> is different: you put a phrase
+                Most queries are one-off lookups: a phrase's reading right now. A{' '}
+                <span className="text-ink font-medium">tracked term</span> is different. You put a phrase
                 under continuous measurement and Contextive re-measures it on every refresh, so its velocity,
-                inflection points, and adoption stage stay current — and you're alerted when it moves. It's the
+                inflection points, and adoption stage stay current, and you're alerted when it moves. It's the
                 unit your plan is counted in.
               </p>
             </div>
@@ -97,7 +97,7 @@ export function Waitlist() {
               <div className="bg-paper p-6 space-y-2">
                 <div className="small-caps text-muted">A lookup</div>
                 <p className="text-sm text-muted leading-relaxed">
-                  One-off. A phrase's reading the moment you ask — for research and spot-checks. The Free tier
+                  One-off. A phrase's reading the moment you ask, for research and spot checks. The Free tier
                   includes about 25 a day.
                 </p>
               </div>
@@ -118,7 +118,7 @@ export function Waitlist() {
                 <span className="small-caps text-muted">tracked terms · Starter</span>
               </div>
               <p className="text-sm text-muted leading-relaxed">
-                Enough to watch your own core messaging and the handful of phrases around it — a single
+                Enough to watch your own core messaging and the handful of phrases around it: a single
                 narrative, monitored closely.
               </p>
             </div>
@@ -128,7 +128,7 @@ export function Waitlist() {
                 <span className="small-caps text-muted">tracked terms · Pro</span>
               </div>
               <p className="text-sm text-muted leading-relaxed">
-                A full message map: your framing, the opposing framing, and the category's shared vocabulary —
+                A full message map: your framing, the opposing framing, and the category's shared vocabulary,
                 all watched side by side and ready for <span className="font-mono text-ink">compare()</span>.
               </p>
             </div>
@@ -174,8 +174,8 @@ export function Waitlist() {
               <div className="small-caps text-muted">// Honest by design</div>
               <p className="text-base text-muted leading-relaxed max-w-2xl">
                 The signal is drawn from the open news and media record, and every figure carries the
-                date it was retrieved and the method that produced it. We sell measured momentum — not
-                trading alpha, not a prediction. Cross-platform spread is a labelled editorial overlay.
+                date it was retrieved and the method that produced it. We sell measured momentum, not
+                trading alpha and not a prediction. Cross-platform spread is a labelled editorial overlay.
                 See <Link to="/how-it-works" className="text-ink underline underline-offset-4 hover:opacity-70">how it works</Link>.
               </p>
               <p className="font-display text-ink text-lg leading-snug max-w-2xl pt-2">

@@ -4,7 +4,7 @@ export function Thesis() {
       <div className="max-w-screen-xl mx-auto grid lg:grid-cols-12 gap-12 lg:gap-20">
         <div className="lg:col-span-4">
           <div className="lg:sticky lg:top-32">
-            <span className="small-caps text-muted">// 01 — Thesis</span>
+            <span className="small-caps text-muted">// 01 / Thesis</span>
             <h2 className="font-display font-bold tracking-tight text-3xl lg:text-4xl mt-6 leading-[1.05] text-balance">
               The words people choose are never random.
             </h2>
@@ -15,7 +15,7 @@ export function Thesis() {
           <p>
             They frame how an audience thinks, who gets blamed, what feels urgent, and what
             gets ignored. When the White House calls tariffs <em>reciprocal</em> instead of{' '}
-            <em>aggressive</em>, that's not a vocabulary choice — it's a framing strategy.
+            <em>aggressive</em>, that's not a vocabulary choice. It's a framing strategy.
           </p>
           <p>
             When a CFO calls a layoff <em>workforce optimization</em> and the laid-off
@@ -25,7 +25,7 @@ export function Thesis() {
           </p>
           <p className="text-ink font-medium">
             Contextive tracks those words. We identify the high-leverage terms doing the most
-            rhetorical work across politics, markets, technology, and culture — and we tell
+            rhetorical work across politics, markets, technology, and culture. We tell
             you who's using them, how the meaning is shifting, and what each word is doing
             before it shows up in the data.
           </p>

@@ -3,7 +3,7 @@ const STEPS = [
     number: '01',
     title: 'Signal Detection',
     body:
-      'Cross-platform velocity tracking across X, LinkedIn, Reddit, TikTok, YouTube, and major news outlets. Surface the terms before they saturate.',
+      'Cross platform velocity tracking across X, LinkedIn, Reddit, TikTok, YouTube, and major news outlets. Surface the terms before they saturate.',
   },
   {
     number: '02',
@@ -15,7 +15,7 @@ const STEPS = [
     number: '03',
     title: 'Intelligence Files',
     body:
-      'Human-reviewed analysis. Not summaries — analysis. Why the word was chosen, what it conceals, and what it tells you about what comes next.',
+      'Reviewed by a human. Not summaries, but analysis. Why the word was chosen, what it conceals, and what it tells you about what comes next.',
   },
   {
     number: '04',
@@ -30,12 +30,12 @@ export function System() {
     <section id="system" className="px-6 lg:px-12 py-24 lg:py-32 bg-paper">
       <div className="max-w-screen-xl mx-auto">
         <div className="mb-16 max-w-3xl">
-          <span className="small-caps text-muted">// 04 — The System</span>
+          <span className="small-caps text-muted">// 04 / The System</span>
           <h2 className="font-display font-bold tracking-tight text-4xl lg:text-5xl mt-6 leading-[1.0] text-balance">
             Signal in. Intelligence out.
           </h2>
           <p className="text-muted mt-6 leading-relaxed text-lg max-w-2xl">
-            Contextive runs as an agentic pipeline with human-in-the-loop review at every
+            Contextive runs as an agentic pipeline with a human in the loop reviewing at every
             stage. The result: language intelligence that's both fast enough to be useful and
             careful enough to be trusted.
           </p>

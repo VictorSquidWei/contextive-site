@@ -297,7 +297,7 @@ export function SignalExplorer() {
               <div className="px-5 py-6 space-y-4 flex-1">
                 <p className="text-sm text-paper/70 leading-relaxed">
                   Every phrase returns the same shape: a measured momentum reading, stamped with the date
-                  and method that produced it. Unmeasured terms come back <span className="text-paper">pending</span> —
+                  and method that produced it. Unmeasured terms come back <span className="text-paper">pending</span>,
                   never a guess.
                 </p>
                 <dl className="space-y-2 font-mono text-[12px]">
@@ -333,7 +333,7 @@ export function SignalExplorer() {
             <div className="bg-paper min-w-0"><SignalCard t={termB} compact /></div>
           </div>
           <p className="small-caps text-whisper text-[10px]">
-            Tap two phrases above to set the matchup. The defining-tension primitive — e.g. obliterated vs ceasefire.
+            Tap two phrases above to set the matchup. The defining tension primitive, e.g. obliterated vs ceasefire.
           </p>
         </div>
       )}
