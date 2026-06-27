@@ -11,6 +11,7 @@ import { HowItWorks } from './components/HowItWorks';
 import { HowItWorksTeaser } from './components/HowItWorksTeaser';
 import { ApiTeaser } from './components/ApiTeaser';
 import { Waitlist } from './components/Waitlist';
+import { SignalPage } from './components/SignalPage';
 import { Analytics } from '@vercel/analytics/react';
 
 function HomePage() {
@@ -54,6 +55,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/how-it-works" element={<HowItWorks />} />
         <Route path="/waitlist" element={<Waitlist />} />
+        <Route path="/signal/:slug" element={<SignalPage />} />
         <Route path="/campaigns/:id" element={<CampaignPage />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>

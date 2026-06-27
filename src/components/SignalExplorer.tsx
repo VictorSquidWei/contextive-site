@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { API_DEMO_TERMS, type DemoTerm } from '../data/apiDemo';
 import { CardStudio } from './CardStudio';
 
@@ -278,6 +279,14 @@ export function SignalExplorer() {
           <div className="bg-paper min-w-0 flex flex-col">
             <div className="flex-1 min-h-0">
               <SignalCard t={current} />
+            </div>
+            <div className="border-x border-rule bg-paper px-4 py-2 flex justify-end min-w-0">
+              <Link
+                to={`/signal/${current.slug}`}
+                className="small-caps text-[10px] text-muted hover:text-ink transition-colors whitespace-nowrap"
+              >
+                Open full report ↗
+              </Link>
             </div>
             <CardStudio term={current} />
           </div>
