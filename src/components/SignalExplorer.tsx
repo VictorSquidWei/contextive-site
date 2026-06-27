@@ -275,8 +275,10 @@ export function SignalExplorer() {
 
       {mode === 'explore' ? (
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-px bg-rule border border-rule">
-          <div className="bg-paper min-w-0">
-            <SignalCard t={current} />
+          <div className="bg-paper min-w-0 flex flex-col">
+            <div className="flex-1 min-h-0">
+              <SignalCard t={current} />
+            </div>
             <CardStudio term={current} />
           </div>
           {/* request / response panel */}
