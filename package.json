@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
-    "build:og": "node scripts/build-og-image.mjs"
+    "build:og": "node scripts/build-og-image.mjs",
+    "build:cards": "node scripts/build-velocity-cards.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",

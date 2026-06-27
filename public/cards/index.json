@@ -1,0 +1,224 @@
+[
+  {
+    "file": "cards/c03-seed-oils.png",
+    "campaign": "03",
+    "term": "seed oils",
+    "velocityIndex": 0
+  },
+  {
+    "file": "cards/c03-chronic-disease-epidemic.png",
+    "campaign": "03",
+    "term": "chronic disease epidemic",
+    "velocityIndex": 100
+  },
+  {
+    "file": "cards/c03-evidence-based.png",
+    "campaign": "03",
+    "term": "evidence-based",
+    "velocityIndex": 60
+  },
+  {
+    "file": "cards/c03-weight-management.png",
+    "campaign": "03",
+    "term": "weight management",
+    "velocityIndex": 40
+  },
+  {
+    "file": "cards/c03-food-noise.png",
+    "campaign": "03",
+    "term": "food noise",
+    "velocityIndex": 20
+  },
+  {
+    "file": "cards/c03-body-neutrality.png",
+    "campaign": "03",
+    "term": "body neutrality",
+    "velocityIndex": 80
+  },
+  {
+    "file": "cards/c04-maga-warrior.png",
+    "campaign": "04",
+    "term": "MAGA Warrior",
+    "velocityIndex": 50
+  },
+  {
+    "file": "cards/c04-america-first.png",
+    "campaign": "04",
+    "term": "America First",
+    "velocityIndex": 0
+  },
+  {
+    "file": "cards/c04-endorsement-machine.png",
+    "campaign": "04",
+    "term": "endorsement machine",
+    "velocityIndex": 100
+  },
+  {
+    "file": "cards/c04-open-seat.png",
+    "campaign": "04",
+    "term": "open seat",
+    "velocityIndex": 75
+  },
+  {
+    "file": "cards/c04-battleground.png",
+    "campaign": "04",
+    "term": "battleground",
+    "velocityIndex": 25
+  },
+  {
+    "file": "cards/c05-vibecession.png",
+    "campaign": "05",
+    "term": "vibecession",
+    "velocityIndex": 100
+  },
+  {
+    "file": "cards/c05-greedflation.png",
+    "campaign": "05",
+    "term": "greedflation",
+    "velocityIndex": 0
+  },
+  {
+    "file": "cards/c05-junk-fees.png",
+    "campaign": "05",
+    "term": "junk fees",
+    "velocityIndex": 38
+  },
+  {
+    "file": "cards/c05-price-gouging.png",
+    "campaign": "05",
+    "term": "price gouging",
+    "velocityIndex": 25
+  },
+  {
+    "file": "cards/c05-affordability.png",
+    "campaign": "05",
+    "term": "affordability",
+    "velocityIndex": 62
+  },
+  {
+    "file": "cards/c05-soft-landing.png",
+    "campaign": "05",
+    "term": "soft landing",
+    "velocityIndex": 12
+  },
+  {
+    "file": "cards/c05-higher-for-longer.png",
+    "campaign": "05",
+    "term": "higher for longer",
+    "velocityIndex": 50
+  },
+  {
+    "file": "cards/c05-real-wages.png",
+    "campaign": "05",
+    "term": "real wages",
+    "velocityIndex": 75
+  },
+  {
+    "file": "cards/c05-are-you-better-off.png",
+    "campaign": "05",
+    "term": "are you better off",
+    "velocityIndex": 88
+  },
+  {
+    "file": "cards/c06-boots-on-the-ground.png",
+    "campaign": "06",
+    "term": "boots on the ground",
+    "velocityIndex": 38
+  },
+  {
+    "file": "cards/c06-regime-change.png",
+    "campaign": "06",
+    "term": "regime change",
+    "velocityIndex": 12
+  },
+  {
+    "file": "cards/c06-obliterated.png",
+    "campaign": "06",
+    "term": "obliterated",
+    "velocityIndex": 0
+  },
+  {
+    "file": "cards/c06-ceasefire.png",
+    "campaign": "06",
+    "term": "ceasefire",
+    "velocityIndex": 100
+  },
+  {
+    "file": "cards/c06-de-escalation.png",
+    "campaign": "06",
+    "term": "de-escalation",
+    "velocityIndex": 50
+  },
+  {
+    "file": "cards/c06-breakout.png",
+    "campaign": "06",
+    "term": "breakout",
+    "velocityIndex": 88
+  },
+  {
+    "file": "cards/c06-america-first.png",
+    "campaign": "06",
+    "term": "America First",
+    "velocityIndex": 25
+  },
+  {
+    "file": "cards/c06-peace-through-strength.png",
+    "campaign": "06",
+    "term": "peace through strength",
+    "velocityIndex": 62
+  },
+  {
+    "file": "cards/c06-mission-accomplished.png",
+    "campaign": "06",
+    "term": "mission accomplished",
+    "velocityIndex": 75
+  },
+  {
+    "file": "cards/c07-store-of-value.png",
+    "campaign": "07",
+    "term": "store of value",
+    "velocityIndex": 43
+  },
+  {
+    "file": "cards/c07-digital-gold.png",
+    "campaign": "07",
+    "term": "digital gold",
+    "velocityIndex": 29
+  },
+  {
+    "file": "cards/c07-inflation-hedge.png",
+    "campaign": "07",
+    "term": "inflation hedge",
+    "velocityIndex": 14
+  },
+  {
+    "file": "cards/c07-debasement-trade.png",
+    "campaign": "07",
+    "term": "debasement trade",
+    "velocityIndex": 100
+  },
+  {
+    "file": "cards/c07-fiscal-dominance.png",
+    "campaign": "07",
+    "term": "fiscal dominance",
+    "velocityIndex": 71
+  },
+  {
+    "file": "cards/c07-sound-money.png",
+    "campaign": "07",
+    "term": "sound money",
+    "velocityIndex": 57
+  },
+  {
+    "file": "cards/c07-magic-internet-money.png",
+    "campaign": "07",
+    "term": "magic internet money",
+    "velocityIndex": 0
+  },
+  {
+    "file": "cards/c07-hard-money.png",
+    "campaign": "07",
+    "term": "hard money",
+    "velocityIndex": 86
+  }
+]
