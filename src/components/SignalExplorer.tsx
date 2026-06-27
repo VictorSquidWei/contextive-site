@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { API_DEMO_TERMS, type DemoTerm } from '../data/apiDemo';
-import { ShareCard } from './ShareCard';
+import { CardStudio } from './CardStudio';
 
 /* Interactive Signal Explorer — the centerpiece of /waitlist.
    Click a measured term and the card animates to its real reading; toggle Compare
@@ -277,7 +277,7 @@ export function SignalExplorer() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-px bg-rule border border-rule">
           <div className="bg-paper min-w-0">
             <SignalCard t={current} />
-            <ShareCard term={current} />
+            <CardStudio term={current} />
           </div>
           {/* request / response panel */}
           <div className="bg-ink text-paper flex flex-col min-w-0">
