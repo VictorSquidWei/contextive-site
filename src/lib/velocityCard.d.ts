@@ -33,4 +33,5 @@ export interface CardSVGOpts {
 
 export const THEMES: CardTheme[];
 export const DEFAULT_THEME: CardTheme;
+export function themeFromBackground(bg: string): CardTheme;
 export function velocityCardSVG(data: VelocityCardData, theme?: CardTheme, opts?: CardSVGOpts): string;

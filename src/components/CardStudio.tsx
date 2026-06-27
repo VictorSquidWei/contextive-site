@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import type { DemoTerm } from '../data/apiDemo';
 import { FIREWALL } from '../data/campaign';
-import { THEMES, DEFAULT_THEME, velocityCardSVG } from '../lib/velocityCard';
+import { THEMES, DEFAULT_THEME, velocityCardSVG, themeFromBackground } from '../lib/velocityCard';
 import type { CardTheme, VelocityCardData } from '../lib/velocityCard';
 
 /* Card Studio — customize a measured term's Velocity Card (background theme) with a live preview,
@@ -42,8 +42,12 @@ const btn =
   'group inline-flex items-center gap-1.5 small-caps text-[10px] px-2.5 py-1.5 border border-rule ' +
   'text-muted hover:border-ink hover:text-ink transition-colors min-w-0 whitespace-nowrap';
 
+const swatchCls = (sel: boolean) =>
+  `h-6 w-6 rounded-full border transition-transform ${sel ? 'ring-2 ring-ink ring-offset-1 ring-offset-paper scale-110 border-ink' : 'border-rule hover:scale-105'}`;
+
 export function CardStudio({ term }: { term: DemoTerm }) {
   const [theme, setTheme] = useState<CardTheme>(DEFAULT_THEME);
+  const [customColor, setCustomColor] = useState('#2A2A28');
   const [copied, setCopied] = useState(false);
   const [busy, setBusy] = useState(false);
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -136,11 +140,27 @@ export function CardStudio({ term }: { term: DemoTerm }) {
               title={t.label}
               aria-label={`${t.label} background`}
               aria-pressed={sel}
-              className={`h-6 w-6 rounded-full border transition-transform ${sel ? 'ring-2 ring-ink ring-offset-1 ring-offset-paper scale-110 border-ink' : 'border-rule hover:scale-105'}`}
+              className={swatchCls(sel)}
               style={{ backgroundColor: t.bg }}
             />
           );
         })}
+        {/* custom color — any background, text auto-contrasts to stay legible */}
+        <label
+          title="Custom color"
+          className={`relative cursor-pointer ${swatchCls(theme.id === 'custom')}`}
+          style={{ backgroundColor: customColor }}
+        >
+          <input
+            type="color"
+            value={customColor}
+            onChange={(e) => { setCustomColor(e.target.value); setTheme(themeFromBackground(e.target.value)); }}
+            className="absolute inset-0 h-full w-full cursor-pointer opacity-0"
+            aria-label="Custom background color"
+          />
+          <span aria-hidden className="pointer-events-none absolute inset-0 grid place-items-center text-[11px] font-bold leading-none"
+            style={{ color: themeFromBackground(customColor).fg }}>+</span>
+        </label>
       </div>
 
       {/* actions */}

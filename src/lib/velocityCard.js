@@ -18,6 +18,35 @@ export const THEMES = [
 ];
 export const DEFAULT_THEME = THEMES[0];
 
+// Build a full, legible theme from ANY background color: pick light or dark text by the
+// background's luminance, and derive the mute/faint/hair tones by mixing toward the text color.
+// Keeps any custom background readable (auto-contrast), so user colors never break the card.
+function hexToRgb(h) {
+  h = String(h || '').replace('#', '');
+  if (h.length === 3) h = h.split('').map((c) => c + c).join('');
+  const n = parseInt(h || '000000', 16);
+  return [(n >> 16) & 255, (n >> 8) & 255, n & 255];
+}
+function luminance([r, g, b]) {
+  const a = [r, g, b].map((v) => { v /= 255; return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4); });
+  return 0.2126 * a[0] + 0.7152 * a[1] + 0.0722 * a[2];
+}
+function mix(hex1, hex2, t) {
+  const a = hexToRgb(hex1), b = hexToRgb(hex2);
+  const c = a.map((v, i) => Math.round(v + (b[i] - v) * t));
+  return '#' + c.map((v) => v.toString(16).padStart(2, '0')).join('');
+}
+export function themeFromBackground(bg) {
+  const dark = luminance(hexToRgb(bg)) < 0.42; // dark background -> light text
+  const fg = dark ? '#F5F5F3' : '#111111';
+  return {
+    id: 'custom', label: 'Custom', bg, fg,
+    mute: mix(bg, fg, dark ? 0.72 : 0.62),
+    faint: mix(bg, fg, dark ? 0.5 : 0.42),
+    hair: mix(bg, fg, 0.22),
+  };
+}
+
 const display = 'Space Grotesk, Arial, Helvetica, sans-serif';
 const mono = 'JetBrains Mono, Consolas, monospace';
 
