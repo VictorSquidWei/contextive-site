@@ -1,5 +1,4 @@
 import { useEffect, useMemo, useState } from 'react';
-import { Link } from 'react-router-dom';
 import { API_DEMO_TERMS, type DemoTerm } from '../data/apiDemo';
 import { CardStudio } from './CardStudio';
 
@@ -275,58 +274,26 @@ export function SignalExplorer() {
       </div>
 
       {mode === 'explore' ? (
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-px bg-rule border border-rule">
-          <div className="bg-paper min-w-0 flex flex-col">
-            <div className="flex-1 min-h-0">
-              <SignalCard t={current} />
-            </div>
-            <div className="border-x border-rule bg-paper px-4 py-2 flex justify-end min-w-0">
-              <Link
-                to={`/signal/${current.slug}`}
-                className="small-caps text-[10px] text-muted hover:text-ink transition-colors whitespace-nowrap"
-              >
-                Open full report ↗
-              </Link>
-            </div>
-            <CardStudio term={current} />
-          </div>
-          {/* request / response panel */}
-          <div className="bg-ink text-paper flex flex-col min-w-0">
-            <div className="flex items-center justify-between px-4 py-3 border-b border-paper/15">
-              <span className="font-mono text-[11px] text-paper/80 truncate">GET /v1/terms/{current.slug}</span>
+        <div className="space-y-px">
+          {/* the share-first stage: shareable card + reading + customize + share */}
+          <CardStudio term={current} />
+          {/* API proof strip — slim, honest; the same reading, as one API call */}
+          <div className="bg-ink text-paper border border-rule">
+            <div className="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 px-4 py-3 min-w-0">
+              <span className="font-mono text-[11px] text-paper/80 truncate min-w-0">GET /v1/terms/{current.slug}</span>
+              <span className="small-caps text-[10px] text-paper/45 min-w-0 truncate">the same reading, as one API call · pending, never a guess</span>
               <button
                 type="button"
                 onClick={() => setShowJson((v) => !v)}
-                className="small-caps text-[10px] text-paper/60 hover:text-paper transition-colors shrink-0 ml-2"
+                className="small-caps text-[10px] text-paper/60 hover:text-paper transition-colors shrink-0"
               >
                 {showJson ? 'Hide JSON' : 'View JSON'}
               </button>
             </div>
-            {showJson ? (
-              <pre className="px-4 py-4 overflow-x-auto text-[11px] leading-relaxed font-mono text-paper/90 flex-1">
+            {showJson && (
+              <pre className="px-4 pb-4 pt-4 border-t border-paper/15 overflow-x-auto text-[11px] leading-relaxed font-mono text-paper/90">
 {jsonText}
               </pre>
-            ) : (
-              <div className="px-5 py-6 space-y-4 flex-1">
-                <p className="text-sm text-paper/70 leading-relaxed">
-                  Every phrase returns the same shape: a measured momentum reading, stamped with the date
-                  and method that produced it. Unmeasured terms come back <span className="text-paper">pending</span>,
-                  never a guess.
-                </p>
-                <dl className="space-y-2 font-mono text-[12px]">
-                  {[
-                    ['velocity_index', String(current.velocityIndex ?? '—')],
-                    ['adoption_stage', current.adoptionStage ?? '—'],
-                    ['momentum.d90', fmtPct(current.deltas.d90)],
-                    ['sentiment', current.sentiment == null ? '—' : current.sentiment.toFixed(2)],
-                  ].map(([k, v]) => (
-                    <div key={k} className="flex items-center justify-between gap-4 border-b border-paper/10 pb-1.5">
-                      <dt className="text-paper/50">{k}</dt>
-                      <dd className="text-paper">{v}</dd>
-                    </div>
-                  ))}
-                </dl>
-              </div>
             )}
           </div>
         </div>
