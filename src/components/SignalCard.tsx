@@ -32,8 +32,8 @@ function LegacyVelocityBar({ label }: { label?: string }) {
 
 function Stat({ label, children }: { label: string; children: ReactNode }) {
   return (
-    <div>
-      <div className="small-caps text-ink/40 mb-1.5">{label}</div>
+    <div className="min-w-0">
+      <div className="small-caps text-muted tracking-[0.18em] sm:tracking-[0.3em] mb-1.5">{label}</div>
       <div className="font-mono text-sm font-medium">{children}</div>
     </div>
   );
@@ -50,7 +50,7 @@ export function SignalCard({ term }: { term: CampaignTerm }) {
       <div className="flex items-start justify-between border-b border-ink/15 pb-5">
         <div className="space-y-1">
           {term.ref && <div className="small-caps text-ink/60">REF / {term.ref}</div>}
-          {term.domainTag && <div className="small-caps text-ink/40">{term.domainTag}</div>}
+          {term.domainTag && <div className="small-caps text-muted">{term.domainTag}</div>}
         </div>
         <div className="text-right space-y-1">
           <div className="small-caps text-ink/60">
@@ -60,7 +60,7 @@ export function SignalCard({ term }: { term: CampaignTerm }) {
                 ? 'PENDING'
                 : term.classification || 'EDITORIAL'}
           </div>
-          {term.cluster && <div className="small-caps text-ink/40">CLUSTER {term.cluster}</div>}
+          {term.cluster && <div className="small-caps text-muted">CLUSTER {term.cluster}</div>}
         </div>
       </div>
 
@@ -84,7 +84,7 @@ export function SignalCard({ term }: { term: CampaignTerm }) {
         <div className="space-y-4 border-y border-ink/10 py-4">
           <div>
             <div className="flex justify-between items-baseline mb-1.5">
-              <span className="small-caps text-ink/40">VELOCITY INDEX</span>
+              <span className="small-caps text-muted">VELOCITY INDEX</span>
               <span className="font-mono text-sm font-medium">{m.velocityIndex ?? '—'} / 100</span>
             </div>
             <div className="h-1 bg-ink/10">
@@ -111,14 +111,14 @@ export function SignalCard({ term }: { term: CampaignTerm }) {
           </div>
           {m.inflections && m.inflections.length > 0 && (
             <div>
-              <div className="small-caps text-ink/40 mb-1">INFLECTIONS</div>
+              <div className="small-caps text-muted mb-1">INFLECTIONS</div>
               <div className="font-mono text-xs text-muted">
                 {m.inflections.map((p) => p.date).join('  ·  ')}
               </div>
             </div>
           )}
           {m.corpusDensity?.proxy && (
-            <div className="small-caps text-ink/35 text-[9px] leading-relaxed">
+            <div className="small-caps text-muted text-[9px] leading-relaxed">
               Coverage intensity proxy, not literal mentions/M
             </div>
           )}
@@ -126,7 +126,7 @@ export function SignalCard({ term }: { term: CampaignTerm }) {
       ) : (
         <div className="grid grid-cols-3 gap-4 border-y border-ink/10 py-4">
           <div>
-            <div className="small-caps text-ink/40 mb-1.5">VELOCITY</div>
+            <div className="small-caps text-muted mb-1.5">VELOCITY</div>
             <div className="flex items-center gap-2">
               <LegacyVelocityBar label={m.velocityLabel} />
               <span className="small-caps">{m.velocityLabel}</span>
@@ -141,13 +141,13 @@ export function SignalCard({ term }: { term: CampaignTerm }) {
       <div className="flex-1 space-y-3">
         {term.whatItDoes && (
           <>
-            <div className="small-caps text-ink/40">WHAT THE WORD DOES</div>
+            <div className="small-caps text-muted">WHAT THE WORD DOES</div>
             <p className="font-display text-base leading-snug text-balance">{term.whatItDoes}</p>
           </>
         )}
         {term.whereContested && (
           <>
-            <div className="small-caps text-ink/40 pt-2">WHERE IT IS CONTESTED</div>
+            <div className="small-caps text-muted pt-2">WHERE IT IS CONTESTED</div>
             <p className="text-[13px] leading-relaxed text-muted">{term.whereContested}</p>
           </>
         )}
@@ -156,13 +156,13 @@ export function SignalCard({ term }: { term: CampaignTerm }) {
       {/* Platforms + co-occurrence */}
       {term.platforms?.length ? (
         <div className="text-[11px]">
-          <span className="small-caps text-ink/40">PLATFORMS </span>
+          <span className="small-caps text-muted">PLATFORMS </span>
           <span className="text-muted">{term.platforms.join(', ')}</span>
         </div>
       ) : null}
       {term.coOccurrence?.length ? (
         <div className="text-[11px]">
-          <span className="small-caps text-ink/40">CO-OCCURRENCE </span>
+          <span className="small-caps text-muted">CO-OCCURRENCE </span>
           <span className="text-muted">{term.coOccurrence.join(', ')}</span>
         </div>
       ) : null}
@@ -172,13 +172,13 @@ export function SignalCard({ term }: { term: CampaignTerm }) {
         <div className="border-l-2 border-ink/30 pl-4 space-y-1">
           <p className="font-display text-sm italic leading-snug">"{term.verbatims[0].quote}"</p>
           {term.verbatims[0].attribution && (
-            <p className="small-caps text-ink/40">{term.verbatims[0].attribution}</p>
+            <p className="small-caps text-muted">{term.verbatims[0].attribution}</p>
           )}
         </div>
       )}
 
       {/* Footer */}
-      <div className="flex items-center justify-between pt-4 border-t border-ink/10 mt-auto small-caps text-ink/50">
+      <div className="flex items-center justify-between pt-4 border-t border-ink/10 mt-auto small-caps text-muted">
         <span>{term.firstSeen ? `FIRST SEEN / ${term.firstSeen}` : m.retrievedAt ? 'MEASURED' : ''}</span>
         <span>{term.statusLabel || (measured ? 'SIGNAL' : pending ? 'QUEUED' : '')}</span>
       </div>

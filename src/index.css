@@ -9,7 +9,7 @@
     --color-canvas: 255 255 255;
     --color-rule: 229 229 225;
     --color-muted: 85 85 85;
-    --color-whisper: 154 154 149;
+    --color-whisper: 100 100 96;
   }
 
   .dark {
@@ -18,13 +18,24 @@
     --color-canvas: 20 20 19;
     --color-rule: 42 42 40;
     --color-muted: 160 160 155;
-    --color-whisper: 107 107 102;
+    --color-whisper: 145 145 140;
   }
 
   html {
-    scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Smooth in-page scrolling, but honor reduced-motion preferences. */
+  @media (prefers-reduced-motion: no-preference) {
+    html { scroll-behavior: smooth; }
+  }
+
+  /* Visible keyboard focus on every interactive surface (the reset + focus:outline-none
+     was leaving keyboard users with no focus indicator). */
+  :focus-visible {
+    outline: 2px solid rgb(var(--color-ink));
+    outline-offset: 2px;
   }
 
   body {

@@ -179,7 +179,7 @@ export function CardStudio({ term }: { term: DemoTerm }) {
               className={swatchCls(t.id === theme.id)} style={{ backgroundColor: t.bg }}
             />
           ))}
-          <label title="Custom color" className={`relative cursor-pointer ${swatchCls(theme.id === 'custom')}`} style={{ backgroundColor: customColor }}>
+          <label title="Custom color" className={`relative cursor-pointer focus-within:ring-2 focus-within:ring-ink focus-within:ring-offset-1 focus-within:ring-offset-paper ${swatchCls(theme.id === 'custom')}`} style={{ backgroundColor: customColor }}>
             <input
               type="color" value={customColor}
               onChange={(e) => { setCustomColor(e.target.value); setTheme(themeFromBackground(e.target.value)); }}

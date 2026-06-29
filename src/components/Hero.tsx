@@ -14,8 +14,9 @@ const HERO_CARDS = [
 export function Hero() {
   const [index, setIndex] = useState(0);
 
-  // Auto-cycle the hero cards
+  // Auto-cycle the hero cards (honor reduced-motion: hold on the first card)
   useEffect(() => {
+    if (typeof window !== 'undefined' && window.matchMedia?.('(prefers-reduced-motion: reduce)').matches) return;
     const id = setInterval(() => {
       setIndex((i) => (i + 1) % HERO_CARDS.length);
     }, 4500);
@@ -30,7 +31,7 @@ export function Hero() {
           <div className="space-y-2">
             <div className="flex items-center gap-3">
               <span className="inline-block w-2 h-2 bg-ink rotate-45" />
-              <span className="small-caps text-muted">Intelligence Archive // Active Cycle 06</span>
+              <span className="small-caps text-muted">Intelligence Archive // Active Cycle 07</span>
             </div>
           </div>
 

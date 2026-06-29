@@ -19,7 +19,7 @@ const fmtPct = (n: number | null) =>
   n == null ? '—' : `${n > 0 ? '+' : n < 0 ? '−' : ''}${Math.abs(n)}%`;
 
 // Stylized momentum glyph — direction reflects the real 90-day momentum (rising vs falling).
-function sparkPoints(d90: number | null, w = 300, h = 72): string {
+function sparkPoints(d90: number | null, w = 300): string {
   const rising = (d90 ?? 0) >= 0;
   const ys = rising
     ? [60, 56, 63, 47, 52, 38, 44, 28, 33, 18, 9]
@@ -96,7 +96,7 @@ function SignalCard({ t, compact = false }: { t: DemoTerm; compact?: boolean }) 
             <span>90-day momentum</span>
             <span className="font-mono text-ink">{fmtPct(t.deltas.d90)}</span>
           </div>
-          <svg viewBox="0 0 300 72" className="w-full h-12 text-ink" fill="none" aria-hidden="true">
+          <svg viewBox="0 0 300 72" className="w-full h-12 text-ink" fill="none" role="img" aria-label={`90-day momentum ${fmtPct(t.deltas.d90)}, trend ${(t.deltas.d90 ?? 0) >= 0 ? 'rising' : 'falling'}`}>
             <line x1="0" y1="68" x2="300" y2="68" stroke="currentColor" strokeWidth="1" className="text-rule" />
             <polyline
               points={sparkPoints(t.deltas.d90)}

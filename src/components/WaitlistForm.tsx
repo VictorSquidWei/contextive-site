@@ -67,7 +67,7 @@ export function WaitlistForm({
 
   if (submitted) {
     return (
-      <div id={anchorId} className={`border border-ink p-5 bg-canvas space-y-3 ${className}`}>
+      <div id={anchorId} role="status" className={`border border-ink p-5 bg-canvas space-y-3 ${className}`}>
         <div className="small-caps text-ink">{confirmTitle}</div>
         <p className="text-sm text-muted leading-relaxed">{confirmBody}</p>
         <a
@@ -93,6 +93,8 @@ export function WaitlistForm({
           placeholder="your@email.com"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
+          aria-invalid={!!error}
+          aria-describedby={error ? 'waitlist-error' : undefined}
           className="flex-1 bg-canvas border border-rule px-4 py-4 text-sm focus:outline-none focus:border-ink focus:ring-1 focus:ring-ink placeholder:text-whisper transition-colors"
         />
         <button
@@ -105,7 +107,7 @@ export function WaitlistForm({
           {submitting ? submittingLabel : submitLabel}
         </button>
       </div>
-      {error && <p className="small-caps text-ink">{error}</p>}
+      {error && <p id="waitlist-error" role="alert" className="small-caps text-ink">{error}</p>}
       {footnote && <p className="small-caps text-whisper text-[10px]">{footnote}</p>}
     </form>
   );
