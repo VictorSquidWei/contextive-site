@@ -37,6 +37,7 @@ function mix(hex1, hex2, t) {
   return '#' + c.map((v) => v.toString(16).padStart(2, '0')).join('');
 }
 export function themeFromBackground(bg) {
+  if (!/^#[0-9a-fA-F]{6}$/.test(String(bg))) bg = '#F5F5F3'; // accept only a 6-digit hex; never let a raw string reach the SVG
   const dark = luminance(hexToRgb(bg)) < 0.42; // dark background -> light text
   const fg = dark ? '#F5F5F3' : '#111111';
   return {
@@ -50,7 +51,7 @@ export function themeFromBackground(bg) {
 const display = 'Space Grotesk, Arial, Helvetica, sans-serif';
 const mono = 'JetBrains Mono, Consolas, monospace';
 
-const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const fmtPct = (v) => v === null || v === undefined ? 'n/a' : (v > 0 ? '+' : v < 0 ? '−' : '') + Math.abs(Math.round(v)) + '%';
 const fmtSent = (v) => v === null || v === undefined ? 'n/a' : (v > 0 ? '+' : v < 0 ? '−' : '') + Math.abs(v).toFixed(2);
 const upper = (s) => String(s ?? '').toUpperCase();

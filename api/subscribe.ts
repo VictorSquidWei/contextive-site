@@ -89,7 +89,12 @@ async function forwardToSubstack(email: string): Promise<boolean> {
 }
 
 export default async function handler(req: any, res: any) {
-  res.setHeader('Access-Control-Allow-Origin', '*');
+  // Lock cross-origin access to the site itself (the form is same-origin; no third party needs this).
+  const ALLOWED_ORIGIN = 'https://contextive.info';
+  if (req.headers?.origin === ALLOWED_ORIGIN) {
+    res.setHeader('Access-Control-Allow-Origin', ALLOWED_ORIGIN);
+  }
+  res.setHeader('Vary', 'Origin');
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
@@ -97,6 +102,11 @@ export default async function handler(req: any, res: any) {
   if (req.method !== 'POST') return res.status(405).json({ ok: false, error: 'Method not allowed' });
 
   try {
+    // Reject oversized payloads before parsing (abuse / memory guard).
+    const raw = typeof req.body === 'string' ? req.body : JSON.stringify(req.body ?? {});
+    if (raw && raw.length > 2048) {
+      return res.status(413).json({ ok: false, error: 'Payload too large' });
+    }
     const body: RequestBody = typeof req.body === 'string' ? JSON.parse(req.body || '{}') : req.body || {};
     const email = body?.email?.trim().toLowerCase();
 
