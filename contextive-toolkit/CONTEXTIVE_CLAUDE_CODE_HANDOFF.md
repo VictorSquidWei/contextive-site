@@ -1,4 +1,4 @@
-# Contextive — Claude Code Handoff (v6)
+# Contextive — Claude Code Handoff (v7)
 
 **Owner:** Victor · **Live site:** contextive.info · **Repo:** `github.com/VictorSquidWei/contextive-site` (currently **public**)
 
@@ -13,47 +13,79 @@ is durable context. Keep the non-negotiables and the firewall verbatim.
 
 ## Resume here — current state
 
-**This session stood up the agent assembly line and ran Campaign 07 ("The Language of Money")
-end to end through it — the FIRST campaign driven by the sub-agent line, and it works.** The brief,
-warm Courtney exec doc, carousel spec, and the C07 site page were all produced; the C07 site page is
-built and `npm run build` passes but is **UNCOMMITTED / NOT pushed** — Victor chose to review locally
-first. The API + selling workstream remains **PAUSED** (unchanged from v5, folded in below).
+**This session shipped Campaign 07 end to end AND built the product layer around sharing it, then
+audited the whole site.** C07 "The Language of Money" is **live**; the company agent roster grew to
+**13**; the **Velocity Card system** (shareable cards + in-browser Card Studio + per-term `/signal`
+pages) shipped; the Signal Explorer was redesigned share-first; a full **QA consolidation** landed;
+and a **Ground News competitor teardown** + creator playbook were produced. Site HEAD **`d779e2d`**,
+pushed to `main`, Vercel building/READY (verified via the connector this session). The API + selling
+workstream is still **PAUSED** (folded in below).
 
-### Campaign 07 — "The Language of Money" — **built this session, site push held by Victor**
-Ran the full agent line (measure → brief → ⛔Victor review + tone → fan out [Courtney ‖ graphics ‖
-site] → ⛔push gate). Tone is **WARM** (Victor's call).
+### Campaign 07 — "The Language of Money" — **LIVE, end to end**
+Ran the full agent line (measure → brief → ⛔Victor review + WARM tone → fan out [Courtney ‖
+graphics ‖ site] → ⛔push → pre-pub PASS).
 - **Spine: "Debasement trade: velocity vs verdict"** — subtitle *"the bet against the dollar is
-  quietly being abandoned."* The measured story: the whole escape-the-dollar vocabulary is cooling
-  at once; the loudest word, **"debasement trade"** (velocity 100, **+374%/30d but −73%/90d**), is
-  loud only because the press narrates its unwind — loud because it's dying (the C06 "obliterated"
-  shape repeating).
-- **Measured 8/17** (GDELT, ref-date **2026-06-25**): debasement trade v100 (−73%/90d) · hard money
-  v86 (**+88.6%/90d**, clean) · fiscal dominance v71 · sound money v57 (−16%/90d) · store of value
-  v43 (−42%/90d) · digital gold v29 (−43%/90d) · inflation hedge v14 · magic internet money v0
-  (dormant). **PENDING 9:** death of the dollar, money printing, **stablecoin, tokenization**,
+  quietly being abandoned."* The whole escape-the-dollar vocabulary is cooling at once; the loudest
+  word, "debasement trade" (v100, **+374%/30d but −73%/90d**), is loud because it's dying (the C06
+  "obliterated" shape repeating).
+- **Measured 8/17** (GDELT, ref **2026-06-25**): debasement trade v100 (−73%/90d) · hard money v86
+  (**+88.6%/90d**, the *corrected* reading) · fiscal dominance v71 · sound money v57 · store of value
+  v43 · digital gold v29 · inflation hedge v14 · magic internet money v0. **PENDING 9:** death of the
+  dollar, money printing, **stablecoin, tokenization** (the dollar-rails counter-pole — priority),
   de-dollarization, digital dollar, fiat, ponzi, Bitcoin standard.
-- **Measurement-integrity lesson (the rule working as designed):** "hard money" first measured a
-  **+277%/90d** runaway and was *briefly made the spine* ("the creed survives"). A verification pass
-  (signal-measurer, with a tightened query excluding hard-money *lending*, campaign-finance
-  "hard/soft money", and bare gold-price noise) showed the surge was off-domain noise — the clean
-  reading is **+88.6%/90d** (modest, real). The spine was re-centered onto the verified
-  velocity-vs-verdict story; the card now carries the tightened query. Disambiguate noisy tokens,
-  verify, report the corrected number. Helpers in `scratchpad/`: `merge_c07.py`, `fix_hardmoney_c07.py`.
-- **GDELT stonewalled hard** — 2 top-up attempts; **stablecoin/tokenization** (the would-be
-  dollar-rails counter-pole) never measured. A spaced top-up for the 9 pending (priority:
-  stablecoin, tokenization) is the open measurement task.
-- **Artifacts** (in the `08 Misc` toolkit `data/` unless noted): `campaign07_terms.json`,
-  `campaign07_terms.topup.json`, `campaign07_cards.json` (8 measured), `campaign07_campaign.json`,
-  **`Contextive_Campaign_07_Brief.docx`**, `campaign07_exec_doc.json`,
-  **`Contextive_Campaign_07_Week02_Courtney.docx`** (warm), `campaign07_hardmoney_verify.json`. The
-  carousel/graphics spec (8-slide spec + per-card Claude Design prompts) was returned inline by
-  campaign-graphics — Courtney runs it in Claude Design ("contextive design system"); **no held
-  slides** (verification resolved).
-- **Site:** `contextive-site/src/data/campaigns/07.json` regenerated + `src/data/campaigns/index.ts`
-  (+2 lines); route **/campaigns/07-money**; `npm run build` passes. **UNCOMMITTED / NOT pushed** —
-  Victor reviews locally first; the push (his action) + Vercel verify are pending. **Note:** the
-  Vercel MCP connector was **disconnected this session**, so the deploy path is unverified from here
-  — reconnect it before relying on `list_deployments`/`get_deployment`.
+- **Measurement-integrity lesson:** "hard money" first read **+277%/90d** (off-domain noise:
+  hard-money lending, campaign-finance, bare gold price); a verification pass with a tightened
+  crypto-creed query corrected it to **+88.6%/90d**. The retired 277% appears only as the worked
+  example, never as a live figure. Helpers in `scratchpad/`: `merge_c07.py`, `fix_hardmoney_c07.py`.
+- **Shipped:** site page **/campaigns/07-money** (`a660f7a`); brief
+  `Contextive_Campaign_07_Brief.docx`; warm **`Contextive_Campaign_07_Week02_Courtney.docx`** + an
+  8-slide carousel spec — both cleared **pre-pub-reviewer PASS** (no fixes). C07 now also powers the
+  Signal Explorer + `/signal` (`d779e2d`); `debasement-trade` is a featured chip. Artifacts in the
+  `08 Misc` toolkit `data/`. **Only open step: Victor's editorial pass before Courtney publishes**
+  (Jun 29–Jul 3 window) — it's a doc, no site push needed.
+
+### The product layer (shipped this session)
+- **Velocity Card** — Contextive's signature shareable primitive: a 1080×1080 monochrome card per
+  measured term (velocity + momentum sparkline + deltas + inflection + firewall). ONE shared renderer
+  **`src/lib/velocityCard.js`** powers both the static generator (`scripts/build-velocity-cards.mjs`
+  → `public/cards/c<nn>-<slug>.png`) and the browser, so they never drift. (Our answer to Ground
+  News' "Bias Bar" — momentum, never a verdict.)
+- **Card Studio** (`src/components/CardStudio.tsx`) — on `/waitlist`, customize a card's background
+  (6 brand-safe presets + a custom color with luminance auto-contrast) with a live preview, then
+  **Download / Share to X / Instagram / Copy link / Copy caption**. Client-side SVG→PNG export.
+- **Per-term pages** — **`/signal/:slug`** (`SignalPage.tsx`): card + Studio + measured readout +
+  per-term SEO meta (og:image = the term's card); unknown slug → honest "measurement pending".
+  *Caveat:* meta is client-set, so full per-term social-unfurl needs build-time prerender (deferred).
+- **Signal Explorer redesign** (`762c61d`) — Explore mode is a share-first **Stage** (shareable card
+  hero + reading/customize/share rail + slim honest API strip), killing the old dead right-side space.
+
+### QA consolidation (this session) — site audited + hardened
+4 parallel auditors (security · backend/build · frontend+a11y · live-responsiveness) swept 7 routes ×
+6 widths + dark mode. **No blockers; build clean; API tests 5/5; no secrets in the client bundle.**
+Fixes shipped (`ddb7185`, `9ab5af7`, `d779e2d`): **CSP (Report-Only — flip to enforcing after watching
+prod)** + HSTS + Permissions-Policy headers; `api/subscribe` CORS locked to contextive.info + 2 KB body
+cap; velocityCard `esc()`/hex hardening; **WCAG-AA** contrast (whisper token + ink-alpha labels →
+muted); global `:focus-visible`; reduced-motion (Hero + scroll); WaitlistForm aria; sparkline
+aria-label; **6 dead components deleted** (incl. the retired "words that move markets" copy). **Deferred:**
+per-IP rate-limit + captcha on subscribe (needs Vercel KV — Victor's account); flip CSP to enforcing;
+542 KB code-split; `npm audit` (3 **dev-only** vulns, needs a vite major bump); deeper compare-mode tab ARIA.
+
+### Competitor intelligence — Ground News
+`competitor-analyst` teardown + ranked borrow list at `08 Misc` data/ **`Ground_News_Competitive_Teardown.md`**
+(+ **`Creator_Demo_Playbook.md`**). Their moat = an industrial creator-sponsorship engine (~1,863
+sponsored YouTube videos H1 2025). Our wedge = the firewall (they *adjudicate* bias/truth — we measure
+velocity, structural immunity to "who decides?"). Top 3 moves: (1) creator-demo GTM around the Signal
+Explorer in ONE niche (comms/PR + macro/finance, NOT saturated political YouTube), hook "the word is
+winning before the verdict is in"; (2) the Velocity Card primitive (done); (3) deploy the API + per-term
+SEO pages (signal pages done). **DO-NOT-COPY:** any bias/truth rating — it's the firewall line.
+
+### Measurement loop — PAUSED (GDELT hard rate-limited from this box)
+A self-paced loop to fill the pending terms ran **4 spaced rounds (~3 hrs incl. a 60-min backoff),
+all dry** — GDELT returned 429 + empty for every term from this box's IP. Paused deliberately (hitting
+it hourly may keep the throttle window alive). **stablecoin + tokenization** remain the priority pending
+C07 terms. The documented workaround for an IP block is the **browser collector**
+(`collectors/gdelt_collector.js` → `signal_pipeline.py --from-raw`), which uses the Chrome tab's network
+path — resume measurement that way, or retry the pipeline after a long cooldown / from a different network.
 
 ### API & selling workstream — **PAUSED; resume from `contextive-toolkit/CONTEXTIVE_API_STATUS.md`**
 That is the living tracker (Track A = API dev, Track B = go-to-market, with done/pending/deferred).
@@ -112,7 +144,7 @@ question — leave or rebrand).
    the `/waitlist` sample/explorer becomes a live round-trip (the wiring is already shipped).
 
 ### Campaigns (durable)
-- **SIX campaigns are live; C07 is built but not yet pushed (see C07 block above).** C06 — "The
+- **SEVEN campaigns are live, including C07 at `/campaigns/07-money` (see C07 block above).** C06 — "The
   Language of the Iran War" at `/campaigns/06-iran-war`, defining tension reframed to **"obliterated"
   vs "ceasefire"** (measured: the victory word collapsed — velocity 0, −63% 90d — while "ceasefire"
   is the runaway — velocity 100, +425%, spreading). Site shows **measured** numbers, never the brief's.
@@ -127,20 +159,24 @@ question — leave or rebrand).
   measured negative). The site/briefs show measured, never the brief's.
 
 ### Open threads
-1. **C07 site push** — `07.json` + `index.ts` are built and pass `npm run build` but are
-   **uncommitted**; Victor reviews locally, then he pushes (his action) + Vercel verify. **Reconnect
-   the Vercel MCP connector first** (it was disconnected this session).
-2. **C07 measurement top-up** — 9 pending terms; **stablecoin + tokenization** are the priority (the
-   dollar-rails counter-pole that never measured). GDELT was punishing this session; needs spaced runs.
-3. **C07 carousel** — Courtney to run the warm 8-slide spec (returned inline by campaign-graphics) in
-   Claude Design ("contextive design system"); card numbers from `campaign07_cards.json`.
-4. The API workstream's **two pending manual steps** (durable signups; deploy the API) — unchanged,
-   see `CONTEXTIVE_API_STATUS.md`.
-5. **Public vs private** for the three local API docs (`CONTEXTIVE_API_PLAN.md`,
-   `CONTEXTIVE_API_STATUS.md`, `CONTEXTIVE_PRICING_DISCOVERY.md`) — currently untracked/local.
-6. **X handle** `@contextive_ai` — leave or rebrand to match the `.info` brand.
-7. **Measurement union-accumulation** — resume the slow grind for marginal new terms across all
-   campaigns, or accept current coverage as the practical ceiling (Victor's call).
+1. **C07 publish** — Victor's **editorial pass** on the warm Week-02 doc + 8-slide carousel, then
+   Courtney runs the carousel in Claude Design ("contextive design system") and publishes on the
+   **Jun 29–Jul 3** window. If a top-up lands stablecoin/tokenization, refresh the Cluster-B card +
+   velocity numbers from `campaign07_cards.json` first.
+2. **Measurement (blocked)** — **stablecoin + tokenization** (+ 7 other C07 pendings) still pending;
+   the loop hit GDELT 429s for 4 spaced rounds (paused). Resume via the **browser collector**
+   (`collectors/gdelt_collector.js` → `--from-raw`) or retry the pipeline after a long cooldown / from
+   a different network. The cross-campaign union top-up (C03–C06 pendings) remains open too.
+3. **QA deferrals** — flip the CSP from **Report-Only → enforcing** after watching prod for violations;
+   per-IP rate-limit + captcha on `api/subscribe` (needs **Vercel KV** — Victor's account); 542 KB
+   code-split; `npm audit` (3 dev-only, needs a vite major bump).
+4. **Per-term social-unfurl** — `/signal/<term>` meta is client-set, so non-JS crawlers see the
+   index defaults; add build-time prerender if shared `/signal` links must unfurl with the term's card.
+5. **Creator-demo GTM** (Ground News Move #1) — Victor to greenlight outreach (**gated**); wire
+   **durable signup capture** (the API step below) FIRST so the funnel actually captures.
+6. The API workstream's **two pending manual steps** (durable signups; deploy the API) — see
+   `CONTEXTIVE_API_STATUS.md`. Plus **public vs private** for the three local API docs.
+7. **X handle** `@contextive_ai` — leave or rebrand to match the `.info` brand.
 8. **C06 Week-02 publishing** is Courtney's to run on the warm exec doc; refresh carousel velocity
    numbers from the current `cards.json` before she builds.
 
@@ -164,14 +200,25 @@ reads the canonical skill + its `/command` for process (no duplication, no drift
 non-negotiables, and returns a **structured report** to the orchestrator (the main session).
 **Agents report to the orchestrator; the orchestrator reports to Victor.** **Campaign 07 was the
 first campaign run end to end through this line — it works** (both human gates held: the warm/neutral
-tone call and the live-site push gate). The six (canonical `contextive-site/.claude/agents/`,
-mirrored to the parent `.claude/agents/`; orchestrator command `.claude/commands/campaign.md`):
+tone call and the live-site push gate). **13 agents now** (canonical `contextive-site/.claude/agents/`,
+mirrored to the parent `.claude/agents/`; orchestrator command `.claude/commands/campaign.md`).
+
+**Campaign line (6):**
 - **signal-measurer** — finds ~17 terms, writes terms.json, runs the GDELT pipeline, top-up merges (never regress). The "measure, don't estimate" engine. (Data half of `/new-brief`; also the standalone top-up worker.)
 - **brief-author** — campaign.json scaffold + builds/validates the brief docx; lets the measured numbers choose the spine. (Prose half of `/new-brief`.)
 - **courtney-instructions** — Week 02 exec doc + Claude Design prompts from measured cards. (`/new-instructions`; needs Victor's warm/neutral tone call.)
 - **campaign-graphics** — carousel slide spec + per-card Claude Design prompts from measured cards. (`/new-graphics`.)
 - **site-publisher** — builds the campaign page + local preview, prepares the diff, then **STOPS at the push gate** (the push is Victor's). (`/update-site`.)
 - **handoff-scribe** — refreshes this handoff at campaign end. (`/handoff`.)
+
+**Company line (7, added this session):**
+- **competitor-analyst** — rival teardown + ranked borrow list mapped to our brand/firewall (did Ground News).
+- **trend-scout** — surfaces the next vocabulary war (candidate campaigns) to feed signal-measurer.
+- **pre-pub-reviewer** — the PASS/FLAG/BLOCK gate on any deliverable against the six non-negotiables (cleared C07's Courtney doc).
+- **growth-analyst** — funnel / SEO / waitlist read + ranked growth moves (produced the creator playbook).
+- **pricing-researcher** — runs the Van-Westendorp discovery → tier/price recommendation.
+- **api-engineer** — owns the `contextive-api/` Phase-2 build; never deploys without Victor.
+- **brand-copy-editor** — sweeping brand-voice copy passes (shorten, de-jargon, enforce style rules).
 
 **Activate it:** `/campaign <nn> <topic>` — the orchestrator dispatches the line
 (measure → brief → ⛔Victor review + tone → fan out [Courtney ‖ graphics ‖ site] → ⛔push gate →
