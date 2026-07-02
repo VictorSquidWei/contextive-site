@@ -18,6 +18,11 @@ and publishes intelligence-brief campaigns across Substack, X, and Instagram. Li
 ## Non-negotiables (apply to everything: site, briefs, Courtney docs)
 1. **Measure, don't estimate.** Signal numbers come from `signal_pipeline.py`, never hand-keyed.
    Unmeasurable = pending, not guessed. A number that kills a narrative IS the story — flag it.
+   **Qualitative reads are never measurements:** no count, engagement tally, or velocity claim
+   sourced from any web/social read (WebSearch/WebFetch, scrapers, transcripts) may enter a signal
+   field, `cards.json`, a Velocity Card, a `/signal` page, or the API — those carry GDELT-measured
+   values or stay `pending`. Read tools surface qualitative anchors only (verbatims abstracted to
+   patterns of speech, co-occurrence, framing).
 2. **Firewall, verbatim:** "We track how the words have been used and how fast they are winning,
    not whether the underlying politics is correct."
 3. **No named person in a critical sentence.** Quote patterns of speech, never an individual.
