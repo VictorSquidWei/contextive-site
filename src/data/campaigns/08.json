@@ -1,0 +1,669 @@
+{
+  "number": "08",
+  "slug": "abundance",
+  "id": "08-abundance",
+  "label": "CAMPAIGN 08",
+  "title": "The Language of Abundance",
+  "shortTitle": "Abundance",
+  "period": "June 2026",
+  "status": "in-progress",
+  "signalBasis": "measured",
+  "firewall": "We track how the words have been used and how fast they are winning, not whether the underlying politics is correct.",
+  "summary": "One crisis, two instincts — build more, or live within limits — and this cycle the honest headline is that the verdict on which instinct is winning is not yet measured. Seventeen terms across the build-more consensus and its scarcity counter-vocabulary went to the pipeline; the open coverage source (GDELT DOC 2.0) returned its rate-limit notice rather than a series on every probe across the build window, so every card in this brief reads MEASUREMENT PENDING. That is not a gap to paper over with estimates. It is the discipline: we do not hand-key a velocity to fit a story, and this brief ships with the seven signal fields shown as pending until the pipeline recovers — precedent set by the campaign that launched with fourteen of its cards pending. The vocabulary is mapped, the queries are tuned, a scheduled retry is wired; the numbers are simply not in yet.",
+  "anchor": "Through 2025 and into 2026 a single argument reorganized how both parties talk about the cost of living: not who deserves a bigger slice, but why the country stopped building the things people need — homes, energy, infrastructure — and how to make more of them. A widely read book gave the frame a name, 'abundance,' and elected backers a program; statehouses ran on 'zoning reform' and 'permitting reform'; the energy debate split between a fossil 'drill baby drill' and a clean 'electrify everything,' each promising more, not less. Against all of it a scarcity counter-vocabulary sharpened in reply — 'degrowth,' 'limits to growth,' 'supply skepticism,' 'polycrisis' — insisting that some ceilings are physical and that 'more' is not always the answer. The same cost-of-living crisis now carries two incompatible instincts: build our way out, or live within limits. The measured question this cycle asks is which of those instincts is actually gaining velocity — and whether the loudest one is the one that is winning.",
+  "thesis": [
+    "One crisis, two instincts — build more, or live within limits — and this cycle the honest headline is that the verdict on which instinct is winning is not yet measured. Seventeen terms across the build-more consensus and its scarcity counter-vocabulary went to the pipeline; the open coverage source (GDELT DOC 2.0) returned its rate-limit notice rather than a series on every probe across the build window, so every card in this brief reads MEASUREMENT PENDING. That is not a gap to paper over with estimates. It is the discipline: we do not hand-key a velocity to fit a story, and this brief ships with the seven signal fields shown as pending until the pipeline recovers — precedent set by the campaign that launched with fourteen of its cards pending. The vocabulary is mapped, the queries are tuned, a scheduled retry is wired; the numbers are simply not in yet.",
+    "The provisional spine — stated plainly as a hypothesis to be confirmed or killed by measurement — is abundance versus scarcity, read as velocity versus verdict. The build-more vocabulary ('YIMBY,' 'abundance agenda,' 'build baby build,' 'zoning reform') plainly dominates the headlines right now. The testable claim, and the reason this cycle is worth measuring, is that dominating the coverage is not the same as gaining on it: a run of pieces asking whether the 'YIMBY consensus' is cresting, and a resurgent 'supply skepticism,' raise the real possibility that the pro-build lexicon measures as cooling even while it is loudest — the same shape a prior cycle's collapsed victory word took, and the shape a prior cycle's 'debasement trade' took at velocity 100 while down 73 percent on the quarter: loud because cresting, not because winning. We flag it as a hypothesis, not a finding. Contextive tracks how fast each name is winning, not whether building more or living within limits is the correct answer. When GDELT recovers, the velocities will decide the spine — confirming abundance-versus-scarcity as told here, or revising it exactly as a false surge on 'hard money' was caught and corrected in a prior cycle before it could mislead. Until then the spine is a lens, and the pending fields are the honest state of the measurement."
+  ],
+  "definingTension": {
+    "a": "Abundance",
+    "b": "scarcity: velocity vs verdict",
+    "note": "The cycle's provisional spine, and it is explicitly a hypothesis awaiting the pipeline, not a finding. The build-more instinct ('abundance agenda,' 'YIMBY,' 'build baby build,' 'zoning reform') visibly dominates the coverage; the scarcity instinct ('degrowth,' 'limits to growth,' 'supply skepticism,' 'scarcity mindset,' 'polycrisis') answers it in a sharpening counter-vocabulary. The testable claim is velocity versus verdict: that dominating the headlines is not the same as gaining on them, and that the pro-build lexicon could measure as cooling even while it is loudest — a run of 'is the YIMBY consensus cresting?' pieces and a resurgent supply skepticism are the reason to suspect it. That would be the same shape a prior cycle's collapsed victory word took, and the shape 'debasement trade' took at peak visibility while down sharply on the quarter: loud because cresting, not winning. Equally, measurement may show the build vocabulary still climbing and the scarcity words merely reactive — in which case the spine is revised, and that revision leads. We do not adjudicate whether building more or living within limits is correct; we will report which names are gaining, and until GDELT recovers every figure here is MEASUREMENT PENDING."
+  },
+  "clusters": [
+    {
+      "key": "A",
+      "name": "Why can't we build homes?",
+      "blurb": "How the cost-of-living crisis is named from the housing fight — the register where an abstract argument about scarcity becomes a zoning board, a rent check, a stalled bill. It runs on the plain-arithmetic claim that high prices are a supply problem with a supply answer, and it carries the movement's self-chosen banner and the epithet it defines itself against. Its own doubters travel inside it: the crystallizing charge that adding market-rate supply may not, by itself, make anything affordable."
+    },
+    {
+      "key": "B",
+      "name": "What should we make more of?",
+      "blurb": "The vocabulary of building more energy and growth, and the argument over what 'more' should be built out of. Here the abundance banner meets its rivals: a right-coded push for fossil output and a clean-energy program to electrify a decarbonized grid, each claiming the 'more' instinct for itself. Its counter-pole is the sharpest opposite of the whole cycle — the case that a finite world cannot sustain endless growth and that rich societies should plan to make and consume less."
+    },
+    {
+      "key": "C",
+      "name": "Can we still build at all?",
+      "blurb": "The words for why things do or don't get built, and the scarcity counter-vocabulary that answers the build-more mood. This register runs on the machinery — the reviews and approvals that gate a project — and on the chants, self-critiques, and diagnoses each side aims at the other. Its defining feature is symmetry: the build side names the opposing instinct a mindset to overcome, while the scarcity side answers that some ceilings are physics, not attitude, and that overwhelm is the honest reading of the moment."
+    }
+  ],
+  "pillars": [
+    {
+      "title": "Is the loudest word the winning one? (the pending lede)",
+      "body": "The cycle's intended lede, and it is a velocity-versus-verdict question the measurement has not yet answered — which is itself the honest first post. The obvious story has the build-more vocabulary rising in the coverage because it dominates the coverage; the testable counter-claim is that 'YIMBY,' 'abundance agenda,' and 'build baby build' could be loudest at the very moment the consensus behind them crests, with a run of 'is the YIMBY consensus over?' pieces and a resurgent 'supply skepticism' as the tell — the same gap between visibility and direction that a prior cycle's collapsed victory word and 'debasement trade' both showed. Right now that gap is a hypothesis: every one of the seventeen terms reads MEASUREMENT PENDING because the coverage source returned its throttle notice rather than a series. The highest-stakes piece is built on the gap once it is measured — and if the measurement instead shows the build words still climbing, that reversal is the piece. Either way the lede is the discipline: we show the pending state plainly and let the velocities, not the volume of headlines, decide."
+    },
+    {
+      "title": "The chant war: build baby build meets drill baby drill",
+      "body": "One rhythm, three arenas — housing, fossil energy, clean energy — and a clean demonstration of the signal layer on portable slogans that cross party lines. 'Build baby build' borrowed its cadence from 'drill baby drill'; 'electrify everything' and 'energy dominance' fight for the same 'more' instinct from opposite sides. Tracked in real time, the relative velocity of these chants shows where the build impulse actually accelerates and where it is only loud — measured evenhandedly, the fossil and clean and housing versions typeset identically, none inflated. Pending the pipeline, this pillar frames the question the numbers will answer; it asserts no winner in advance."
+    },
+    {
+      "title": "Scarcity answers back",
+      "body": "The counter-vocabulary given full, equal weight — because the story is not complete if only the build side is heard. 'Degrowth,' 'limits to growth,' 'supply skepticism,' 'scarcity mindset,' and 'polycrisis' are not mere caution; together they form an affirmative counter-program and a mood of overwhelm that the abundance case is explicitly pitched against, cutting across left doubt about deregulation and a broader unease that some ceilings are real. The measured question is whether the scarcity words are fading under the build-more surge or quietly gaining as the consensus is questioned from within — the resurgence of 'supply skepticism' is the term to watch. This pillar carries the same analytical weight as the build side; the brand takes no position on whether limits are wisdom or a losing message. Its velocities, like all of this cycle's, are pending measurement."
+    }
+  ],
+  "tensions": [
+    {
+      "a": "Abundance",
+      "b": "scarcity: velocity vs verdict (PROVISIONAL — pending measurement)",
+      "title": "Abundance vs scarcity: velocity vs verdict (PROVISIONAL — pending measurement)",
+      "body": "The cycle's provisional spine, and it is explicitly a hypothesis awaiting the pipeline, not a finding. The build-more instinct ('abundance agenda,' 'YIMBY,' 'build baby build,' 'zoning reform') visibly dominates the coverage; the scarcity instinct ('degrowth,' 'limits to growth,' 'supply skepticism,' 'scarcity mindset,' 'polycrisis') answers it in a sharpening counter-vocabulary. The testable claim is velocity versus verdict: that dominating the headlines is not the same as gaining on them, and that the pro-build lexicon could measure as cooling even while it is loudest — a run of 'is the YIMBY consensus cresting?' pieces and a resurgent supply skepticism are the reason to suspect it. That would be the same shape a prior cycle's collapsed victory word took, and the shape 'debasement trade' took at peak visibility while down sharply on the quarter: loud because cresting, not winning. Equally, measurement may show the build vocabulary still climbing and the scarcity words merely reactive — in which case the spine is revised, and that revision leads. We do not adjudicate whether building more or living within limits is correct; we will report which names are gaining, and until GDELT recovers every figure here is MEASUREMENT PENDING."
+    },
+    {
+      "a": "Build baby build",
+      "b": "drill baby drill",
+      "title": "Build baby build vs drill baby drill",
+      "body": "Two chants built on the same cadence, pointed at different things. 'Drill baby drill' compresses a fossil-abundance position into three words — produce more oil and gas, now — and 'build baby build' was minted by deliberately echoing it, aiming the same rally-cry energy at housing and infrastructure. The contest is whether a build-first politics gains by borrowing the swagger of an energy chant, or whether reducing supply policy to a slogan flattens it; and whether either chant describes a strategy or just a mood, given that even industry voices have at times talked the drilling boom down. Their relative velocity, once measured, reads as whether the 'more' instinct travels faster on the housing side or the energy side. Both are treated identically here; neither reads as the brand's own view."
+    },
+    {
+      "a": "Electrify everything",
+      "b": "energy dominance",
+      "title": "Electrify everything vs energy dominance",
+      "body": "The two rival answers to 'more energy,' and the cleanest left-right split in the cycle held at equal weight. 'Electrify everything' reframes climate action as construction — run homes, cars, and industry on an expanding decarbonized grid, more power not less; 'energy dominance' frames national strength as unrestricted domestic production, chiefly oil and gas. Each claims the abundance instinct for itself; each faces the same doubt from the other side about whether its version of 'more' can actually be delivered — a grid not yet built, barrels the market may not want. The contest is what abundance of energy should be made of, electrons or barrels. Contextive measures which name is winning the coverage, not which fuel is right."
+    },
+    {
+      "a": "YIMBY",
+      "b": "supply skepticism",
+      "title": "YIMBY vs supply skepticism",
+      "body": "The builders' core premise against its named rebuttal — the fault line inside the housing argument itself. 'YIMBY' asserts that a housing shortage has a supply answer and that blocking new homes is the cause of high rents; 'supply skepticism' is the crystallizing counter-frame that adding market-rate supply will not, by itself, make housing affordable, and that subsidy and regulation must do work permits alone cannot. The contest is empirical and identity-laden at once — over what the evidence actually shows and over who is being naive. Their relative velocity is the sharpest single test of the provisional spine: if the rebuttal is gaining while the banner plateaus, the pro-build consensus is contested from within exactly as it looks most dominant. Pending measurement, that remains a hypothesis."
+    },
+    {
+      "a": "Scarcity mindset",
+      "b": "limits to growth",
+      "title": "Scarcity mindset vs limits to growth",
+      "body": "The whole abundance-scarcity argument compressed into how each side names the other's premise. 'Scarcity mindset' is the build side's term for what it opposes — a way of thinking that treats resources as fixed and turns every question into a zero-sum fight, a psychology to be overcome. 'Limits to growth,' the half-century-old creed revived in the climate era, answers that the ceilings are physical facts, not attitudes, and that calling constraint a mindset dismisses real tradeoffs. Each word is a verdict disguised as a description: one says scarcity is mostly manufactured by bad choices, the other says it is partly imposed by the world. The contest is whether the limit is fixed by nature or kept low by a failure of will — and it is precisely the claim Contextive measures the momentum of, and refuses to settle."
+    }
+  ],
+  "terms": [
+    {
+      "ref": "C08-A1",
+      "term": "YIMBY",
+      "cluster": "A",
+      "domainTag": "HOUSING / LAND — THE BUILDERS",
+      "measurement": {
+        "status": "pending",
+        "reason": "GDELT DOC 2.0 server-side throttled (returns the 'limit requests to one every 5 seconds' notice, no coverage series); confirmed 2026-07-02 single probe. Awaiting recovery for measurement."
+      },
+      "platforms": [
+        "X",
+        "policy press",
+        "Substack",
+        "local news"
+      ],
+      "coOccurrence": [
+        "zoning",
+        "supply",
+        "housing crisis",
+        "abundance"
+      ],
+      "whatItDoes": "The self-chosen name of the pro-building movement — Yes In My Back Yard — that reframes local land-use fights as a supply problem with a supply answer. It is the word that turned a diffuse frustration with high rents into an organized political identity, and it is the anchor term the whole abundance argument leans on when it moves from books to zoning boards.",
+      "whereContested": "To those who claim it, building more housing is the plain-arithmetic cure for unaffordability and blocking it is the cause; to those who resist it, the label smooths over who benefits from new market-rate supply and treats a community's caution as mere obstruction. The contest is whether 'YIMBY' names a solution or a slogan that has outrun its evidence — a tension sharpened by a run of pieces asking whether the YIMBY consensus is cresting.",
+      "verbatims": [
+        {
+          "quote": "we have a housing shortage, so build more housing",
+          "attribution": "recurring builder pattern"
+        },
+        {
+          "quote": "more market-rate supply doesn't mean more affordable",
+          "attribution": "skeptic pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C08-A2",
+      "term": "NIMBY",
+      "cluster": "A",
+      "domainTag": "HOUSING / LAND — THE EPITHET",
+      "measurement": {
+        "status": "pending",
+        "reason": "GDELT DOC 2.0 server-side throttled (returns the 'limit requests to one every 5 seconds' notice, no coverage series); confirmed 2026-07-02 single probe. Awaiting recovery for measurement."
+      },
+      "platforms": [
+        "X",
+        "local news",
+        "policy press",
+        "Reddit"
+      ],
+      "coOccurrence": [
+        "zoning",
+        "single-family",
+        "development",
+        "homeowners"
+      ],
+      "whatItDoes": "The oldest word in the fight and now mostly a charge rather than a self-description — the accusation that a neighbor blocking development is protecting their own view or property value at everyone else's expense. It is the negative pole the builders' movement defines itself against, and its usage marks who gets cast as the villain of the scarcity story.",
+      "whereContested": "Used as an indictment, it frames local objection as selfishness dressed up as principle; rejected, it is dismissed as a slur that erases legitimate concerns about displacement, infrastructure, and neighborhood character. The contest is over whether resisting a specific project is obstruction or a defensible choice about how a place should change.",
+      "verbatims": [
+        {
+          "quote": "everyone's a NIMBY when it's their own street",
+          "attribution": "recurring critique pattern"
+        },
+        {
+          "quote": "wanting a say in your neighborhood isn't NIMBYism",
+          "attribution": "rebuttal pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C08-A3",
+      "term": "missing middle",
+      "cluster": "A",
+      "domainTag": "HOUSING / LAND — THE PRESCRIPTION",
+      "measurement": {
+        "status": "pending",
+        "reason": "GDELT DOC 2.0 server-side throttled (returns the 'limit requests to one every 5 seconds' notice, no coverage series); confirmed 2026-07-02 single probe. Awaiting recovery for measurement."
+      },
+      "platforms": [
+        "policy press",
+        "local news",
+        "planning press",
+        "X"
+      ],
+      "coOccurrence": [
+        "zoning reform",
+        "density",
+        "single-family",
+        "duplex"
+      ],
+      "whatItDoes": "The technical-sounding name for the housing types zoning quietly outlawed — duplexes, triplexes, small apartment buildings — between the single-family house and the tower. It gives the reform movement a concrete, non-threatening image of what 'building more' actually looks like on a normal street, and it is the phrase legislation is written around.",
+      "whereContested": "Advocates present it as the gentlest possible density, the obvious fix a generation of zoning erased; critics counter that upzoning alone, without subsidy or tenant protection, delivers little affordability and can accelerate displacement. The contest is whether legalizing these forms is sufficient or merely necessary — a gap dramatized when a high-profile 'missing middle' bill stalled.",
+      "verbatims": [
+        {
+          "quote": "we banned the missing middle and called it a housing shortage",
+          "attribution": "recurring reform pattern"
+        },
+        {
+          "quote": "legalizing fourplexes doesn't make them affordable",
+          "attribution": "skeptic pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C08-A4",
+      "term": "zoning reform",
+      "cluster": "A",
+      "domainTag": "HOUSING / LAND — THE LEVER",
+      "measurement": {
+        "status": "pending",
+        "reason": "GDELT DOC 2.0 server-side throttled (returns the 'limit requests to one every 5 seconds' notice, no coverage series); confirmed 2026-07-02 single probe. Awaiting recovery for measurement."
+      },
+      "platforms": [
+        "policy press",
+        "local news",
+        "planning press",
+        "X"
+      ],
+      "coOccurrence": [
+        "single-family",
+        "upzoning",
+        "state preemption",
+        "density"
+      ],
+      "whatItDoes": "The policy lever the whole housing argument now runs through — rewriting local land-use rules to allow more homes. It is the point where the abundance thesis becomes a bill, the workaday term that translates a cultural argument about scarcity into ordinances, ballot measures, and state preemption of local control.",
+      "whereContested": "One camp treats it as the single highest-leverage fix for affordability and a test of whether governments can still build; another warns that reform written for developers, without guardrails, redistributes upward and overrides communities. The contest is less whether to reform than whose interests the rewrite serves, and how much local say survives it.",
+      "verbatims": [
+        {
+          "quote": "you can't fix housing without fixing the zoning",
+          "attribution": "recurring reform pattern"
+        },
+        {
+          "quote": "zoning reform written by developers isn't reform",
+          "attribution": "critic pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C08-A5",
+      "term": "housing theory of everything",
+      "cluster": "A",
+      "domainTag": "HOUSING / LAND — THE GRAND CLAIM",
+      "measurement": {
+        "status": "pending",
+        "reason": "GDELT DOC 2.0 server-side throttled (returns the 'limit requests to one every 5 seconds' notice, no coverage series); confirmed 2026-07-02 single probe. Awaiting recovery for measurement."
+      },
+      "platforms": [
+        "Substack",
+        "X",
+        "policy press",
+        "podcasts"
+      ],
+      "coOccurrence": [
+        "supply",
+        "growth",
+        "birth rates",
+        "abundance"
+      ],
+      "whatItDoes": "The maximal version of the supply argument — the claim that expensive, scarce housing is the hidden cause behind a startling range of problems, from low birth rates and slow growth to inequality and political anger. It is the phrase that elevates a zoning fight into a unified field theory, and its spread signals how central housing has become to the abundance worldview.",
+      "whereContested": "Believers treat it as a genuine insight into how one broken market radiates outward; skeptics see intellectual overreach that blames housing for problems with many causes and flatters a single policy fix. The contest is over explanatory ambition — whether housing is the master variable or one important variable among many.",
+      "verbatims": [
+        {
+          "quote": "almost everything traces back to the cost of housing",
+          "attribution": "recurring proponent pattern"
+        },
+        {
+          "quote": "not everything is downstream of zoning",
+          "attribution": "skeptic pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C08-A6",
+      "term": "supply skepticism",
+      "cluster": "A",
+      "domainTag": "HOUSING / LAND — THE COUNTER-FRAME",
+      "measurement": {
+        "status": "pending",
+        "reason": "GDELT DOC 2.0 server-side throttled (returns the 'limit requests to one every 5 seconds' notice, no coverage series); confirmed 2026-07-02 single probe. Awaiting recovery for measurement."
+      },
+      "platforms": [
+        "policy press",
+        "Substack",
+        "academic press",
+        "X"
+      ],
+      "coOccurrence": [
+        "affordability",
+        "market-rate",
+        "subsidy",
+        "induced demand"
+      ],
+      "whatItDoes": "The named rebuttal to the builders' core premise — the position that adding market-rate supply will not, by itself, make housing affordable. It gives the doubters a banner of their own and converts a scattered set of objections into a coherent counter-argument, the phrase the supply side must now answer rather than assume away.",
+      "whereContested": "Supply skeptics point to surveys and cases where new building did not lower local rents and argue affordability needs subsidy and regulation, not just permits; the supply side reads the skepticism as economically illiterate, a denial of price and quantity. The contest is empirical and identity-laden at once — over what the evidence shows and who is being naive.",
+      "verbatims": [
+        {
+          "quote": "they built more and rents still went up",
+          "attribution": "recurring skeptic pattern"
+        },
+        {
+          "quote": "supply skepticism is just denying supply and demand",
+          "attribution": "rebuttal pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C08-B1",
+      "term": "abundance agenda",
+      "cluster": "B",
+      "domainTag": "ENERGY / GROWTH — THE BANNER",
+      "measurement": {
+        "status": "pending",
+        "reason": "GDELT DOC 2.0 server-side throttled (returns the 'limit requests to one every 5 seconds' notice, no coverage series); confirmed 2026-07-02 single probe. Awaiting recovery for measurement."
+      },
+      "platforms": [
+        "policy press",
+        "Substack",
+        "podcasts",
+        "X"
+      ],
+      "coOccurrence": [
+        "scarcity",
+        "degrowth",
+        "permitting",
+        "supply-side"
+      ],
+      "whatItDoes": "The organizing banner of the whole cycle — the argument that the answer to high costs and stalled progress is to build and make more of the things people need: homes, energy, infrastructure. Popularized by a widely read book, it has become a political program with elected backers, and it is the term the entire vocabulary war is named after.",
+      "whereContested": "Champions frame it as a hopeful, supply-side politics that cuts across left NIMBYism and right scarcity-populism alike; critics on the left call it a corporate-friendly repackaging of deregulation that sidelines redistribution and power, while some on the right see it annexing 'build more' rhetoric they consider theirs. The contest is over what abundance is for, and who it is really for.",
+      "verbatims": [
+        {
+          "quote": "the answer to scarcity is to build more of everything",
+          "attribution": "recurring proponent pattern"
+        },
+        {
+          "quote": "abundance is deregulation with a friendlier name",
+          "attribution": "recurring critic pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C08-B2",
+      "term": "energy dominance",
+      "cluster": "B",
+      "domainTag": "ENERGY / GROWTH — THE RIGHT-CODED FRAME",
+      "measurement": {
+        "status": "pending",
+        "reason": "GDELT DOC 2.0 server-side throttled (returns the 'limit requests to one every 5 seconds' notice, no coverage series); confirmed 2026-07-02 single probe. Awaiting recovery for measurement."
+      },
+      "platforms": [
+        "cable news",
+        "policy press",
+        "trade press",
+        "X"
+      ],
+      "coOccurrence": [
+        "oil and gas",
+        "drilling",
+        "grid",
+        "independence"
+      ],
+      "whatItDoes": "The governing frame for a build-more-energy politics coded to the right — producing so much domestic power, chiefly oil and gas, that it becomes a source of national strength. It is a rival abundance vocabulary that shares the language of building and unleashing while pointing it at fossil output, and it competes with the clean-energy version for the same 'more' instinct.",
+      "whereContested": "Supporters cast it as security, jobs, and lower prices through unrestricted production; opponents argue it launders fossil expansion as strength while sidelining renewables and climate, and note markets, not permits, set drilling. The contest is over what 'dominance' should be built out of — and whether abundance of energy means more barrels or more electrons.",
+      "verbatims": [
+        {
+          "quote": "energy dominance means we produce more than anyone",
+          "attribution": "recurring proponent pattern"
+        },
+        {
+          "quote": "dominance in barrels isn't the same as cheap power",
+          "attribution": "critic pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C08-B3",
+      "term": "drill baby drill",
+      "cluster": "B",
+      "domainTag": "ENERGY / GROWTH — THE CHANT",
+      "measurement": {
+        "status": "pending",
+        "reason": "GDELT DOC 2.0 server-side throttled (returns the 'limit requests to one every 5 seconds' notice, no coverage series); confirmed 2026-07-02 single probe. Awaiting recovery for measurement."
+      },
+      "platforms": [
+        "cable news",
+        "X",
+        "rally coverage",
+        "trade press"
+      ],
+      "coOccurrence": [
+        "oil",
+        "gas",
+        "energy dominance",
+        "prices"
+      ],
+      "whatItDoes": "The chant that compresses the fossil-abundance position into three words — produce more oil and gas, now, without apology. Revived as a governing slogan, it is the loudest, most portable form of the 'build/produce more' impulse on the energy side, and its rhythm is deliberately echoed by the housing movement's own 'build baby build.'",
+      "whereContested": "To its users it is energy freedom, lower prices, and independence made vivid; to its opponents it is a climate-denying applause line, and analysts note even oil executives have talked it down as prices and budgets discourage a boom. The contest is whether the chant describes a strategy or just a mood — and whether the barrels it promises actually follow.",
+      "verbatims": [
+        {
+          "quote": "drill baby drill and watch prices fall",
+          "attribution": "recurring proponent pattern"
+        },
+        {
+          "quote": "you can chant it but the rigs aren't coming back",
+          "attribution": "skeptic pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C08-B4",
+      "term": "electrify everything",
+      "cluster": "B",
+      "domainTag": "ENERGY / GROWTH — THE CLEAN-ABUNDANCE ROUTE",
+      "measurement": {
+        "status": "pending",
+        "reason": "GDELT DOC 2.0 server-side throttled (returns the 'limit requests to one every 5 seconds' notice, no coverage series); confirmed 2026-07-02 single probe. Awaiting recovery for measurement."
+      },
+      "platforms": [
+        "climate press",
+        "trade press",
+        "policy press",
+        "X"
+      ],
+      "coOccurrence": [
+        "grid",
+        "heat pumps",
+        "EVs",
+        "decarbonization"
+      ],
+      "whatItDoes": "The clean-energy version of building more — a program to run homes, cars, and industry on electricity from an expanding, decarbonized grid. It reframes climate action as construction rather than sacrifice, aligning the green agenda with the abundance mood by promising more energy, not less, and it is increasingly billed as the defining climate story of the moment.",
+      "whereContested": "Advocates argue it is how decarbonization becomes abundance — cheaper power, cleaner air, energy security through building; critics on one side doubt the grid and supply chains can scale fast enough, and rivals on the fossil side dismiss it as costly mandates. The contest is over whether 'more' can be clean and fast at once.",
+      "verbatims": [
+        {
+          "quote": "the whole climate fight comes down to electrify everything",
+          "attribution": "recurring advocate pattern"
+        },
+        {
+          "quote": "electrify everything assumes a grid we haven't built",
+          "attribution": "skeptic pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C08-B5",
+      "term": "degrowth",
+      "cluster": "B",
+      "domainTag": "ENERGY / GROWTH — THE COUNTER-POLE",
+      "measurement": {
+        "status": "pending",
+        "reason": "GDELT DOC 2.0 server-side throttled (returns the 'limit requests to one every 5 seconds' notice, no coverage series); confirmed 2026-07-02 single probe. Awaiting recovery for measurement."
+      },
+      "platforms": [
+        "Substack",
+        "academic press",
+        "X",
+        "climate press"
+      ],
+      "coOccurrence": [
+        "limits",
+        "growth",
+        "climate",
+        "consumption"
+      ],
+      "whatItDoes": "The clearest opposite of the abundance instinct — the argument that a finite planet cannot sustain endless growth and that rich societies must plan to produce and consume less. It supplies the scarcity side with an affirmative program rather than mere caution, and it is the pole against which abundance most explicitly defines itself.",
+      "whereContested": "Advocates insist degrowth is not austerity but a redistribution toward shorter hours, public goods, and living within limits; opponents, including many on the left, call it a political non-starter that concedes the language of less and hands growth to opponents. The contest is whether restraint is wisdom or a losing message — and whether abundance and degrowth are true opposites or a false choice.",
+      "verbatims": [
+        {
+          "quote": "you cannot have infinite growth on a finite planet",
+          "attribution": "recurring degrowth pattern"
+        },
+        {
+          "quote": "running on 'less' is how the left keeps losing",
+          "attribution": "rebuttal pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C08-C1",
+      "term": "permitting reform",
+      "cluster": "C",
+      "domainTag": "STATE CAPACITY / COUNTER-VOCABULARY — THE BOTTLENECK",
+      "measurement": {
+        "status": "pending",
+        "reason": "GDELT DOC 2.0 server-side throttled (returns the 'limit requests to one every 5 seconds' notice, no coverage series); confirmed 2026-07-02 single probe. Awaiting recovery for measurement."
+      },
+      "platforms": [
+        "policy press",
+        "trade press",
+        "Substack",
+        "X"
+      ],
+      "coOccurrence": [
+        "NEPA",
+        "environmental review",
+        "infrastructure",
+        "bipartisan"
+      ],
+      "whatItDoes": "The unglamorous mechanism the whole abundance argument keeps arriving at — speeding the government reviews and approvals that gate new housing, energy, and infrastructure. It is where the cultural argument about scarcity meets administrative procedure, and it is the rare build-more cause with backers on both left and right.",
+      "whereContested": "Reformers frame slow permitting as the concrete reason things don't get built and streamlining as a bipartisan win; critics warn that gutting review sacrifices environmental and community safeguards, and that 'reform' can be a Trojan horse for deregulation. The contest is over how much process is protection and how much is paralysis.",
+      "verbatims": [
+        {
+          "quote": "we can't build anything because we can't permit anything",
+          "attribution": "recurring reform pattern"
+        },
+        {
+          "quote": "'reform' here just means fewer safeguards",
+          "attribution": "critic pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C08-C2",
+      "term": "build baby build",
+      "cluster": "C",
+      "domainTag": "STATE CAPACITY / COUNTER-VOCABULARY — THE RALLYING CRY",
+      "measurement": {
+        "status": "pending",
+        "reason": "GDELT DOC 2.0 server-side throttled (returns the 'limit requests to one every 5 seconds' notice, no coverage series); confirmed 2026-07-02 single probe. Awaiting recovery for measurement."
+      },
+      "platforms": [
+        "policy press",
+        "X",
+        "Substack",
+        "podcasts"
+      ],
+      "coOccurrence": [
+        "housing",
+        "abundance",
+        "supply",
+        "drill baby drill"
+      ],
+      "whatItDoes": "The abundance movement's own chant, minted by echoing the energy right's 'drill baby drill' and pointing the same energy at housing and infrastructure. It is the phrase that signals a build-first politics has adopted the cadence of a rally cry, and its adoption by think tanks and candidates marks abundance moving from argument to slogan.",
+      "whereContested": "Supporters love that it makes a wonky supply argument chantable and cross-partisan; critics find it borrows a deregulatory swagger and papers over who bears the costs of fast, cheap building. The contest is whether reducing housing policy to a chant clarifies the stakes or flattens them.",
+      "verbatims": [
+        {
+          "quote": "the housing answer is simple: build baby build",
+          "attribution": "recurring proponent pattern"
+        },
+        {
+          "quote": "a catchy chant isn't a housing policy",
+          "attribution": "skeptic pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C08-C3",
+      "term": "everything-bagel liberalism",
+      "cluster": "C",
+      "domainTag": "STATE CAPACITY / COUNTER-VOCABULARY — THE SELF-CRITIQUE",
+      "measurement": {
+        "status": "pending",
+        "reason": "GDELT DOC 2.0 server-side throttled (returns the 'limit requests to one every 5 seconds' notice, no coverage series); confirmed 2026-07-02 single probe. Awaiting recovery for measurement."
+      },
+      "platforms": [
+        "Substack",
+        "policy press",
+        "podcasts",
+        "X"
+      ],
+      "coOccurrence": [
+        "process",
+        "liberalism",
+        "standards",
+        "abundance"
+      ],
+      "whatItDoes": "The vivid self-diagnosis at the heart of the abundance case — the claim that liberal projects fail because they are loaded with so many well-meaning side goals that they collapse under their own weight, like the film's bagel stuffed with everything. It gave the movement a memorable name for how good intentions produce paralysis, and it is the phrase that turns abundance into an internal critique of the left.",
+      "whereContested": "Its users treat it as an honest reckoning with why the state can't build; defenders of those side goals argue the 'bagel' bundles labor, environmental, and equity protections that are the point, not the problem, and that the metaphor smuggles in an anti-standards agenda. The contest is whether attached conditions are obstacles or the substance of governing.",
+      "verbatims": [
+        {
+          "quote": "every project gets loaded up until nothing gets built",
+          "attribution": "recurring critique pattern"
+        },
+        {
+          "quote": "those 'add-ons' are labor and environmental protections",
+          "attribution": "rebuttal pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C08-C4",
+      "term": "scarcity mindset",
+      "cluster": "C",
+      "domainTag": "STATE CAPACITY / COUNTER-VOCABULARY — THE DIAGNOSIS OF THE OTHER SIDE",
+      "measurement": {
+        "status": "pending",
+        "reason": "GDELT DOC 2.0 server-side throttled (returns the 'limit requests to one every 5 seconds' notice, no coverage series); confirmed 2026-07-02 single probe. Awaiting recovery for measurement."
+      },
+      "platforms": [
+        "Substack",
+        "policy press",
+        "podcasts",
+        "X"
+      ],
+      "coOccurrence": [
+        "abundance",
+        "zero-sum",
+        "limits",
+        "growth"
+      ],
+      "whatItDoes": "The abundance movement's name for what it opposes — a way of thinking that treats resources as fixed and politics as dividing a shrinking pie, breeding zero-sum fights over housing, energy, and immigration. It reframes the opposing instinct as a psychology to be overcome, and it is the term that lets abundance cast itself as optimism against fear.",
+      "whereContested": "Abundance advocates use it to explain both NIMBY hoarding and nationalist zero-sum populism as the same scarcity reflex; critics answer that some scarcities are real, physical limits, not attitudes, and that calling constraint a 'mindset' dismisses genuine tradeoffs. The contest is whether scarcity is mostly manufactured by bad choices or partly imposed by the world.",
+      "verbatims": [
+        {
+          "quote": "scarcity politics turns everything into a zero-sum fight",
+          "attribution": "recurring abundance pattern"
+        },
+        {
+          "quote": "some limits are physics, not a mindset",
+          "attribution": "rebuttal pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C08-C5",
+      "term": "limits to growth",
+      "cluster": "C",
+      "domainTag": "STATE CAPACITY / COUNTER-VOCABULARY — THE OLD CREED",
+      "measurement": {
+        "status": "pending",
+        "reason": "GDELT DOC 2.0 server-side throttled (returns the 'limit requests to one every 5 seconds' notice, no coverage series); confirmed 2026-07-02 single probe. Awaiting recovery for measurement."
+      },
+      "platforms": [
+        "academic press",
+        "climate press",
+        "Substack",
+        "X"
+      ],
+      "coOccurrence": [
+        "planetary boundaries",
+        "resources",
+        "degrowth",
+        "sustainability"
+      ],
+      "whatItDoes": "The half-century-old creed the scarcity side draws on — the thesis, named by a famous 1972 report, that finite resources set hard ceilings on economic and population growth. Revived in the climate era, it supplies degrowth and its allies with intellectual lineage, and it is the deep counter-tradition abundance must argue against, not just around.",
+      "whereContested": "Its inheritors argue planetary boundaries are physical facts that no amount of building can wish away; abundance advocates and techno-optimists counter that predicted limits have repeatedly bent under innovation and that 'limits' too often becomes an excuse for stagnation. The contest is whether the ceiling is fixed by nature or kept low by a failure of will and invention.",
+      "verbatims": [
+        {
+          "quote": "the planet has boundaries and we're past them",
+          "attribution": "recurring limits pattern"
+        },
+        {
+          "quote": "every doom forecast of limits has been overtaken",
+          "attribution": "rebuttal pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C08-C6",
+      "term": "polycrisis",
+      "cluster": "C",
+      "domainTag": "STATE CAPACITY / COUNTER-VOCABULARY — THE MOOD OF OVERWHELM",
+      "measurement": {
+        "status": "pending",
+        "reason": "GDELT DOC 2.0 server-side throttled (returns the 'limit requests to one every 5 seconds' notice, no coverage series); confirmed 2026-07-02 single probe. Awaiting recovery for measurement."
+      },
+      "platforms": [
+        "academic press",
+        "policy press",
+        "Substack",
+        "X"
+      ],
+      "coOccurrence": [
+        "climate",
+        "risk",
+        "Davos",
+        "systemic"
+      ],
+      "whatItDoes": "The word for the feeling the scarcity side runs on — that many crises (climate, conflict, inequality, institutional decay) are tangled together into one overwhelming condition. Leaping from Davos into everyday policy talk, it is the ambient mood of limits and threat that abundance's optimism is pitched against, and its spread tracks whether the public frame is 'build our way out' or 'brace for more.'",
+      "whereContested": "For those who use it, polycrisis names a real, novel entanglement of risks that demands humility and restraint; for skeptics it is a vague buzzword that bundles unrelated problems into fashionable doom and licenses inaction. The contest is whether the term clarifies the moment or merely dramatizes it — and whether the right response is to retrench or to build.",
+      "verbatims": [
+        {
+          "quote": "it's not one crisis, it's a polycrisis",
+          "attribution": "recurring usage pattern"
+        },
+        {
+          "quote": "'polycrisis' is just a fancy word for hard times",
+          "attribution": "skeptic pattern"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-02T22:47:14+00:00",
+  "refDate": "2026-06-29",
+  "source": "GDELT DOC 2.0 (timelinevol + timelinetone) — PENDING: source throttled at build time (2026-07-02 probe returned the rate-limit notice, no series). All terms pending; re-run pipeline when GDELT recovers."
+}
