@@ -1,4 +1,4 @@
-# Contextive — Claude Code Handoff (v9)
+# Contextive — Claude Code Handoff (v10)
 
 **Owner:** Victor · **Live site:** contextive.info · **Repo:** `github.com/VictorSquidWei/contextive-site` (currently **public**)
 
@@ -18,14 +18,23 @@ is durable context. Keep the non-negotiables and the firewall verbatim.
 
 ## Resume here — current state
 
-**This session ended the signal layer's single point of failure: the measurement is no longer hostage
-to the throttled GDELT DOC API. We built a resilient multi-source pipeline and migrated the coverage
-measure to GDELT Web News NGrams 3.0 on BigQuery — a non-throttled, full-text (article-body-derived)
-channel — then re-baselined C07 + C08 off DOC onto it and launched a new C09, so C07, C08 and C09 are
-now all LIVE and measured 17/17.** All three shipped in commit **`0d512f1`** (Vercel deploy
-`dpl_CE2zXu2n8onLj1iNiwu9hg5X9fQs` **READY**, aliased to contextive.info — orchestrator-verified). The
-campaign lineage is now **01–09**. The old 4-hourly DOC auto-retry is **obsolete** (C07/C08 are
-0-pending; it early-exits). The API + selling workstream is still **PAUSED** (folded in below).
+**Building on the now-durable resilient pipeline, this session took the full-text migration back through
+the archive: C03, C05 and C06 were re-baselined off the throttled DOC onto GDELT Web News NGrams 3.0
+(full-text) and are MEASURED 17/17 + prose-aligned in the toolkit, and C04 was re-measured to ~15/17 —
+but all of these are STAGED, NOT pushed. Victor called the day before reviewing, so promoting them to
+the live site is the top gated next-session action.** The three earlier full-text campaigns are already
+shipped — **C07, C08, C09 remain LIVE and measured 17/17 on contextive.info** (commit **`0d512f1`**,
+Vercel deploy `dpl_CE2zXu2n8onLj1iNiwu9hg5X9fQs` **READY**, orchestrator-verified). Also this session: the **C09 warm
+Courtney Week-02 doc is now written** (built around Victor's Jul 15–20 Las Vegas trip), and **C01/C02
+modernization is queued** (they are the last two campaigns still on the legacy editorial path). The
+campaign lineage is **01–09**. The old 4-hourly DOC auto-retry is still **obsolete**. The API + selling
+workstream is still **PAUSED** (folded in below).
+
+> **What's LIVE vs STAGED (read this before touching the site):** LIVE on contextive.info = **C07, C08,
+> C09** at 17/17 full-text (`0d512f1`) + the older partial-DOC pages for **C03–C06**. STAGED in the
+> toolkit only (measured, prose-ready, NOT on the site) = the full-text 17/17 re-baselines of **C03, C05,
+> C06** and the ~15/17 re-measure of **C04**. Publishing them = `build-campaign.mjs` regen → `npm run
+> build` → **gated push** (see the C03–C06 block below).
 
 > **BigQuery costs real money now (billing is ENABLED on Victor's `contextive-signal` project).** Web
 > NGrams scans are billed on-demand at ~$6.25/TiB and are **window-bound, not term-bound** — a 180-day
@@ -34,6 +43,9 @@ campaign lineage is now **01–09**. The old 4-hourly DOC auto-retry is **obsole
 > going forward** (extend only when a yoy read is worth the cost), and **every scan is a deliberate,
 > byte-capped, cost-logged run** — combine campaigns/terms into ONE scan, and the mandatory dry-run
 > byte cap must clear before any billed query. GCP key: `C:\Users\WEI\.contextive\contextive-gcp-key.json`.
+> **Spend this session ≈ ~$515** (orchestrator-reported): C07 validation + definitive 400d ≈ ~$198,
+> C08/C09 180d ≈ ~$88, C03–C06 180d ≈ ~$184, C04 re-measure ≈ ~$46. (Cumulative across the migration —
+> the standard 180d scan is ≈ ~$44; budget every future scan against that.)
 
 ### The resilient multi-source pipeline — **built + in production** (the headline)
 DOC 2.0 stayed throttled (persistent HTTP 429, confirmed across four network exits in the prior
@@ -59,11 +71,56 @@ session — not our IP), so the fix was to stop depending on it. `signal_pipelin
 
 **Calibration result (orchestrator-reported, not re-run this session):** **GKG (title/theme) FAILED
 0/8 — it lacks body text — so it is NOT used.** **Web NGrams (full-text) PASSED (5/8 formal; debasement
-trade + hard money directionally confirmed after query-hardening).** **41 `_WEBNGRAMS_OVERRIDES`**
-(variants / context / exclusions) restore recall + precision — notably **hard money re-scoped again**
-(the recurring C07 off-domain-noise lesson). The `_WEBNGRAMS_OVERRIDES` machinery + the instrument
-firewall + the byte cap are verified present in code this session; the calibration pass/fail counts and
-the BigQuery byte/cost figures are runtime facts taken from the orchestrator's report.
+trade + hard money directionally confirmed after query-hardening).** The `_WEBNGRAMS_OVERRIDES` table is
+now **~84 entries** (the original 41 from C07–C09 **+ 43 added this session** for the C03–C06 charged /
+noisy tokens: RINO→GOP context, moderate excl. weather senses, last mile excl. logistics, the draft →
+conscription anchors, obliterated / ceasefire scoped, etc.) — variants / context / exclusions that
+restore recall + precision. The `_WEBNGRAMS_OVERRIDES` machinery + the instrument firewall + the byte cap
+are verified present in code; the calibration pass/fail counts and the BigQuery byte/cost figures are
+runtime facts taken from the orchestrator's report.
+
+> **Note on C04's "failed" calibration (do not misread it):** full-text calibration against DOC "fails"
+> 0/3 for C04 **because DOC was undercounting, not because Web NGrams is hot.** The campaign skill's own
+> C04 audit already found the hand-built / DOC numbers off by ~3× in magnitude (MAGA Warrior measured
+> ~1700% YoY vs the brief's ~600%). Full-text catches the real surge; the DOC series it's checked against
+> is the low one. Treat this as DOC being wrong, not the full-text read.
+
+### C03 / C05 / C06 — re-baselined to full-text, measured 17/17 — **STAGED, not pushed** (the headline)
+The full-text migration went back through the archive. **C03, C05 and C06 are now MEASURED 17/17 on Web
+NGrams full-text and prose-aligned in the toolkit — but STAGED, not on the live site** (Victor called the
+day before reviewing; publishing is a gated next-session action). Each was measured **as-of its own moment**
+(`--ref-date` C03 `2026-05-04`, C05 `2026-06-09`, C06 `2026-06-21`; 180-day window). Toolkit
+`campaign0X_cards.json` are now **webngrams-canonical** (C05/C06 DOC versions saved as
+`campaign0X_cards.pre-webngrams-backup.json`; **C03 had no prior toolkit cards — this is its FIRST full
+measured set**). `campaign0X_campaign.json` prose aligned to the measured shape + briefs rebuilt — and
+**brief-author added the verbatim firewall paragraph that C03 + C05 methodology sections were missing.**
+- **Measured spines:**
+  - **C06 "obliterated vs ceasefire" — CONFIRMED** (obliterated **v0** / −22%/90d vs ceasefire **v94** /
+    **+455%/90d** — the victory word collapsed, the exit word runs). The measured twist: the loudest term
+    overall is now **warmonger v100** — the intra-coalition epithet (verified in the cards: warmonger v100,
+    obliterated v0, ceasefire v94).
+  - **C05 "soft landing vs vibecession" — CONFIRMED** (vibecession **v100** / +572%/30d vs soft landing
+    **v19** / −27%/90d; **tariff tax collapsed to v0**). Terms + webngrams-canonical verified in the cards;
+    the delta magnitudes are orchestrator-reported.
+  - **C03 — a NEW data-chosen spine: "chronic disease epidemic vs food as medicine"** (chronic disease
+    epidemic **v100** vs food as medicine **v0**; **Big Food v6** collapsed) — the movement **wins on the
+    diagnosis, loses on the cure.** (Orchestrator-reported; C03 is the first measured set.)
+- **To publish next session (gated):** `build-campaign.mjs` regen `src/data/campaigns/03.json`, `05.json`,
+  `06.json` from these cards → `npm run build` / preview → **gated push** → `/campaigns/03`, `/05`, `/06`
+  go from partial-DOC to **17/17 full-text**. Lead each with its measured divergence.
+
+### Campaign 04 — re-measured, **PARTIAL (~15/17)** — **STAGED, needs a decision**
+C04 (primaries) was re-measured on full-text but is **not a clean 17/17.** **MAGA Warrior (+599%/30d) and
+primary challenger (+155%) are REAL surges** — full-text catches what the old DOC / hand-built numbers
+undercounted ~3× (per the campaign skill's own C04 audit), which is exactly why calibration "fails" 0/3
+(DOC was low, not webngrams high — see the calibration note above). **But two rare/charged tokens come back
+sparse/degenerate on the body-text ngram surface:** **`endorsement machine`** (verified: status `measured`
+but **all deltas `null`**, no velocity — a single inflection point, nothing to rank) and **`fight back` /
+`democracy in danger`** (v100 but null deltas after tightening). **The honest call: ship those two `pending`
+→ C04 lands ~15/17** (up from 5/17). **NOT yet promoted to canonical** (the 2 sparse cards must be flipped
+to `pending` first) and **NOT pushed.** The toolkit **`campaign04_cards.json` canonical is still the DOC
+version**; the full-text run is **`campaign04_cards_webngrams.json`**. Decision + the pending-flip is the
+next-session C04 step.
 
 ### Campaign 09 — "The Language of the Real" — **LIVE, measured 17/17, end to end**
 **NEW campaign, launched already measured** (the AI-authenticity / "slop" vocabulary war). Live at
@@ -85,9 +142,15 @@ ref 2026-07-10**.
 - **Shipped:** site page **/campaigns/09-real** (`0d512f1`); brief
   `Contextive_Campaign_09_Brief.docx`. Toolkit artifacts in the `08 Misc` `data/`: `campaign09_terms.json`,
   `campaign09_cards.json` (all measured, webngrams), `campaign09_campaign.json`. Site data:
-  `src/data/campaigns/09.json` + registered in `index.ts`. **Open steps:** the **warm Courtney Week-02
-  doc is IN PROGRESS — not yet built** (no `campaign09_exec_doc.json` / Courtney docx exists yet); and
-  Victor's editorial pass before Courtney publishes. Carousel/graphics not yet built.
+  `src/data/campaigns/09.json` + registered in `index.ts`.
+- **Warm Courtney Week-02 doc — now WRITTEN** (v9 had it "in progress"): `campaign09_exec_doc.json` +
+  **`Contextive_Campaign_09_Week02_Courtney.docx`** exist. Built around **Victor's Las Vegas trip**:
+  **Jul 11 start → Jul 15–20 OFF (Las Vegas together — romantic restaurants, rooftop bars, NBA Summer
+  League; nothing ships or schedules) → Jul 21 resume → Jul 24 ship the carousel.** Tone is heavily
+  **warm/romantic** with lots of Chinese in the personal asides (宝宝, 我爱你); the **campaign content
+  stays measured + on-brand** (firewall verbatim, measured spine, carousel numbers from `cards.json`).
+  Ready for Victor's editorial pass. **Open steps:** Victor's editorial pass; and the **C09 carousel
+  graphics are still to be built** (via campaign-graphics, from the measured cards).
 
 ### Campaign 08 — "The Language of Abundance" — **LIVE, now measured 17/17 (was all-pending)**
 Was launched all-pending (DOC down); this session it was **re-measured on Web NGrams full-text (180d,
@@ -129,6 +192,15 @@ Was 8/17 DOC-measured with 9 pending; this session **re-baselined onto Web NGram
 > verified). Correct the C07 docx to the verbatim canonical "…underlying **politics** is correct" string
 > for full non-negotiable-#2 compliance. (Orchestrator-reported; not re-opened from the binary this
 > session.)
+
+### C01 / C02 modernization — **PLANNED, not started**
+C01 (geopolitics) and C02 (AI & work) are the **only campaigns still on the LEGACY editorial path**
+(`src/data/terms.ts` → `legacy.ts`, `signalBasis: 'editorial'`, qualitative velocity **labels**, no
+measured numbers). Victor wants them brought up to the measured standard. **Plan:** seed term sets from
+`terms.ts`; frame each as a coherent vocabulary war (**confirm the C01 "geopolitics" spine WITH Victor
+first — it's broad**); tune webngrams queries; measure (~$44 each ≈ ~$88 for the pair, one scan each);
+build `src/data/campaigns/01.json` + `02.json`; move them off legacy into `measuredCampaigns` in
+`index.ts`. Not begun this session — queued.
 
 ### The old DOC auto-retry — **OBSOLETE**
 The Windows scheduled task **"Contextive C07 GDELT Retry"** (`retry_c07_measure.py`, every 4h) is now
@@ -223,56 +295,71 @@ question — leave or rebrand).
    the `/waitlist` sample/explorer becomes a live round-trip (the wiring is already shipped).
 
 ### Campaigns (durable)
-- **NINE campaigns are live.** Full-text 17/17: **C09 `/campaigns/09-real`**, **C08 `/campaigns/08-abundance`**,
-  **C07 `/campaigns/07-money`** (all re-based on / launched on Web NGrams this session). Earlier
-  DOC-measured (partial): C06 — "The Language of the Iran War" at `/campaigns/06-iran-war`, defining
-  tension **"obliterated" vs "ceasefire"** (measured: the victory word collapsed — velocity 0, −63%/90d
-  — while "ceasefire" is the runaway — velocity 100, +425%). The site shows **measured** numbers,
-  never the brief's.
-- **Measured coverage:** **C07 17/17, C08 17/17, C09 17/17** (Web NGrams full-text). Still partial
-  DOC-measured: **C03 6/17, C04 5/17, C05 9/17, C06 9/17** — the rest render **"measurement pending."**
-  A future top-up can **re-baseline C03–C06 onto Web NGrams** (cost is window-bound — combine them into
-  one scan). Merge bases seeded: `campaign04_cards.json` incl. `primary challenger`; `campaign05_cards.json`
-  incl. `K-shaped` (**note C05 base used ref-date 06-21 vs the live 06-09; re-seed at 06-09 if
-  resuming**). **C03 has not been re-run — do not assume a C03 result.**
-- **Instrument note:** C07/C08/C09 are `gdelt-coverage` via the **webngrams** channel; C03–C06 are
-  `gdelt-coverage` via the **doc** channel. Within-campaign velocity percentiles are valid; **absolute
-  density is DOC-comparable only pending calibration** (labelled that way on every card). Never mix
-  channels into one percentile set — the in-code firewall enforces this.
+- **NINE campaigns are live on the site.** **LIVE full-text 17/17:** **C09 `/campaigns/09-real`**,
+  **C08 `/campaigns/08-abundance`**, **C07 `/campaigns/07-money`** (shipped `0d512f1`). **LIVE still as
+  partial-DOC** (until the gated C03–C06 push): **C03 `/campaigns/03-bodies-and-food`**,
+  **C04 `/campaigns/04-primaries`**, **C05 `/campaigns/05-economy`**, **C06 `/campaigns/06-iran-war`**. **C01 + C02 are still LEGACY
+  editorial** (qualitative labels, no measured numbers). The site shows **measured** numbers, never the
+  brief's.
+- **Measured coverage — mind the TOOLKIT vs SITE split:**
+  - **In the toolkit (STAGED):** full-text 17/17 for **C03, C05, C06** (webngrams-canonical this session)
+    on top of **C07, C08, C09**; **C04 ~15/17** (2 sparse tokens → `pending`). So six campaigns are
+    full-text 17/17 in the toolkit and one is ~15/17.
+  - **On the live site:** **C07/C08/C09 = 17/17 full-text**; **C03–C06 = the older partial-DOC**
+    (C03 6/17, C04 5/17, C05 9/17, C06 9/17 — the rest render "measurement pending") **until the C03–C06
+    gated push lands the staged full-text data.**
+  - The stale "C05 base used ref-date 06-21" caveat is **resolved** — C05 was re-measured at its correct
+    `2026-06-09` ref-date this session.
+- **Instrument note:** in the toolkit, **C03/C05/C06/C07/C08/C09 are `gdelt-coverage` via the webngrams
+  channel**; **C04's canonical is still the doc channel** (its webngrams run is staged separately). The
+  live site still serves **C03–C06 via the doc channel** until the push. Within-campaign velocity
+  percentiles are valid; **absolute density is DOC-comparable only pending calibration** (labelled that
+  way on every card). Never mix channels into one percentile set — the in-code firewall enforces this.
 - **Measurement divergence (flag every time):** measured data reverses several hand-built brief figures
   (e.g. C03 "seed oils" brief +617%/surging vs measured fading; C04 "America First" brief +75% vs
-  measured negative). The site/briefs show measured, never the brief's.
+  measured negative; and full-text now **confirms** C04's MAGA Warrior surge that DOC undercounted ~3×).
+  The site/briefs show measured, never the brief's.
 
 ### Open threads
-1. **C09 finish the cadence** — the newest campaign is measured + live, but the **warm Courtney Week-02
-   doc is not yet built** (no `campaign09_exec_doc.json` yet), and the carousel/graphics aren't built.
-   Build the warm exec doc + carousel from the measured `campaign09_cards.json`, then Victor's editorial
-   pass before Courtney publishes. Lead every piece with the measured divergence (loudest ≠ winning).
-2. **C08 publish** — Victor's **editorial pass** on the warm C08 Week-02 doc before Courtney's **Jul
+1. **PUBLISH C03 / C05 / C06 (gated) — TOP next-session action.** They are measured 17/17 full-text +
+   prose-ready in the toolkit but STAGED. `build-campaign.mjs` regen `src/data/campaigns/03.json`,
+   `05.json`, `06.json` → `npm run build` / preview → **gated push** → the three pages go from partial-DOC
+   to 17/17 full-text. (Do it as one review + one push if possible.)
+2. **C04 decision + pending-flip** — full-text lands C04 at ~15/17, but **`endorsement machine` and
+   `fight back` / `democracy in danger` come back sparse/degenerate** (null deltas). Confirm the honest
+   call (ship those two `pending`), **flip them to `pending` in the webngrams run, promote it to
+   `campaign04_cards.json` canonical**, then it can ride the same gated push as C03/05/06.
+3. **C09 finish the cadence** — the warm Courtney Week-02 doc is **now written** (Vegas schedule). Remaining:
+   Victor's **editorial pass**, and **build the C09 carousel graphics** (campaign-graphics, from the
+   measured `campaign09_cards.json`). Lead every piece with the measured divergence (loudest ≠ winning).
+4. **C08 publish** — Victor's **editorial pass** on the warm C08 Week-02 doc before Courtney's **Jul
    13–17** launch; and now that C08 is measured, **refresh the number-bearing carousel slides (esp. the
    pivot)** to the confirmed abundance-vs-scarcity spine before she builds.
-3. **C07 publish + fix the brief docx firewall** — Victor's editorial pass on the warm Week-02 doc +
+5. **C07 publish + fix the brief docx firewall** — Victor's editorial pass on the warm Week-02 doc +
    8-slide carousel (Jun 29–Jul 3 window as authored); and **correct the C07 brief docx firewall
    variant to the canonical "…politics is correct" string** (FLAG above).
-4. **BigQuery / Web NGrams operating discipline** — every scan is billed (~$6.25/TiB), window-bound
+6. **C01 / C02 modernization** — bring the last two legacy campaigns up to the measured standard
+   (**confirm the C01 "geopolitics" spine WITH Victor first**), measure each (~$44), build `01.json` /
+   `02.json`, move them off legacy into `measuredCampaigns`. (Planned block above.)
+7. **BigQuery / Web NGrams operating discipline** — every scan is billed (~$6.25/TiB), window-bound
    (180d ≈ ~$44), byte-capped, cost-logged; combine campaigns/terms into one scan. **Complete the DOC
    calibration of the full-text coverage proxy** so absolute density is directly comparable across
-   channels (harness: `--calibrate-from`). Optionally re-baseline C03–C06 onto Web NGrams in one scan.
-5. **Unregister the obsolete DOC auto-retry** (`"Contextive C07 GDELT Retry"`) — C07/C08 are 0-pending;
+   channels (harness: `--calibrate-from`).
+8. **Unregister the obsolete DOC auto-retry** (`"Contextive C07 GDELT Retry"`) — C07/C08 are 0-pending;
    command in the "old DOC auto-retry" block.
-6. **QA deferrals** — flip CSP **Report-Only → enforcing** after watching prod; per-IP rate-limit +
+9. **QA deferrals** — flip CSP **Report-Only → enforcing** after watching prod; per-IP rate-limit +
    captcha on `api/subscribe` (needs **Vercel KV** — Victor's account); 542 KB code-split; `npm audit`
    (3 dev-only, needs a vite major bump).
-7. **Per-term social-unfurl** — `/signal/<term>` meta is client-set, so non-JS crawlers see the index
-   defaults; add build-time prerender if shared `/signal` links must unfurl with the term's card.
-8. **Creator-demo GTM** (Ground News Move #1) — Victor to greenlight outreach (**gated**); wire
-   **durable signup capture** FIRST so the funnel actually captures.
-9. The API workstream's **two pending manual steps** (durable signups; deploy the API) — see
-   `CONTEXTIVE_API_STATUS.md`. Plus **public vs private** for the three local API docs.
-10. **X handle** `@contextive_ai` — leave or rebrand to match the `.info` brand.
-11. **Agent-Reach OSS — evaluated, NOT adopted** (recorded to memory). Cherry-pick the underlying tools
+10. **Per-term social-unfurl** — `/signal/<term>` meta is client-set, so non-JS crawlers see the index
+    defaults; add build-time prerender if shared `/signal` links must unfurl with the term's card.
+11. **Creator-demo GTM** (Ground News Move #1) — Victor to greenlight outreach (**gated**); wire
+    **durable signup capture** FIRST so the funnel actually captures.
+12. The API workstream's **two pending manual steps** (durable signups; deploy the API) — see
+    `CONTEXTIVE_API_STATUS.md`. Plus **public vs private** for the three local API docs.
+13. **X handle** `@contextive_ai` — leave or rebrand to match the `.info` brand.
+14. **Agent-Reach OSS — evaluated, NOT adopted** (recorded to memory). Cherry-pick the underlying tools
     (Exa / yt-dlp / Jina / gh) off-box later when trend-scouting starts — do not adopt the package.
-12. **MediaCloud / GCP extras** — MediaCloud free key is an optional 2nd coverage corpus; Google Trends
+15. **MediaCloud / GCP extras** — MediaCloud free key is an optional 2nd coverage corpus; Google Trends
     was **rejected** (non-reproducible + a different instrument).
 
 ## How to work in this repo (read this)
@@ -284,9 +371,10 @@ question — leave or rebrand).
   a working mirror.)
 - Slash commands register at **session start** — they won't appear if added mid-session.
 - **Writing to the live site is gated on Victor by default** (prepare the diff → preview → he
-  pushes). This session he again granted push authority and authorized the C07/C08/C09 push above;
-  that grant is **per-session, not standing** — **default back to gated next session unless he says
-  so.** The push runs under Victor's local git creds (commits show "Victor Wei").
+  pushes). The C07/C08/C09 push (`0d512f1`) happened under a prior per-session grant; **this session the
+  C03–C06 re-bases were deliberately NOT pushed** — Victor called it the day before reviewing, so they sit
+  **STAGED** pending his review. **The gate is closed: default to gated next session unless he grants push
+  authority again.** The push runs under Victor's local git creds (commits show "Victor Wei").
 - **BigQuery runs cost real money** (billing enabled). Do a dry-run byte estimate first, keep to the
   180d window unless yoy is worth it, and combine terms/campaigns into one scan. Never fire a billed
   query casually.
@@ -299,9 +387,13 @@ non-negotiables, and returns a **structured report** to the orchestrator (the ma
 **Agents report to the orchestrator; the orchestrator reports to Victor.** **C07 was the first
 campaign run end to end through this line, C08 the second, C09 the third — it works** (both human
 gates held every time: the warm/neutral tone call and the live-site push gate). C08 proved the line
-stays honest under a broken data source (all-pending rather than estimated); this session proved it can
+stays honest under a broken data source (all-pending rather than estimated); the line then proved it can
 **repair its own instrument** — a research + adversarial-audit workflow drove the api-engineer to build
-the resilient full-text pipeline (all steps audited PASS) and then re-baseline three campaigns on it.
+the resilient full-text pipeline (all steps audited PASS) and re-baseline three campaigns on it. **This
+session the line ran back through the archive:** signal-measurer + brief-author re-baselined **C03/C05/C06
+to full-text 17/17** and re-measured **C04** (honestly landing it at ~15/17 rather than forcing two sparse
+tokens), and courtney-instructions produced the **warm C09 Week-02 doc** — the measure-don't-estimate gate
+held (sparse tokens → `pending`, not guessed) and the push gate held (staged, awaiting Victor).
 **13 agents** (canonical `contextive-site/.claude/agents/`, mirrored to the parent; orchestrator command
 `.claude/commands/campaign.md`).
 
@@ -336,10 +428,13 @@ added mid-session register only at the **next** session start.
 - **The toolkit code RUNS directly — no materialize step.** A full copy *with code + `node_modules`*
   lives at `E:\Contextive\08 Misc\files\contextive-toolkit\contextive-toolkit\`
   (`pipeline/signal_pipeline.py`, `generators/`, `schema/`). The repo's vendored
-  `contextive-toolkit/` holds **docs only**. **Inputs:** C05–C09 term+campaign+cards JSON are in the
-  `08 Misc` `data/` (C07/C08/C09 measured cards are webngrams; DOC versions saved as
-  `campaign0X_cards.pre-webngrams-backup.json`); **C03/C04 live in the *original*
-  `E:\Contextive\files\contextive-toolkit\contextive-toolkit\data\`** (NOT 08 Misc).
+  `contextive-toolkit/` holds **docs only**. **Inputs:** the measured cards for **C03, C05, C06, C07, C08,
+  C09** now live in the `08 Misc` `data/` and are **webngrams-canonical** (`campaign0X_cards.json`);
+  C05/C06/C07/C08/C09 keep their pre-migration DOC set as `campaign0X_cards.pre-webngrams-backup.json`
+  (**C03 has none — it is the first measured set**). **C04 is the exception: its canonical
+  `campaign04_cards.json` is still DOC; the full-text run is the separate `campaign04_cards_webngrams.json`**
+  (with two sparse tokens still to flip to `pending`). C03/C04's *original* term+campaign inputs live in
+  `E:\Contextive\files\contextive-toolkit\contextive-toolkit\data\` (NOT 08 Misc).
 - **Measurement now runs on GDELT Web News NGrams 3.0 (full-text) via BigQuery — `--source webngrams`.**
   Requires Victor's GCP: key `C:\Users\WEI\.contextive\contextive-gcp-key.json`, project
   `contextive-signal`, BigQuery **billing ENABLED** (`pip install google-cloud-bigquery`). **It costs
@@ -357,7 +452,10 @@ added mid-session register only at the **next** session start.
   For top-ups, **merge best-of-both and never regress** a campaign's measured set. **Disambiguate noisy
   tokens and verify a surprising surge** before it becomes the spine — the recurring lesson: C07 "hard
   money" read a false +277%/90d (DOC) from off-domain noise and was corrected to +88.6% (DOC), then to
-  +44.7% on full-text; 41 `_WEBNGRAMS_OVERRIDES` (esp. hard money, again) restore recall/precision.
+  +44.7% on full-text; **~84 `_WEBNGRAMS_OVERRIDES`** (41 from C07–C09 + **43 this session for C03–C06**
+  charged/noisy tokens: RINO→GOP context, moderate excl. weather senses, last mile excl. logistics, the
+  draft→conscription, obliterated/ceasefire scoped) restore recall/precision — and C04 showed the other
+  failure mode: rare tokens (`endorsement machine`) go **sparse/degenerate** on the ngram surface → `pending`.
 - **`contextive-api/` deps:** `pip install -r requirements.txt` (fastapi, uvicorn, pydantic, pytest,
   httpx). Tests: `python -m pytest` (7/7). Regenerate its seed with `python -X utf8 scripts/build_seed.py`.
 - **Preview (Claude_Preview) — several traps hit before:**
@@ -409,9 +507,15 @@ politics is correct."
 7. Tone of Courtney docs is Victor's per-campaign call.
 
 ## Campaign lineage
-01 geopolitics · 02 AI & work · 03 bodies & food (MAHA/GLP-1) · 04 primaries (May 19 2026) ·
-05 the economy (defining tension "soft landing" vs "vibecession") · 06 the Iran war (defining tension
-"obliterated" vs "ceasefire") · 07 the language of money (crypto/money vocabulary war; defining tension
+01 geopolitics *(still LEGACY editorial — modernization queued)* · 02 AI & work *(still LEGACY
+editorial — modernization queued)* · 03 bodies & food (MAHA/GLP-1) *(now measured 17/17 full-text,
+STAGED: NEW data-chosen spine **"chronic disease epidemic" v100 vs "food as medicine" v0** — Big Food
+v6 collapsed; the movement wins on diagnosis, loses on cure)* · 04 primaries (May 19 2026) *(re-measured
+full-text, STAGED ~15/17: MAGA Warrior +599%/30d + primary challenger +155% confirmed real — 2 sparse
+tokens → pending)* · 05 the economy (defining tension **"soft landing" v19 vs "vibecession" v100** —
+now measured 17/17 full-text, STAGED; CONFIRMED, tariff tax collapsed to v0) · 06 the Iran war (defining
+tension **"obliterated" v0 vs "ceasefire" v94/+455%** — now measured 17/17 full-text, STAGED; CONFIRMED,
+with **warmonger v100** the loudest term overall) · 07 the language of money (crypto/money vocabulary war; defining tension
 "debasement trade: velocity vs verdict" — 17/17 full-text; the loudest word loud because dying) ·
 08 the language of abundance (the abundance-agenda vocabulary war — YIMBY, zoning/permitting reform,
 build/drill baby, vs a scarcity counter-pole of degrowth/limits to growth/supply skepticism/polycrisis;
@@ -435,7 +539,13 @@ with DOC down it shipped **all-pending** rather than estimate, then measured cle
 was fixed and **confirmed** its provisional spine. **This session the signal layer repaired its own
 instrument:** DOC stayed throttled, so the coverage measure migrated to **GDELT Web News NGrams 3.0
 (full-text) on BigQuery** — non-throttled, body-text-derived — and C07/C08/C09 all measured 17/17 on
-it. A hard rule fell out of it: **one instrument per percentile** — news coverage (`gdelt-coverage`)
+it. **The full-text channel then went back through the archive:** C03/C05/C06 re-measured **17/17** (each
+confirming or re-choosing its spine — C06's **warmonger** emerged as the loudest term, C05's **vibecession**
+ran to v100, C03's spine reset to **chronic disease epidemic vs food as medicine**), and **C04 landed
+honestly at ~15/17** when two rare tokens (`endorsement machine`, `fight back`) came back too sparse to
+rank — **marked `pending`, not guessed** (the rule holding once more; these archive re-bases are STAGED,
+awaiting the gated push). A hard rule fell out of the migration: **one instrument per percentile** — news
+coverage (`gdelt-coverage`)
 and reader attention (`wikipedia-attention`) are labelled and never mixed, enforced in code. Seven
 fields: platforms, corpus density (a labelled full-text coverage proxy, DOC-comparable pending
 calibration), velocity index 0–100 (within-set percentile), inflection points (dated z-peaks),
@@ -448,7 +558,7 @@ computed **per-instrument**.
 `--source {doc,bigquery,gkg-raw,wikipedia,webngrams}`, `--terms`/`--demo`/`--from-raw`, `--ref-date`,
 `--calibrate-from`. **webngrams** (`build_from_webngrams` over `gdelt-bq.gdeltv2.webngrams`) is the
 production coverage channel; **wikipedia** (`build_from_wikipedia`) is the separate attention lens; the
-instrument firewall lives in `_assign_velocity_index` + `merge_never_regress`; 41 `_WEBNGRAMS_OVERRIDES`
+instrument firewall lives in `_assign_velocity_index` + `merge_never_regress`; **~84 `_WEBNGRAMS_OVERRIDES`**
 tune noisy terms; a mandatory dry-run byte cap guards every billed query. `generators/build_brief.js`
 + `build_exec_doc.js` (house-style docx), `generators/lib/house_style.js`, `schema/*.json` (now with
 provenance + `measurement.attention`), `data/`. **Site generators** (in `contextive-site/scripts/`):
@@ -461,10 +571,12 @@ Per-campaign data-driven architecture: unified contract `src/data/campaign.ts`; 
 `scripts/build-campaign.mjs`; react-router routes `/campaigns/<nn>-<slug>`, `/how-it-works`,
 `/waitlist` (the API product page) + a Vercel SPA rewrite in `vercel.json`. Homepage = Hero + campaign
 index + methodology teaser + **API teaser** + subscribe CTA. `SignalCard` renders measured / pending /
-editorial. Campaigns 01–02 reconcile from legacy `src/data/terms.ts`; **03–09 are JSON in
-`src/data/campaigns/`** (each registered in `index.ts`; 09 added this session; 07/08 refreshed to
-full-text; 08's `08.json` carries a hand-fixed `definingTension` to re-apply if `build-campaign.mjs` is
-re-run). Key components: `SignalExplorer.tsx`, `WaitlistForm.tsx`, `ApiTeaser.tsx`, `Nav.tsx`. **Loop:**
+editorial. **Campaigns 01–02 still reconcile from legacy `src/data/terms.ts`** (`signalBasis: editorial`,
+qualitative labels — modernization queued); **03–09 are JSON in `src/data/campaigns/`** (each registered
+in `index.ts`). On the site today, **07/08/09 carry full-text 17/17 data**; **03–06 still carry the older
+partial-DOC data** — the toolkit's staged full-text re-bases (C03/05/06 17/17, C04 ~15/17) land only when
+`build-campaign.mjs` is re-run against the new cards and pushed (gated). 08's `08.json` carries a
+**hand-fixed `definingTension`** to re-apply if `build-campaign.mjs` is re-run. Key components: `SignalExplorer.tsx`, `WaitlistForm.tsx`, `ApiTeaser.tsx`, `Nav.tsx`. **Loop:**
 edit repo → `npm run build` / preview → commit + push to `main` (push is **Victor's action / gated** by
 default) → Vercel auto-builds → verify via the connector + contextive.info. `/update-site <nn>` runs
 this for a campaign.
@@ -473,8 +585,10 @@ this for a campaign.
 1. `CLAUDE.md` auto-loads this handoff + the `contextive-campaign` skill; project memory auto-recalls
    (`resilient-signal-pipeline`, `campaign-08-abundance`, `api-and-positioning`, etc.).
 2. Read **Resume here**. **If resuming the API / selling workstream, open
-   `contextive-toolkit/CONTEXTIVE_API_STATUS.md` first.** Otherwise confirm what's measured vs pending
-   and pick up the campaign open threads (C09 finish the cadence; C07/C08 publish + the C07 docx firewall fix).
+   `contextive-toolkit/CONTEXTIVE_API_STATUS.md` first.** Otherwise confirm what's LIVE vs STAGED and pick
+   up the open threads in order: **(1) publish the staged C03/C05/C06 full-text re-bases (gated push) —
+   the top action; (2) C04 decision + pending-flip so it rides the same push; (3) C09 carousel + editorial
+   pass; (4) C08/C07 publish + the C07 docx firewall fix; (5) C01/C02 modernization.**
 3. The pipeline + generators run directly from the `08 Misc` toolkit copy (`python -X utf8`); the
    coverage channel is **`--source webngrams`** (BigQuery — costs money, byte-cap first); the API
    scaffold runs from `contextive-api/` (`pip install -r requirements.txt`, `python -m pytest`). Use
