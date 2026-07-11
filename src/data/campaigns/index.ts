@@ -15,6 +15,7 @@ import c05 from './05.json';
 import c06 from './06.json';
 import c07 from './07.json';
 import c08 from './08.json';
+import c09 from './09.json';
 
 const measuredCampaigns: Campaign[] = [
   c03 as unknown as Campaign,
@@ -23,6 +24,7 @@ const measuredCampaigns: Campaign[] = [
   c06 as unknown as Campaign,
   c07 as unknown as Campaign,
   c08 as unknown as Campaign,
+  c09 as unknown as Campaign,
 ];
 
 /** Every campaign, newest last (sorted by number). */

@@ -7,3 +7,15 @@ dist
 .netlify
 *.log
 *.tsbuildinfo
+
+# GCP service-account keys — never commit a credential (BigQuery channel lives in
+# the toolkit, but guard the site repo too in case a key lands here during wiring)
+*gcp-key*.json
+*gcp_key*.json
+*service-account*.json
+*service_account*.json
+*credentials*.json
+.contextive/
+gcp-key.json
+key.json
+application_default_credentials.json

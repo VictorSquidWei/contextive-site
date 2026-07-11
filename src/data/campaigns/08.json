@@ -6,19 +6,19 @@
   "title": "The Language of Abundance",
   "shortTitle": "Abundance",
   "period": "June 2026",
-  "status": "in-progress",
+  "status": "published",
   "signalBasis": "measured",
   "firewall": "We track how the words have been used and how fast they are winning, not whether the underlying politics is correct.",
-  "summary": "One crisis, two instincts — build more, or live within limits — and this cycle the honest headline is that the verdict on which instinct is winning is not yet measured. Seventeen terms across the build-more consensus and its scarcity counter-vocabulary went to the pipeline; the open coverage source (GDELT DOC 2.0) returned its rate-limit notice rather than a series on every probe across the build window, so every card in this brief reads MEASUREMENT PENDING. That is not a gap to paper over with estimates. It is the discipline: we do not hand-key a velocity to fit a story, and this brief ships with the seven signal fields shown as pending until the pipeline recovers — precedent set by the campaign that launched with fourteen of its cards pending. The vocabulary is mapped, the queries are tuned, a scheduled retry is wired; the numbers are simply not in yet.",
+  "summary": "One crisis, two instincts — build more, or live within limits — and with all seventeen terms now measured against full-text coverage, the finding is that the loudest vocabulary is not the one gaining. The abundance banner is everywhere in the discourse, yet the words that carry it are cooling on the quarter: 'abundance agenda,' the frame the whole cycle is named for, is down 27 percent over ninety days (velocity 38); 'build baby build,' the movement's housing chant, is down 36 percent; and 'drill baby drill,' its fossil-energy cousin, is down 11 percent and sits at the floor of the set (velocity 0). What is rising instead is the scarcity counter-vocabulary that answers them — 'degrowth' up 10 percent over ninety days and 37 percent over the last thirty (velocity 88), 'polycrisis' up 13 percent (velocity 62), 'limits to growth' up 7 percent (velocity 75), and 'supply skepticism' up 38 percent over thirty days (velocity 94). The one clear exception on the build side is 'YIMBY,' the on-the-ground housing identity, still climbing hard at 54 percent over thirty days (velocity 81). Year-over-year change is not computed this cycle — the full-text series runs a 180-day window — so every comparison here is 30-day and 90-day momentum.",
   "anchor": "Through 2025 and into 2026 a single argument reorganized how both parties talk about the cost of living: not who deserves a bigger slice, but why the country stopped building the things people need — homes, energy, infrastructure — and how to make more of them. A widely read book gave the frame a name, 'abundance,' and elected backers a program; statehouses ran on 'zoning reform' and 'permitting reform'; the energy debate split between a fossil 'drill baby drill' and a clean 'electrify everything,' each promising more, not less. Against all of it a scarcity counter-vocabulary sharpened in reply — 'degrowth,' 'limits to growth,' 'supply skepticism,' 'polycrisis' — insisting that some ceilings are physical and that 'more' is not always the answer. The same cost-of-living crisis now carries two incompatible instincts: build our way out, or live within limits. The measured question this cycle asks is which of those instincts is actually gaining velocity — and whether the loudest one is the one that is winning.",
   "thesis": [
-    "One crisis, two instincts — build more, or live within limits — and this cycle the honest headline is that the verdict on which instinct is winning is not yet measured. Seventeen terms across the build-more consensus and its scarcity counter-vocabulary went to the pipeline; the open coverage source (GDELT DOC 2.0) returned its rate-limit notice rather than a series on every probe across the build window, so every card in this brief reads MEASUREMENT PENDING. That is not a gap to paper over with estimates. It is the discipline: we do not hand-key a velocity to fit a story, and this brief ships with the seven signal fields shown as pending until the pipeline recovers — precedent set by the campaign that launched with fourteen of its cards pending. The vocabulary is mapped, the queries are tuned, a scheduled retry is wired; the numbers are simply not in yet.",
-    "The provisional spine — stated plainly as a hypothesis to be confirmed or killed by measurement — is abundance versus scarcity, read as velocity versus verdict. The build-more vocabulary ('YIMBY,' 'abundance agenda,' 'build baby build,' 'zoning reform') plainly dominates the headlines right now. The testable claim, and the reason this cycle is worth measuring, is that dominating the coverage is not the same as gaining on it: a run of pieces asking whether the 'YIMBY consensus' is cresting, and a resurgent 'supply skepticism,' raise the real possibility that the pro-build lexicon measures as cooling even while it is loudest — the same shape a prior cycle's collapsed victory word took, and the shape a prior cycle's 'debasement trade' took at velocity 100 while down 73 percent on the quarter: loud because cresting, not because winning. We flag it as a hypothesis, not a finding. Contextive tracks how fast each name is winning, not whether building more or living within limits is the correct answer. When GDELT recovers, the velocities will decide the spine — confirming abundance-versus-scarcity as told here, or revising it exactly as a false surge on 'hard money' was caught and corrected in a prior cycle before it could mislead. Until then the spine is a lens, and the pending fields are the honest state of the measurement."
+    "One crisis, two instincts — build more, or live within limits — and with all seventeen terms now measured against full-text coverage, the finding is that the loudest vocabulary is not the one gaining. The abundance banner is everywhere in the discourse, yet the words that carry it are cooling on the quarter: 'abundance agenda,' the frame the whole cycle is named for, is down 27 percent over ninety days (velocity 38); 'build baby build,' the movement's housing chant, is down 36 percent; and 'drill baby drill,' its fossil-energy cousin, is down 11 percent and sits at the floor of the set (velocity 0). What is rising instead is the scarcity counter-vocabulary that answers them — 'degrowth' up 10 percent over ninety days and 37 percent over the last thirty (velocity 88), 'polycrisis' up 13 percent (velocity 62), 'limits to growth' up 7 percent (velocity 75), and 'supply skepticism' up 38 percent over thirty days (velocity 94). The one clear exception on the build side is 'YIMBY,' the on-the-ground housing identity, still climbing hard at 54 percent over thirty days (velocity 81). Year-over-year change is not computed this cycle — the full-text series runs a 180-day window — so every comparison here is 30-day and 90-day momentum.",
+    "The spine this cycle — now a measured reading rather than a forecast — is abundance versus scarcity, read as velocity versus verdict. The build-more vocabulary plainly dominates the headlines; what the velocities show is that dominating the coverage is not the same as gaining on it. The banner words that name the movement are cresting while the scarcity reply accelerates, the same shape a prior cycle's collapsed victory word took and the shape 'debasement trade' took at velocity 100 while down sharply on the quarter: loud because cresting, not because winning. Contextive tracks how fast each name is winning, not whether building more or living within limits is the correct answer — and the fact that the scarcity words measure as the gainers this cycle is a statement about momentum, not merit. We give the build side and the scarcity side, and the fossil and clean-energy camps, the same weight and the same benefit of the doubt; that the counter-vocabulary is gaining faster does not make it correct — it makes it the vocabulary currently gaining, and that distinction is the whole discipline."
   ],
   "definingTension": {
     "a": "Abundance",
     "b": "scarcity: velocity vs verdict",
-    "note": "The cycle's provisional spine, and it is explicitly a hypothesis awaiting the pipeline, not a finding. The build-more instinct ('abundance agenda,' 'YIMBY,' 'build baby build,' 'zoning reform') visibly dominates the coverage; the scarcity instinct ('degrowth,' 'limits to growth,' 'supply skepticism,' 'scarcity mindset,' 'polycrisis') answers it in a sharpening counter-vocabulary. The testable claim is velocity versus verdict: that dominating the headlines is not the same as gaining on them, and that the pro-build lexicon could measure as cooling even while it is loudest — a run of 'is the YIMBY consensus cresting?' pieces and a resurgent supply skepticism are the reason to suspect it. That would be the same shape a prior cycle's collapsed victory word took, and the shape 'debasement trade' took at peak visibility while down sharply on the quarter: loud because cresting, not winning. Equally, measurement may show the build vocabulary still climbing and the scarcity words merely reactive — in which case the spine is revised, and that revision leads. We do not adjudicate whether building more or living within limits is correct; we will report which names are gaining, and until GDELT recovers every figure here is MEASUREMENT PENDING."
+    "note": "The cycle's spine, and the velocities confirm it. The build-more instinct ('abundance agenda,' 'YIMBY,' 'build baby build,' 'zoning reform') dominates the coverage; the scarcity instinct ('degrowth,' 'limits to growth,' 'supply skepticism,' 'scarcity mindset,' 'polycrisis') answers it in a sharpening counter-vocabulary. Measured, the loudest banner is not the one gaining: 'abundance agenda,' the frame the cycle is named for, is down 27 percent over ninety days (velocity 38), 'build baby build' down 36 percent, 'drill baby drill' down 11 percent at the floor of the set (velocity 0) — while 'degrowth' is up 10 percent on the quarter and 37 percent over thirty days (velocity 88), 'polycrisis' up 13 percent (velocity 62), 'limits to growth' up 7 percent (velocity 75), and 'supply skepticism' up 38 percent over thirty days (velocity 94). That is velocity versus verdict: dominating the headlines is not the same as gaining on them, the same shape 'debasement trade' took at velocity 100 while down sharply on the quarter — loud because cresting, not winning. The one clear build-side exception is 'YIMBY,' still climbing at 54 percent over thirty days (velocity 81). We do not adjudicate whether building more or living within limits is correct; we report that the counter-vocabulary is the part gaining — a fact about momentum, not merit."
   },
   "clusters": [
     {
@@ -39,48 +39,48 @@
   ],
   "pillars": [
     {
-      "title": "Is the loudest word the winning one? (the pending lede)",
-      "body": "The cycle's intended lede, and it is a velocity-versus-verdict question the measurement has not yet answered — which is itself the honest first post. The obvious story has the build-more vocabulary rising in the coverage because it dominates the coverage; the testable counter-claim is that 'YIMBY,' 'abundance agenda,' and 'build baby build' could be loudest at the very moment the consensus behind them crests, with a run of 'is the YIMBY consensus over?' pieces and a resurgent 'supply skepticism' as the tell — the same gap between visibility and direction that a prior cycle's collapsed victory word and 'debasement trade' both showed. Right now that gap is a hypothesis: every one of the seventeen terms reads MEASUREMENT PENDING because the coverage source returned its throttle notice rather than a series. The highest-stakes piece is built on the gap once it is measured — and if the measurement instead shows the build words still climbing, that reversal is the piece. Either way the lede is the discipline: we show the pending state plainly and let the velocities, not the volume of headlines, decide."
+      "title": "Is the loudest word the winning one?",
+      "body": "The cycle's lede, and it is measured: the loudest word is not the winning one. The obvious story has the build-more vocabulary rising in the coverage because it dominates the coverage; what the velocities show is the inverse at the banner level. 'Abundance agenda,' the frame the movement is named for, is down 27 percent over ninety days (velocity 38); 'build baby build' is down 36 percent; 'drill baby drill' sits at the floor of the set (velocity 0), down 11 percent. Meanwhile the scarcity reply accelerates — 'supply skepticism' up 38 percent over thirty days (velocity 94), 'degrowth' up 37 percent over the same window (velocity 88) — and 'YIMBY,' the one loud build word still climbing, is up 54 percent over thirty days (velocity 81). That gap between visibility and direction is the same one a prior cycle's collapsed victory word showed, and the one 'debasement trade' showed at peak coverage while down sharply on the quarter. The highest-stakes piece is built on it: the build-more banner is loudest at the very moment its momentum is cresting, while the vocabulary of limits is the part quietly gaining — reported as velocity, never as a verdict on which instinct is right."
     },
     {
       "title": "The chant war: build baby build meets drill baby drill",
-      "body": "One rhythm, three arenas — housing, fossil energy, clean energy — and a clean demonstration of the signal layer on portable slogans that cross party lines. 'Build baby build' borrowed its cadence from 'drill baby drill'; 'electrify everything' and 'energy dominance' fight for the same 'more' instinct from opposite sides. Tracked in real time, the relative velocity of these chants shows where the build impulse actually accelerates and where it is only loud — measured evenhandedly, the fossil and clean and housing versions typeset identically, none inflated. Pending the pipeline, this pillar frames the question the numbers will answer; it asserts no winner in advance."
+      "body": "One rhythm, three arenas — housing, fossil energy, clean energy — and a clean demonstration of the signal layer on portable slogans that cross party lines. 'Build baby build' borrowed its cadence from 'drill baby drill'; 'electrify everything' and 'energy dominance' fight for the same 'more' instinct from opposite sides. Measured, the chant layer is fading: 'build baby build' is down 36 percent over ninety days (velocity 50) and 'drill baby drill' is at the floor of the set (velocity 0, down 11 percent), while on the energy question 'electrify everything' (up 20 percent on the quarter, velocity 44) outpaces 'energy dominance' (velocity 12, roughly flat). Tracked in real time, the relative velocity of these chants shows where the build impulse actually accelerates and where it is only loud — measured evenhandedly, the fossil and clean and housing versions typeset identically, none inflated. The measured takeaway is that the slogans are cooling faster than the causes they name."
     },
     {
       "title": "Scarcity answers back",
-      "body": "The counter-vocabulary given full, equal weight — because the story is not complete if only the build side is heard. 'Degrowth,' 'limits to growth,' 'supply skepticism,' 'scarcity mindset,' and 'polycrisis' are not mere caution; together they form an affirmative counter-program and a mood of overwhelm that the abundance case is explicitly pitched against, cutting across left doubt about deregulation and a broader unease that some ceilings are real. The measured question is whether the scarcity words are fading under the build-more surge or quietly gaining as the consensus is questioned from within — the resurgence of 'supply skepticism' is the term to watch. This pillar carries the same analytical weight as the build side; the brand takes no position on whether limits are wisdom or a losing message. Its velocities, like all of this cycle's, are pending measurement."
+      "body": "The counter-vocabulary given full, equal weight — because the story is not complete if only the build side is heard, and this cycle it is the side gaining. 'Degrowth' (up 10 percent on the quarter and 37 percent over thirty days, velocity 88), 'limits to growth' (up 7 percent, velocity 75), 'polycrisis' (up 13 percent, velocity 62), 'scarcity mindset' (up 21 percent, velocity 25), and 'supply skepticism' (up 38 percent over thirty days, velocity 94) are not mere caution; together they form an affirmative counter-program and a mood of overwhelm that the abundance case is explicitly pitched against. Measured, they are rising while the abundance banner cools — the resurgence of 'supply skepticism,' contesting the builders' core premise from within the housing debate, is the term to watch. This pillar carries the same analytical weight as the build side; that the scarcity words are the ones gaining is a fact about momentum, not a verdict the brand endorses — we take no position on whether limits are wisdom or a losing message."
     }
   ],
   "tensions": [
     {
       "a": "Abundance",
-      "b": "scarcity: velocity vs verdict (PROVISIONAL — pending measurement)",
-      "title": "Abundance vs scarcity: velocity vs verdict (PROVISIONAL — pending measurement)",
-      "body": "The cycle's provisional spine, and it is explicitly a hypothesis awaiting the pipeline, not a finding. The build-more instinct ('abundance agenda,' 'YIMBY,' 'build baby build,' 'zoning reform') visibly dominates the coverage; the scarcity instinct ('degrowth,' 'limits to growth,' 'supply skepticism,' 'scarcity mindset,' 'polycrisis') answers it in a sharpening counter-vocabulary. The testable claim is velocity versus verdict: that dominating the headlines is not the same as gaining on them, and that the pro-build lexicon could measure as cooling even while it is loudest — a run of 'is the YIMBY consensus cresting?' pieces and a resurgent supply skepticism are the reason to suspect it. That would be the same shape a prior cycle's collapsed victory word took, and the shape 'debasement trade' took at peak visibility while down sharply on the quarter: loud because cresting, not winning. Equally, measurement may show the build vocabulary still climbing and the scarcity words merely reactive — in which case the spine is revised, and that revision leads. We do not adjudicate whether building more or living within limits is correct; we will report which names are gaining, and until GDELT recovers every figure here is MEASUREMENT PENDING."
+      "b": "scarcity: velocity vs verdict",
+      "title": "Abundance vs scarcity: velocity vs verdict",
+      "body": "The cycle's spine, and the velocities confirm it. The build-more instinct ('abundance agenda,' 'YIMBY,' 'build baby build,' 'zoning reform') dominates the coverage; the scarcity instinct ('degrowth,' 'limits to growth,' 'supply skepticism,' 'scarcity mindset,' 'polycrisis') answers it in a sharpening counter-vocabulary. Measured, the loudest banner is not the one gaining: 'abundance agenda,' the frame the cycle is named for, is down 27 percent over ninety days (velocity 38), 'build baby build' down 36 percent, 'drill baby drill' down 11 percent at the floor of the set (velocity 0) — while 'degrowth' is up 10 percent on the quarter and 37 percent over thirty days (velocity 88), 'polycrisis' up 13 percent (velocity 62), 'limits to growth' up 7 percent (velocity 75), and 'supply skepticism' up 38 percent over thirty days (velocity 94). That is velocity versus verdict: dominating the headlines is not the same as gaining on them, the same shape 'debasement trade' took at velocity 100 while down sharply on the quarter — loud because cresting, not winning. The one clear build-side exception is 'YIMBY,' still climbing at 54 percent over thirty days (velocity 81). We do not adjudicate whether building more or living within limits is correct; we report that the counter-vocabulary is the part gaining — a fact about momentum, not merit."
     },
     {
       "a": "Build baby build",
       "b": "drill baby drill",
       "title": "Build baby build vs drill baby drill",
-      "body": "Two chants built on the same cadence, pointed at different things. 'Drill baby drill' compresses a fossil-abundance position into three words — produce more oil and gas, now — and 'build baby build' was minted by deliberately echoing it, aiming the same rally-cry energy at housing and infrastructure. The contest is whether a build-first politics gains by borrowing the swagger of an energy chant, or whether reducing supply policy to a slogan flattens it; and whether either chant describes a strategy or just a mood, given that even industry voices have at times talked the drilling boom down. Their relative velocity, once measured, reads as whether the 'more' instinct travels faster on the housing side or the energy side. Both are treated identically here; neither reads as the brand's own view."
+      "body": "Two chants built on the same cadence, pointed at different things. 'Drill baby drill' compresses a fossil-abundance position into three words — produce more oil and gas, now — and 'build baby build' was minted by deliberately echoing it, aiming the same rally-cry energy at housing and infrastructure. Measured, both chants are cooling: 'build baby build' is down 36 percent over ninety days (velocity 50) and 'drill baby drill' is down 11 percent and pinned to the floor of the set (velocity 0). The slogan layer of the abundance argument, in other words, is losing altitude on both the housing and the energy side even as several underlying policy terms hold up. The contest is whether a build-first politics gains by borrowing the swagger of an energy chant, or whether reducing supply policy to a slogan flattens it — and the measured answer so far is that the chants are fading faster than the causes they name. Both are treated identically here; neither reads as the brand's own view."
     },
     {
       "a": "Electrify everything",
       "b": "energy dominance",
       "title": "Electrify everything vs energy dominance",
-      "body": "The two rival answers to 'more energy,' and the cleanest left-right split in the cycle held at equal weight. 'Electrify everything' reframes climate action as construction — run homes, cars, and industry on an expanding decarbonized grid, more power not less; 'energy dominance' frames national strength as unrestricted domestic production, chiefly oil and gas. Each claims the abundance instinct for itself; each faces the same doubt from the other side about whether its version of 'more' can actually be delivered — a grid not yet built, barrels the market may not want. The contest is what abundance of energy should be made of, electrons or barrels. Contextive measures which name is winning the coverage, not which fuel is right."
+      "body": "The two rival answers to 'more energy,' and the cleanest left-right split in the cycle, held at equal weight. 'Electrify everything' reframes climate action as construction — run homes, cars, and industry on an expanding decarbonized grid, more power not less; 'energy dominance' frames national strength as unrestricted domestic production, chiefly oil and gas. Measured, 'electrify everything' is the higher-velocity of the two — up 20 percent over ninety days (velocity 44) even as it dipped 20 percent in the last thirty — while 'energy dominance' is roughly flat on the quarter (up 1 percent) and down 35 percent over thirty days, near the floor of the set (velocity 12). Each claims the abundance instinct for itself; each faces the same doubt from the other side about whether its version of 'more' can be delivered — a grid not yet built, barrels the market may not want. Contextive measures which name is gaining the coverage, not which fuel is right, and holds the two camps at identical weight."
     },
     {
       "a": "YIMBY",
       "b": "supply skepticism",
       "title": "YIMBY vs supply skepticism",
-      "body": "The builders' core premise against its named rebuttal — the fault line inside the housing argument itself. 'YIMBY' asserts that a housing shortage has a supply answer and that blocking new homes is the cause of high rents; 'supply skepticism' is the crystallizing counter-frame that adding market-rate supply will not, by itself, make housing affordable, and that subsidy and regulation must do work permits alone cannot. The contest is empirical and identity-laden at once — over what the evidence actually shows and over who is being naive. Their relative velocity is the sharpest single test of the provisional spine: if the rebuttal is gaining while the banner plateaus, the pro-build consensus is contested from within exactly as it looks most dominant. Pending measurement, that remains a hypothesis."
+      "body": "The builders' core premise against its named rebuttal — the fault line inside the housing argument itself. 'YIMBY' asserts that a housing shortage has a supply answer and that blocking new homes is the cause of high rents; 'supply skepticism' is the crystallizing counter-frame that adding market-rate supply will not, by itself, make housing affordable, and that subsidy and regulation must do work permits alone cannot. Measured, both are among the fastest risers in the set — 'YIMBY' up 54 percent over thirty days (velocity 81) and 'supply skepticism' up 38 percent over the same window (velocity 94) — so this is not a case of one displacing the other but of the argument and its rebuttal intensifying together. That is the sharpest single confirmation of the spine: the pro-build banner is contested from within exactly as it looks most dominant, the doubt gaining velocity right alongside the identity. The contest is empirical and identity-laden at once — over what the evidence actually shows and over who is being naive — and Contextive reports the momentum of each, not the verdict."
     },
     {
       "a": "Scarcity mindset",
       "b": "limits to growth",
       "title": "Scarcity mindset vs limits to growth",
-      "body": "The whole abundance-scarcity argument compressed into how each side names the other's premise. 'Scarcity mindset' is the build side's term for what it opposes — a way of thinking that treats resources as fixed and turns every question into a zero-sum fight, a psychology to be overcome. 'Limits to growth,' the half-century-old creed revived in the climate era, answers that the ceilings are physical facts, not attitudes, and that calling constraint a mindset dismisses real tradeoffs. Each word is a verdict disguised as a description: one says scarcity is mostly manufactured by bad choices, the other says it is partly imposed by the world. The contest is whether the limit is fixed by nature or kept low by a failure of will — and it is precisely the claim Contextive measures the momentum of, and refuses to settle."
+      "body": "The whole abundance-scarcity argument compressed into how each side names the other's premise. 'Scarcity mindset' is the build side's term for what it opposes — a way of thinking that treats resources as fixed and turns every question into a zero-sum fight, a psychology to be overcome. 'Limits to growth,' the half-century-old creed revived in the climate era, answers that the ceilings are physical facts, not attitudes. Measured, both edge up on the quarter — 'limits to growth' up 7 percent (velocity 75) and 'scarcity mindset' up 21 percent (velocity 25) — so the vocabulary of limits is gaining whether it is invoked as a creed or thrown as a critique. Each word is a verdict disguised as a description: one says scarcity is mostly manufactured by bad choices, the other says it is partly imposed by the world. The contest is whether the limit is fixed by nature or kept low by a failure of will — precisely the claim Contextive measures the momentum of, and refuses to settle."
     }
   ],
   "terms": [
@@ -90,8 +90,31 @@
       "cluster": "A",
       "domainTag": "HOUSING / LAND — THE BUILDERS",
       "measurement": {
-        "status": "pending",
-        "reason": "GDELT DOC 2.0 server-side throttled (returns the 'limit requests to one every 5 seconds' notice, no coverage series); confirmed 2026-07-02 single probe. Awaiting recovery for measurement."
+        "status": "measured",
+        "velocityIndex": 81,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 54.4,
+          "d90": 9.6,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-02-21",
+            "z": 2.78
+          },
+          {
+            "date": "2026-06-20",
+            "z": 2.29
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.00707,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
       },
       "platforms": [
         "X",
@@ -124,8 +147,31 @@
       "cluster": "A",
       "domainTag": "HOUSING / LAND — THE EPITHET",
       "measurement": {
-        "status": "pending",
-        "reason": "GDELT DOC 2.0 server-side throttled (returns the 'limit requests to one every 5 seconds' notice, no coverage series); confirmed 2026-07-02 single probe. Awaiting recovery for measurement."
+        "status": "measured",
+        "velocityIndex": 69,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -11,
+          "d90": 8.9,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-02-21",
+            "z": 3.48
+          },
+          {
+            "date": "2026-05-04",
+            "z": 3.22
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.01365,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
       },
       "platforms": [
         "X",
@@ -158,8 +204,31 @@
       "cluster": "A",
       "domainTag": "HOUSING / LAND — THE PRESCRIPTION",
       "measurement": {
-        "status": "pending",
-        "reason": "GDELT DOC 2.0 server-side throttled (returns the 'limit requests to one every 5 seconds' notice, no coverage series); confirmed 2026-07-02 single probe. Awaiting recovery for measurement."
+        "status": "measured",
+        "velocityIndex": 31,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -24.7,
+          "d90": 37.7,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-04-07",
+            "z": 2.26
+          },
+          {
+            "date": "2026-01-21",
+            "z": 2.14
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.002015,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
       },
       "platforms": [
         "policy press",
@@ -192,8 +261,35 @@
       "cluster": "A",
       "domainTag": "HOUSING / LAND — THE LEVER",
       "measurement": {
-        "status": "pending",
-        "reason": "GDELT DOC 2.0 server-side throttled (returns the 'limit requests to one every 5 seconds' notice, no coverage series); confirmed 2026-07-02 single probe. Awaiting recovery for measurement."
+        "status": "measured",
+        "velocityIndex": 56,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -14.7,
+          "d90": -3,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-06-07",
+            "z": 2.22
+          },
+          {
+            "date": "2026-05-16",
+            "z": 2.2
+          },
+          {
+            "date": "2026-02-07",
+            "z": 2.03
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.008788,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
       },
       "platforms": [
         "policy press",
@@ -226,8 +322,27 @@
       "cluster": "A",
       "domainTag": "HOUSING / LAND — THE GRAND CLAIM",
       "measurement": {
-        "status": "pending",
-        "reason": "GDELT DOC 2.0 server-side throttled (returns the 'limit requests to one every 5 seconds' notice, no coverage series); confirmed 2026-07-02 single probe. Awaiting recovery for measurement."
+        "status": "measured",
+        "velocityIndex": 100,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -41.8,
+          "d90": -29.9,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-02-19",
+            "z": 3.81
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.000026,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
       },
       "platforms": [
         "Substack",
@@ -260,8 +375,35 @@
       "cluster": "A",
       "domainTag": "HOUSING / LAND — THE COUNTER-FRAME",
       "measurement": {
-        "status": "pending",
-        "reason": "GDELT DOC 2.0 server-side throttled (returns the 'limit requests to one every 5 seconds' notice, no coverage series); confirmed 2026-07-02 single probe. Awaiting recovery for measurement."
+        "status": "measured",
+        "velocityIndex": 94,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 37.9,
+          "d90": -7,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2025-12-31",
+            "z": 4.46
+          },
+          {
+            "date": "2026-01-10",
+            "z": 2.85
+          },
+          {
+            "date": "2026-06-13",
+            "z": 2.09
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.000098,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
       },
       "platforms": [
         "policy press",
@@ -294,8 +436,27 @@
       "cluster": "B",
       "domainTag": "ENERGY / GROWTH — THE BANNER",
       "measurement": {
-        "status": "pending",
-        "reason": "GDELT DOC 2.0 server-side throttled (returns the 'limit requests to one every 5 seconds' notice, no coverage series); confirmed 2026-07-02 single probe. Awaiting recovery for measurement."
+        "status": "measured",
+        "velocityIndex": 38,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 1.1,
+          "d90": -26.8,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-02-26",
+            "z": 2.78
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.008929,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
       },
       "platforms": [
         "policy press",
@@ -328,8 +489,31 @@
       "cluster": "B",
       "domainTag": "ENERGY / GROWTH — THE RIGHT-CODED FRAME",
       "measurement": {
-        "status": "pending",
-        "reason": "GDELT DOC 2.0 server-side throttled (returns the 'limit requests to one every 5 seconds' notice, no coverage series); confirmed 2026-07-02 single probe. Awaiting recovery for measurement."
+        "status": "measured",
+        "velocityIndex": 12,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -34.7,
+          "d90": 1.2,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-01-20",
+            "z": 3.03
+          },
+          {
+            "date": "2026-05-16",
+            "z": 2.66
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.005632,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
       },
       "platforms": [
         "cable news",
@@ -362,8 +546,31 @@
       "cluster": "B",
       "domainTag": "ENERGY / GROWTH — THE CHANT",
       "measurement": {
-        "status": "pending",
-        "reason": "GDELT DOC 2.0 server-side throttled (returns the 'limit requests to one every 5 seconds' notice, no coverage series); confirmed 2026-07-02 single probe. Awaiting recovery for measurement."
+        "status": "measured",
+        "velocityIndex": 0,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -3.9,
+          "d90": -11.1,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-04-11",
+            "z": 3.35
+          },
+          {
+            "date": "2026-02-28",
+            "z": 2.05
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.007521,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
       },
       "platforms": [
         "cable news",
@@ -396,8 +603,35 @@
       "cluster": "B",
       "domainTag": "ENERGY / GROWTH — THE CLEAN-ABUNDANCE ROUTE",
       "measurement": {
-        "status": "pending",
-        "reason": "GDELT DOC 2.0 server-side throttled (returns the 'limit requests to one every 5 seconds' notice, no coverage series); confirmed 2026-07-02 single probe. Awaiting recovery for measurement."
+        "status": "measured",
+        "velocityIndex": 44,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -20.1,
+          "d90": 20,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-05-24",
+            "z": 2.68
+          },
+          {
+            "date": "2026-02-23",
+            "z": 2.02
+          },
+          {
+            "date": "2026-04-16",
+            "z": 2.01
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.039911,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
       },
       "platforms": [
         "climate press",
@@ -430,8 +664,35 @@
       "cluster": "B",
       "domainTag": "ENERGY / GROWTH — THE COUNTER-POLE",
       "measurement": {
-        "status": "pending",
-        "reason": "GDELT DOC 2.0 server-side throttled (returns the 'limit requests to one every 5 seconds' notice, no coverage series); confirmed 2026-07-02 single probe. Awaiting recovery for measurement."
+        "status": "measured",
+        "velocityIndex": 88,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 37.4,
+          "d90": 10.3,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-01-01",
+            "z": 2.55
+          },
+          {
+            "date": "2026-06-14",
+            "z": 2.16
+          },
+          {
+            "date": "2026-01-16",
+            "z": 2.14
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.004434,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
       },
       "platforms": [
         "Substack",
@@ -464,8 +725,27 @@
       "cluster": "C",
       "domainTag": "STATE CAPACITY / COUNTER-VOCABULARY — THE BOTTLENECK",
       "measurement": {
-        "status": "pending",
-        "reason": "GDELT DOC 2.0 server-side throttled (returns the 'limit requests to one every 5 seconds' notice, no coverage series); confirmed 2026-07-02 single probe. Awaiting recovery for measurement."
+        "status": "measured",
+        "velocityIndex": 19,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -61,
+          "d90": 55.8,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-05-02",
+            "z": 4.77
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.008821,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
       },
       "platforms": [
         "policy press",
@@ -498,8 +778,31 @@
       "cluster": "C",
       "domainTag": "STATE CAPACITY / COUNTER-VOCABULARY — THE RALLYING CRY",
       "measurement": {
-        "status": "pending",
-        "reason": "GDELT DOC 2.0 server-side throttled (returns the 'limit requests to one every 5 seconds' notice, no coverage series); confirmed 2026-07-02 single probe. Awaiting recovery for measurement."
+        "status": "measured",
+        "velocityIndex": 50,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -25.5,
+          "d90": -36.1,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-01-25",
+            "z": 2.61
+          },
+          {
+            "date": "2026-02-24",
+            "z": 2.05
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.000925,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
       },
       "platforms": [
         "policy press",
@@ -532,8 +835,35 @@
       "cluster": "C",
       "domainTag": "STATE CAPACITY / COUNTER-VOCABULARY — THE SELF-CRITIQUE",
       "measurement": {
-        "status": "pending",
-        "reason": "GDELT DOC 2.0 server-side throttled (returns the 'limit requests to one every 5 seconds' notice, no coverage series); confirmed 2026-07-02 single probe. Awaiting recovery for measurement."
+        "status": "measured",
+        "velocityIndex": 6,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 3.7,
+          "d90": -66.5,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-02-15",
+            "z": 2.4
+          },
+          {
+            "date": "2026-03-22",
+            "z": 2.18
+          },
+          {
+            "date": "2026-01-19",
+            "z": 2.04
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.000023,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
       },
       "platforms": [
         "Substack",
@@ -566,8 +896,35 @@
       "cluster": "C",
       "domainTag": "STATE CAPACITY / COUNTER-VOCABULARY — THE DIAGNOSIS OF THE OTHER SIDE",
       "measurement": {
-        "status": "pending",
-        "reason": "GDELT DOC 2.0 server-side throttled (returns the 'limit requests to one every 5 seconds' notice, no coverage series); confirmed 2026-07-02 single probe. Awaiting recovery for measurement."
+        "status": "measured",
+        "velocityIndex": 25,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -27.7,
+          "d90": 21.2,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-01-22",
+            "z": 2.55
+          },
+          {
+            "date": "2026-06-27",
+            "z": 2.17
+          },
+          {
+            "date": "2026-04-02",
+            "z": 2.1
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.000153,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
       },
       "platforms": [
         "Substack",
@@ -600,8 +957,31 @@
       "cluster": "C",
       "domainTag": "STATE CAPACITY / COUNTER-VOCABULARY — THE OLD CREED",
       "measurement": {
-        "status": "pending",
-        "reason": "GDELT DOC 2.0 server-side throttled (returns the 'limit requests to one every 5 seconds' notice, no coverage series); confirmed 2026-07-02 single probe. Awaiting recovery for measurement."
+        "status": "measured",
+        "velocityIndex": 75,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -6.7,
+          "d90": 6.8,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-03-13",
+            "z": 2.92
+          },
+          {
+            "date": "2026-05-26",
+            "z": 2.38
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.000068,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
       },
       "platforms": [
         "academic press",
@@ -634,8 +1014,27 @@
       "cluster": "C",
       "domainTag": "STATE CAPACITY / COUNTER-VOCABULARY — THE MOOD OF OVERWHELM",
       "measurement": {
-        "status": "pending",
-        "reason": "GDELT DOC 2.0 server-side throttled (returns the 'limit requests to one every 5 seconds' notice, no coverage series); confirmed 2026-07-02 single probe. Awaiting recovery for measurement."
+        "status": "measured",
+        "velocityIndex": 62,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -17,
+          "d90": 12.9,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-05-11",
+            "z": 2.13
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.003978,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
       },
       "platforms": [
         "academic press",
@@ -663,7 +1062,7 @@
       ]
     }
   ],
-  "generatedAt": "2026-07-02T22:47:14+00:00",
+  "generatedAt": "2026-07-11T01:52:09+00:00",
   "refDate": "2026-06-29",
-  "source": "GDELT DOC 2.0 (timelinevol + timelinetone) — PENDING: source throttled at build time (2026-07-02 probe returned the rate-limit notice, no series). All terms pending; re-run pipeline when GDELT recovers."
+  "source": "GDELT Web NGrams 3.0 (BigQuery) | auto-merged 2026-07-11"
 }

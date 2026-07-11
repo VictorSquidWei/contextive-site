@@ -1,0 +1,1045 @@
+{
+  "number": "09",
+  "slug": "real",
+  "id": "09-real",
+  "label": "CAMPAIGN 09",
+  "title": "The Language of the Real",
+  "shortTitle": "The Real",
+  "period": "July 2026",
+  "status": "published",
+  "signalBasis": "measured",
+  "firewall": "We track how the words have been used and how fast they are winning, not whether the underlying politics is correct.",
+  "summary": "One backlash, two instincts — name machine-made content and shame it, or normalize and build on it — and this cycle the numbers are in: the loudest word is not the winning one. All seventeen terms across the pejorative 'slop' pole, the provenance-and-law machinery, and the normalizing pro-synthetic counter-pole now measure clean against full-text coverage. The iconic epithets that define the mood are cresting: 'AI slop,' the word major dictionaries named Word of the Year, sits essentially flat on the quarter (velocity index 50, down 0.7% on 90 days and down 26% on 30), and 'clanker,' the viral epithet for the machine itself, has collapsed (velocity 0, down 66% on 90 days). What is gaining instead is the vocabulary that does something with the flood rather than only naming it — the normalizing 'AI-assisted' frame and the machinery of proving the human. That the loud word is not the moving word is the cycle's measured headline, and it is the divergence that leads.",
+  "anchor": "Through 2025 and into 2026 a single word crystallized a diffuse unease about machine-made content: 'slop.' Major dictionaries named it Word of the Year at the end of 2025, converting years of scattered complaint — feeds thick with generated images, search results padded with plausible filler, replies that read like a machine — into one portable insult and a felt sense that the human internet was receding behind it. The backlash hardened into a vocabulary: 'dead internet theory' migrated from conspiracy to cited commentary; 'clanker' spread as a raw epithet for the machine itself; 'deepfake' drove new likeness-rights law and a widening patchwork of state statutes. Institutions answered with the machinery of proof — 'content credentials,' 'proof of personhood,' 'made by humans' marks, and a transparency mandate turning 'AI-generated' from a description into a required label. Against all of it, the industry kept its own affect-neutral vocabulary — 'synthetic media,' 'AI-assisted,' 'generative content,' 'synthetic data' — that treats generated work not as an aberration to be shamed but as an ordinary medium, and even as 'democratizing creativity.' The same moment now carries two incompatible instincts about the same flood of generated content: name it and shame it, or normalize and build on it. This cycle set out to measure which of those instincts is actually gaining velocity — and whether the loudest one is the one winning. The readings are now in, and they do not favor the loudest.",
+  "thesis": [
+    "One backlash, two instincts — name machine-made content and shame it, or normalize and build on it — and this cycle the numbers are in: the loudest word is not the winning one. All seventeen terms across the pejorative 'slop' pole, the provenance-and-law machinery, and the normalizing pro-synthetic counter-pole now measure clean against full-text coverage. The iconic epithets that define the mood are cresting: 'AI slop,' the word major dictionaries named Word of the Year, sits essentially flat on the quarter (velocity index 50, down 0.7% on 90 days and down 26% on 30), and 'clanker,' the viral epithet for the machine itself, has collapsed (velocity 0, down 66% on 90 days). What is gaining instead is the vocabulary that does something with the flood rather than only naming it — the normalizing 'AI-assisted' frame and the machinery of proving the human. That the loud word is not the moving word is the cycle's measured headline, and it is the divergence that leads.",
+    "The spine, now measured, is 'slop' versus 'synthetic' read as velocity versus verdict. The pejorative vocabulary owns the verdict — the moral mood, the Word-of-the-Year banner, the 'war on slop' framing — but the velocities show it plateauing, while the terms actually climbing are the ones that normalize or operationalize generated work: 'AI-assisted' (velocity 94, up 26% on 90 days), and the human-certification response that answers the flood — 'workslop' (velocity 100, up 56% on 30 days, the single fastest mover in the set), 'proof of personhood' (velocity 81, up 17%), and 'made by humans' (up 29%). Even inside the 'slop' pole it is the substantive doom-mechanism, 'model collapse' (velocity 62, up 15%), that rises, not the raw insult. This is the same shape a prior cycle's collapsed victory word took, and the shape 'debasement trade' took at velocity 100 while down 73% on the quarter: loud because cresting, not because winning. The reading is not, and must not be read as, a verdict that synthetic media is legitimate or that 'slop' is undeserved — Contextive tracks how fast each name is winning, not whether the underlying argument is right. And the win is narrower than 'synthetic beats slop': the abstract pro-synthetic banners are themselves cooling ('democratizing creativity' velocity 6, down 30%; 'synthetic media' velocity 31, down 13%), so what the data shows is the mood-words on both poles plateauing while the applied, operational vocabulary gains."
+  ],
+  "definingTension": {
+    "a": "Slop",
+    "b": "synthetic: velocity vs verdict",
+    "note": "The cycle's spine, now measured. The pejorative vocabulary ('AI slop,' 'clanker,' 'dead internet theory,' 'slopaganda') owns the verdict — the moral mood, the Word-of-the-Year banner, the 'war on slop' framing — but the velocities show it cresting: 'AI slop' is flat over the quarter (velocity 50, down 0.7% on 90 days) and 'clanker' has collapsed (velocity 0, down 66%). The vocabulary that is actually gaining is the normalizing and operational one — 'AI-assisted' (velocity 94, up 26% on 90 days) reframing generation as collaboration, and the machinery answering the flood: 'workslop' (velocity 100, the fastest mover), 'proof of personhood' (velocity 81), and 'made by humans' (up 29%). That is velocity versus verdict: dominating the coverage is not the same as gaining on it — the same shape a prior cycle's collapsed victory word and 'debasement trade' both showed, now measured. The read is not that synthetic media is legitimate or that 'slop' is undeserved; we report which names are gaining, not which side is right, and the win is narrower than a rout — the abstract pro-synthetic banners ('democratizing creativity,' 'synthetic media') are themselves cooling, so what gains is the applied vocabulary, not one pole over the other."
+  },
+  "clusters": [
+    {
+      "key": "A",
+      "name": "What do we call the flood?",
+      "blurb": "How the authenticity backlash names machine-made content — the register where a diffuse unease hardens into a portable insult and a hard line between the human and the synthetic. It runs on the felt claim that feeds and search results have filled with low-effort generated filler, and it carries the movement's Word-of-the-Year banner and the epithets it throws at the machine itself. Its own doom mechanism travels inside it: the argument that generated output is not merely everywhere but self-degrading, poisoning the pool of human-made work that people and future models rely on. The 'flood' is this pole's own metaphor, not a measured finding — what we track is how fast each of its names is spreading, and this cycle they spread unevenly: the raw epithets plateau while the substantive doom-mechanism still climbs."
+    },
+    {
+      "key": "B",
+      "name": "How do we prove what's real?",
+      "blurb": "The vocabulary of proving and policing origin — the institutional and legal answer to 'is this real, and who made it?' Here the response turns concrete: cryptographic provenance records and 'nutrition labels' for media, badges attesting a human author, mechanisms for proving a real person is present, a disclosure phrase hardening into a legal mandate, a workplace coinage for output that only looks like finished work, and the oldest threat-word in the fight driving new likeness law. A counter-current runs through every term — a label can be stripped, a badge self-applied, a proof turned into surveillance — so the register is as much about the limits of proof as its promise."
+    },
+    {
+      "key": "C",
+      "name": "Is synthetic the new normal?",
+      "blurb": "The industry's own vocabulary for the same flood, and the argument that it is not a flood at all but an ordinary new medium. Here the affect-neutral names gather — the category word that describes rather than judges, the plain production-side descriptor, the 'assisted' framing that keeps a human in the frame, and the data-domain case that generated material is a necessity rather than a contaminant — alongside the values claim that these tools widen who gets to create. Its shared banner is the one word the whole cycle is nominally about, now destabilized: whether 'authentic' still marks a meaningful line, or whether the human/synthetic distinction matters less than either side insists."
+    }
+  ],
+  "pillars": [
+    {
+      "title": "The loudest word isn't the winning one (the measured lede)",
+      "body": "The cycle's lede, and it is measured. The obvious story has the 'slop' vocabulary rising because it dominates the coverage; the data refutes it. 'AI slop,' the Word-of-the-Year epithet, is flat over the quarter (velocity 50, down 0.7% on 90 days), and 'clanker' has collapsed (velocity 0, down 66%), while the words actually gaining are 'AI-assisted' (velocity 94, up 26%), 'workslop' (velocity 100, the fastest mover, up 56% on 30 days), and 'proof of personhood' (velocity 81, up 17%) — the same gap between visibility and direction that a prior cycle's collapsed victory word and 'debasement trade' both showed. The highest-stakes piece is built on that gap: the loudest word is not the moving word. This is the divergence that leads the campaign — dominating the headlines is not the same as gaining on them, now shown in the velocities rather than asserted."
+    },
+    {
+      "title": "Naming vs proving: the epithet and the machinery of proof",
+      "body": "The cross between the grassroots pejorative and the institutional provenance machinery — a clean demonstration of the signal layer on two registers of the same fight. 'Slop' and 'clanker' name the problem from below; 'content credentials,' the mandated 'AI-generated' label, 'proof of personhood,' 'made by humans,' and 'workslop' try to certify or account for it from above. Measured, the raw naming has plateaued while the machinery of proving the human is where the live momentum sits — 'proof of personhood' (velocity 81), 'made by humans' (up 29%), and 'workslop' (velocity 100) climbing, even as the provenance standard 'content credentials' reads mixed. The pillar shows the culture's insult cresting while the institutions' answer is still building — measured evenhandedly, insult and standard typeset identically, neither inflated."
+    },
+    {
+      "title": "The normalizing counter-pole, at equal weight",
+      "body": "The pro-synthetic vocabulary given full, equal weight — required precisely because it is the pole measuring as the faster-gaining, and 'winning' must never read as endorsement. 'AI-assisted' (velocity 94, up 26%) is the clear riser, reframing generation as human-directed collaboration; but the pole is not a monolith winning across the board — 'synthetic media' (velocity 31, down 13%), 'synthetic data' (velocity 38, down 18%), and 'democratizing creativity' (velocity 6, down 30%) are all cooling, and a destabilized 'authenticity' sits mid-pack (velocity 69). So the honest measured claim is narrow: it is the applied 'assisted' framing that gains, not the abstract case that synthetic content is ordinary or liberating. This pillar carries the same analytical weight as the 'slop' side; the brand takes no position on whether synthetic media is legitimate or a euphemism — it reports the velocities and paraphrases each side's contestation at equal length."
+    }
+  ],
+  "tensions": [
+    {
+      "a": "Slop",
+      "b": "synthetic: velocity vs verdict",
+      "title": "Slop vs synthetic: velocity vs verdict",
+      "body": "The cycle's spine, now measured. The pejorative vocabulary ('AI slop,' 'clanker,' 'dead internet theory,' 'slopaganda') owns the verdict — the moral mood, the Word-of-the-Year banner, the 'war on slop' framing — but the velocities show it cresting: 'AI slop' is flat over the quarter (velocity 50, down 0.7% on 90 days) and 'clanker' has collapsed (velocity 0, down 66%). The vocabulary that is actually gaining is the normalizing and operational one — 'AI-assisted' (velocity 94, up 26% on 90 days) reframing generation as collaboration, and the machinery answering the flood: 'workslop' (velocity 100, the fastest mover), 'proof of personhood' (velocity 81), and 'made by humans' (up 29%). That is velocity versus verdict: dominating the coverage is not the same as gaining on it — the same shape a prior cycle's collapsed victory word and 'debasement trade' both showed, now measured. The read is not that synthetic media is legitimate or that 'slop' is undeserved; we report which names are gaining, not which side is right, and the win is narrower than a rout — the abstract pro-synthetic banners ('democratizing creativity,' 'synthetic media') are themselves cooling, so what gains is the applied vocabulary, not one pole over the other."
+    },
+    {
+      "a": "The epithet",
+      "b": "the label: slop vs content credentials",
+      "title": "The epithet vs the label: 'slop' vs 'content credentials'",
+      "body": "The grassroots pejorative against the institutional answer — culture naming the problem from below versus institutions certifying a fix from above. Measured, the epithets are loud but no longer climbing: 'slop' is flat (velocity 50) and 'clanker' has collapsed (velocity 0). The institutional response splits — the certification of the human is gaining ('proof of personhood' velocity 81, up 17%; 'made by humans' up 29%), while the provenance standard itself, 'content credentials,' reads mixed (velocity 25, up 17% on 90 days but down 60% on 30), and the mandated 'AI-generated' label sits high but flat (velocity 88, down 8% on 30 days, down 9% on 90). The measured contest is that the culture's raw naming has plateaued while the machinery of proof is where the live momentum now sits — though unevenly across it. Both registers are tracked identically; the brand does not rank the epithet above the standard or the standard above the epithet."
+    },
+    {
+      "a": "Dead internet theory",
+      "b": "democratizing creativity",
+      "title": "Dead internet theory vs democratizing creativity",
+      "body": "The two maximalist readings of the very same fact — that a large and growing share of what circulates online is now generated — one as doom, one as liberation. Measured, both abstract banners are muted: 'dead internet theory' is up 16% on 90 days but cooling fast (velocity 44, down 35% on 30 days), and 'democratizing creativity' is near the floor of the whole set (velocity 6, down 30%). Same phenomenon, opposite valence — elegy against emancipation — and the data says neither grand framing is where the energy is; the momentum has moved to the concrete and the applied on both sides. Contextive measures which name is winning the coverage, not which reading is true; neither the doom nor the liberation register is the brand's own view."
+    },
+    {
+      "a": "AI-generated",
+      "b": "AI-assisted",
+      "title": "AI-generated vs AI-assisted",
+      "body": "The labeling fault line, and the sharpest single line in the cycle. 'AI-generated' is the disclosure label that regulation is turning into a requirement — the flag that must be attached to synthetic images, audio, video, and text. 'AI-assisted' is the defensive reframing that keeps a human author in the frame, casting the work as collaboration a person directs and signs off. Measured, both sit high in the set but are moving apart: 'AI-assisted' is climbing (velocity 94, up 26% on 90 days), while 'AI-generated' is high but slightly cooling (velocity 88, down 8% on 30 days, down 9% on 90). The augmentation-defense vocabulary is gaining faster than the disclosure vocabulary — read as the terrain shifting toward 'a person directed this' over 'a machine made this,' exactly at the line where assistance ends and generation begins, the line the whole certification project depends on and that creators have every incentive to blur. Their relative velocity reads as which framing is setting the terms; both are typeset identically here, and neither reads as the brand's position."
+    },
+    {
+      "a": "Model collapse",
+      "b": "synthetic data",
+      "title": "Model collapse vs synthetic data",
+      "body": "The mirror-image pair, and the technical heart of the cycle: one practice, two verdicts. 'Model collapse' — with cousins 'Habsburg AI' and 'AI inbreeding' — names training on generated output as contamination, models degrading toward generic sameness; 'synthetic data' names the same generated material as a solution to privacy limits, scarcity, and cost. Measured, they diverge: 'model collapse' is gaining (velocity 62, up 15% on 90 days), while 'synthetic data' is cooling (velocity 38, down 18%). The word 'synthetic' does opposite work in each — the well being poisoned, or the well being refilled — and this cycle the contamination-warning carries more momentum than the reassurance. That is a fact about which word is spreading, not a finding that the well is in fact being poisoned; the practice itself Contextive does not adjudicate."
+    }
+  ],
+  "terms": [
+    {
+      "ref": "C09-A1",
+      "term": "AI slop",
+      "cluster": "A",
+      "domainTag": "SYNTHETIC FLOOD — THE ANCHOR PEJORATIVE",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 50,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -25.9,
+          "d90": -0.7,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-05-18",
+            "z": 2.67
+          },
+          {
+            "date": "2026-03-24",
+            "z": 2.1
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.025083,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "X",
+        "Reddit",
+        "TikTok",
+        "YouTube",
+        "tech press"
+      ],
+      "coOccurrence": [
+        "AI-generated",
+        "feed",
+        "authenticity",
+        "engagement farming"
+      ],
+      "whatItDoes": "The word that named the problem — low-effort, mass-produced AI-generated images, video, and text that flood feeds and search results. Named Word of the Year by major dictionaries at the end of 2025, it converted a diffuse unease about machine-made content into a single, portable insult, and it is the anchor term the whole authenticity backlash organizes around.",
+      "whereContested": "To those who wield it, 'slop' names a real collapse in quality and a feed engineered for volume over worth; to those who resist the label, it is an elastic catch-all that dismisses accessible tools and the people using them, blurring genuinely useful generated work with the worst of it. The contest is whether 'slop' marks a quality floor or simply anything made with AI.",
+      "verbatims": [
+        {
+          "quote": "my feed is just slop now",
+          "attribution": "recurring user pattern"
+        },
+        {
+          "quote": "calling everything you dislike 'slop' isn't a critique",
+          "attribution": "rebuttal pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C09-A2",
+      "term": "dead internet theory",
+      "cluster": "A",
+      "domainTag": "SYNTHETIC FLOOD — THE MACRO THESIS",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 44,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -35.2,
+          "d90": 15.9,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-06-04",
+            "z": 3.42
+          },
+          {
+            "date": "2026-01-29",
+            "z": 2.93
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.000315,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "X",
+        "Reddit",
+        "tech press",
+        "YouTube"
+      ],
+      "coOccurrence": [
+        "bots",
+        "AI-generated",
+        "traffic",
+        "authenticity"
+      ],
+      "whatItDoes": "The claim, once fringe, that most online activity is no longer human — that bots and generated content have quietly displaced real people. Reframed through 2026 traffic reports and mainstream commentary from a conspiracy into a 'leaner,' evidence-cited version, it is the macro story the felt experience of slop plugs into: not just bad content, but an internet emptied of humans.",
+      "whereContested": "Proponents read rising automated-traffic figures and generated profiles as confirmation that the human web is receding; skeptics argue the theory overreaches from real bot activity into unfalsifiable doom, and can become a convenient excuse for platforms' own design choices. The contest is whether 'dead internet' names a measurable shift or a mood dressed as a finding.",
+      "verbatims": [
+        {
+          "quote": "half the accounts replying are bots",
+          "attribution": "recurring user pattern"
+        },
+        {
+          "quote": "it's not dead, it's just changing — this is doomer bait",
+          "attribution": "skeptic pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C09-A3",
+      "term": "slopaganda",
+      "cluster": "A",
+      "domainTag": "SYNTHETIC FLOOD — WEAPONIZED",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 19,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -25.1,
+          "d90": 97.4,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-04-08",
+            "z": 2.42
+          },
+          {
+            "date": "2026-04-23",
+            "z": 2.06
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.000347,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "X",
+        "policy press",
+        "academic press",
+        "news"
+      ],
+      "coOccurrence": [
+        "propaganda",
+        "AI-generated",
+        "deepfake",
+        "elections"
+      ],
+      "whatItDoes": "A portmanteau of 'slop' and 'propaganda,' coined by an academic in 2025 to name AI-generated content produced not to inform but to move sentiment at scale — cheap, fast, hyper-targeted image-making that spreads an association rather than a claim. It carries the slop vocabulary from annoyance into political stakes, naming the moment generated content becomes persuasion.",
+      "whereContested": "Those who use it warn that generative tools industrialize influence, flooding channels faster than any fact-check can follow; others counter that the term risks branding any AI-touched political message as manipulation, and that persuasion long predates the tools. The contest is where ordinary messaging ends and 'slopaganda' begins.",
+      "verbatims": [
+        {
+          "quote": "they can flood the zone with generated images now",
+          "attribution": "recurring critic pattern"
+        },
+        {
+          "quote": "every persuasive ad isn't 'slopaganda'",
+          "attribution": "rebuttal pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C09-A4",
+      "term": "model collapse",
+      "cluster": "A",
+      "domainTag": "SYNTHETIC FLOOD — THE POISONED WELL",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 62,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -11.6,
+          "d90": 15,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-02-12",
+            "z": 2.61
+          },
+          {
+            "date": "2026-04-26",
+            "z": 2.56
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.000971,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "tech press",
+        "academic press",
+        "X",
+        "Substack"
+      ],
+      "coOccurrence": [
+        "synthetic data",
+        "training data",
+        "Habsburg AI",
+        "human data"
+      ],
+      "whatItDoes": "The technical name — with cultural cousins 'Habsburg AI' and 'AI inbreeding' — for what happens when models train on other models' output and degrade, losing diversity and drifting toward generic sameness. It supplies the backlash with a doom mechanism: not just that synthetic content is everywhere, but that it may be contaminating the pool of human-made data future models and people rely on.",
+      "whereContested": "One camp treats it as a looming structural limit that makes uncontaminated human data newly precious; another argues it is overstated — that curation and mixed human-plus-synthetic training largely prevent it, and that 'collapse' dramatizes a manageable engineering problem. The contest is whether the well is being poisoned or merely needs filtering.",
+      "verbatims": [
+        {
+          "quote": "the models are eating their own output",
+          "attribution": "recurring warning pattern"
+        },
+        {
+          "quote": "mix in human data and the problem mostly goes away",
+          "attribution": "rebuttal pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C09-A5",
+      "term": "clanker",
+      "cluster": "A",
+      "domainTag": "SYNTHETIC FLOOD — THE HUMAN / MACHINE LINE",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 0,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -60.7,
+          "d90": -66.2,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-03-10",
+            "z": 4.69
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.000237,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "TikTok",
+        "Instagram",
+        "X",
+        "YouTube"
+      ],
+      "coOccurrence": [
+        "robot",
+        "AI",
+        "bot",
+        "automation"
+      ],
+      "whatItDoes": "A derogatory term for AI and robots, revived from science fiction and gone viral across social platforms in 2025 as the rawest expression of the anti-AI mood. Where 'slop' targets the content, 'clanker' targets the machine itself, marking a hard us-and-them line between humans and the synthetic — the backlash condensed into a single epithet.",
+      "whereContested": "For many users it reads as cathartic, harmless slang aimed at software and corporations, not people; others find deliberately styling it as a 'slur' unsettling, arguing slur-cosplay coarsens discourse even when the target is a machine, and that the anger is better aimed at companies than at the tools. The contest is whether the word is a release valve or a corrosive habit.",
+      "verbatims": [
+        {
+          "quote": "I'm not talking to a clanker, give me a human",
+          "attribution": "recurring user pattern"
+        },
+        {
+          "quote": "inventing slurs for software says more about us",
+          "attribution": "skeptic pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C09-B1",
+      "term": "deepfake",
+      "cluster": "B",
+      "domainTag": "PROVENANCE & LAW — THE THREAT TERM",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 56,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -19,
+          "d90": -28.7,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-01-11",
+            "z": 5.53
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.111204,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "news",
+        "policy press",
+        "legal press",
+        "X"
+      ],
+      "coOccurrence": [
+        "digital replica",
+        "likeness",
+        "consent",
+        "voice cloning"
+      ],
+      "whatItDoes": "The established word for a convincing synthetic likeness — a face or voice generated or swapped to depict someone doing or saying what they did not. The oldest term in this fight, it anchors the legal and platform response, and in 2026 it is the pressure behind new likeness-rights legislation and a widening patchwork of state laws on non-consensual and political fakes.",
+      "whereContested": "Used broadly, it frames synthetic likeness as an inherent harm demanding disclosure and legal control; used narrowly, critics warn the label sweeps in satire, parody, and legitimate creative or journalistic uses that speech protections cover. The contest is drawing the line between a fraud on the viewer and protected expression.",
+      "verbatims": [
+        {
+          "quote": "you can't trust a video anymore",
+          "attribution": "recurring concern pattern"
+        },
+        {
+          "quote": "parody and satire aren't deepfake fraud",
+          "attribution": "free-speech pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C09-B2",
+      "term": "workslop",
+      "cluster": "B",
+      "domainTag": "PROVENANCE & LAW — THE WORKPLACE COINAGE",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 100,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 55.8,
+          "d90": -6.2,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-03-11",
+            "z": 2.62
+          },
+          {
+            "date": "2026-06-21",
+            "z": 2.54
+          },
+          {
+            "date": "2026-01-11",
+            "z": 2
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.000418,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "business press",
+        "LinkedIn",
+        "management press",
+        "X"
+      ],
+      "coOccurrence": [
+        "productivity",
+        "AI-generated",
+        "workplace",
+        "quality"
+      ],
+      "whatItDoes": "A 2025 coinage from a workplace-research study for AI-generated output that looks like finished work but lacks the substance to advance the task — polished, plausible, and empty, pushing the real effort downstream to whoever must fix it. It carries the slop critique into the office, naming a specific failure of generated work rather than its mere existence.",
+      "whereContested": "Managers and researchers use it to explain why AI has not delivered promised productivity and to press for accountability in how tools are used; skeptics question the underlying survey and argue 'workslop' can become a slur for any AI-assisted work, chilling legitimate use. The contest is whether the fault lies in the tool or in how carelessly it is deployed.",
+      "verbatims": [
+        {
+          "quote": "I spend more time fixing the AI draft than writing it",
+          "attribution": "recurring worker pattern"
+        },
+        {
+          "quote": "that's a skills problem, not an AI problem",
+          "attribution": "rebuttal pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C09-B3",
+      "term": "proof of personhood",
+      "cluster": "B",
+      "domainTag": "PROVENANCE & LAW — CERTIFYING THE HUMAN",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 81,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 33.6,
+          "d90": 16.7,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-04-09",
+            "z": 2.27
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.00244,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "tech press",
+        "crypto press",
+        "policy press",
+        "X"
+      ],
+      "coOccurrence": [
+        "verified human",
+        "biometric",
+        "World ID",
+        "bots"
+      ],
+      "whatItDoes": "The umbrella for mechanisms — biometric, cryptographic, credential-based — that let someone prove they are a unique, real human without necessarily revealing who they are. As bots and agents proliferate, it inverts the old challenge: the hard task in 2026 is no longer detecting a machine but proving you are not one, and it is moving from crypto experiment toward mainstream platform and enterprise use.",
+      "whereContested": "Advocates present it as the missing trust layer for a bot-saturated internet — human-only spaces, fair access, agents tied to accountable people; critics warn of biometric surveillance, exclusion, and the concentration of 'who counts as verified' inside a few private systems. The contest is whether proving humanity protects people or fences them in.",
+      "verbatims": [
+        {
+          "quote": "soon you'll have to prove you're a real person online",
+          "attribution": "recurring pattern"
+        },
+        {
+          "quote": "iris scans just to post is a cure worse than the disease",
+          "attribution": "critic pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C09-B4",
+      "term": "made by humans",
+      "cluster": "B",
+      "domainTag": "PROVENANCE & LAW — CERTIFYING THE AUTHOR",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 75,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -14,
+          "d90": 28.8,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-05-27",
+            "z": 2.19
+          },
+          {
+            "date": "2026-04-16",
+            "z": 2.11
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.030573,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "creator platforms",
+        "design press",
+        "Substack",
+        "X"
+      ],
+      "coOccurrence": [
+        "human-made",
+        "Not by AI",
+        "certification",
+        "craft"
+      ],
+      "whatItDoes": "The banner of a fast-growing certification movement — badges and marks such as 'human-made,' 'Not by AI,' and 'Proudly Human' that let creators attest work was made by people, not generated end to end. It is the positive mirror of 'slop': where the pejorative names the flood, these labels try to price and protect the human-made as a category, a claimed 'FairTrade mark for craft.'",
+      "whereContested": "Supporters see a way to reward authorship and let audiences choose the human; skeptics note the marks mostly rely on self-attestation or unreliable detection, are hard to verify at scale, and can slide into marketing rather than proof — and ask where 'assisted' work falls. The contest is whether 'made by humans' can be certified or only asserted.",
+      "verbatims": [
+        {
+          "quote": "I want to know a person actually made this",
+          "attribution": "recurring audience pattern"
+        },
+        {
+          "quote": "a badge you self-apply proves nothing",
+          "attribution": "skeptic pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C09-B5",
+      "term": "content credentials",
+      "cluster": "B",
+      "domainTag": "PROVENANCE & LAW — THE PROVENANCE STANDARD",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 25,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -60.3,
+          "d90": 17,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-05-16",
+            "z": 3.2
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.002002,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "tech press",
+        "journalism press",
+        "standards bodies",
+        "X"
+      ],
+      "coOccurrence": [
+        "C2PA",
+        "provenance",
+        "watermark",
+        "SynthID"
+      ],
+      "whatItDoes": "The consumer-facing label for C2PA, a cryptographic provenance standard — a 'nutrition label' for media recording how a file was made, which tools touched it, and whether AI was involved. Backed by a coalition of newsrooms and camera makers and, in 2026, by the largest AI labs pairing it with invisible watermarks, it is the institutional answer to 'is this real?': not a verdict, but a verifiable record of origin.",
+      "whereContested": "Boosters frame verifiable provenance as the durable fix — proving what is real rather than chasing what is fake; critics note credentials are easily stripped, that the absence of a manifest proves nothing, and that provenance can enable surveillance or entrench big platforms as the arbiters. The contest is whether provenance scales to trust or only to a partial, gameable signal.",
+      "verbatims": [
+        {
+          "quote": "prove what's real instead of hunting fakes",
+          "attribution": "recurring proponent pattern"
+        },
+        {
+          "quote": "strip the metadata and the credential's gone",
+          "attribution": "skeptic pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C09-B6",
+      "term": "AI-generated",
+      "cluster": "B",
+      "domainTag": "PROVENANCE & LAW — THE MANDATED LABEL",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 88,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -8.2,
+          "d90": -8.8,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-01-24",
+            "z": 2.36
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.017859,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "policy press",
+        "platform newsrooms",
+        "legal press",
+        "X"
+      ],
+      "coOccurrence": [
+        "label",
+        "disclosure",
+        "watermark",
+        "transparency"
+      ],
+      "whatItDoes": "The plain disclosure phrase that regulation is turning into a requirement — the label platforms and providers must attach to synthetic images, audio, video, and text. With a major transparency mandate taking effect in 2026, 'AI-generated' shifts from a description into a compliance category: the word that decides what must be flagged, watermarked, and disclosed.",
+      "whereContested": "Supporters argue clear labeling restores a baseline of informed trust and is the least intrusive remedy; critics say labels are inconsistently applied, easily ignored or stripped, can 'launder' disclosed manipulation as acceptable, and blur where assistance becomes generation. The contest is whether a label informs audiences or merely checks a box.",
+      "verbatims": [
+        {
+          "quote": "at least tell me when it's AI",
+          "attribution": "recurring audience pattern"
+        },
+        {
+          "quote": "a tiny label nobody reads isn't transparency",
+          "attribution": "skeptic pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C09-C1",
+      "term": "synthetic media",
+      "cluster": "C",
+      "domainTag": "THE NORMALIZING FRAME — THE NEUTRAL NAME",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 31,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -35.8,
+          "d90": -13.2,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-05-14",
+            "z": 2.47
+          },
+          {
+            "date": "2026-04-07",
+            "z": 2.11
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.008257,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "tech press",
+        "industry press",
+        "policy press",
+        "X"
+      ],
+      "coOccurrence": [
+        "generative AI",
+        "synthetic content",
+        "media",
+        "detection"
+      ],
+      "whatItDoes": "The industry's own, affect-neutral name for the whole category the pejoratives target: media generated or substantially modified by AI. Where 'slop' judges, 'synthetic media' describes — and with forecasts that a large majority of online content will soon be synthetic, it frames generated content not as an aberration to be shamed but as an ordinary, expected medium to be managed.",
+      "whereContested": "Users of the term argue precision beats moralizing — that 'synthetic' spans the useful, the creative, and the harmful alike and shouldn't be pre-judged; critics hear a sanitizing euphemism that normalizes exactly what 'slop' and 'deepfake' try to hold to account. The contest is whether neutral naming clarifies the phenomenon or launders it.",
+      "verbatims": [
+        {
+          "quote": "it's just a new medium, not a moral failing",
+          "attribution": "recurring industry pattern"
+        },
+        {
+          "quote": "'synthetic media' is a euphemism for fakes",
+          "attribution": "critic pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C09-C2",
+      "term": "AI-assisted",
+      "cluster": "C",
+      "domainTag": "THE NORMALIZING FRAME — THE AUGMENTATION DEFENSE",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 94,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -13,
+          "d90": 26.2,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-05-20",
+            "z": 3.1
+          },
+          {
+            "date": "2026-06-21",
+            "z": 2.11
+          },
+          {
+            "date": "2026-05-30",
+            "z": 2.04
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.057328,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "creator platforms",
+        "business press",
+        "design press",
+        "X"
+      ],
+      "coOccurrence": [
+        "human in the loop",
+        "augmented",
+        "authorship",
+        "workflow"
+      ],
+      "whatItDoes": "The softening middle term that keeps the human in the frame — work where AI helps but a person directs, decides, and signs off. It is the counter-pole's key move: reframing generation as collaboration, arguing AI 'moves creativity upstream' rather than replacing it, and drawing a bright line between 'assisted' (still authored) and 'generated' (merely output).",
+      "whereContested": "Defenders insist the human remains the author and that assistance is continuous with every past tool; skeptics counter that 'assisted' is an elastic alibi that can cover near-total generation, and that the label is chosen precisely to dodge the 'slop' charge. The contest is how much machine help a work can absorb and still count as human-made.",
+      "verbatims": [
+        {
+          "quote": "the tool helped but the vision is mine",
+          "attribution": "recurring creator pattern"
+        },
+        {
+          "quote": "'assisted' is doing a lot of work in that sentence",
+          "attribution": "skeptic pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C09-C3",
+      "term": "synthetic data",
+      "cluster": "C",
+      "domainTag": "THE NORMALIZING FRAME — SYNTHETIC AS NECESSARY",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 38,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -22.1,
+          "d90": -18.2,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-04-25",
+            "z": 2.82
+          },
+          {
+            "date": "2026-01-31",
+            "z": 2.26
+          },
+          {
+            "date": "2026-02-19",
+            "z": 2.25
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.00702,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "tech press",
+        "ML research",
+        "enterprise press",
+        "X"
+      ],
+      "coOccurrence": [
+        "training data",
+        "model collapse",
+        "privacy",
+        "generative AI"
+      ],
+      "whatItDoes": "The pro-synthetic argument in the data domain — algorithmically generated training data cast not as contamination but as a solution to privacy limits, scarcity, and cost, and projected to become the majority of data used to build AI. It is the direct answer to 'model collapse': far from poisoning the well, its advocates argue, curated synthetic data is how the well gets refilled.",
+      "whereContested": "Its champions point to privacy protection, edge-case coverage, and near-parity accuracy; the counter-camp warns that leaning on generated data risks the sameness and degradation 'model collapse' describes, and that 'synthetic' quality is only as good as its curation. The contest is whether synthetic data is the cure or the disease it claims to prevent.",
+      "verbatims": [
+        {
+          "quote": "synthetic data is how we train without exposing real people",
+          "attribution": "recurring proponent pattern"
+        },
+        {
+          "quote": "train on generated data and quality quietly rots",
+          "attribution": "skeptic pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C09-C4",
+      "term": "democratizing creativity",
+      "cluster": "C",
+      "domainTag": "THE NORMALIZING FRAME — THE MORAL CASE",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 6,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -65,
+          "d90": -30,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-05-24",
+            "z": 2.45
+          },
+          {
+            "date": "2026-03-25",
+            "z": 2.3
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.000238,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "tech press",
+        "creator platforms",
+        "Substack",
+        "X"
+      ],
+      "coOccurrence": [
+        "access",
+        "creativity",
+        "barriers",
+        "creative labor"
+      ],
+      "whatItDoes": "The values argument for generative tools — that they lower the barriers to making images, music, film, and writing, letting people without training, budget, or access turn ideas into work. It is the counter-pole's high ground: not merely that synthetic content is acceptable, but that it is democratizing, widening who gets to create.",
+      "whereContested": "Believers frame it as access and opportunity for the historically shut-out; critics answer that it can do the opposite — flooding markets, devaluing paid creative labor, and concentrating power and profit in a few model-makers while calling it liberation. The contest is whether 'democratizing' names real empowerment or a slogan that masks displacement.",
+      "verbatims": [
+        {
+          "quote": "now anyone with an idea can make it",
+          "attribution": "recurring booster pattern"
+        },
+        {
+          "quote": "'democratizing' creativity while devaluing creators",
+          "attribution": "critic pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C09-C5",
+      "term": "authenticity",
+      "cluster": "C",
+      "domainTag": "THE NORMALIZING FRAME — THE CONTESTED BANNER",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 69,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -26.8,
+          "d90": 6.7,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-01-13",
+            "z": 2.04
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.028981,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "Substack",
+        "marketing press",
+        "academic press",
+        "X"
+      ],
+      "coOccurrence": [
+        "real",
+        "post-authenticity",
+        "human",
+        "performative"
+      ],
+      "whatItDoes": "The word both sides claim and neither owns — the quality the whole fight is nominally about. As anything can be generated, 'real' becomes a moving target, and a 'post-authenticity' argument emerges: that authenticity was always partly performed, that 'authenticity theater' (staged imperfection to signal humanity) is its own artifice, and that the human/synthetic line may matter less than we insist. It is the banner the normalizing frame plants to question whether authenticity is even the right test.",
+      "whereContested": "One side treats authenticity as a real, defensible value — human origin, lived experience, accountability — worth certifying and protecting; the other argues it is a constructed perception, increasingly performative, and that clinging to it misreads how mediated we always were. The contest is whether 'authentic' still draws a meaningful line or has become a pose.",
+      "verbatims": [
+        {
+          "quote": "people can tell what's real and they want it",
+          "attribution": "recurring pattern"
+        },
+        {
+          "quote": "authenticity was always a performance",
+          "attribution": "post-authenticity pattern"
+        }
+      ]
+    },
+    {
+      "ref": "C09-C6",
+      "term": "generative content",
+      "cluster": "C",
+      "domainTag": "THE NORMALIZING FRAME — THE PLAIN DESCRIPTOR",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 12,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -36.2,
+          "d90": 32.9,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-04-29",
+            "z": 4.63
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.001332,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "marketing press",
+        "industry press",
+        "creator platforms",
+        "X"
+      ],
+      "coOccurrence": [
+        "generative AI",
+        "content creation",
+        "AI-generated",
+        "workflow"
+      ],
+      "whatItDoes": "The plain, production-side name for the output itself — content made with generative AI, described as a normal category of media (and, in its 'AI-native' variant, as the new default) rather than an indictment. Where the mandated label 'AI-generated' exists to flag and disclose, 'generative content' is the industry's ordinary self-description, the vocabulary of a workflow that treats making-with-AI as routine.",
+      "whereContested": "Its users see a neutral, accurate description of how a growing share of media is now made; critics argue there is no affectively neutral naming here — that calling the flood 'generative content' quietly grants it the legitimacy that 'slop' and the 'AI-generated' label try to withhold. The contest is whether the phrase merely describes production or also normalizes it.",
+      "verbatims": [
+        {
+          "quote": "generative content is just part of the pipeline now",
+          "attribution": "recurring industry pattern"
+        },
+        {
+          "quote": "neutral naming is how you smuggle in acceptance",
+          "attribution": "critic pattern"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-11T01:59:57+00:00",
+  "refDate": "2026-07-10",
+  "source": "GDELT Web NGrams 3.0 (BigQuery)"
+}
