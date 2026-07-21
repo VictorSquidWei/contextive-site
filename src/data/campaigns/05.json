@@ -6,49 +6,49 @@
   "title": "The Language of the Economy",
   "shortTitle": "The Economy",
   "period": "June 2026",
-  "status": "in-progress",
+  "status": "published",
   "signalBasis": "measured",
   "firewall": "We track how the words have been used and how fast they are winning, not whether the underlying politics is correct.",
-  "summary": "One economy, three names. Inflation hit a three-year high while markets set records, and the same economy acquired three incompatible vocabularies: the institutional one that measures a rate, the populist one that feels a price level, and the political one that assigns blame.",
-  "anchor": "June 2026: consumer inflation hit a three-year high on an energy and tariff shock. Equity markets set records, yet roughly two of three households reported cutting back, with a Fed leadership handoff and the 2026 midterms underneath. The data and the experience point in opposite directions. Three vocabularies have formed to name the gap.",
+  "summary": "One economy, three names — and with all seventeen terms now measured against full-text coverage, the gap between the data and the mood is legible in the velocities. When inflation re-accelerated to a three-year high while markets hit records, the same economy acquired three incompatible vocabularies — the institutional one that measures a rate, the lived-experience one that feels a price level, and the political one that assigns a blame. Measured, it is the lived-experience vocabulary that is running away with the cycle: 'vibecession' is the fastest mover in the set, up 573 percent over thirty days at velocity 100, and 'shrinkflation' (velocity 94, up 180 percent over thirty days) and 'are you better off' (velocity 81) are close behind, while the institutional-optimism word 'soft landing' has faded to velocity 19, down 28 percent on the quarter. Year-over-year change is not computed this cycle — the full-text series runs a 180-day window — so every figure here is 30-day and 90-day momentum.",
+  "anchor": "June 2026: consumer inflation hit a three-year high on an energy-and-tariff shock, even as equity markets set records and roughly two of three households reported cutting back — with a Fed leadership handoff and the 2026 midterms underneath. The data and the lived experience point in opposite directions, and three vocabularies have formed to name the gap.",
   "thesis": [
-    "One economy, three names. Inflation hit a three-year high while markets set records, and the same economy acquired three incompatible vocabularies: the institutional one that measures a rate, the populist one that feels a price level, and the political one that assigns blame.",
-    "Contextive tracks how fast each name is winning, measured against open coverage data rather than estimated. The institutional optimism vocabulary is fading exactly as the populist vocabulary surges. The defining tension: 'soft landing' versus 'vibecession.'"
+    "One economy, three names — and with all seventeen terms now measured against full-text coverage, the gap between the data and the mood is legible in the velocities. When inflation re-accelerated to a three-year high while markets hit records, the same economy acquired three incompatible vocabularies — the institutional one that measures a rate, the lived-experience one that feels a price level, and the political one that assigns a blame. Measured, it is the lived-experience vocabulary that is running away with the cycle: 'vibecession' is the fastest mover in the set, up 573 percent over thirty days at velocity 100, and 'shrinkflation' (velocity 94, up 180 percent over thirty days) and 'are you better off' (velocity 81) are close behind, while the institutional-optimism word 'soft landing' has faded to velocity 19, down 28 percent on the quarter. Year-over-year change is not computed this cycle — the full-text series runs a 180-day window — so every figure here is 30-day and 90-day momentum.",
+    "The defining tension is 'soft landing' versus 'vibecession': the institutional-optimism vocabulary is fading exactly as the lived-experience vocabulary surges, the same data-turning producing opposite vocabulary movements. The one institutional term gaining is not the reassuring one — 'higher for longer' is up 207 percent over ninety days (velocity 38), so the market's own message is not that the landing was soft but that rates will stay high. Contextive tracks how fast each name is winning, not whether the economy is actually good or bad; that the vibe word is winning the argument the data word is presumed to be winning is a statement about momentum, not a verdict on the print."
   ],
   "definingTension": {
     "a": "Soft landing",
     "b": "vibecession",
-    "note": "The cycle's defining collision, and it is measured. As inflation re-accelerated, the institutional optimism term faded while the populist pessimism term surged. The same data turning produced opposite vocabulary movements. The vibe word is winning the argument the data word is presumed to be winning."
+    "note": "The cycle's defining collision, and it is measured. As inflation re-accelerated, the institutional-optimism term faded while the lived-pessimism term surged — the same data-turning producing opposite vocabulary movements. 'Vibecession' is the fastest mover in the set (velocity 100, up 573 percent over thirty days and up 7 percent on the quarter) while 'soft landing' has fallen to velocity 19, down 28 percent over ninety days. The vibe word is winning the argument the data word is presumed to be winning: the feeling is outrunning the rate."
   },
   "clusters": [
     {
       "key": "A",
-      "name": "Populist / lived",
-      "blurb": "How the economy is named from the checkout line, where the feeling is the fact: a price level, not a rate. It moves fastest when official data improves while prices stay high, because that gap is the vocabulary's whole territory."
+      "name": "Lived-experience / populist",
+      "blurb": "How the economy is named from the checkout line — the feeling is the fact, a price level not a rate. It moves fastest when official data improves while prices stay high, because that gap is the vocabulary's whole territory."
     },
     {
       "key": "B",
       "name": "Institutional / macro",
-      "blurb": "The vocabulary of the Fed, the analyst class, and the markets desk, engineered for precision: a rate, a target, a path. Technically correct, rhetorically losing when the rate and the level diverge."
+      "blurb": "The vocabulary of the Fed, the analyst class, and the markets desk — engineered for precision: a rate, a target, a path. Technically correct and rhetorically losing when the rate and the level diverge."
     },
     {
       "key": "C",
       "name": "Political-blame",
-      "blurb": "The vocabulary that converts the economy into a verdict: attribution devices that assign a cause and a culprit. Symmetric, since every term has been deployed by whichever coalition is out of power."
+      "blurb": "The vocabulary that converts the economy into a verdict — attribution devices that assign a cause and a culprit. Symmetric: every term has been deployed by whichever coalition is out of power."
     }
   ],
   "pillars": [
     {
       "title": "The vocabulary of an economy that doesn't feel like the data",
-      "body": "Cluster A against the inflation print (vibecession, affordability, shrinkflation, greedflation), with the data-versus-vibes gap as the spine. The highest-recognition piece: every reader has paid the prices."
+      "body": "Cluster A against the inflation print — 'vibecession,' 'affordability,' 'shrinkflation,' 'greedflation' — using the data-vs-vibes gap as the spine. Measured, this is the loudest cluster: 'vibecession' tops the set (velocity 100, up 573 percent over thirty days), 'shrinkflation' is close behind (velocity 94, up 180 percent over thirty days and 46 percent on the quarter), 'greedflation' holds high (velocity 88) and 'price gouging' is up 94 percent on the quarter (velocity 62). The highest-recognition piece; every reader has paid the prices, and the numbers say the words for paying them are the ones winning."
     },
     {
       "title": "One number, three vocabularies",
-      "body": "A single inflation print as the unit of analysis, tracking how the rate vocabulary, the level vocabulary, and the blame vocabulary name the same figure. The cycle's most analytical argument: a rate and a level are different objects."
+      "body": "A single inflation print as the unit of analysis, tracking how the rate vocabulary, the level vocabulary, and the blame vocabulary name the same figure. The cycle's most analytical argument: a rate and a level are different objects, and the velocities show the level vocabulary ('affordability,' 'cost-of-living crisis' up 57 percent on the quarter) outrunning the rate vocabulary ('disinflation' down 28 percent, 'soft landing' down 28 percent). Even the institutional cluster's one gainer is 'higher for longer' (up 207 percent on the quarter, velocity 38), not a word of reassurance."
     },
     {
       "title": "The signal issue",
-      "body": "What the inflation spike looks like through the velocity index: the highest-velocity terms against the declining ones, showing the signal layer working in real time on the live print."
+      "body": "What the inflation spike looks like through the velocity index — the highest-velocity terms against the declining ones, demonstrating the signal layer working in real time on the live print. At the top, 'vibecession' (velocity 100) and 'shrinkflation' (velocity 94); at the floor, 'tariff tax' (velocity 0, down 71 percent on the quarter) and 'last mile' (velocity 12, down 62 percent). The gap between them is the measured shape of a cycle where the mood is outrunning the metric — reported as velocity, never as a verdict on the print."
     }
   ],
   "tensions": [
@@ -56,31 +56,31 @@
       "a": "Soft landing",
       "b": "vibecession",
       "title": "Soft landing vs vibecession",
-      "body": "The cycle's defining collision, and it is measured. As inflation re-accelerated, the institutional optimism term faded while the populist pessimism term surged. The same data turning produced opposite vocabulary movements. The vibe word is winning the argument the data word is presumed to be winning."
+      "body": "The cycle's defining collision, and it is measured. As inflation re-accelerated, the institutional-optimism term faded while the lived-pessimism term surged — the same data-turning producing opposite vocabulary movements. 'Vibecession' is the fastest mover in the set (velocity 100, up 573 percent over thirty days and up 7 percent on the quarter) while 'soft landing' has fallen to velocity 19, down 28 percent over ninety days. The vibe word is winning the argument the data word is presumed to be winning: the feeling is outrunning the rate."
     },
     {
       "a": "Disinflation",
       "b": "affordability",
       "title": "Disinflation vs affordability",
-      "body": "Rate versus level. 'Disinflation' is the precise term for prices rising more slowly; 'affordability' is the populist term for prices that are still high. Both describe the same economy truthfully, with opposite emotional valence. The institutional metric can improve every month while the populist metric never falls."
+      "body": "Rate versus level. 'Disinflation' is the technically precise term for prices rising more slowly; 'affordability' is the populist term for prices that are still high. Both describe the same economy truthfully with opposite emotional valence, and measured, both are cooling on the quarter — 'disinflation' down 28 percent (velocity 25, though up 46 percent in the last thirty) and 'affordability' down 13 percent (velocity 44). The institutional metric can improve every month while the populist metric never falls, and neither is the word carrying the cycle — that word is 'vibecession.'"
     },
     {
       "a": "Greedflation",
       "b": "[admin]flation",
       "title": "Greedflation vs [admin]flation",
-      "body": "Two attribution vocabularies competing to assign the cause of high prices: the firms or the government. Measured, 'greedflation' is in decline, a burned out frame, while partisan attribution naming intensifies into the midterms. The blame is migrating from the corporation to the incumbent."
+      "body": "Two attribution vocabularies competing to assign the cause of high prices — the firms or the government. Measured, the blame is migrating on the quarter: the corporation-blaming frame 'greedflation' is down 36 percent over ninety days (velocity 88, though it ticked up 11 percent in the last thirty), while the incumbent-blaming frame is up 90 percent over the same window (velocity 6, still rising off a small base). The blame is moving from the boardroom toward the ballot box as the midterms approach — with the caveat that the partisan frame is fast-rising, not yet loud, and the corporation frame is cooling from a still-high base rather than burned out."
     },
     {
       "a": "K-shaped",
       "b": "real wages",
       "title": "K-shaped vs real wages",
-      "body": "The institutional bridge term. 'K-shaped' is analyst vocabulary that concedes the populist point: aggregate 'real wages' can rise while the median experience splits between asset holders and wage earners. It is the rare institutional term that validates the populist complaint in the institutional cluster's own language."
+      "body": "The institutional bridge. 'K-shaped' is analyst vocabulary that concedes the populist point — aggregate 'real wages' can rise while the median experience splits between asset-holders and wage-earners. Measured, both are among the sharpest thirty-day movers in the set: 'real wages' is up 96 percent over thirty days (velocity 75) and 'K-shaped' up 80 percent (velocity 69), even as both ease on the quarter. It is the rare institutional pair that validates the lived-experience complaint in the institutional cluster's own language — and that it is spiking now, as 'vibecession' tops the set, is the establishment vocabulary reaching for the words that admit the split."
     },
     {
       "a": "Tariff tax",
       "b": "soft landing",
       "title": "Tariff tax vs soft landing",
-      "body": "Is the policy a cost or a strategy. 'Tariff tax' reframes tariffs as a consumer tax paid at home, and the energy and tariff shock is precisely what ended the 'soft landing' narrative this cycle. The collision is over who pays, and whether naming the cost is itself a partisan act."
+      "body": "Is the policy a cost or a strategy — and here a measured number cuts against the tidy story. 'Tariff tax' reframes tariffs as a consumer tax paid at home, and the energy-and-tariff shock is precisely what ended the 'soft landing' narrative this cycle; yet 'tariff tax' has collapsed to the floor of the set (velocity 0, down 71 percent on the quarter) even as the cost it names is felt loudly through 'vibecession' and 'shrinkflation.' 'Soft landing' has faded too (velocity 19, down 28 percent). The lived cost is unmistakably the story; the specific partisan cost-label is not the word carrying it — the pain is named by the vibe vocabulary, not by the policy indictment. That divergence leads rather than hides."
     }
   ],
   "terms": [
@@ -92,92 +92,67 @@
       "measurement": {
         "status": "measured",
         "velocityIndex": 100,
-        "adoptionStage": "spreading",
+        "adoptionStage": "emerging",
         "deltas": {
-          "d30": 275,
-          "d90": 188,
-          "yoy": 617
+          "d30": 572.5,
+          "d90": 7.4,
+          "yoy": null
         },
-        "sentiment": -1.6,
+        "sentiment": null,
         "inflections": [
           {
-            "date": "2026-05-28",
-            "z": 2.9
+            "date": "2025-12-20",
+            "z": 2.54
+          },
+          {
+            "date": "2026-05-21",
+            "z": 2.44
+          },
+          {
+            "date": "2026-06-03",
+            "z": 2.29
           }
         ],
         "corpusDensity": {
-          "value": 0.214,
-          "note": "GDELT coverage-intensity proxy (share of monitored coverage), not literal mentions/M",
+          "value": 0.000159,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "2026-06-09T00:00:00Z"
-      },
-      "platforms": [
-        "X",
-        "TikTok",
-        "personal-finance Substacks",
-        "consumer reporting",
-        "Reddit (r/economy)"
-      ],
-      "coOccurrence": [
-        "affordability",
-        "real economy",
-        "data vs vibes",
-        "consumer sentiment",
-        "soft landing",
-        "groceries"
-      ],
-      "whatItDoes": "Names the gap between strong macro data and negative public sentiment, and resolves it in favor of the sentiment. The feeling is the fact; the 'real economy' is the one experienced at the register, not the one reported in aggregate. It turns a measurement dispute into a lived-truth claim no chart can directly rebut.",
-      "whereContested": "Economists argue sentiment lags the data, is distorted by partisanship and negative-news selection, and mistakes mood for material conditions. Users counter that the costs behind the mood (rent, groceries, insurance) are real and not captured by a falling inflation rate. As the re-acceleration arrived, the contest shifted from 'sentiment is irrational' to 'sentiment was early.'",
-      "verbatims": [
-        {
-          "quote": "Wall Street keeps rising, even as U.S. households keep getting more discouraged.",
-          "attribution": "AP News headline, May 2026"
-        }
-      ]
+        "retrievedAt": "from-raw"
+      }
     },
     {
       "ref": "C05-A2",
       "term": "greedflation",
       "cluster": "A",
-      "domainTag": "ATTRIBUTION / POPULIST",
+      "domainTag": "BLAME / CORPORATE",
       "measurement": {
         "status": "measured",
-        "velocityIndex": 0,
-        "adoptionStage": "declining",
+        "velocityIndex": 88,
+        "adoptionStage": "emerging",
         "deltas": {
-          "d30": -41,
-          "d90": -58,
-          "yoy": -86
+          "d30": 11.2,
+          "d90": -35.8,
+          "yoy": null
         },
-        "sentiment": -2.4,
+        "sentiment": null,
         "inflections": [
           {
-            "date": "2025-07-12",
-            "z": 2.5
+            "date": "2025-12-11",
+            "z": 5.6
+          },
+          {
+            "date": "2025-12-24",
+            "z": 2.27
           }
         ],
         "corpusDensity": {
-          "value": 0.06,
-          "note": "GDELT coverage-intensity proxy (share of monitored coverage), not literal mentions/M",
+          "value": 0.000136,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "2026-06-09T00:00:00Z"
-      },
-      "platforms": [
-        "progressive Substacks",
-        "labor and consumer-advocacy comms",
-        "cable opinion commentary"
-      ],
-      "coOccurrence": [
-        "corporate profits",
-        "price gouging",
-        "margins",
-        "shrinkflation",
-        "record profits"
-      ],
-      "whatItDoes": "Attributes price increases to corporate profit-seeking rather than to monetary, supply, or energy factors, relocating blame from policy to firms. It is an attribution device in economic costume: 'flation' borrows the authority of the inflation discourse while 'greed' supplies the verdict.",
-      "whereContested": "Some analyses found margin expansion in the 2021–23 window; others hold it explains a small, self-reversing share of inflation. Measured, it is the cycle's clearest decliner, a burned out frame being displaced by government-attribution vocabulary as the midterms approach. The contest is no longer about accuracy but about whether the term has been outcompeted."
+        "retrievedAt": "from-raw"
+      }
     },
     {
       "ref": "C05-A3",
@@ -185,186 +160,131 @@
       "cluster": "A",
       "domainTag": "LIVED EXPERIENCE / PRODUCT",
       "measurement": {
-        "status": "pending",
-        "reason": "no coverage series returned"
-      },
-      "platforms": [
-        "TikTok",
-        "consumer reporting",
-        "Reddit",
-        "local news"
-      ],
-      "coOccurrence": [
-        "downsizing",
-        "same price",
-        "package size",
-        "groceries",
-        "hidden inflation"
-      ],
-      "whatItDoes": "Names product downsizing at a constant price as hidden inflation, making an abstraction physically visible: the cereal box you can hold and compare. Its power is evidentiary. It turns a statistic into a photograph, which is why it travels on visual platforms faster than any other term in the cluster.",
-      "whereContested": "Firms frame it as cost management and reformulation; consumer advocates frame it as deception. It is genuinely measurable and genuinely small as a share of headline inflation, so the contest is over salience. Critics say it distracts from larger drivers; users say it is the most legible proof that the official number understates lived cost."
+        "status": "measured",
+        "velocityIndex": 94,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 179.5,
+          "d90": 46.1,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-05-18",
+            "z": 2.39
+          },
+          {
+            "date": "2026-05-08",
+            "z": 2.18
+          },
+          {
+            "date": "2026-03-17",
+            "z": 2.14
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.007138,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      }
     },
     {
       "ref": "C05-A4",
       "term": "junk fees",
       "cluster": "A",
-      "domainTag": "REGULATORY / CONSUMER",
+      "domainTag": "LIVED EXPERIENCE / PRICING",
       "measurement": {
         "status": "measured",
-        "velocityIndex": 38,
-        "adoptionStage": "declining",
+        "velocityIndex": 31,
+        "adoptionStage": "emerging",
         "deltas": {
-          "d30": -33.5,
-          "d90": -30.8,
-          "yoy": -79.1
+          "d30": 10.4,
+          "d90": -27,
+          "yoy": null
         },
         "sentiment": null,
         "inflections": [
           {
-            "date": "2025-05-09",
-            "z": 4.18
-          },
-          {
-            "date": "2025-10-01",
-            "z": 2.76
-          },
-          {
-            "date": "2025-09-16",
-            "z": 2.21
+            "date": "2025-12-31",
+            "z": 2.4
           }
         ],
         "corpusDensity": {
-          "value": 0.001103,
-          "note": "GDELT coverage-intensity proxy (share of monitored coverage), not literal mentions/M",
+          "value": 0.003252,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "2026-06-21T10:23:25+00:00"
-      },
-      "platforms": [
-        "consumer-finance press",
-        "regulatory comms",
-        "X",
-        "personal-finance creators"
-      ],
-      "coOccurrence": [
-        "hidden fees",
-        "drip pricing",
-        "all-in pricing",
-        "surcharge",
-        "resort fee",
-        "transparency"
-      ],
-      "whatItDoes": "Reframes add-on charges as illegitimate by construction: 'junk' is the verdict the term carries before any specific fee is examined. It is a regulatory-target frame, where naming a category 'junk fees' is the first step toward acting on it.",
-      "whereContested": "Industry argues the fees reflect real, optional, or unbundled costs and that mandated all-in pricing reduces choice; advocates argue the fees exist to obscure the true price until the buyer is committed. The contest is over whether the practice is information or deception, and the word has already decided."
+        "retrievedAt": "from-raw"
+      }
     },
     {
       "ref": "C05-A5",
       "term": "price gouging",
       "cluster": "A",
-      "domainTag": "MORAL-LEGAL / POPULIST",
+      "domainTag": "BLAME / SELLER",
       "measurement": {
         "status": "measured",
-        "velocityIndex": 25,
-        "adoptionStage": "rising",
+        "velocityIndex": 62,
+        "adoptionStage": "emerging",
         "deltas": {
-          "d30": 18.1,
-          "d90": 92.1,
-          "yoy": 88.5
+          "d30": 76.8,
+          "d90": 94,
+          "yoy": null
         },
-        "sentiment": -1.79,
+        "sentiment": null,
         "inflections": [
           {
-            "date": "2026-03-17",
-            "z": 2.65
+            "date": "2026-03-08",
+            "z": 2.2
           },
           {
-            "date": "2026-03-27",
-            "z": 2.55
-          },
-          {
-            "date": "2026-03-07",
-            "z": 2.39
+            "date": "2026-03-21",
+            "z": 2.02
           }
         ],
         "corpusDensity": {
-          "value": 0.01385,
-          "note": "GDELT coverage-intensity proxy (share of monitored coverage), not literal mentions/M",
+          "value": 0.053411,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "2026-06-21T10:24:31+00:00"
-      },
-      "platforms": [
-        "political comms",
-        "state-AG communications",
-        "consumer press",
-        "X"
-      ],
-      "coOccurrence": [
-        "gouging",
-        "shortage",
-        "emergency",
-        "groceries",
-        "windfall",
-        "crackdown"
-      ],
-      "whatItDoes": "Names a price increase as exploitation by invoking a moral and, in many states, legal category. It presupposes a baseline 'fair' price against which the current price is a violation, converting an economic event into a wrong with a wrongdoer.",
-      "whereContested": "Most economists warn that anti-gouging rules suppress the price signal that resolves shortages; advocates and many voters treat the fairness claim as primary, especially on essentials. The term sits on a genuine disagreement about whether prices are information or moral facts, and it is rising as a political frame regardless of where the economics lands."
+        "retrievedAt": "from-raw"
+      }
     },
     {
       "ref": "C05-A6",
       "term": "affordability",
       "cluster": "A",
-      "domainTag": "LIVED EXPERIENCE / LEVEL",
+      "domainTag": "LIVED EXPERIENCE / FRAME",
       "measurement": {
         "status": "measured",
-        "velocityIndex": 62,
-        "adoptionStage": "rising",
+        "velocityIndex": 44,
+        "adoptionStage": "emerging",
         "deltas": {
-          "d30": 9,
-          "d90": -6.8,
-          "yoy": 99.8
+          "d30": 18.5,
+          "d90": -12.8,
+          "yoy": null
         },
-        "sentiment": -0.54,
+        "sentiment": null,
         "inflections": [
           {
             "date": "2026-02-22",
-            "z": 2.6
+            "z": 2.72
           },
           {
-            "date": "2025-12-07",
-            "z": 2.1
+            "date": "2026-01-02",
+            "z": 2.14
           }
         ],
         "corpusDensity": {
-          "value": 0.252647,
-          "note": "GDELT coverage-intensity proxy (share of monitored coverage), not literal mentions/M",
+          "value": 0.326095,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "2026-06-21T10:25:43+00:00"
-      },
-      "platforms": [
-        "mainstream press",
-        "campaign comms (all sides)",
-        "local news",
-        "X"
-      ],
-      "coOccurrence": [
-        "cost of living",
-        "prices",
-        "wages",
-        "rent",
-        "groceries",
-        "squeeze",
-        "still high"
-      ],
-      "whatItDoes": "Shifts the frame from the inflation rate (a derivative) to the price level (a stock). 'Affordability' is true whether inflation is rising or falling: prices can stop climbing and still be unaffordable. That makes it the most durable populist term in the cluster, and the hardest for the institutional vocabulary to answer in its own metrics.",
-      "whereContested": "The institutional cluster struggles here because its central success metric (a falling rate) does not move the populist metric (the level). Critics say 'affordability' is too elastic to measure; users say its imprecision is exactly why it captures the experience the indices miss.",
-      "verbatims": [
-        {
-          "quote": "Tomato prices are up 40%, the latest symbol of America's affordability squeeze.",
-          "attribution": "AP News headline, June 2026"
-        }
-      ]
+        "retrievedAt": "from-raw"
+      }
     },
     {
       "ref": "C05-B1",
@@ -373,58 +293,31 @@
       "domainTag": "MACRO OUTLOOK / INSTITUTIONAL",
       "measurement": {
         "status": "measured",
-        "velocityIndex": 12,
-        "adoptionStage": "fading",
+        "velocityIndex": 19,
+        "adoptionStage": "emerging",
         "deltas": {
-          "d30": -7.2,
-          "d90": -48,
-          "yoy": -35.6
+          "d30": 17.4,
+          "d90": -27.5,
+          "yoy": null
         },
-        "sentiment": -0.79,
+        "sentiment": null,
         "inflections": [
           {
-            "date": "2025-09-15",
-            "z": 2.69
-          },
-          {
-            "date": "2025-10-11",
-            "z": 2.53
+            "date": "2026-02-03",
+            "z": 2.77
           },
           {
             "date": "2026-02-14",
-            "z": 2.07
+            "z": 2.41
           }
         ],
         "corpusDensity": {
-          "value": 0.00343,
-          "note": "GDELT coverage-intensity proxy (share of monitored coverage), not literal mentions/M",
+          "value": 0.001461,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "2026-06-21T10:26:26+00:00"
-      },
-      "platforms": [
-        "financial TV",
-        "Fed communications",
-        "sell-side research",
-        "markets desks",
-        "business wires"
-      ],
-      "coOccurrence": [
-        "Fed",
-        "rate cuts",
-        "recession",
-        "labor market",
-        "no landing",
-        "disinflation"
-      ],
-      "whatItDoes": "Names the scenario in which inflation cools without a recession, and serves as a narrative anchor for markets and the central bank: a target the institutional cluster organizes optimism around. It is a path described as if it were a destination.",
-      "whereContested": "It is a path, not a promise, and one hot print flips it. Measured, the renewed inflation is dissolving it while the successor frame 'no landing' rises. The term is moving from the cluster's confident default to a claim it now has to defend, which is why it is classified contested rather than saturating.",
-      "verbatims": [
-        {
-          "quote": "Key inflation gauge hits multiyear high as American consumer confidence slides.",
-          "attribution": "AP News headline, May 2026"
-        }
-      ]
+        "retrievedAt": "from-raw"
+      }
     },
     {
       "ref": "C05-B2",
@@ -432,26 +325,36 @@
       "cluster": "B",
       "domainTag": "MACRO / TECHNICAL",
       "measurement": {
-        "status": "pending",
-        "reason": "no coverage series returned"
-      },
-      "platforms": [
-        "Fed communications",
-        "sell-side research",
-        "economics academia",
-        "financial press"
-      ],
-      "coOccurrence": [
-        "core PCE",
-        "deflation",
-        "rate of change",
-        "target",
-        "sticky",
-        "services",
-        "last mile"
-      ],
-      "whatItDoes": "Names a slowing in the rate of price increases, precisely and technically, in a way the public systematically mishears as 'prices are coming down' (they are not). The term's precision is its communication failure: disinflation is not deflation, and the distance between the two is where the populist cluster lives.",
-      "whereContested": "Not contested on the merits, since it is the correct word, but contested in effect. The institutional cluster keeps reporting disinflation as good news to an audience that experiences a price level, not a derivative. The term is technically unimpeachable and rhetorically self-defeating, the purest example of the cluster's structural problem."
+        "status": "measured",
+        "velocityIndex": 25,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 45.8,
+          "d90": -28,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-02-16",
+            "z": 2.68
+          },
+          {
+            "date": "2026-06-09",
+            "z": 2.58
+          },
+          {
+            "date": "2026-03-21",
+            "z": 2.5
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.010944,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      }
     },
     {
       "ref": "C05-B3",
@@ -460,51 +363,31 @@
       "domainTag": "MACRO / RATES",
       "measurement": {
         "status": "measured",
-        "velocityIndex": 50,
-        "adoptionStage": "rising",
+        "velocityIndex": 38,
+        "adoptionStage": "emerging",
         "deltas": {
-          "d30": -19.8,
-          "d90": 115.8,
-          "yoy": 293.6
+          "d30": 7.9,
+          "d90": 206.9,
+          "yoy": null
         },
-        "sentiment": -1.34,
+        "sentiment": null,
         "inflections": [
           {
-            "date": "2026-03-09",
-            "z": 2.88
+            "date": "2026-03-10",
+            "z": 2.78
           },
           {
-            "date": "2026-03-29",
-            "z": 2.21
-          },
-          {
-            "date": "2026-03-19",
-            "z": 2.19
+            "date": "2026-03-22",
+            "z": 2.29
           }
         ],
         "corpusDensity": {
-          "value": 0.016727,
-          "note": "GDELT coverage-intensity proxy (share of monitored coverage), not literal mentions/M",
+          "value": 0.027925,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "2026-06-21T10:28:37+00:00"
-      },
-      "platforms": [
-        "Fed communications",
-        "rates desks",
-        "financial TV",
-        "sell-side research"
-      ],
-      "coOccurrence": [
-        "rate cuts",
-        "restrictive",
-        "terminal rate",
-        "hawkish",
-        "2 percent",
-        "policy path"
-      ],
-      "whatItDoes": "Sets an expectation: policy rates stay elevated longer than markets hope. It is a forward-guidance phrase that does work by managing anticipation, since naming the stance is part of executing it.",
-      "whereContested": "Read as prudence by hawks and as overcorrection by doves. With the re-acceleration the phrase is back from near-retirement. The contest is over whether sustained restriction is discipline or damage, and the incoming central-bank posture is the term's next inflection."
+        "retrievedAt": "from-raw"
+      }
     },
     {
       "ref": "C05-B4",
@@ -512,31 +395,36 @@
       "cluster": "B",
       "domainTag": "MACRO / DISTRIBUTION",
       "measurement": {
-        "status": "pending",
-        "reason": "no coverage series returned"
-      },
-      "platforms": [
-        "economics commentary",
-        "financial press",
-        "policy Substacks",
-        "economist accounts on X"
-      ],
-      "coOccurrence": [
-        "two economies",
-        "asset holders",
-        "wage earners",
-        "inequality",
-        "bifurcated",
-        "real wages"
-      ],
-      "whatItDoes": "Names a recovery that splits in two, asset holders rising and wage earners falling, in a single letter. It is the institutional cluster's most important term because it concedes, in analyst language, the populist cluster's central claim: that 'the economy' is two economies and the aggregate hides the split.",
-      "whereContested": "Some economists find the bifurcation overstated or cyclical; others treat it as the defining feature. Its significance is structural. It is the bridge term, the place where the institutional and populist vocabularies briefly agree.",
-      "verbatims": [
-        {
-          "quote": "As US stock market hits new highs, 2 of 3 Americans are cutting back on spending.",
-          "attribution": "AP News headline, May 2026"
-        }
-      ]
+        "status": "measured",
+        "velocityIndex": 69,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 79.6,
+          "d90": -26.3,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-05-25",
+            "z": 2.45
+          },
+          {
+            "date": "2025-12-24",
+            "z": 2.16
+          },
+          {
+            "date": "2026-02-22",
+            "z": 2.05
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.027468,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      }
     },
     {
       "ref": "C05-B5",
@@ -546,50 +434,26 @@
       "measurement": {
         "status": "measured",
         "velocityIndex": 75,
-        "adoptionStage": "contested",
+        "adoptionStage": "emerging",
         "deltas": {
-          "d30": 90.3,
-          "d90": -28.7,
-          "yoy": 20
+          "d30": 96.3,
+          "d90": -16.4,
+          "yoy": null
         },
-        "sentiment": -1.78,
+        "sentiment": null,
         "inflections": [
           {
-            "date": "2025-08-04",
-            "z": 2.59
-          },
-          {
-            "date": "2026-02-18",
-            "z": 2.29
-          },
-          {
-            "date": "2025-05-05",
-            "z": 2.26
+            "date": "2026-02-16",
+            "z": 2.37
           }
         ],
         "corpusDensity": {
-          "value": 0.016267,
-          "note": "GDELT coverage-intensity proxy (share of monitored coverage), not literal mentions/M",
+          "value": 0.026432,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "2026-06-21T10:30:36+00:00"
-      },
-      "platforms": [
-        "BLS-cycle coverage",
-        "economics academia",
-        "labor reporting",
-        "financial press"
-      ],
-      "coOccurrence": [
-        "inflation-adjusted",
-        "median",
-        "purchasing power",
-        "earnings",
-        "compensation",
-        "CPI"
-      ],
-      "whatItDoes": "Names wages adjusted for inflation, the institutional cluster's direct answer to 'are people worse off.' It is the number wheeled out to rebut the vibecession claim, and on aggregate it often supports the rebuttal.",
-      "whereContested": "Aggregate real wages can rise while medians stall and essential-good prices outpace the basket; composition effects flatter the average. The term is accurate and incomplete, and the gap between the accurate average and the incomplete experience is where the argument never resolves."
+        "retrievedAt": "from-raw"
+      }
     },
     {
       "ref": "C05-B6",
@@ -597,25 +461,28 @@
       "cluster": "B",
       "domainTag": "MACRO / INFLATION PATH",
       "measurement": {
-        "status": "pending",
-        "reason": "no coverage series returned"
-      },
-      "platforms": [
-        "Fed communications",
-        "sell-side research",
-        "financial press",
-        "economics commentary"
-      ],
-      "coOccurrence": [
-        "2 percent",
-        "sticky",
-        "services inflation",
-        "target",
-        "stall",
-        "stubborn"
-      ],
-      "whatItDoes": "Frames the stretch from roughly three percent down to the two percent target as the hardest part, a reassuring metaphor that casts persistence as expected rather than alarming. It manages expectations by naming the difficulty in advance.",
-      "whereContested": "With the re-acceleration, the 'last mile' framing reads as complacent in hindsight. Critics argue it minimized the risk that the mile runs backward. The contest is over whether the metaphor described a difficulty or excused a failure."
+        "status": "measured",
+        "velocityIndex": 12,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -39.2,
+          "d90": -61.7,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-01-31",
+            "z": 2.63
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.000073,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      }
     },
     {
       "ref": "C05-C1",
@@ -623,31 +490,28 @@
       "cluster": "C",
       "domainTag": "ATTRIBUTION / SYMMETRIC",
       "measurement": {
-        "status": "pending",
-        "reason": "no coverage series returned"
-      },
-      "platforms": [
-        "economics commentary",
-        "opposition comms",
-        "financial press",
-        "trade-policy Substacks"
-      ],
-      "coOccurrence": [
-        "consumers pay",
-        "import",
-        "pass-through",
-        "trade war",
-        "prices",
-        "leverage"
-      ],
-      "whatItDoes": "Reframes a tariff as a tax paid by domestic buyers rather than a tool against foreign producers, an attribution device that relocates the cost from 'them' to 'us.' Naming a tariff a tax is the whole argument, compressed.",
-      "whereContested": "Proponents argue tariffs protect strategic industry and supply leverage, and that pass-through is partial; most economists and the opposition argue importers and consumers bear the cost. The brand tracks both registers without adjudicating: the energy and tariff shock is the measured driver ending the soft-landing narrative, and naming that cost is itself contested as a partisan act.",
-      "verbatims": [
-        {
-          "quote": "Brass bands in Beijing make way for sticker shock at home.",
-          "attribution": "AP News headline, May 2026"
-        }
-      ]
+        "status": "measured",
+        "velocityIndex": 0,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -52.6,
+          "d90": -71,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-02-17",
+            "z": 2.28
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.002541,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      }
     },
     {
       "ref": "C05-C2",
@@ -655,31 +519,36 @@
       "cluster": "C",
       "domainTag": "ATTRIBUTION / PARTISAN",
       "measurement": {
-        "status": "pending",
-        "reason": "no coverage series returned"
-      },
-      "platforms": [
-        "partisan comms (both sides, alternating)",
-        "X",
-        "cable opinion",
-        "campaign ad copy"
-      ],
-      "coOccurrence": [
-        "administration",
-        "policies",
-        "blame",
-        "midterms",
-        "your fault",
-        "since took office"
-      ],
-      "whatItDoes": "Pins inflation to the sitting administration by welding its name to the condition, a portable attribution device. The construction is symmetric and reusable: it has been built against whichever party holds power, which is the tell that it is a blame tool, not an analysis.",
-      "whereContested": "Economists note that an administration has limited short-run control over a price level driven by the central bank, supply chains, and energy shocks; partisans deploy the term precisely because that causal modesty is hard to fit on a sign. The brand names the attribution pattern and its symmetry (every coalition uses it from opposition) and never ratifies the culprit.",
-      "verbatims": [
-        {
-          "quote": "Tax cuts collide with inflation as voters weigh the economy in the midterms.",
-          "attribution": "AP News headline, May 2026"
-        }
-      ]
+        "status": "measured",
+        "velocityIndex": 6,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -14.9,
+          "d90": 89.5,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-01-03",
+            "z": 3.08
+          },
+          {
+            "date": "2026-03-18",
+            "z": 2.23
+          },
+          {
+            "date": "2026-04-05",
+            "z": 2.18
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.002167,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      }
     },
     {
       "ref": "C05-C3",
@@ -687,25 +556,32 @@
       "cluster": "C",
       "domainTag": "MOBILIZATION / SLOGAN",
       "measurement": {
-        "status": "pending",
-        "reason": "no coverage series returned"
-      },
-      "platforms": [
-        "campaign comms (all sides)",
-        "advocacy orgs",
-        "mainstream and international press",
-        "X"
-      ],
-      "coOccurrence": [
-        "affordability",
-        "wages",
-        "rent",
-        "essentials",
-        "squeeze",
-        "working families"
-      ],
-      "whatItDoes": "Elevates the affordability frame to 'crisis,' importing urgency, a victim, and an implied responsible party. 'Crisis' converts a chronic condition into an emergency that demands a response and rewards whoever promises one.",
-      "whereContested": "Whether a 3.8% rate constitutes a 'crisis' is itself contested. Critics call the word inflationary in its own right; defenders point to the price level rather than the rate. It is used across the spectrum, which makes it a slogan more than a diagnosis, and the brand tracks the slogan's velocity, not its truth value."
+        "status": "measured",
+        "velocityIndex": 50,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -14.1,
+          "d90": 57.2,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-05-01",
+            "z": 2.16
+          },
+          {
+            "date": "2026-05-29",
+            "z": 2.04
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.15661,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      }
     },
     {
       "ref": "C05-C4",
@@ -713,26 +589,28 @@
       "cluster": "C",
       "domainTag": "SYSTEMIC CRITIQUE / LEFT",
       "measurement": {
-        "status": "pending",
-        "reason": "no coverage series returned"
-      },
-      "platforms": [
-        "TikTok",
-        "Reddit",
-        "left commentary",
-        "meme accounts",
-        "Substack"
-      ],
-      "coOccurrence": [
-        "oligarchy",
-        "billionaire",
-        "system",
-        "inequality",
-        "exploitation",
-        "rigged"
-      ],
-      "whatItDoes": "Frames economic strain as systemic and terminal rather than cyclical, naming the system, not the cycle, as the cause. It absorbs a wide range of grievances (prices, housing, wages) into a single structural verdict, which is why it functions as a meme as much as an argument.",
-      "whereContested": "Critics call it fatalistic and analytically empty ('late' relative to what); users say it captures the persistence that cyclical vocabulary keeps failing to explain away. An adjacent 'oligarchy' framing is rising with billionaire-wealth discourse. The brand tracks the migration of cyclical complaint into structural vocabulary as a leading indicator."
+        "status": "measured",
+        "velocityIndex": 56,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 20.2,
+          "d90": -1.5,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2025-12-20",
+            "z": 2.41
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.003088,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      }
     },
     {
       "ref": "C05-C5",
@@ -741,54 +619,38 @@
       "domainTag": "MOBILIZATION / CYCLICAL",
       "measurement": {
         "status": "measured",
-        "velocityIndex": 88,
-        "adoptionStage": "rising",
+        "velocityIndex": 81,
+        "adoptionStage": "emerging",
         "deltas": {
-          "d30": 81,
-          "d90": 10.5,
-          "yoy": 56.2
+          "d30": 34.1,
+          "d90": 17,
+          "yoy": null
         },
         "sentiment": null,
         "inflections": [
           {
-            "date": "2025-08-08",
-            "z": 4.89
+            "date": "2025-12-26",
+            "z": 2.56
           },
           {
-            "date": "2025-12-07",
-            "z": 3.22
+            "date": "2026-06-09",
+            "z": 2.31
           },
           {
-            "date": "2025-07-11",
-            "z": 2.19
+            "date": "2026-05-21",
+            "z": 2.09
           }
         ],
         "corpusDensity": {
-          "value": 0.00038,
-          "note": "GDELT coverage-intensity proxy (share of monitored coverage), not literal mentions/M",
+          "value": 0.001041,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "2026-06-21T10:41:04+00:00"
-      },
-      "platforms": [
-        "campaign comms (both sides)",
-        "cable opinion",
-        "debate coverage",
-        "X"
-      ],
-      "coOccurrence": [
-        "four years ago",
-        "midterms",
-        "kitchen table",
-        "referendum",
-        "worse off",
-        "your wallet"
-      ],
-      "whatItDoes": "Reactivates a classic campaign question to convert the economy into a retrospective referendum on the incumbent, a device that turns a complex aggregate into a yes/no a voter answers from their own checkbook.",
-      "whereContested": "It invites baseline-shopping: every side picks the comparison year that flatters its case, and the same data answers both ways. It is midterm-coded and symmetric, since the out-party always asks it. The brand tracks its cyclical reactivation, not the answer."
+        "retrievedAt": "from-raw"
+      }
     }
   ],
-  "generatedAt": "2026-06-21T10:41:04+00:00",
+  "generatedAt": "2026-07-11T09:15:53+00:00",
   "refDate": "2026-06-09",
-  "source": "GDELT DOC 2.0 (timelinevol + timelinetone)"
+  "source": "GDELT Web NGrams 3.0 (BigQuery)"
 }

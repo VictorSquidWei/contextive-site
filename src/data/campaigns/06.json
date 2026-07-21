@@ -6,49 +6,49 @@
   "title": "The Language of the Iran War",
   "shortTitle": "The Iran War",
   "period": "June 2026",
-  "status": "in-progress",
+  "status": "published",
   "signalBasis": "measured",
   "firewall": "We track how the words have been used and how fast they are winning, not whether the underlying politics is correct.",
-  "summary": "One war, two endings. The measured answer is already taking shape. When the strikes stopped, the conflict split into a vocabulary of victory ('obliterated,' 'peace through strength') and a vocabulary of mere ending ('ceasefire,' a truce, a pause). So far the language of ending is winning decisively. 'Ceasefire' is the fastest rising word in the measured set, spreading hard, while the word of triumph, 'obliterated,' has already collapsed from its strike week peak.",
-  "anchor": "From 28 February to 17 June 2026, the United States and Israel fought a twelve week war with Iran. It killed senior Iranian officials including its supreme leader, drew Iranian strikes on regional bases, and briefly closed the Strait of Hormuz, touching off a global fuel price shock. A 60-day ceasefire framework signed on 17 June paused the fighting without resolving it. Since then the same war has acquired two incompatible vocabularies: one that says it is finished, one that says it has only begun.",
+  "summary": "One war, two endings — and with all seventeen terms now measured against full-text coverage, the answer is no longer partial. When the strikes stopped, the conflict split into a vocabulary of victory ('obliterated,' 'peace through strength') and a vocabulary of mere ending ('ceasefire,' a truce, a pause) — and the language of ending won decisively. 'Ceasefire' is the runaway of the set, up 455 percent over ninety days at velocity 94, while 'obliterated,' the word of triumph, has collapsed to the floor of the set (velocity 0, down 22 percent on the quarter). The single loudest word is neither: 'warmonger,' the restraint camp's epithet, tops the set at velocity 100 — the insult, not the victory claim, owns the mood. Year-over-year change is not computed this cycle — the full-text series runs a 180-day window — so every figure here is 30-day and 90-day momentum.",
+  "anchor": "From 28 February to 17 June 2026, the United States and Israel fought a twelve-week war with Iran that killed senior Iranian officials including its supreme leader, drew Iranian strikes on regional bases, and briefly closed the Strait of Hormuz — touching off a global fuel-price shock. A 60-day ceasefire framework signed on 17 June paused the fighting without resolving it. In the days since, the same war has acquired two incompatible vocabularies: one that says it is finished, and one that says it has only begun.",
   "thesis": [
-    "One war, two endings, and the measured answer is already taking shape. When the strikes stopped, the conflict split into a vocabulary of victory ('obliterated,' 'peace through strength') and a vocabulary of mere ending ('ceasefire,' a truce, a pause). So far the language of ending is winning decisively. 'Ceasefire' is the fastest rising word in the measured set, spreading hard, while the word of triumph, 'obliterated,' has already collapsed from its strike week peak.",
-    "Contextive tracks how fast each name is winning, not whether any reading is correct. The defining tension is 'obliterated' versus 'ceasefire.' The public reached for the word that says the fighting stopped, not the word that says it was won, and the triumphal claim faded as fast as it rose, regardless of what the still contested damage assessments eventually show. Measurement is partial (see methodology); the open ended vocabulary, led by 'forever war,' completes as the pipeline runs."
+    "One war, two endings — and with all seventeen terms now measured against full-text coverage, the answer is no longer partial. When the strikes stopped, the conflict split into a vocabulary of victory ('obliterated,' 'peace through strength') and a vocabulary of mere ending ('ceasefire,' a truce, a pause) — and the language of ending won decisively. 'Ceasefire' is the runaway of the set, up 455 percent over ninety days at velocity 94, while 'obliterated,' the word of triumph, has collapsed to the floor of the set (velocity 0, down 22 percent on the quarter). The single loudest word is neither: 'warmonger,' the restraint camp's epithet, tops the set at velocity 100 — the insult, not the victory claim, owns the mood. Year-over-year change is not computed this cycle — the full-text series runs a 180-day window — so every figure here is 30-day and 90-day momentum.",
+    "The defining tension is 'obliterated' versus 'ceasefire': the public reached for the word that says the fighting stopped, not the word that says it was won — and the triumphal claim faded as fast as it rose, regardless of what the still-contested damage assessments eventually show. The open-ended pole is now measured too, and it complicates the easy read: 'forever war' is up 43 percent over thirty days but down 33 percent on the quarter (velocity 69), and the victory-doctrine phrase 'peace through strength' has fallen 55 percent over ninety days (velocity 50) — so both the triumphal and the catastrophist framings gave way to the plain word for a stop. Contextive tracks how fast each name is winning, not whether the war was won; that 'ceasefire' is the word gaining is a statement about momentum, not a forecast that the peace will hold."
   ],
   "definingTension": {
     "a": "Obliterated",
     "b": "ceasefire",
-    "note": "The cycle's measured collision and the campaign's spine. Both are closure words that say opposite things: 'obliterated' claims the war was won, 'ceasefire' only that the fighting stopped. Measured, the verdict is lopsided. 'Ceasefire' is the fastest rising term in the set and spreading, while 'obliterated' has collapsed from its strike week spike. The public settled on the language of an ending, not a victory; the triumphal word ran ahead of the evidence, then ran out. (The open ended pole, 'forever war,' is pending measurement and completes the spine on the top up run.)"
+    "note": "The cycle's measured collision and the campaign's spine. Both are closure words, but they say opposite things: 'obliterated' claims the war was won, 'ceasefire' only that the fighting stopped. Measured, the verdict is lopsided — 'ceasefire' is the runaway of the set, up 455 percent over ninety days at velocity 94, while 'obliterated' has collapsed to the floor (velocity 0, down 22 percent on the quarter and roughly flat over the last thirty days). The public settled on the language of an ending, not a victory; the triumphal word ran ahead of the evidence and then ran out of momentum. The open-ended pole, 'forever war,' is now measured as well (velocity 69) and is itself cresting rather than climbing — up 43 percent over thirty days but down 33 percent on the quarter — so the plain word for a stop is outrunning both the victory frame and the quagmire frame."
   },
   "clusters": [
     {
       "key": "A",
       "name": "The home front",
-      "blurb": "How the war is named from the kitchen table: the draft, the gas pump, the fear of a wider war. This register runs on anxiety and personal stake. It moves fastest on the days strikes are announced and rumors spread, often ahead of any official word."
+      "blurb": "How the war is named from the kitchen table — the draft, the gas pump, the fear of a wider war. This register runs on anxiety and personal stake; it moves fastest on the days strikes are announced and rumors spread, often ahead of any official word."
     },
     {
       "key": "B",
       "name": "The strategic lexicon",
-      "blurb": "The vocabulary of the operation itself: war aims, weapons, damage, the nuclear clock. Engineered for precision, it is where the factual claims live, and where a single word like 'obliterated' can carry the whole verdict on whether the war worked."
+      "blurb": "The vocabulary of the operation itself — war aims, weapons, damage, the nuclear clock. Engineered for precision, it is where the factual claims live, and where a single word like 'obliterated' can carry the entire verdict on whether the war worked."
     },
     {
       "key": "C",
       "name": "The domestic argument",
-      "blurb": "The vocabulary that turns the war into a verdict at home: creed, blame, epithet. Its defining feature this cycle is that the sharpest fight runs inside a single coalition, not across the aisle, with the same slogan claimed by both sides."
+      "blurb": "The vocabulary that turns the war into a verdict at home — creed, blame, and epithet. Its defining feature this cycle is that the sharpest fight runs inside a single coalition, not across the aisle, with the same slogan claimed by both sides."
     }
   ],
   "pillars": [
     {
       "title": "The word that won: 'ceasefire,' not 'obliterated'",
-      "body": "The cycle's lede, and it's measured: the public reached for the language of ending over the language of victory. 'Ceasefire' is the fastest rising term in the set while 'obliterated' has collapsed. The same war is remembered as a stop, not a triumph. The highest stakes piece, built on the velocity gap between the two words of closure."
+      "body": "The cycle's lede, and it is measured: the public reached for the language of ending over the language of victory. 'Ceasefire' is the runaway of the set (velocity 94, up 455 percent over ninety days) while 'obliterated' has collapsed to the floor (velocity 0, down 22 percent on the quarter) — the same war remembered as a stop, not a triumph. The highest-stakes piece is built on the velocity gap between the two words of closure, with the measured twist that the single loudest term is neither: 'warmonger,' the restraint camp's epithet, tops the set at velocity 100."
     },
     {
       "title": "One slogan, two armies",
-      "body": "'America First' as the unit of analysis: a single phrase claimed by restraint and by force, tracked as an intra coalition contest rather than a left versus right one. The cycle's most counterintuitive argument is that this time the fiercest vocabulary fight is between allies."
+      "body": "'America First' as the unit of analysis — a single phrase claimed by restraint and by force, tracked as an intra-coalition contest rather than a left-right one. Measured, the banner is cooling (velocity 19, down 51 percent on the quarter) while the epithets thrown beneath it are the loud ones — 'warmonger' at velocity 100, 'neocon' at velocity 81, both revived from the prior war era. The cycle's most counterintuitive argument, now with a number behind it: this time the fiercest vocabulary fight is between allies, and it is the insults, not the creed, that are gaining velocity."
     },
     {
       "title": "The word that ran ahead of the evidence",
-      "body": "'Obliterated' against the damage assessments: a case study in velocity versus verdict. It shows the signal layer on a live claim. A word can win the argument long before, and regardless of whether, the evidence confirms it."
+      "body": "'Obliterated' against the damage assessments — a case study in velocity versus verdict. The word peaked in strike week and has since collapsed to the floor of the set (velocity 0, down 22 percent on the quarter), even as the underlying damage remains disputed — an official 'obliterated' against leaked assessments describing a setback of months. It demonstrates the signal layer on a live claim: a word can win the argument long before, and independently of whether, the evidence confirms it — and can lose its momentum just as fast, while the technical metric that checks it ('breakout,' velocity 56, up 32 percent on the quarter) quietly outlasts it."
     }
   ],
   "tensions": [
@@ -56,29 +56,29 @@
       "a": "Obliterated",
       "b": "ceasefire",
       "title": "Obliterated vs ceasefire",
-      "body": "The cycle's measured collision and the campaign's spine. Both are closure words that say opposite things: 'obliterated' claims the war was won, 'ceasefire' only that the fighting stopped. Measured, the verdict is lopsided. 'Ceasefire' is the fastest rising term in the set and spreading, while 'obliterated' has collapsed from its strike week spike. The public settled on the language of an ending, not a victory; the triumphal word ran ahead of the evidence, then ran out. (The open ended pole, 'forever war,' is pending measurement and completes the spine on the top up run.)"
+      "body": "The cycle's measured collision and the campaign's spine. Both are closure words, but they say opposite things: 'obliterated' claims the war was won, 'ceasefire' only that the fighting stopped. Measured, the verdict is lopsided — 'ceasefire' is the runaway of the set, up 455 percent over ninety days at velocity 94, while 'obliterated' has collapsed to the floor (velocity 0, down 22 percent on the quarter and roughly flat over the last thirty days). The public settled on the language of an ending, not a victory; the triumphal word ran ahead of the evidence and then ran out of momentum. The open-ended pole, 'forever war,' is now measured as well (velocity 69) and is itself cresting rather than climbing — up 43 percent over thirty days but down 33 percent on the quarter — so the plain word for a stop is outrunning both the victory frame and the quagmire frame."
     },
     {
       "a": "Peace through strength",
       "b": "regime change",
       "title": "Peace through strength vs regime change",
-      "body": "Two ways to name the war's purpose and its result. 'Peace through strength' frames force as the cause of the ceasefire; 'regime change' names the aim the ceasefire framework's sovereignty language was read as setting aside. The collision is over what the war was for: a deterrent that produced peace, or a mission to remake a government that was quietly abandoned."
+      "body": "Two ways to name the war's purpose and its result — and both have faded on the quarter. 'Peace through strength' frames force as the cause of the ceasefire; measured, it is down 55 percent over ninety days (velocity 50), the victory-doctrine slogan losing altitude even as the ceasefire it claims credit for holds. 'Regime change' names the aim the ceasefire framework's sovereignty language was read as setting aside, and it has fallen further — down 57 percent on the quarter, near the floor of the set (velocity 6). The collision is over what the war was for — a deterrent that produced peace, or a mission to remake a government that was quietly abandoned — and the vocabulary of grand purpose is precisely the vocabulary cooling fastest."
     },
     {
       "a": "Ceasefire",
       "b": "World War 3",
       "title": "Ceasefire vs World War 3",
-      "body": "The termination word against the catastrophe word. 'Ceasefire' says the danger has passed; 'World War 3' says it was, and remains, one move from the abyss. They measure the same days through opposite lenses, one institutional and reassuring, one popular and fearful. Their relative velocity reads as a thermometer for public anxiety."
+      "body": "The termination word against the catastrophe word. 'Ceasefire' says the danger has passed; 'World War 3' says it was, and remains, one move from the abyss. Measured, they have diverged: 'ceasefire' surged to velocity 94 (up 455 percent on the quarter) while 'World War 3' cooled over the same window — down 36 percent over ninety days, though still up 31 percent in the last thirty (velocity 62). The fear word spikes on strike days and recedes between them; read together, their relative velocity is a thermometer for public anxiety, and this cycle the thermometer is falling as the ending word climbs."
     },
     {
       "title": "America First, against itself",
-      "body": "The rare tension that runs through a single word. The coalition's founding slogan is claimed by a restraint wing that reads it as staying out and by a hawkish wing that reads it as strength projected without apology, each charging the other with betrayal. The contest is not between two vocabularies but over who owns one."
+      "body": "The rare tension that runs through a single word. The coalition's founding slogan is claimed by a restraint wing that reads it as staying out and by a hawkish wing that reads it as strength projected without apology — each charging the other with betrayal. Measured, the slogan itself is cooling — 'America First' is down 51 percent over ninety days and 43 percent over the last thirty (velocity 19) — even as the epithets the two wings throw at each other are among the loudest terms in the set: 'warmonger' at velocity 100 (up 24 percent on the quarter) and 'neocon' at velocity 81. The contest is not between two vocabularies but over who owns one — and the measured signal is that the fight has migrated from the shared banner to the insults exchanged beneath it."
     },
     {
       "a": "Obliterated",
       "b": "breakout",
       "title": "Obliterated vs breakout",
-      "body": "Claim against clock. 'Obliterated' is the maximal verdict; 'breakout' is the technical metric, the time to a weapon, by which that verdict is checked. The same strikes are said to have erased the program and, by scattering its stockpile and inspectors, to have shortened the path. Two words point in opposite directions over a single fact."
+      "body": "Claim against clock. 'Obliterated' is the maximal verdict; 'breakout' is the technical metric — the time to a weapon — by which that verdict is checked. Measured, the verdict word has collapsed (velocity 0, down 22 percent on the quarter) while the metric word has quietly gained: 'breakout' is up 32 percent over ninety days (velocity 56), even as it eased 36 percent in the last thirty. The same strikes are said to have erased the program and, by scattering its stockpile and inspectors, to have shortened the path; two words point in opposite directions over a single disputed fact, and the sober metric is outlasting the triumphal claim."
     }
   ],
   "terms": [
@@ -88,8 +88,27 @@
       "cluster": "A",
       "domainTag": "LIVED EXPERIENCE / FEAR",
       "measurement": {
-        "status": "pending",
-        "reason": "no coverage series returned"
+        "status": "measured",
+        "velocityIndex": 62,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 31.4,
+          "d90": -36.3,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-02-26",
+            "z": 2.39
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.017559,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
       },
       "platforms": [
         "X",
@@ -103,7 +122,7 @@
         "Hormuz",
         "Iran"
       ],
-      "whatItDoes": "Names the conflict at its largest possible scale: the fear that a regional strike escalates into a global war. It is the lived experience register's worst case frame, spreading through search spikes and social posts rather than official statements, and it peaks on the days strikes are announced.",
+      "whatItDoes": "Names the conflict at its largest possible scale — the fear that a regional strike escalates into a global war. It is the lived-experience register's worst-case frame, spreading through search spikes and social posts rather than official statements, and it peaks on the days strikes are announced.",
       "whereContested": "The contest is over proportion. To those using it, the word captures a genuine risk of uncontrolled escalation across the region; to those rejecting it, it is catastrophizing that mistakes a contained operation for a world war. The phrase moves on anxiety, and its velocity tracks uncertainty more than any battlefield fact.",
       "verbatims": [
         {
@@ -122,8 +141,31 @@
       "cluster": "A",
       "domainTag": "LIVED EXPERIENCE / CONSCRIPTION",
       "measurement": {
-        "status": "pending",
-        "reason": "no coverage series returned"
+        "status": "measured",
+        "velocityIndex": 88,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 43.3,
+          "d90": 160.6,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-04-06",
+            "z": 2.3
+          },
+          {
+            "date": "2026-06-04",
+            "z": 2
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.016836,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
       },
       "platforms": [
         "TikTok",
@@ -137,8 +179,8 @@
         "World War 3",
         "boots on the ground"
       ],
-      "whatItDoes": "Turns a foreign war into a personal stake by raising the prospect of conscription. It surges on rumor, such as registration system changes and viral screenshots, and converts distant policy into a question about one's own household.",
-      "whereContested": "Officials describe a draft as not part of any current plan; the lived experience register treats the possibility itself as the story. The gap between an administrative registration change and the fear it triggers is the term's whole territory. The word can spike on a procedure that carries no draft at all.",
+      "whatItDoes": "Turns a foreign war into a personal stake by raising the prospect of conscription. It surges on rumor — registration-system changes, viral screenshots — and converts distant policy into a question about one's own household.",
+      "whereContested": "Officials describe a draft as not part of any current plan; the lived-experience register treats the possibility itself as the story. The gap between an administrative registration change and the fear it triggers is the term's whole territory — the word can spike on a procedure that carries no draft at all.",
       "verbatims": [
         {
           "quote": "am I going to get drafted?",
@@ -158,29 +200,29 @@
       "measurement": {
         "status": "measured",
         "velocityIndex": 38,
-        "adoptionStage": "contested",
+        "adoptionStage": "emerging",
         "deltas": {
-          "d30": 14.5,
-          "d90": -55.9,
-          "yoy": 20.6
+          "d30": 28.9,
+          "d90": -51.3,
+          "yoy": null
         },
-        "sentiment": -1.12,
+        "sentiment": null,
         "inflections": [
           {
             "date": "2026-01-01",
-            "z": 3.45
+            "z": 2.38
           },
           {
-            "date": "2026-02-28",
-            "z": 2.71
+            "date": "2026-03-02",
+            "z": 2.29
           }
         ],
         "corpusDensity": {
-          "value": 0.014897,
-          "note": "GDELT coverage-intensity proxy (share of monitored coverage), not literal mentions/M",
+          "value": 0.039786,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "2026-06-22T01:58:24+00:00"
+        "retrievedAt": "from-raw"
       },
       "platforms": [
         "X",
@@ -193,8 +235,8 @@
         "quagmire",
         "no boots"
       ],
-      "whatItDoes": "Marks the line between an air campaign and a ground commitment, the threshold that in popular usage separates a strike from a war. It is the metric ordinary discourse uses to judge how deep involvement has gone.",
-      "whereContested": "Both sides invoke it: opponents warn that strikes inevitably lead to boots on the ground, while proponents pledge there will be none. The phrase is contested as a promise: whether 'no boots on the ground' is a binding limit or a reassurance that erodes as a conflict extends.",
+      "whatItDoes": "Marks the line between an air campaign and a ground commitment — the threshold that, in popular usage, separates a strike from a war. It is the metric ordinary discourse uses to judge how deep involvement has gone.",
+      "whereContested": "Both sides invoke it: opponents warn that strikes inevitably lead to boots on the ground, while proponents pledge there will be none. The phrase is contested as a promise — whether 'no boots on the ground' is a binding limit or a reassurance that erodes as a conflict extends.",
       "verbatims": [
         {
           "quote": "no boots on the ground",
@@ -212,8 +254,27 @@
       "cluster": "A",
       "domainTag": "LIVED EXPERIENCE / PRICES",
       "measurement": {
-        "status": "pending",
-        "reason": "no coverage series returned"
+        "status": "measured",
+        "velocityIndex": 75,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -7.7,
+          "d90": 237,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-04-09",
+            "z": 2.03
+          }
+        ],
+        "corpusDensity": {
+          "value": 3.020268,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
       },
       "platforms": [
         "financial media",
@@ -226,8 +287,8 @@
         "fuel crisis",
         "shipping"
       ],
-      "whatItDoes": "Connects the war to the gas pump. As the chokepoint for a large share of seaborne oil, its closure is the mechanism by which a distant conflict becomes a domestic fuel price story. The term migrates from maps to kitchen table economics.",
-      "whereContested": "It is contested as leverage versus self harm: a blockade is read by some as Iran's strongest retaliatory card and by others as a move that punishes Iran's own customers and invites wider intervention. The word's velocity rises with energy prices, not with troop movements.",
+      "whatItDoes": "Connects the war to the gas pump. As the chokepoint for a large share of seaborne oil, its closure is the mechanism by which a distant conflict becomes a domestic fuel-price story — the term migrates from maps to kitchen-table economics.",
+      "whereContested": "It is contested as leverage versus self-harm: a blockade is read by some as Iran's strongest retaliatory card and by others as a move that punishes Iran's own customers and invites wider intervention. The word's velocity rises with energy prices, not with troop movements.",
       "verbatims": [
         {
           "quote": "gas is going up because of Hormuz",
@@ -245,8 +306,31 @@
       "cluster": "A",
       "domainTag": "LIVED EXPERIENCE / SLOGAN",
       "measurement": {
-        "status": "pending",
-        "reason": "no coverage series returned"
+        "status": "measured",
+        "velocityIndex": 44,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 497,
+          "d90": -75.1,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-03-11",
+            "z": 2.96
+          },
+          {
+            "date": "2026-02-26",
+            "z": 2.72
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.000431,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
       },
       "platforms": [
         "X",
@@ -260,7 +344,7 @@
         "restraint"
       ],
       "whatItDoes": "The antiwar movement's mobilizing slogan, compressing opposition into a hashtag and a placard. It organizes protest and signals identity, spiking on strike announcements and protest days.",
-      "whereContested": "Supporters read it as a demand for restraint and a brake on escalation; critics read it as naivety that ignores the threat being deterred. As a slogan it is judged less on argument than on reach: its momentum is the claim.",
+      "whereContested": "Supporters read it as a demand for restraint and a brake on escalation; critics read it as naivety that ignores the threat being deterred. As a slogan it is judged less on argument than on reach — its momentum is the claim.",
       "verbatims": [
         {
           "quote": "no war with Iran",
@@ -279,30 +363,26 @@
       "domainTag": "STRATEGIC / WAR AIM",
       "measurement": {
         "status": "measured",
-        "velocityIndex": 12,
-        "adoptionStage": "rising",
+        "velocityIndex": 6,
+        "adoptionStage": "emerging",
         "deltas": {
-          "d30": -9.2,
-          "d90": -51.1,
-          "yoy": 250
+          "d30": -1.9,
+          "d90": -57,
+          "yoy": null
         },
-        "sentiment": -3.46,
+        "sentiment": null,
         "inflections": [
           {
-            "date": "2026-02-25",
-            "z": 2.65
-          },
-          {
-            "date": "2026-03-07",
-            "z": 2.37
+            "date": "2026-02-26",
+            "z": 2.36
           }
         ],
         "corpusDensity": {
-          "value": 0.051223,
-          "note": "GDELT coverage-intensity proxy (share of monitored coverage), not literal mentions/M",
+          "value": 0.032828,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "2026-06-21T23:36:03+00:00"
+        "retrievedAt": "from-raw"
       },
       "platforms": [
         "cable news",
@@ -313,10 +393,10 @@
         "sovereignty",
         "war aim",
         "Tehran",
-        "nation building"
+        "nation-building"
       ],
-      "whatItDoes": "Names the most expansive possible war aim: replacing a government rather than degrading a capability. Whether a conflict is 'about' regime change determines how its success is later judged, so the term is fought over as a definition of the mission itself.",
-      "whereContested": "The aim was variously asserted and disavowed across the conflict, and the ceasefire framework's language of respecting sovereignty was read as formally setting it aside. The contest is whether regime change was ever the goal, a discarded option, or an outcome quietly hoped for. The word's presence or absence reframes the whole war.",
+      "whatItDoes": "Names the most expansive possible war aim — replacing a government rather than degrading a capability. Whether a conflict is 'about' regime change determines how its success is later judged, so the term is fought over as a definition of the mission itself.",
+      "whereContested": "The aim was variously asserted and disavowed across the conflict, and the ceasefire framework's language of respecting sovereignty was read as formally setting it aside. The contest is whether regime change was ever the goal, a discarded option, or an outcome quietly hoped for — the word's presence or absence reframes the entire war.",
       "verbatims": [
         {
           "quote": "this was never about regime change",
@@ -336,29 +416,29 @@
       "measurement": {
         "status": "measured",
         "velocityIndex": 0,
-        "adoptionStage": "rising",
+        "adoptionStage": "emerging",
         "deltas": {
-          "d30": -11.5,
-          "d90": -63.4,
-          "yoy": 135.5
+          "d30": -2.6,
+          "d90": -22,
+          "yoy": null
         },
         "sentiment": null,
         "inflections": [
           {
-            "date": "2026-02-25",
-            "z": 5.43
+            "date": "2026-03-20",
+            "z": 2.78
           },
           {
-            "date": "2026-03-12",
-            "z": 2.06
+            "date": "2026-02-26",
+            "z": 2.43
           }
         ],
         "corpusDensity": {
-          "value": 0.014947,
-          "note": "GDELT coverage-intensity proxy (share of monitored coverage), not literal mentions/M",
+          "value": 0.042552,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "2026-06-21T23:37:55+00:00"
+        "retrievedAt": "from-raw"
       },
       "platforms": [
         "cable news",
@@ -371,8 +451,8 @@
         "setback",
         "nuclear program"
       ],
-      "whatItDoes": "The maximal claim of effect: that the strikes did not merely damage but destroyed the nuclear program. As the headline verdict on whether the operation 'worked,' it is the single most load bearing word of the closure narrative.",
-      "whereContested": "The word ran ahead of the assessments: official statements called the program obliterated while leaked intelligence described a setback of months and fortified sites left intact. This is the cycle's clearest velocity versus evidence gap. The term's momentum is the story, independent of the underlying damage, which remains disputed.",
+      "whatItDoes": "The maximal claim of effect — that the strikes did not merely damage but destroyed the nuclear program. As the headline verdict on whether the operation 'worked,' it is the single most load-bearing word of the closure narrative.",
+      "whereContested": "The word ran ahead of the assessments: official statements called the program obliterated while leaked intelligence described a setback of months and fortified sites left intact. This is the cycle's clearest velocity-versus-evidence gap — the term's momentum is the story, independent of the underlying damage, which remains disputed.",
       "verbatims": [
         {
           "quote": "completely and totally obliterated",
@@ -391,30 +471,30 @@
       "domainTag": "STRATEGIC / TERMINATION",
       "measurement": {
         "status": "measured",
-        "velocityIndex": 100,
-        "adoptionStage": "spreading",
+        "velocityIndex": 94,
+        "adoptionStage": "emerging",
         "deltas": {
-          "d30": -2.4,
-          "d90": 424.9,
-          "yoy": 250.6
+          "d30": 2.6,
+          "d90": 455.1,
+          "yoy": null
         },
-        "sentiment": -3.48,
+        "sentiment": null,
         "inflections": [
           {
-            "date": "2026-04-15",
-            "z": 3.37
+            "date": "2026-04-07",
+            "z": 2.16
           },
           {
-            "date": "2026-04-05",
-            "z": 2.02
+            "date": "2026-04-17",
+            "z": 2
           }
         ],
         "corpusDensity": {
-          "value": 1.113637,
-          "note": "GDELT coverage-intensity proxy (share of monitored coverage), not literal mentions/M",
+          "value": 1.776986,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "2026-06-21T23:39:04+00:00"
+        "retrievedAt": "from-raw"
       },
       "platforms": [
         "wire services",
@@ -428,7 +508,7 @@
         "negotiations"
       ],
       "whatItDoes": "Names the pause in fighting and, by extension, the claim that the war has ended. As the central word of the termination phase, its meaning is stretched between a temporary truce and a durable peace.",
-      "whereContested": "It is contested as permanence: a 60-day framework with no enforcement mechanism is read by some as the end of the war and by others as an interval before it resumes. Whether 'ceasefire' means 'over' or 'paused' is precisely the did it end or begin question in a single word.",
+      "whereContested": "It is contested as permanence: a 60-day framework with no enforcement mechanism is read by some as the end of the war and by others as an interval before it resumes. Whether 'ceasefire' means 'over' or 'paused' is precisely the did-it-end-or-begin question in a single word.",
       "verbatims": [
         {
           "quote": "the ceasefire is holding",
@@ -447,34 +527,30 @@
       "domainTag": "STRATEGIC / OFF-RAMP",
       "measurement": {
         "status": "measured",
-        "velocityIndex": 50,
-        "adoptionStage": "contested",
+        "velocityIndex": 31,
+        "adoptionStage": "emerging",
         "deltas": {
-          "d30": -1.3,
-          "d90": 7.2,
-          "yoy": -2.1
+          "d30": 6.1,
+          "d90": 31.5,
+          "yoy": null
         },
         "sentiment": null,
         "inflections": [
           {
-            "date": "2026-04-08",
-            "z": 2.45
+            "date": "2026-03-22",
+            "z": 2.1
           },
           {
-            "date": "2026-03-29",
-            "z": 2.42
-          },
-          {
-            "date": "2026-02-26",
-            "z": 2.34
+            "date": "2026-03-03",
+            "z": 2.09
           }
         ],
         "corpusDensity": {
-          "value": 0.102657,
-          "note": "GDELT coverage-intensity proxy (share of monitored coverage), not literal mentions/M",
+          "value": 0.157944,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "2026-06-22T02:06:33+00:00"
+        "retrievedAt": "from-raw"
       },
       "platforms": [
         "policy press",
@@ -487,15 +563,15 @@
         "escalation",
         "restraint"
       ],
-      "whatItDoes": "The diplomatic vocabulary of stepping back: the search for an exit that lets each side stop without appearing to lose. It frames the conflict as something to be managed downward rather than won.",
-      "whereContested": "To its users it is the language of statecraft and restraint; to skeptics it is a euphemism that lets an aggressor escape consequences or a defender appear weak. The word competes directly with victory vocabulary: a step back and 'obliterated' cannot both be the headline.",
+      "whatItDoes": "The diplomatic vocabulary of stepping back — the search for an 'off-ramp' that lets each side stop without appearing to lose. It frames the conflict as something to be managed downward rather than won.",
+      "whereContested": "To its users it is the language of statecraft and restraint; to skeptics it is a euphemism that lets an aggressor escape consequences or a defender appear weak. The word competes directly with victory vocabulary — de-escalation and 'obliterated' cannot both be the headline.",
       "verbatims": [
         {
-          "quote": "both sides are looking for a way out",
+          "quote": "both sides are looking for an off-ramp",
           "attribution": "recurring analyst framing"
         },
         {
-          "quote": "stepping back is just losing slowly",
+          "quote": "de-escalation is just losing slowly",
           "attribution": "hawk-side pattern"
         }
       ]
@@ -506,8 +582,31 @@
       "cluster": "B",
       "domainTag": "STRATEGIC / WEAPONS",
       "measurement": {
-        "status": "pending",
-        "reason": "no coverage series returned"
+        "status": "measured",
+        "velocityIndex": 12,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -6.2,
+          "d90": -59.7,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-03-18",
+            "z": 2.19
+          },
+          {
+            "date": "2026-02-26",
+            "z": 2.02
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.003755,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
       },
       "platforms": [
         "defense press",
@@ -520,8 +619,8 @@
         "deep penetration",
         "fortified sites"
       ],
-      "whatItDoes": "The weapon that stands in for the whole operation's feasibility: the deep penetration bomb said to be required to reach fortified, buried sites. It localizes the abstract question of whether the program could be destroyed into a single munition.",
-      "whereContested": "Its capabilities are contested: whether the weapon can reach and collapse the deepest sites is the technical crux beneath the 'obliterated' claim. The term carries the strike's credibility. If the bomb couldn't reach, the maximal damage claim cannot stand.",
+      "whatItDoes": "The weapon that stands in for the whole operation's feasibility — the deep-penetration bomb said to be required to reach fortified, buried sites. It localizes the abstract question of whether the program could be destroyed into a single munition.",
+      "whereContested": "Its capabilities are contested: whether the weapon can reach and collapse the deepest sites is the technical crux beneath the 'obliterated' claim. The term carries the strike's credibility — if the bomb couldn't reach, the maximal damage claim cannot stand.",
       "verbatims": [
         {
           "quote": "only the bunker buster can reach Fordow",
@@ -540,34 +639,26 @@
       "domainTag": "STRATEGIC / NUCLEAR TIMELINE",
       "measurement": {
         "status": "measured",
-        "velocityIndex": 88,
-        "adoptionStage": "rising",
+        "velocityIndex": 56,
+        "adoptionStage": "emerging",
         "deltas": {
-          "d30": -12.5,
-          "d90": 31.2,
-          "yoy": 74.2
+          "d30": -35.8,
+          "d90": 31.6,
+          "yoy": null
         },
         "sentiment": null,
         "inflections": [
           {
-            "date": "2026-04-20",
-            "z": 2.99
-          },
-          {
-            "date": "2026-03-25",
-            "z": 2.17
-          },
-          {
-            "date": "2026-04-10",
+            "date": "2026-03-02",
             "z": 2.04
           }
         ],
         "corpusDensity": {
-          "value": 0.027577,
-          "note": "GDELT coverage-intensity proxy (share of monitored coverage), not literal mentions/M",
+          "value": 0.003632,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "2026-06-21T23:42:42+00:00"
+        "retrievedAt": "from-raw"
       },
       "platforms": [
         "policy press",
@@ -580,7 +671,7 @@
         "IAEA",
         "timeline"
       ],
-      "whatItDoes": "The nonproliferation clock: the time Iran would need to assemble enough fissile material for a weapon. 'Breakout time' is the metric by which the strikes' real effect is measured, months added to, or removed from, the clock.",
+      "whatItDoes": "The nonproliferation clock — the time Iran would need to assemble enough fissile material for a weapon. 'Breakout time' is the metric by which the strikes' real effect is measured: months added to, or removed from, the clock.",
       "whereContested": "It is contested as direction: proponents say the strikes lengthened breakout time decisively, critics say a relocated stockpile may have shortened it by removing inspectors and incentives. The same operation is claimed to have set the clock back and to have sped it up.",
       "verbatims": [
         {
@@ -600,26 +691,30 @@
       "domainTag": "ATTRIBUTION / CONTESTED CREED",
       "measurement": {
         "status": "measured",
-        "velocityIndex": 25,
-        "adoptionStage": "contested",
+        "velocityIndex": 19,
+        "adoptionStage": "emerging",
         "deltas": {
-          "d30": -15.4,
-          "d90": -54.8,
-          "yoy": -11.3
+          "d30": -43.1,
+          "d90": -51.3,
+          "yoy": null
         },
-        "sentiment": -1.75,
+        "sentiment": null,
         "inflections": [
           {
-            "date": "2026-02-25",
-            "z": 4.07
+            "date": "2026-03-14",
+            "z": 3.53
+          },
+          {
+            "date": "2026-03-01",
+            "z": 3.08
           }
         ],
         "corpusDensity": {
-          "value": 0.030907,
-          "note": "GDELT coverage-intensity proxy (share of monitored coverage), not literal mentions/M",
+          "value": 0.002219,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "2026-06-21T23:43:18+00:00"
+        "retrievedAt": "from-raw"
       },
       "platforms": [
         "X",
@@ -632,8 +727,8 @@
         "intervention",
         "base"
       ],
-      "whatItDoes": "The coalition's foundational slogan, now claimed by both sides of an internal fight over the war. One wing reads it as a mandate for restraint and staying out; the other reads it as strength projected without apology. Each accuses the other of betraying it.",
-      "whereContested": "This is the cycle's sharpest intra coalition contest: a single slogan pointing in two directions, with restraint voices and hawks both citing it as proof of fidelity. The word's meaning is being rewritten in real time, and which definition wins is itself a measurable contest.",
+      "whatItDoes": "The coalition's foundational slogan, now claimed by both sides of an internal fight over the war. One wing reads it as a mandate for restraint and staying out; the other reads it as strength projected without apology — and each accuses the other of betraying it.",
+      "whereContested": "This is the cycle's sharpest intra-coalition contest: a single slogan pointing in two directions, with restraint voices and hawks both citing it as proof of fidelity. The word's meaning is being rewritten in real time, and which definition wins is itself a measurable contest.",
       "verbatims": [
         {
           "quote": "this isn't America First",
@@ -651,8 +746,27 @@
       "cluster": "C",
       "domainTag": "ATTRIBUTION / QUAGMIRE FRAME",
       "measurement": {
-        "status": "pending",
-        "reason": "no coverage series returned"
+        "status": "measured",
+        "velocityIndex": 69,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 42.7,
+          "d90": -32.6,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-02-28",
+            "z": 2.49
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.042714,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
       },
       "platforms": [
         "X",
@@ -665,8 +779,8 @@
         "Iraq",
         "endless"
       ],
-      "whatItDoes": "The frame that casts a new conflict as the start of another open ended commitment, the lesson of two prior decades applied as a warning. It is the open ended pole of the cycle's central tension, the word for a war that does not end when the strikes stop.",
-      "whereContested": "Restraint voices deploy it to argue the conflict has no exit; proponents reject it, insisting a limited operation is the opposite of a forever war. The contest is over whether this is a clean, finished strike or the first chapter of another long entanglement, the did it begin case in two words.",
+      "whatItDoes": "The frame that casts a new conflict as the start of another open-ended commitment — the lesson of two prior decades applied as a warning. It is the open-ended pole of the cycle's central tension, the word for a war that does not end when the strikes stop.",
+      "whereContested": "Restraint voices deploy it to argue the conflict has no exit; proponents reject it, insisting a limited operation is the opposite of a forever war. The contest is over whether this is a clean, finished strike or the first chapter of another long entanglement — the did-it-begin case in two words.",
       "verbatims": [
         {
           "quote": "another forever war",
@@ -685,34 +799,30 @@
       "domainTag": "ATTRIBUTION / VICTORY FRAME",
       "measurement": {
         "status": "measured",
-        "velocityIndex": 62,
-        "adoptionStage": "fading",
+        "velocityIndex": 50,
+        "adoptionStage": "emerging",
         "deltas": {
-          "d30": 37.1,
-          "d90": -52.8,
-          "yoy": -51.7
+          "d30": 18.1,
+          "d90": -55.2,
+          "yoy": null
         },
         "sentiment": null,
         "inflections": [
           {
-            "date": "2026-01-05",
-            "z": 3.24
+            "date": "2026-01-04",
+            "z": 2.15
           },
           {
-            "date": "2025-12-03",
-            "z": 3.19
-          },
-          {
-            "date": "2026-02-27",
-            "z": 2.17
+            "date": "2026-02-28",
+            "z": 2.01
           }
         ],
         "corpusDensity": {
-          "value": 0.004607,
-          "note": "GDELT coverage-intensity proxy (share of monitored coverage), not literal mentions/M",
+          "value": 0.008784,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "2026-06-22T00:37:35+00:00"
+        "retrievedAt": "from-raw"
       },
       "platforms": [
         "cable news",
@@ -725,7 +835,7 @@
         "strength",
         "doctrine"
       ],
-      "whatItDoes": "The doctrine slogan that frames force as the route to peace, the claim that the strikes produced the ceasefire. It is the closure narrative's organizing phrase, converting a military operation into a peace achievement.",
+      "whatItDoes": "The doctrine-slogan that frames force as the route to peace — the claim that the strikes produced the ceasefire. It is the closure narrative's organizing phrase, converting a military operation into a peace achievement.",
       "whereContested": "Proponents present the ceasefire as proof the doctrine worked; skeptics argue the 'peace' is a fragile pause and that the strength on display invited the very escalation it claims to have ended. The phrase is the victory pole of the cycle's central tension, mirroring 'forever war' from the opposite side.",
       "verbatims": [
         {
@@ -744,8 +854,35 @@
       "cluster": "C",
       "domainTag": "ATTRIBUTION / EPITHET",
       "measurement": {
-        "status": "pending",
-        "reason": "no coverage series returned"
+        "status": "measured",
+        "velocityIndex": 100,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 75.1,
+          "d90": 24,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-06-05",
+            "z": 2.2
+          },
+          {
+            "date": "2026-03-03",
+            "z": 2.17
+          },
+          {
+            "date": "2026-05-20",
+            "z": 2.1
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.051824,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
       },
       "platforms": [
         "X",
@@ -758,8 +895,8 @@
         "defense industry",
         "restraint"
       ],
-      "whatItDoes": "The epithet of the antiwar and restraint registers: the charge that an actor wants or profits from war. It is an attribution weapon, assigning motive rather than describing policy, and it spikes when strikes are defended publicly.",
-      "whereContested": "It is contested as a smear versus a description: those who use it see clear eyed naming of pro war interests, while targets see an insult that substitutes for argument. Notably it is now aimed inside the coalition as often as across the aisle, a marker of the internal split.",
+      "whatItDoes": "The epithet of the antiwar and restraint registers — the charge that an actor wants or profits from war. It is an attribution weapon, assigning motive rather than describing policy, and it spikes when strikes are defended publicly.",
+      "whereContested": "It is contested as a smear versus a description: those who use it see clear-eyed naming of pro-war interests, while targets see an insult that substitutes for argument. Notably it is now aimed inside the coalition as often as across the aisle — a marker of the internal split.",
       "verbatims": [
         {
           "quote": "the warmongers got their war",
@@ -777,8 +914,35 @@
       "cluster": "C",
       "domainTag": "ATTRIBUTION / REVIVED LABEL",
       "measurement": {
-        "status": "pending",
-        "reason": "no coverage series returned"
+        "status": "measured",
+        "velocityIndex": 81,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 29.1,
+          "d90": -0.8,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-03-03",
+            "z": 2.66
+          },
+          {
+            "date": "2026-01-01",
+            "z": 2.27
+          },
+          {
+            "date": "2026-03-31",
+            "z": 2.03
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.023957,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
       },
       "platforms": [
         "X",
@@ -791,8 +955,8 @@
         "Iraq",
         "Bush era"
       ],
-      "whatItDoes": "A label revived from the prior war era to tag interventionist hawks, shorthand for a worldview blamed for past quagmires. Its return signals that the old intervention debate has reopened inside a coalition that thought it had closed it.",
-      "whereContested": "Used as an accusation, it brands its target as captured by a discredited foreign policy school; rejected, it is dismissed as a lazy slur applied to anyone favoring action. Its sharp return is itself the signal: a vocabulary thought retired is back in heavy circulation.",
+      "whatItDoes": "A label revived from the prior war era to tag interventionist hawks — shorthand for a worldview blamed for past quagmires. Its return signals that the old intervention debate has reopened inside a coalition that thought it had closed it.",
+      "whereContested": "Used as an accusation, it brands its target as captured by a discredited foreign-policy school; rejected, it is dismissed as a lazy slur applied to anyone favoring action. Its sharp re-emergence is itself the signal — a vocabulary thought retired is back in heavy circulation.",
       "verbatims": [
         {
           "quote": "the neocons are back",
@@ -811,30 +975,34 @@
       "domainTag": "ATTRIBUTION / PREMATURE-VICTORY ECHO",
       "measurement": {
         "status": "measured",
-        "velocityIndex": 75,
-        "adoptionStage": "contested",
+        "velocityIndex": 25,
+        "adoptionStage": "emerging",
         "deltas": {
-          "d30": 20.7,
-          "d90": -20,
-          "yoy": -6.9
+          "d30": 246.3,
+          "d90": 55.6,
+          "yoy": null
         },
         "sentiment": null,
         "inflections": [
           {
-            "date": "2025-08-13",
-            "z": 5.56
+            "date": "2026-04-01",
+            "z": 3.23
           },
           {
-            "date": "2026-04-04",
-            "z": 2.03
+            "date": "2026-03-22",
+            "z": 2.33
+          },
+          {
+            "date": "2026-03-07",
+            "z": 2.27
           }
         ],
         "corpusDensity": {
-          "value": 0.002563,
-          "note": "GDELT coverage-intensity proxy (share of monitored coverage), not literal mentions/M",
+          "value": 0.000159,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "2026-06-21T23:49:53+00:00"
+        "retrievedAt": "from-raw"
       },
       "platforms": [
         "X",
@@ -847,8 +1015,8 @@
         "hubris",
         "Iraq"
       ],
-      "whatItDoes": "A historical echo deployed by skeptics to warn against premature victory declarations, borrowing the most famous image of a war declared won too soon. It frames closure claims as hubris before the outcome is known.",
-      "whereContested": "Skeptics invoke it to puncture the 'obliterated' and 'peace through strength' narratives; proponents reject the analogy as defeatism that ignores a real result. The phrase is a meta term: it contests not the war but the act of declaring it finished, sitting at the heart of the did it end question.",
+      "whatItDoes": "A historical echo deployed by skeptics to warn against premature victory declarations — borrowing the most famous image of a war declared won too soon. It frames closure claims as hubris before the outcome is known.",
+      "whereContested": "Skeptics invoke it to puncture the 'obliterated' and 'peace through strength' narratives; proponents reject the analogy as defeatism that ignores a real result. The phrase is a meta-term — it contests not the war but the act of declaring it finished, sitting at the heart of the did-it-end question.",
       "verbatims": [
         {
           "quote": "mission accomplished, again?",
@@ -861,7 +1029,7 @@
       ]
     }
   ],
-  "generatedAt": "2026-06-22T02:15:45+00:00",
+  "generatedAt": "2026-07-11T09:23:11+00:00",
   "refDate": "2026-06-21",
-  "source": "GDELT DOC 2.0 (timelinevol + timelinetone)"
+  "source": "GDELT Web NGrams 3.0 (BigQuery)"
 }
