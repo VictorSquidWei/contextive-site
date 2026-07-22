@@ -1,0 +1,841 @@
+{
+  "number": "02",
+  "slug": "ai-and-work",
+  "id": "02-ai-and-work",
+  "label": "CAMPAIGN 02",
+  "title": "The Language of AI and Work",
+  "shortTitle": "AI and Work",
+  "period": "July 2026",
+  "status": "in-progress",
+  "signalBasis": "measured",
+  "firewall": "We track how the words have been used and how fast they are winning, not whether the underlying politics is correct.",
+  "summary": "The measured twist leads: the word that names the cut is gaining, while the words that soften it are fading. On the blunt end, 'replaced by AI' is the strongest reliable ninety-day riser in the set — up 38.0 percent over the quarter at velocity 50 — the plain worker-side statement of substitution. But the management vocabulary built to manage that fear is precisely the vocabulary cooling: 'efficiency gains' sits at the floor (velocity 0, down 17.0 percent over ninety days), 'workforce optimization' near it (velocity 8), 'rightsizing' down 11.3 percent on the quarter (velocity 25). The comforting middle — the register that renames a cut as a tuning exercise — is losing altitude while the word for the cut itself climbs. Year-over-year change is not computed this cycle; the full-text series runs a 180-day window, so every figure here is 30-day and 90-day momentum.",
+  "anchor": "Through the first half of 2026, the same event — fewer people doing the same work alongside more software — acquired a shelf of competing names. Earnings calls and press releases reached for organizational-design words; vendor decks reached for capability words; workers, on Reddit and in personal essays, reached for the plain one. This cycle measures that shelf: seventeen terms across the vocabulary of AI and work, narrowed to the labor axis — how a job is cut, how the tool is sold, and how the loss is described from the desk it happened at.",
+  "thesis": [
+    "The measured twist leads: the word that names the cut is gaining, while the words that soften it are fading. On the blunt end, 'replaced by AI' is the strongest reliable ninety-day riser in the set — up 38.0 percent over the quarter at velocity 50 — the plain worker-side statement of substitution. But the management vocabulary built to manage that fear is precisely the vocabulary cooling: 'efficiency gains' sits at the floor (velocity 0, down 17.0 percent over ninety days), 'workforce optimization' near it (velocity 8), 'rightsizing' down 11.3 percent on the quarter (velocity 25). The comforting middle — the register that renames a cut as a tuning exercise — is losing altitude while the word for the cut itself climbs. Year-over-year change is not computed this cycle; the full-text series runs a 180-day window, so every figure here is 30-day and 90-day momentum.",
+    "It is not a simple case of the plain word beating the soft one, because the loudest register is neither the euphemism nor the lament — it is the capability claim. 'Restructuring,' the organizational-design word for a headcount number (scoped to the layoff sense, with debt and bankruptcy excluded), tops the entire set at velocity 100, up 34.6 percent over thirty days. Behind it the AI-adoption vocabulary runs hot: 'AI adoption' at velocity 92 (up 26.1 percent on the quarter), 'copilot' at velocity 75 (up 22.3 percent), 'agentic' at velocity 42 (up 27.4 percent). So the comforting middle is being squeezed from two sides at once — by the blunt worker vocabulary below it and by the capability-and-claims vocabulary above it. The defining tension is 'replaced by AI' versus 'efficiency gains': the word that names the cut is winning velocity while the word that softens it fades. Contextive tracks how fast each name is winning, not whether AI is in fact replacing the work — that the plain word is gaining is a statement about momentum, not a forecast about employment."
+  ],
+  "definingTension": {
+    "a": "replaced by AI",
+    "b": "efficiency gains",
+    "note": "The cycle's measured collision and the campaign's spine. Both name the same event, one from the desk and one from the deck: 'replaced by AI' states the substitution plainly; 'efficiency gains' records only the productivity upside and omits who absorbed the loss. Measured, they move in opposite directions — 'replaced by AI' is the strongest reliable ninety-day riser in the set (up 38.0 percent, velocity 50), while 'efficiency gains' has fallen to the floor (velocity 0, down 17.0 percent over ninety days and 30.6 percent over the last thirty). The word that names the cut is gaining velocity while the word built to soften it fades. It is a clean statement of velocity, not verdict: the plain word winning momentum is not evidence that the substitution is as broad as it claims — only that it is the name gaining ground."
+  },
+  "clusters": [
+    {
+      "key": "A",
+      "name": "The restructuring euphemisms",
+      "blurb": "The management vocabulary that renames a headcount reduction as something else — a tuning, a right-sizing, a reorganization, a gain. Built for press releases and earnings calls, it foregrounds the system and backgrounds the people. Measured this cycle, it is the register being squeezed: the softest of these words are at or near the floor of the set, even as the plainest organizational-design word tops it."
+    },
+    {
+      "key": "B",
+      "name": "The capability claims",
+      "blurb": "The vendor-and-adoption vocabulary that describes what the technology can do — assist, augment, act autonomously, be adopted. It carries the case that work can move to software, alternately reassuring ('copilot,' 'human-in-the-loop') and asserting ('agentic,' 'AI adoption'). This register dominates velocity this cycle; the label often runs ahead of the demonstrated result."
+    },
+    {
+      "key": "C",
+      "name": "The worker-skeptic vocabulary",
+      "blurb": "The vocabulary that names the same event from the desk it happened at — substitution, displacement, the erosion of craft. Plainer and more clinical by turns, it carries the fear the capability register is built to manage. Its blunt statement of substitution is the fastest reliable riser in the set, even as its newer coinages remain too thinly covered to rank."
+    }
+  ],
+  "pillars": [
+    {
+      "title": "The word that names the cut is the one gaining",
+      "body": "The cycle's lede, and it is measured: 'replaced by AI' is the strongest reliable ninety-day riser in the set (up 38.0 percent, velocity 50) while 'efficiency gains' has collapsed to the floor (velocity 0, down 17.0 percent over ninety days). The highest-stakes piece is built on that velocity gap between the plain worker word and the softening euphemism — the language of substitution gaining ground while the language that renames it as a costless improvement loses it."
+    },
+    {
+      "title": "The comforting middle is losing to both ends",
+      "body": "The counterintuitive argument, now with numbers behind it: the softening euphemisms are being squeezed from two directions at once. The softest of them sit at or near the floor — 'efficiency gains' velocity 0, 'workforce optimization' velocity 8, 'augmentation' velocity 17 — while both the blunt worker vocabulary below them ('replaced by AI' up 38.0 percent, 'job displacement' velocity 83) and the capability-and-claims vocabulary above them ('restructuring' velocity 100, 'AI adoption' velocity 92, 'copilot' velocity 75) gain. This cycle the comfort words are the ones fading; the plain word and the capability word are both winning."
+    },
+    {
+      "title": "Velocity, not verdict, on the AI-labor claim",
+      "body": "A case study in the signal layer on a live claim. 'AI adoption' (velocity 92, up 26.1 percent) and 'productivity gains' (velocity 67, up 12.0 percent) assert the payoff — more output, fewer workers — as a wave already underway, and they are gaining velocity regardless of whether the measured productivity has actually risen or who captures it. A word can win the argument before, and independently of whether, the evidence confirms it. This piece demonstrates the firewall directly: we report that the capability vocabulary is winning momentum, and we do not adjudicate whether the technology delivers what its vocabulary promises."
+    }
+  ],
+  "tensions": [
+    {
+      "a": "replaced by AI",
+      "b": "efficiency gains",
+      "title": "'replaced by AI' vs 'efficiency gains'",
+      "body": "The cycle's measured collision and the campaign's spine. Both name the same event, one from the desk and one from the deck: 'replaced by AI' states the substitution plainly; 'efficiency gains' records only the productivity upside and omits who absorbed the loss. Measured, they move in opposite directions — 'replaced by AI' is the strongest reliable ninety-day riser in the set (up 38.0 percent, velocity 50), while 'efficiency gains' has fallen to the floor (velocity 0, down 17.0 percent over ninety days and 30.6 percent over the last thirty). The word that names the cut is gaining velocity while the word built to soften it fades. It is a clean statement of velocity, not verdict: the plain word winning momentum is not evidence that the substitution is as broad as it claims — only that it is the name gaining ground."
+    },
+    {
+      "a": "restructuring",
+      "b": "job displacement",
+      "title": "'restructuring' vs 'job displacement'",
+      "body": "Two ways to name a job eliminated by technology — the organizational-design word and the analyst's neutral one. 'Restructuring' arrives inside a story about a better-shaped company; 'job displacement' is the clinical counterpart, the study word for lost work. Measured, both are gaining, but the euphemism is far louder: 'restructuring' tops the entire set at velocity 100 (up 34.6 percent over thirty days, scoped to the layoff sense with debt and bankruptcy excluded), while 'job displacement' sits high but well below it at velocity 83 (up 9.6 percent on the quarter). The org-chart framing is outrunning the plain accounting of the same loss — the language of a better-shaped company moving faster than the language of the jobs removed to shape it."
+    },
+    {
+      "a": "AI adoption",
+      "b": "deskilling",
+      "title": "'AI adoption' vs 'deskilling'",
+      "body": "The inevitability frame against its skeptic's answer. 'AI adoption' names the rollout as a wave every organization simply joins, converting a contested choice into progress; 'deskilling' names the subtler harm the wave can leave behind — a role's craft hollowed as software absorbs its skilled core. Measured, they diverge sharply: 'AI adoption' runs near the top of the set at velocity 92 (up 26.1 percent on the quarter), while 'deskilling' sits low and cooling at velocity 33 (down 5.0 percent over ninety days). The vocabulary of joining the wave is gaining fast while the vocabulary that questions what the wave costs is losing altitude — the promotional register outpacing the critical one."
+    },
+    {
+      "a": "copilot",
+      "b": "replaced by AI",
+      "title": "'copilot' vs 'replaced by AI'",
+      "body": "The reassurance word against the fear word. 'Copilot' frames the technology as a helper beside the worker — the human still flies the plane — while 'replaced by AI' states the outcome the reassurance is meant to forestall. Measured, both are rising, which is itself the story: 'copilot' is up 22.3 percent over ninety days (velocity 75) and 'replaced by AI' up 38.0 percent (velocity 50), the assistant frame and the substitution frame climbing together, with the blunt word rising faster on the quarter. The comfort that the tool merely assists and the fear that it replaces are gaining at once — the vocabulary has not settled on which story the same deployment tells."
+    },
+    {
+      "a": "productivity gains",
+      "b": "workforce optimization",
+      "title": "'productivity gains' vs 'workforce optimization'",
+      "body": "The justification against the cover. 'Productivity gains' is the top-line case for the whole exercise — more output per worker, offered as the benefit; 'workforce optimization' is the softest of the cut-words, headcount reduction renamed as tuning a system to peak efficiency. Measured, the justification is gaining while the cover fades: 'productivity gains' is up 12.0 percent over ninety days (velocity 67) while 'workforce optimization' has fallen to velocity 8 (down 28.1 percent over the last thirty). The register that promises the payoff is rising even as the register that renames the cost collapses — the case is louder than the euphemism it was paired with."
+    }
+  ],
+  "terms": [
+    {
+      "ref": "C02-A1",
+      "term": "workforce optimization",
+      "cluster": "A",
+      "domainTag": "management",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 8,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -28.1,
+          "d90": 1.4,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-05-04",
+            "z": 3.01
+          },
+          {
+            "date": "2026-06-07",
+            "z": 2.25
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.003241,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "earnings calls",
+        "LinkedIn",
+        "business press"
+      ],
+      "coOccurrence": [
+        "restructuring",
+        "efficiency gains",
+        "rightsizing"
+      ],
+      "whatItDoes": "Renames headcount reduction as a tuning exercise, so cuts read as engineering a system to peak efficiency rather than removing people.",
+      "whereContested": "Critics call it a euphemism for layoffs; proponents insist it captures reallocation and automation, not only reduction.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C02-A2",
+      "term": "efficiency gains",
+      "cluster": "A",
+      "domainTag": "management",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 0,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -30.6,
+          "d90": -17,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-01-23",
+            "z": 2.29
+          },
+          {
+            "date": "2026-04-17",
+            "z": 2.11
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.009606,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "earnings calls",
+        "business press",
+        "LinkedIn"
+      ],
+      "coOccurrence": [
+        "productivity gains",
+        "workforce optimization",
+        "doing more with less"
+      ],
+      "whatItDoes": "Attributes reduced labor to a benign productivity improvement, foregrounding output-per-worker while backgrounding fewer workers.",
+      "whereContested": "Contested over who captures the gains; the phrase records the upside and omits who absorbed the loss.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C02-A3",
+      "term": "doing more with less",
+      "cluster": "A",
+      "domainTag": "management",
+      "measurement": {
+        "status": "pending",
+        "reason": "coverage at noise floor (coverage_mean_30d 0.00021% < 0.001% share of monitored coverage, ~a few articles/day); velocity dominated by a near-zero baseline and not reliably rankable on the full-text ngram surface (C04 endorsement-machine failure mode). Measured raw retained in measured_raw_audit."
+      },
+      "platforms": [
+        "earnings calls",
+        "LinkedIn",
+        "management commentary"
+      ],
+      "coOccurrence": [
+        "efficiency gains",
+        "rightsizing",
+        "quiet cutting"
+      ],
+      "whatItDoes": "Converts constraint into aspiration, praising a leaner operation as a management achievement rather than a cut in capacity.",
+      "whereContested": "Workers read it as a demand for unpaid intensification; the cliche celebrates the constraint it imposes.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C02-A4",
+      "term": "restructuring",
+      "cluster": "A",
+      "domainTag": "management",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 100,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 34.6,
+          "d90": 14.5,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-01-26",
+            "z": 2.52
+          },
+          {
+            "date": "2026-05-18",
+            "z": 2.04
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.064517,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "press releases",
+        "business press",
+        "earnings calls"
+      ],
+      "coOccurrence": [
+        "workforce optimization",
+        "rightsizing",
+        "job displacement"
+      ],
+      "whatItDoes": "Uses an organizational-design word for job elimination, so removals arrive inside a story about a better-shaped company.",
+      "whereContested": "The term spans genuine reorganization and pure cutting; its neutrality is exactly why it is chosen for the latter.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C02-A5",
+      "term": "rightsizing",
+      "cluster": "A",
+      "domainTag": "management",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 25,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -5.5,
+          "d90": -11.3,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-02-14",
+            "z": 3.2
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.02911,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "press releases",
+        "LinkedIn",
+        "management commentary"
+      ],
+      "coOccurrence": [
+        "restructuring",
+        "workforce optimization",
+        "doing more with less"
+      ],
+      "whatItDoes": "Implies there is a correct headcount and the company is merely reaching it, making cuts sound like arriving at truth.",
+      "whereContested": "Critics note 'right' is defined after the fact by the cut itself; the word presumes the conclusion.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C02-B1",
+      "term": "agentic",
+      "cluster": "B",
+      "domainTag": "AI capability",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 42,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -21.4,
+          "d90": 27.4,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-05-26",
+            "z": 2.21
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.236097,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "tech press",
+        "vendor marketing",
+        "X"
+      ],
+      "coOccurrence": [
+        "copilot",
+        "AI adoption",
+        "augmentation"
+      ],
+      "whatItDoes": "Claims software can now act autonomously toward goals, upgrading 'tools' to 'workers' and grounding the case that headcount can move to machines.",
+      "whereContested": "Contested on how autonomous these systems really are; the label often outpaces demonstrated reliability.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C02-B2",
+      "term": "copilot",
+      "cluster": "B",
+      "domainTag": "AI capability",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 75,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -7.7,
+          "d90": 22.3,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-06-02",
+            "z": 2.58
+          },
+          {
+            "date": "2026-05-23",
+            "z": 2.38
+          },
+          {
+            "date": "2026-04-26",
+            "z": 2.01
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.092721,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "vendor marketing",
+        "tech press",
+        "LinkedIn"
+      ],
+      "coOccurrence": [
+        "augmentation",
+        "human-in-the-loop",
+        "agentic"
+      ],
+      "whatItDoes": "Frames AI as a helper beside the worker, not a replacement, reassuring that the human still flies the plane.",
+      "whereContested": "Critics argue 'copilot' is a transitional comfort that normalizes a tool later positioned to fly solo.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C02-B3",
+      "term": "augmentation",
+      "cluster": "B",
+      "domainTag": "AI capability",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 17,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -32.8,
+          "d90": -3.1,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-06-02",
+            "z": 3.47
+          },
+          {
+            "date": "2026-01-27",
+            "z": 2.09
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.005406,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "vendor marketing",
+        "business press",
+        "LinkedIn"
+      ],
+      "coOccurrence": [
+        "copilot",
+        "human-in-the-loop",
+        "replaced by AI"
+      ],
+      "whatItDoes": "Positions AI as enhancing human workers rather than displacing them, keeping the person central to the story of the technology.",
+      "whereContested": "Contested as a framing that quietly precedes substitution; augmentation and automation often name the same deployment.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C02-B4",
+      "term": "human-in-the-loop",
+      "cluster": "B",
+      "domainTag": "AI capability",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 58,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -23.2,
+          "d90": 14,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-03-05",
+            "z": 2.85
+          },
+          {
+            "date": "2026-06-21",
+            "z": 2.57
+          },
+          {
+            "date": "2026-06-08",
+            "z": 2.2
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.023276,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "policy commentary",
+        "tech press",
+        "vendor marketing"
+      ],
+      "coOccurrence": [
+        "augmentation",
+        "copilot",
+        "AI adoption"
+      ],
+      "whatItDoes": "Promises a person retains oversight of automated decisions, supplying accountability and comfort as tasks move to machines.",
+      "whereContested": "Critics note the loop can shrink to rubber-stamping; 'in the loop' may describe a role already hollowed out.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C02-B5",
+      "term": "AI adoption",
+      "cluster": "B",
+      "domainTag": "AI capability",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 92,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -13.5,
+          "d90": 26.1,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-05-25",
+            "z": 2.32
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.192591,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "business press",
+        "consulting reports",
+        "LinkedIn"
+      ],
+      "coOccurrence": [
+        "agentic",
+        "productivity gains",
+        "human-in-the-loop"
+      ],
+      "whatItDoes": "Names the rollout as inevitable progress every organization is undertaking, converting a contested choice into a wave one simply joins.",
+      "whereContested": "Contested as a metric that measures spending and announcements more than results; 'adoption' can outrun value.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C02-B6",
+      "term": "productivity gains",
+      "cluster": "B",
+      "domainTag": "AI capability",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 67,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 4.2,
+          "d90": 12,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-06-25",
+            "z": 3.31
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.026094,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "earnings calls",
+        "economics commentary",
+        "business press"
+      ],
+      "coOccurrence": [
+        "efficiency gains",
+        "AI adoption",
+        "doing more with less"
+      ],
+      "whatItDoes": "Frames AI's payoff as more output per worker, the top-line justification that lets fewer workers read as a productivity story.",
+      "whereContested": "Contested over whether measured productivity has actually risen and who benefits; the phrase promises the case it is meant to prove.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C02-C1",
+      "term": "replaced by AI",
+      "cluster": "C",
+      "domainTag": "worker experience",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 50,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -6.2,
+          "d90": 38,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-07-04",
+            "z": 2.8
+          },
+          {
+            "date": "2026-05-18",
+            "z": 2.24
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.023112,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "Reddit",
+        "X",
+        "personal essays"
+      ],
+      "coOccurrence": [
+        "job displacement",
+        "white-collar recession",
+        "deskilling"
+      ],
+      "whatItDoes": "States the substitution plainly from the worker's side, stripping away the management euphemisms that soften the same outcome.",
+      "whereContested": "Contested over scale and speed; the blunt phrase carries the fear the capability-claim vocabulary is built to manage.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C02-C2",
+      "term": "white-collar recession",
+      "cluster": "C",
+      "domainTag": "worker experience",
+      "measurement": {
+        "status": "pending",
+        "reason": "coverage at noise floor (coverage_mean_30d 0.00012% < 0.001% share of monitored coverage, ~a few articles/day); velocity dominated by a near-zero baseline and not reliably rankable on the full-text ngram surface (C04 endorsement-machine failure mode). Measured raw retained in measured_raw_audit."
+      },
+      "platforms": [
+        "business press",
+        "Substack",
+        "LinkedIn"
+      ],
+      "coOccurrence": [
+        "replaced by AI",
+        "job displacement",
+        "quiet cutting"
+      ],
+      "whatItDoes": "Names a downturn concentrated in knowledge work, giving a macro label to a lived pattern of stalled hiring and quiet cuts.",
+      "whereContested": "Contested against aggregate data that show growth; disputed over whether it is AI, offshoring, or a hiring cycle.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C02-C3",
+      "term": "job displacement",
+      "cluster": "C",
+      "domainTag": "worker experience",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 83,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -12.8,
+          "d90": 9.6,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-02-16",
+            "z": 2.69
+          },
+          {
+            "date": "2026-06-07",
+            "z": 2.21
+          },
+          {
+            "date": "2026-01-23",
+            "z": 2.1
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.022582,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "economics commentary",
+        "think-tank output",
+        "business press"
+      ],
+      "coOccurrence": [
+        "replaced by AI",
+        "white-collar recession",
+        "deskilling"
+      ],
+      "whatItDoes": "The analyst's neutral term for jobs eliminated by technology; more clinical than 'replaced by AI' but naming the same loss.",
+      "whereContested": "Contested over magnitude and timing, and whether displacement is offset by new roles; the measured counterpart to the lived fear.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C02-C4",
+      "term": "deskilling",
+      "cluster": "C",
+      "domainTag": "worker experience",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 33,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -30.4,
+          "d90": -5,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-03-07",
+            "z": 4.22
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.001908,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "academic commentary",
+        "Substack",
+        "professional forums"
+      ],
+      "coOccurrence": [
+        "augmentation",
+        "job displacement",
+        "human-in-the-loop"
+      ],
+      "whatItDoes": "Names a subtler harm than job loss: the hollowing of a role's craft as AI absorbs its skilled core, leaving thinner work behind.",
+      "whereContested": "Contested against the 'augmentation' claim it directly answers; disputed over whether tools erode or elevate skill.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C02-C5",
+      "term": "promptwashing",
+      "cluster": "C",
+      "domainTag": "worker experience",
+      "measurement": {
+        "status": "pending",
+        "reason": "coverage at noise floor (coverage_mean_30d 0.00085% < 0.001% share of monitored coverage, ~a few articles/day); velocity dominated by a near-zero baseline and not reliably rankable on the full-text ngram surface (C04 endorsement-machine failure mode). Measured raw retained in measured_raw_audit."
+      },
+      "platforms": [
+        "X",
+        "tech commentary",
+        "Reddit"
+      ],
+      "coOccurrence": [
+        "AI adoption",
+        "agentic",
+        "deskilling"
+      ],
+      "whatItDoes": "Coins a critique for dressing routine work or products in AI language to signal innovation without substance -- the skeptic's mirror of 'AI adoption'.",
+      "whereContested": "A newer coinage with thin usage; contested over whether it names a real pattern or is itself a rhetorical move.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C02-C6",
+      "term": "quiet cutting",
+      "cluster": "C",
+      "domainTag": "worker experience",
+      "measurement": {
+        "status": "pending",
+        "reason": "coverage at noise floor (coverage_mean_30d 0.00012% < 0.001% share of monitored coverage, ~a few articles/day); velocity dominated by a near-zero baseline and not reliably rankable on the full-text ngram surface (C04 endorsement-machine failure mode). Measured raw retained in measured_raw_audit."
+      },
+      "platforms": [
+        "LinkedIn",
+        "Reddit",
+        "business press"
+      ],
+      "coOccurrence": [
+        "restructuring",
+        "white-collar recession",
+        "doing more with less"
+      ],
+      "whatItDoes": "Names cuts made without announcement -- reassigned, managed out, not backfilled -- capturing the worker-side experience the euphemisms hide.",
+      "whereContested": "Contested as trend versus anecdote; the coinage gives shape to attrition that never shows up as a 'layoff'.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-22T00:29:40+00:00",
+  "refDate": "2026-07-21",
+  "source": "GDELT Web NGrams 3.0 (BigQuery)"
+}

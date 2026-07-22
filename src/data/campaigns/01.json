@@ -1,0 +1,921 @@
+{
+  "number": "01",
+  "slug": "trade-war",
+  "id": "01-trade-war",
+  "label": "CAMPAIGN 01",
+  "title": "The Language of the Trade War",
+  "shortTitle": "Trade War",
+  "period": "July 2026",
+  "status": "in-progress",
+  "signalBasis": "measured",
+  "firewall": "We track how the words have been used and how fast they are winning, not whether the underlying politics is correct.",
+  "summary": "The expected story was a naming war — a fight over whether a tariff is \"reciprocal\" or \"retaliatory,\" a euphemism against an escalation. Measured against full-text coverage, that story has reversed: both poles of the naming war are cooling at once. \"Trade war\" itself has fallen 29.9 percent over ninety days to velocity 13, near the floor of the set; \"reciprocal tariffs\" is down 69.7 percent (velocity 27), \"retaliatory tariffs\" down 44.4 percent (velocity 33), \"tit-for-tat\" pinned to the floor at velocity 0, and \"de-risking\" fading at velocity 20. The confrontation vocabulary — both the softening words and the fighting words — is the vocabulary losing momentum. Year-over-year change is not computed this cycle; the full-text series runs a 180-day window, so every figure here is 30-day and 90-day momentum.",
+  "anchor": "Through the winter of 2026 a tariff confrontation dominated the economic news: reciprocal duties answered by retaliatory ones, the coverage of \"trade war\" spiking to its sharpest peak of the cycle on 22 January. By midsummer the fighting words had cooled and a different register had risen in their place — export controls tightening, critical minerals reframed as strategic assets, supply chains being rerouted toward friends and toward home. The same conflict is still running, but the vocabulary that describes it has moved: from what to call the tariff to how to rewire the supply chain.",
+  "thesis": [
+    "The expected story was a naming war — a fight over whether a tariff is \"reciprocal\" or \"retaliatory,\" a euphemism against an escalation. Measured against full-text coverage, that story has reversed: both poles of the naming war are cooling at once. \"Trade war\" itself has fallen 29.9 percent over ninety days to velocity 13, near the floor of the set; \"reciprocal tariffs\" is down 69.7 percent (velocity 27), \"retaliatory tariffs\" down 44.4 percent (velocity 33), \"tit-for-tat\" pinned to the floor at velocity 0, and \"de-risking\" fading at velocity 20. The confrontation vocabulary — both the softening words and the fighting words — is the vocabulary losing momentum. Year-over-year change is not computed this cycle; the full-text series runs a 180-day window, so every figure here is 30-day and 90-day momentum.",
+    "What is rising is the supply-chain realignment and industrial-policy lexicon — and it now owns the entire top of the leaderboard. The five fastest-registering terms in the set are all from that register: \"friend-shoring\" (velocity 100), \"supply chain resilience\" (velocity 93, up 32.5 percent over ninety days), \"export controls\" (velocity 87, up 40.4 percent over ninety days), \"critical minerals\" (velocity 80), and \"near-shoring\" (velocity 73). The defining tension is \"export controls\" against \"trade war\": the wonky realignment word is beating the famous confrontation word — the loudest term is not the winning one. Contextive tracks how fast each name is winning, not whether the underlying politics is correct; that the language of rewiring is gaining while the language of confrontation fades is a statement about momentum, not a forecast that the conflict is over or a verdict on who is right."
+  ],
+  "definingTension": {
+    "a": "Export controls",
+    "b": "trade war",
+    "note": "The cycle's measured collision and the campaign's spine. \"Trade war\" is the famous word — the combat frame that names the whole confrontation and its coverage peaked hardest of any term on 22 January. \"Export controls\" is the wonky one — the administrative phrase for an outbound restriction, filed under compliance rather than conflict. Measured, the verdict is lopsided the way the expected story did not predict: \"export controls\" is up 40.4 percent over ninety days at velocity 87, while \"trade war\" has fallen 29.9 percent over the same window to velocity 13, near the floor of the set. The loudest, most dramatic word is the one losing momentum; the bureaucratic word for a hard restriction is the one gaining. The register has shifted from naming the fight to naming the machinery of the fight."
+  },
+  "clusters": [
+    {
+      "key": "A",
+      "name": "The policy euphemisms",
+      "blurb": "The vocabulary that softens a tariff into something reasonable — \"reciprocal,\" \"rebalancing,\" a \"level playing field,\" \"strategic\" duties. This register borrows the neutrality of fairness and portfolio management to make an imposition read as a correction. Measured this cycle, it is broadly cooling: the softening words are fading with the fighting words they were built to soften."
+    },
+    {
+      "key": "B",
+      "name": "The escalation lexicon",
+      "blurb": "The vocabulary that names the confrontation as combat — \"trade war,\" \"retaliatory tariffs,\" \"tit-for-tat,\" \"decoupling,\" \"protectionism.\" It raises the stakes and assigns blame, and it is where the accusation \"protectionism\" and the warning \"trade war\" live. This is the register the campaign expected to lead; measured, it is the register losing altitude fastest."
+    },
+    {
+      "key": "C",
+      "name": "The supply-chain realignment",
+      "blurb": "The vocabulary of rewiring rather than fighting — \"export controls,\" \"critical minerals,\" \"supply chain resilience,\" \"reshoring,\" \"near-shoring,\" \"friend-shoring.\" Engineered in the neutral register of administration and industrial policy, it turns a confrontation into a logistics and security project. Measured, it owns the top of the leaderboard: the loudest words this cycle are the wonky ones."
+    }
+  ],
+  "pillars": [
+    {
+      "title": "The wonky word beating the famous one",
+      "body": "The cycle's lede, and it is measured: \"export controls\" (velocity 87, up 40.4 percent over ninety days) is outrunning \"trade war\" (velocity 13, down 29.9 percent over ninety days). The highest-stakes piece is built on that velocity gap — the administrative phrase for a hard restriction gaining while the dramatic combat word fades. The loudest, most quotable term is not the winning one; the register has moved from naming the confrontation to naming its machinery. This is the campaign's velocity-versus-verdict case on live economic language."
+    },
+    {
+      "title": "Both poles of the naming war are cooling",
+      "body": "The expected story was a fight over what to call the tariff — a euphemism against an escalation. Measured, that fight has quieted from both ends at once: the softening words (\"reciprocal tariffs\" down 69.7 percent, \"de-risking\" fading at velocity 20) and the fighting words (\"trade war\" down 29.9 percent, \"retaliatory tariffs\" down 44.4 percent, \"tit-for-tat\" at velocity 0) are all losing altitude. The reversal is the story: the naming war did not produce a winner; it lost the audience, which moved on to a different vocabulary entirely."
+    },
+    {
+      "title": "From naming the fight to rewiring the chain",
+      "body": "The register has shifted, and the leaderboard shows it: the five fastest-registering terms are all supply-chain realignment words — \"friend-shoring\" (velocity 100), \"supply chain resilience\" (velocity 93), \"export controls\" (velocity 87), \"critical minerals\" (velocity 80), \"near-shoring\" (velocity 73). The most counterintuitive argument of the cycle, with numbers behind it: the vocabulary of confrontation is being displaced by the vocabulary of logistics and industrial policy. The realignment cluster is analyzed at full weight precisely because it is the one measuring as fastest-gaining — reported as momentum, never endorsed as a verdict."
+    }
+  ],
+  "tensions": [
+    {
+      "a": "Export controls",
+      "b": "trade war",
+      "title": "Export controls vs trade war",
+      "body": "The cycle's measured collision and the campaign's spine. \"Trade war\" is the famous word — the combat frame that names the whole confrontation and its coverage peaked hardest of any term on 22 January. \"Export controls\" is the wonky one — the administrative phrase for an outbound restriction, filed under compliance rather than conflict. Measured, the verdict is lopsided the way the expected story did not predict: \"export controls\" is up 40.4 percent over ninety days at velocity 87, while \"trade war\" has fallen 29.9 percent over the same window to velocity 13, near the floor of the set. The loudest, most dramatic word is the one losing momentum; the bureaucratic word for a hard restriction is the one gaining. The register has shifted from naming the fight to naming the machinery of the fight."
+    },
+    {
+      "a": "Reciprocal tariffs",
+      "b": "retaliatory tariffs",
+      "title": "Reciprocal tariffs vs retaliatory tariffs",
+      "body": "The mirror at the heart of the naming war: the same duty is \"reciprocal\" from one podium and \"retaliatory\" from the next, the whole dispute compressed into who is answering whom. The expected story was that one of these frames would win. Measured, neither is — both are cooling together. \"Reciprocal tariffs\" is down 69.7 percent over ninety days (velocity 27), the sharpest quarterly decline of the naming pair; \"retaliatory tariffs\" is down 44.4 percent (velocity 33). The fairness frame and the counterpunch frame are fading in lockstep, which is itself the finding: the argument over what to call the tariff has quieted, not resolved."
+    },
+    {
+      "a": "De-risking",
+      "b": "decoupling",
+      "title": "De-risking vs decoupling",
+      "body": "The euphemism ladder. \"Decoupling\" is the hard word — the deliberate unwinding of two economies' interdependence; \"de-risking\" is the softer one, chosen precisely because it sounds moderate, a set phrase used to reassure markets while trimming exposure. Measured, both are easing but the softer word is fading faster: \"de-risking\" is down 41.7 percent over thirty days at velocity 20, while \"decoupling\" holds higher at velocity 53 (down only 3.9 percent over thirty days). The moderate coinage built to replace the blunt one is losing ground faster than the blunt one — even as the concrete realignment words that describe doing it (\"export controls,\" \"critical minerals\") climb."
+    },
+    {
+      "a": "Supply chain resilience",
+      "b": "protectionism",
+      "title": "Supply chain resilience vs protectionism",
+      "body": "Two names for the same retreat, carrying opposite verdicts. \"Protectionism\" arrives with a built-in judgment — historically pejorative, used almost exclusively as an accusation, rarely a self-description. \"Supply chain resilience\" reframes the identical move as strength, a virtue anyone can endorse, redundancy recast as prudence. Measured, the virtue word is winning decisively: \"supply chain resilience\" is up 32.5 percent over ninety days at velocity 93, while \"protectionism\" is down 14.9 percent (velocity 47). The neutral, endorsable framing is gaining on the accusatory one — the same policy, renamed from a charge into a strategy."
+    },
+    {
+      "a": "Friend-shoring",
+      "b": "reshoring",
+      "title": "Friend-shoring vs reshoring",
+      "body": "Which homecoming word wins. \"Reshoring\" promises production brought all the way home; \"friend-shoring\" redraws the supply chain along lines of alliance, framing the move as trust rather than exclusion. Measured, \"friend-shoring\" is the fastest recent mover in the set — up 55.1 percent over thirty days at velocity 100 — though its ninety-day figure is negative (down 31.0 percent) and its absolute coverage sits low, undercounted by the hyphen on the ngram surface, so its rank reads as directional rather than exact. \"Reshoring\" is the steadier of the two, roughly flat at velocity 60. The coinage is spreading faster than the older word — and, the contestation notes, faster than the practice it names."
+    }
+  ],
+  "terms": [
+    {
+      "ref": "C01-A1",
+      "term": "reciprocal tariffs",
+      "cluster": "A",
+      "domainTag": "trade policy",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 27,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -26.5,
+          "d90": -69.7,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-02-03",
+            "z": 2.17
+          },
+          {
+            "date": "2026-02-18",
+            "z": 2.14
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.018736,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "official statements",
+        "financial press",
+        "cable news"
+      ],
+      "coOccurrence": [
+        "fair trade",
+        "trade deficit",
+        "level playing field"
+      ],
+      "whatItDoes": "Reframes a unilateral tariff as an act of fairness -- matching what the other side already does -- so the imposer is merely restoring balance, never starting anything.",
+      "whereContested": "Economists note the applied rates rarely mirror any counterpart rate; critics call the 'reciprocity' framing a rhetorical wrapper for across-the-board duties.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C01-A2",
+      "term": "de-risking",
+      "cluster": "A",
+      "domainTag": "trade policy",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 20,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -41.7,
+          "d90": -12.3,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-02-02",
+            "z": 2.24
+          },
+          {
+            "date": "2026-05-26",
+            "z": 2.1
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.008397,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "diplomatic readouts",
+        "financial press",
+        "policy commentary"
+      ],
+      "coOccurrence": [
+        "decoupling",
+        "supply chain resilience",
+        "China plus one"
+      ],
+      "whatItDoes": "Softens 'decoupling' into a prudent, limited hedge -- you are not cutting ties, only trimming exposure -- letting the same supply-chain retreat read as risk management.",
+      "whereContested": "Skeptics argue the distinction from decoupling is mostly branding; supporters insist it signals selective, not wholesale, disengagement.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C01-A3",
+      "term": "rebalancing",
+      "cluster": "A",
+      "domainTag": "trade policy",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 40,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -32.2,
+          "d90": 20.4,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-05-09",
+            "z": 2.65
+          },
+          {
+            "date": "2026-02-22",
+            "z": 2.06
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.014468,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "policy commentary",
+        "financial press",
+        "official statements"
+      ],
+      "coOccurrence": [
+        "trade deficit",
+        "reciprocal tariffs",
+        "fair trade"
+      ],
+      "whatItDoes": "Casts trade confrontation as the correction of a distortion someone else created, so tariffs become a return to equilibrium rather than a new imposition.",
+      "whereContested": "Contested over who defines the 'correct' balance; critics note the term borrows the neutrality of portfolio management for an adversarial move.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C01-A4",
+      "term": "fair trade",
+      "cluster": "A",
+      "domainTag": "trade policy",
+      "measurement": {
+        "status": "pending",
+        "reason": "coverage at noise floor (coverage_mean_30d 0.00064% < 0.001% share of monitored coverage, ~a few articles/day); velocity dominated by a near-zero baseline and not reliably rankable on the full-text ngram surface (C04 endorsement-machine failure mode). Measured raw retained in measured_raw_audit."
+      },
+      "platforms": [
+        "official statements",
+        "op-eds",
+        "cable news"
+      ],
+      "coOccurrence": [
+        "level playing field",
+        "reciprocal tariffs",
+        "unfair practices"
+      ],
+      "whatItDoes": "Attaches a moral claim to a policy position -- opposing it means favoring 'unfair' trade -- so the fight is pre-framed as fairness versus its absence.",
+      "whereContested": "Long contested between a certification/labor meaning and a protectionist meaning; the trade-conflict usage borrows the halo of the former.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C01-A5",
+      "term": "level playing field",
+      "cluster": "A",
+      "domainTag": "trade policy",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 67,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -16.4,
+          "d90": -17.7,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-06-04",
+            "z": 2.22
+          },
+          {
+            "date": "2026-02-13",
+            "z": 2.03
+          },
+          {
+            "date": "2026-02-25",
+            "z": 2.02
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.002919,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "official statements",
+        "industry lobbying",
+        "op-eds"
+      ],
+      "coOccurrence": [
+        "fair trade",
+        "subsidies",
+        "unfair practices"
+      ],
+      "whatItDoes": "Frames intervention as the removal of an unfair advantage, so restriction reads as fairness restoration rather than a competitive move of one's own.",
+      "whereContested": "Contested over whether the field was ever level and who tilts it; the sporting metaphor smooths over which side is intervening.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C01-A6",
+      "term": "strategic tariffs",
+      "cluster": "A",
+      "domainTag": "trade policy",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 7,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -52.5,
+          "d90": -27.6,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-02-19",
+            "z": 2.78
+          },
+          {
+            "date": "2026-03-01",
+            "z": 2.59
+          },
+          {
+            "date": "2026-05-23",
+            "z": 2.18
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.005276,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "policy commentary",
+        "financial press",
+        "official statements"
+      ],
+      "coOccurrence": [
+        "critical minerals",
+        "export controls",
+        "national security"
+      ],
+      "whatItDoes": "Signals that duties are surgical and purposeful rather than blunt, converting a broad instrument into a precision one in the telling.",
+      "whereContested": "Critics note 'strategic' rarely narrows the actual scope; the adjective supplies deliberation the policy may lack.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C01-B1",
+      "term": "retaliatory tariffs",
+      "cluster": "B",
+      "domainTag": "trade policy",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 33,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -13.9,
+          "d90": -44.4,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-02-26",
+            "z": 2.14
+          },
+          {
+            "date": "2026-03-20",
+            "z": 2.07
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.134134,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "financial press",
+        "cable news",
+        "official statements"
+      ],
+      "coOccurrence": [
+        "trade war",
+        "tit-for-tat",
+        "reciprocal tariffs"
+      ],
+      "whatItDoes": "Names a tariff as a response, assigning the first move to the other side and casting one's own duties as forced counterpunches.",
+      "whereContested": "Whose action counts as 'first' is the whole dispute; the same duty is 'reciprocal' from one podium and 'retaliatory' from the next.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C01-B2",
+      "term": "trade war",
+      "cluster": "B",
+      "domainTag": "trade policy",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 13,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -19.9,
+          "d90": -29.9,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-01-22",
+            "z": 4.94
+          },
+          {
+            "date": "2026-05-11",
+            "z": 2.13
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.055299,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "cable news",
+        "financial press",
+        "social platforms"
+      ],
+      "coOccurrence": [
+        "retaliatory tariffs",
+        "tit-for-tat",
+        "decoupling"
+      ],
+      "whatItDoes": "Names the whole confrontation as combat, raising the stakes and inviting a language of winners, losers, casualties, and escalation.",
+      "whereContested": "Officials avoid the term while pursuing the actions; critics deploy it to signal danger and cost. Naming it a 'war' is itself contested.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C01-B3",
+      "term": "decoupling",
+      "cluster": "B",
+      "domainTag": "trade policy",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 53,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -3.9,
+          "d90": -14.3,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-02-16",
+            "z": 2.51
+          },
+          {
+            "date": "2026-05-14",
+            "z": 2.3
+          },
+          {
+            "date": "2026-02-06",
+            "z": 2.04
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.012086,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "policy commentary",
+        "financial press",
+        "op-eds"
+      ],
+      "coOccurrence": [
+        "de-risking",
+        "supply chain resilience",
+        "trade war"
+      ],
+      "whatItDoes": "Describes the deliberate unwinding of two economies' interdependence -- the maximal version of the retreat that 'de-risking' softens.",
+      "whereContested": "Contested as unrealistic or undesirable; data show diversification, not separation. The word carries finality that officials increasingly avoid.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C01-B4",
+      "term": "protectionism",
+      "cluster": "B",
+      "domainTag": "trade policy",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 47,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -11.2,
+          "d90": -14.9,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-01-22",
+            "z": 2.51
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.063149,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "op-eds",
+        "financial press",
+        "academic commentary"
+      ],
+      "coOccurrence": [
+        "free trade",
+        "tariffs",
+        "trade war"
+      ],
+      "whatItDoes": "Labels trade barriers with a term that carries a built-in verdict -- historically pejorative -- so applying it is already an argument against the policy.",
+      "whereContested": "One side's 'protectionism' is another's 'protection'; the word is wielded as critique far more than claimed as identity.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C01-B5",
+      "term": "tit-for-tat",
+      "cluster": "B",
+      "domainTag": "trade policy",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 0,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -21.3,
+          "d90": -20.5,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-03-11",
+            "z": 3.54
+          },
+          {
+            "date": "2026-05-11",
+            "z": 2.41
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.003455,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "financial press",
+        "cable news",
+        "wire copy"
+      ],
+      "coOccurrence": [
+        "retaliatory tariffs",
+        "trade war",
+        "escalation"
+      ],
+      "whatItDoes": "Frames the exchange as a spiraling matched sequence, emphasizing momentum and inevitability over any single decision.",
+      "whereContested": "The phrase flattens asymmetry, implying equivalence between very different measures; used to convey a cycle out of anyone's control.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C01-C1",
+      "term": "reshoring",
+      "cluster": "C",
+      "domainTag": "supply chain",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 60,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -6.1,
+          "d90": -3.4,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [],
+        "corpusDensity": {
+          "value": 0.14914,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "industry press",
+        "financial press",
+        "official statements"
+      ],
+      "coOccurrence": [
+        "near-shoring",
+        "friend-shoring",
+        "supply chain resilience"
+      ],
+      "whatItDoes": "Names bringing production home as a positive project, reframing trade conflict as an industrial-revival opportunity rather than a cost.",
+      "whereContested": "Contested on feasibility and price; evidence of large-scale return is thin, and the word can outrun the manufacturing.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C01-C2",
+      "term": "friend-shoring",
+      "cluster": "C",
+      "domainTag": "supply chain",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 100,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 55.1,
+          "d90": -31,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-01-22",
+            "z": 2.66
+          },
+          {
+            "date": "2026-07-04",
+            "z": 2.16
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.002496,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "policy commentary",
+        "financial press",
+        "think-tank output"
+      ],
+      "coOccurrence": [
+        "reshoring",
+        "near-shoring",
+        "de-risking"
+      ],
+      "whatItDoes": "Redraws supply chains along geopolitical lines while framing the move as loyalty and trust rather than exclusion.",
+      "whereContested": "Critics note 'friends' is defined by alignment, not efficiency, raising costs; the warm word masks a bloc logic.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C01-C3",
+      "term": "near-shoring",
+      "cluster": "C",
+      "domainTag": "supply chain",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 73,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -1.2,
+          "d90": -3.8,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-01-25",
+            "z": 2.59
+          },
+          {
+            "date": "2026-06-30",
+            "z": 2.21
+          },
+          {
+            "date": "2026-02-22",
+            "z": 2.11
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.005686,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "industry press",
+        "financial press",
+        "logistics trade media"
+      ],
+      "coOccurrence": [
+        "reshoring",
+        "friend-shoring",
+        "supply chain resilience"
+      ],
+      "whatItDoes": "Frames relocating production to nearby countries as a pragmatic middle path -- proximity as resilience without full return home.",
+      "whereContested": "Contested over whether proximity delivers the promised resilience; the term competes with reshoring for the 'sensible' slot.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C01-C4",
+      "term": "supply chain resilience",
+      "cluster": "C",
+      "domainTag": "supply chain",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 93,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 15.5,
+          "d90": 32.5,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-02-04",
+            "z": 2.05
+          },
+          {
+            "date": "2026-07-06",
+            "z": 2.05
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.115313,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "corporate communications",
+        "policy commentary",
+        "industry press"
+      ],
+      "coOccurrence": [
+        "reshoring",
+        "de-risking",
+        "critical minerals"
+      ],
+      "whatItDoes": "Reframes redundancy and reduced dependence as strength, turning defensive supply moves into a virtue anyone can endorse.",
+      "whereContested": "Contested as a catch-all justifying cost and intervention alike; 'resilience' rarely specifies against what.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C01-C5",
+      "term": "critical minerals",
+      "cluster": "C",
+      "domainTag": "supply chain",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 80,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -2.9,
+          "d90": 2.1,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-01-29",
+            "z": 2.12
+          },
+          {
+            "date": "2026-05-12",
+            "z": 2.01
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.33728,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "policy commentary",
+        "financial press",
+        "defense media"
+      ],
+      "coOccurrence": [
+        "export controls",
+        "strategic tariffs",
+        "supply chain resilience"
+      ],
+      "whatItDoes": "Elevates specific inputs to matters of survival, so restricting or securing them reads as necessity rather than trade maneuvering.",
+      "whereContested": "Which minerals are 'critical' is a policy choice; the label turns commodity policy into security policy.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C01-C6",
+      "term": "export controls",
+      "cluster": "C",
+      "domainTag": "supply chain",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 87,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -2,
+          "d90": 40.4,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-05-13",
+            "z": 2.45
+          },
+          {
+            "date": "2026-06-13",
+            "z": 2.33
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.157944,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "policy commentary",
+        "financial press",
+        "trade compliance media"
+      ],
+      "coOccurrence": [
+        "critical minerals",
+        "decoupling",
+        "national security"
+      ],
+      "whatItDoes": "Names outbound trade restrictions in the neutral register of administration, keeping a confrontational tool inside a compliance vocabulary.",
+      "whereContested": "Contested over scope creep and retaliation risk; the bureaucratic phrasing can obscure that these are offensive economic measures.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-22T00:29:40+00:00",
+  "refDate": "2026-07-21",
+  "source": "GDELT Web NGrams 3.0 (BigQuery)"
+}

@@ -1,0 +1,814 @@
+{
+  "number": "10",
+  "slug": "power",
+  "id": "10-power",
+  "label": "CAMPAIGN 10",
+  "title": "The Language of Power",
+  "shortTitle": "Power",
+  "period": "July 2026",
+  "status": "in-progress",
+  "signalBasis": "measured",
+  "firewall": "We track how the words have been used and how fast they are winning, not whether the underlying politics is correct.",
+  "summary": "The buildout has a banner and the banner is standing still. 'Energy dominance,' the phrase that frames maximal power production as national strength, sits near the floor of the measured set at velocity 9 and is essentially flat — up 0.1 percent over ninety days. The words actually gaining are quieter and more technical. 'Cost allocation' — the regulatory mechanism that decides who pays for new grid capacity — is the runaway of the cycle at velocity 100, up 66 percent over ninety days, and the bottleneck word 'interconnection queue' is close behind at velocity 73, up 51.7 percent. The growth frame moves too: 'data center boom' is up 44.7 percent (velocity 91) and 'AI power demand' up 40.4 percent over the quarter. The loud slogan is not the winning word; the machinery is. Because the full-text series runs a 180-day window, year-over-year change is not computed this cycle — every figure here is 30-day and 90-day momentum, and twelve of the seventeen terms returned a clean reading while five sit below the measurable threshold and are marked pending.",
+  "anchor": "By mid-2026 the price of electricity had become a kitchen-table subject: retail power prices have risen sharply since 2021, reported at roughly 40 percent, and data centers are now widely cited as a leading driver of new electricity demand on the US grid. As utilities file for rate increases to serve that load and regulators weigh who should absorb the cost, a whole vocabulary has formed around one question. Not whether to build, but who pays for it. This cycle measures how fast each of those words is moving, four months out from the midterms, with the electricity bill now a political object.",
+  "thesis": [
+    "The buildout has a banner and the banner is standing still. 'Energy dominance,' the phrase that frames maximal power production as national strength, sits near the floor of the measured set at velocity 9 and is essentially flat — up 0.1 percent over ninety days. The words actually gaining are quieter and more technical. 'Cost allocation' — the regulatory mechanism that decides who pays for new grid capacity — is the runaway of the cycle at velocity 100, up 66 percent over ninety days, and the bottleneck word 'interconnection queue' is close behind at velocity 73, up 51.7 percent. The growth frame moves too: 'data center boom' is up 44.7 percent (velocity 91) and 'AI power demand' up 40.4 percent over the quarter. The loud slogan is not the winning word; the machinery is. Because the full-text series runs a 180-day window, year-over-year change is not computed this cycle — every figure here is 30-day and 90-day momentum, and twelve of the seventeen terms returned a clean reading while five sit below the measurable threshold and are marked pending.",
+    "The defining tension is 'cost allocation' versus 'energy dominance': the electricity-bill war is being won in the rate-case machinery, not at the podium. The banner that promises abundance has stopped moving, while the wonky, unglamorous phrase for deciding who bears the cost of serving new load is the fastest-rising term in the whole set — the argument is migrating from the stage to the docket. The pocketbook vocabulary is real but, so far, measures mid-pack and flat: 'electric bill' sits at velocity 55, 'energy affordability' at 36 and down 9.1 percent on the quarter, 'ratepayer' at 27. And the sharpest grievance phrases of all — the ones that name a villain — are not yet at measurable news-body density; they stay pending, an emerging signal rather than a number. Contextive tracks how fast each of these names is winning, not whether the buildout is worth its cost; that 'cost allocation' is the word gaining is a statement about momentum, not a verdict on who should pay."
+  ],
+  "definingTension": {
+    "a": "cost allocation",
+    "b": "energy dominance",
+    "note": "The cycle's measured collision and the campaign's spine. Both are answers to the same question — how the buildout gets paid for — but one is a slogan and the other is a mechanism. 'Energy dominance' frames maximal production as national strength; 'cost allocation' is the regulatory rule that decides who is charged for the new grid capacity that production requires. Measured, the verdict is lopsided: 'cost allocation' is the runaway of the set at velocity 100, up 66 percent over ninety days and up 16.2 percent in the last thirty, while 'energy dominance' sits near the floor at velocity 9, essentially flat (up 0.1 percent on the quarter, down 7.3 percent over thirty days). The electricity-bill war is being won in the rate-case machinery, not at the podium — the banner has stopped moving while the docket accelerates. It is the same shape as prior cycles' loudest-word-is-not-the-winning-word: the slogan is loud and static, the mechanism quiet and gaining."
+  },
+  "clusters": [
+    {
+      "key": "A",
+      "name": "The household ledger",
+      "blurb": "How the buildout is named from the kitchen table — the monthly bill, the customer who pays it, and the point where paying becomes hardship. This register puts cost-to-consumers first and treats every abstract policy word as something to be measured against the number at the bottom of the statement. Measured, it is present but not the cycle's fastest mover: 'electric bill' sits mid-set (velocity 55) and 'energy affordability' is cooling (velocity 36, down 9.1 percent on the quarter), while the register's most charged phrases sit below measurable density and are marked pending. Contested throughout over what is driving the number up and who should absorb it; the bill is the ledger every side claims to defend."
+    },
+    {
+      "key": "B",
+      "name": "The grid machinery",
+      "blurb": "The vocabulary of the system itself — demand, reliability, the always-on floor, the waiting line to connect, and the rule that decides who pays. Engineered for precision, it is where the money is actually apportioned, often without headlines. This is the cluster carrying the cycle's momentum: 'cost allocation' tops the whole set (velocity 100, up 66 percent on the quarter) and 'interconnection queue' is close behind (velocity 73, up 51.7 percent), with 'load growth' (velocity 82) the number every buildout case rests on. Contested over how much demand is real versus speculative, and whether new-load customers or ordinary ratepayers bear the upgrade costs — the quiet terms where the real decision is made."
+    },
+    {
+      "key": "C",
+      "name": "The competing banners",
+      "blurb": "The vocabulary that turns the buildout into a verdict — strength, prosperity, and the named cause of the surge. These are the slogans that frame the whole argument before the technical fight begins. Measured, they split: the growth frames are rising — 'data center boom' up 44.7 percent (velocity 91) and 'AI power demand' up 40.4 percent on the quarter — while the buildout banner itself, 'energy dominance,' has gone flat near the floor of the set (velocity 9, up 0.1 percent). Contested over who captures the buildout's gains versus who pays its costs, and whether abundance told as national primacy answers the question of the household bill at all."
+    }
+  ],
+  "pillars": [
+    {
+      "title": "The word that's winning: 'cost allocation,' not 'energy dominance'",
+      "body": "The cycle's lede, and it is measured: the buildout's loudest banner has gone quiet while the mechanism that decides who pays has become the fastest-rising term in the set. 'Cost allocation' tops the cycle at velocity 100, up 66 percent over ninety days, while 'energy dominance' sits near the floor at velocity 9, flat. The highest-stakes piece is built on that velocity gap — the electricity-bill war being decided in rate-case language rather than at the podium — and demonstrates the signal layer on a live argument: the wonky term where the real money is apportioned is outrunning the slogan that gets the headlines."
+    },
+    {
+      "title": "The bottleneck and the boom",
+      "body": "The grid machinery and the growth frame are moving together. 'Interconnection queue,' the waiting line to connect new generation or load, is up 51.7 percent (velocity 73), reframing the buildout as stuck rather than merely planned, while 'data center boom' is up 44.7 percent (velocity 91), casting the same load as a gold rush — with 'load growth' (velocity 82) the number both cases rest on. The same buildout is narrated at once as a bottleneck and as a boom, and both narrations are gaining velocity. The piece tracks how the demand story and the delay story rise in tandem, and where each one leaves the household bill."
+    },
+    {
+      "title": "The grievance that hasn't reached the body text yet",
+      "body": "The honest counterpoint, and a demonstration of the measure-don't-estimate rule. The sharpest pocketbook-grievance phrases of the cycle — the words that name a rate increase as a shock, or frame the cost of serving data centers as a subsidy to Big Tech, or express affordability as a burden — are audibly present in live discourse but have not yet reached measurable density in news body text. They render 'measurement pending,' not an invented number. The measurable rising pocketbook signal is instead the mechanism vocabulary — 'cost allocation,' 'interconnection queue' — the technical language of who is charged. The piece makes the gap itself the story: the fight is being decided in the language of the docket before the grievance vocabulary has crystallized in coverage, and the moment those phrases cross the threshold is the next reading, not this one."
+    }
+  ],
+  "tensions": [
+    {
+      "a": "cost allocation",
+      "b": "energy dominance",
+      "title": "'cost allocation' vs 'energy dominance'",
+      "body": "The cycle's measured collision and the campaign's spine. Both are answers to the same question — how the buildout gets paid for — but one is a slogan and the other is a mechanism. 'Energy dominance' frames maximal production as national strength; 'cost allocation' is the regulatory rule that decides who is charged for the new grid capacity that production requires. Measured, the verdict is lopsided: 'cost allocation' is the runaway of the set at velocity 100, up 66 percent over ninety days and up 16.2 percent in the last thirty, while 'energy dominance' sits near the floor at velocity 9, essentially flat (up 0.1 percent on the quarter, down 7.3 percent over thirty days). The electricity-bill war is being won in the rate-case machinery, not at the podium — the banner has stopped moving while the docket accelerates. It is the same shape as prior cycles' loudest-word-is-not-the-winning-word: the slogan is loud and static, the mechanism quiet and gaining."
+    },
+    {
+      "a": "data center boom",
+      "b": "electric bill",
+      "title": "'data center boom' vs 'electric bill'",
+      "body": "The growth frame against the pocketbook object. 'Data center boom' casts the surge in construction as investment and prosperity; 'electric bill' is the plain monthly statement against which that prosperity is checked. Measured, the growth frame is climbing fast — velocity 91, up 44.7 percent on the quarter — while the bill sits mid-set at velocity 55, up a milder 13.7 percent over ninety days and down 9.8 percent in the last thirty. The boom foregrounds the upside and backgrounds the bill; the two words point at the same buildout from opposite ends of the ledger. Read together, their velocity gap is a measure of how far the prosperity story is running ahead of the cost story in coverage — not a claim about which one is right."
+    },
+    {
+      "a": "load growth",
+      "b": "ratepayer",
+      "title": "'load growth' vs 'ratepayer'",
+      "body": "The neutral driver against the party who pays. 'Load growth' names the surge in demand as a force of nature — the fact from which every buildout case starts — while 'ratepayer' names the utility customer whose protection the pocketbook frame rallies around. Measured, the driver is the stronger mover: 'load growth' sits high in the set at velocity 82 (up 12.6 percent over thirty days, though down 11.2 percent on the quarter as an earlier spike unwinds), while 'ratepayer' is quieter and flat at velocity 27, down 2.5 percent over ninety days. The demand story is described as inevitable; the customer standing beneath it is invoked but not gaining. The contest is over whether the load is real enough, and whose bill should carry it — a question the velocities frame but do not settle."
+    },
+    {
+      "a": "energy affordability",
+      "b": "energy dominance",
+      "title": "'energy affordability' vs 'energy dominance'",
+      "body": "Two banners for the same buildout, and both are cooling. 'Energy affordability' makes cost-to-households the yardstick; 'energy dominance' makes national strength the yardstick, subordinating the bill to primacy. Measured, neither is the word gaining: 'energy affordability' sits at velocity 36 and is down 9.1 percent on the quarter, while 'energy dominance' is flat near the floor at velocity 9. The affordability frame is the counter-banner to dominance, yet both grand framings are losing altitude to the technical vocabulary of the docket. The collision is over what the buildout is for — power kept affordable or power maximized — and the measured signal is that the argument has drifted away from both slogans toward the mechanism that decides the bill."
+    },
+    {
+      "a": "AI power demand",
+      "b": "grid reliability",
+      "title": "'AI power demand' vs 'grid reliability'",
+      "body": "The named cause against the keep-the-lights-on frame. 'AI power demand' pins the surge to a single technology, making artificial intelligence the named driver of both the buildout case and the bill grievance; 'grid reliability' is the value so basic it can justify almost any buildout or any objection to new load. Measured, the cause word is rising on the quarter — 'AI power demand' up 40.4 percent, though its recent thirty-day pace (up 10.5 percent) sits below its fuller baseline, holding its velocity index at 18 — while 'grid reliability' is steadier and mid-set at velocity 64, roughly flat (down 6.0 percent on the quarter). One word ties the whole story to AI; the other keeps the argument on the terrain of engineering necessity. Both are invoked by every side, which is exactly why their momentum, not their meaning, is what we report."
+    }
+  ],
+  "terms": [
+    {
+      "ref": "C10-A1",
+      "term": "rate shock",
+      "cluster": "A",
+      "domainTag": "household ledger",
+      "measurement": {
+        "status": "pending",
+        "reason": "coverage at noise floor (coverage_mean_30d 0.00000% < 0.001% share of monitored coverage, ~a few articles/day); velocity dominated by a near-zero baseline and not reliably rankable on the full-text ngram surface (C04 endorsement-machine failure mode). Measured raw retained in measured_raw_audit."
+      },
+      "platforms": [
+        "local news",
+        "consumer press",
+        "regulatory filings"
+      ],
+      "coOccurrence": [
+        "ratepayer",
+        "electric bill",
+        "energy affordability"
+      ],
+      "whatItDoes": "Names a sudden jump in the utility bill as a shock done to households, foregrounding the sting of the increase over the reasons for it.",
+      "whereContested": "Contested over cause -- fuel costs, grid upgrades, or data-center demand -- and whether the increase is temporary or structural.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C10-A2",
+      "term": "energy affordability",
+      "cluster": "A",
+      "domainTag": "household ledger",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 36,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -13.9,
+          "d90": -9.1,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-03-09",
+            "z": 3.12
+          },
+          {
+            "date": "2026-07-21",
+            "z": 2.42
+          },
+          {
+            "date": "2026-07-03",
+            "z": 2.11
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.015872,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "policy commentary",
+        "consumer press",
+        "local news"
+      ],
+      "coOccurrence": [
+        "energy burden",
+        "rate shock",
+        "ratepayer"
+      ],
+      "whatItDoes": "Frames the whole debate around whether households can pay, making cost-to-consumers the yardstick against which every buildout is judged.",
+      "whereContested": "Contested as a banner claimed by all sides -- invoked to justify both more supply and slower, cheaper buildout.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C10-A3",
+      "term": "energy burden",
+      "cluster": "A",
+      "domainTag": "household ledger",
+      "measurement": {
+        "status": "pending",
+        "reason": "coverage at noise floor (coverage_mean_30d 0.00035% < 0.001% share of monitored coverage, ~a few articles/day); velocity dominated by a near-zero baseline and not reliably rankable on the full-text ngram surface (C04 endorsement-machine failure mode). Measured raw retained in measured_raw_audit."
+      },
+      "platforms": [
+        "policy commentary",
+        "advocacy reports",
+        "local news"
+      ],
+      "coOccurrence": [
+        "energy affordability",
+        "energy poverty",
+        "ratepayer"
+      ],
+      "whatItDoes": "A measured share of income spent on energy, giving the affordability argument a number and a distributional edge toward lower-income households.",
+      "whereContested": "Contested over thresholds and remedies; the metric sharpens who pays most as costs rise.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C10-A4",
+      "term": "electric bill",
+      "cluster": "A",
+      "domainTag": "household ledger",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 55,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -9.8,
+          "d90": 13.7,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-07-18",
+            "z": 3.63
+          },
+          {
+            "date": "2026-05-27",
+            "z": 2.4
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.263934,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "local news",
+        "social platforms",
+        "consumer press"
+      ],
+      "coOccurrence": [
+        "rate shock",
+        "ratepayer",
+        "energy affordability"
+      ],
+      "whatItDoes": "The plainest household object in the debate -- the monthly bill -- against which every abstract policy word is measured.",
+      "whereContested": "Contested over what is driving the number up and who should absorb it; the bill is the ledger everyone claims to defend.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C10-A5",
+      "term": "ratepayer",
+      "cluster": "A",
+      "domainTag": "household ledger",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 27,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -9.6,
+          "d90": -2.5,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-02-22",
+            "z": 3.19
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.084397,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "regulatory filings",
+        "policy commentary",
+        "local news"
+      ],
+      "coOccurrence": [
+        "cost allocation",
+        "electric bill",
+        "subsidizing Big Tech"
+      ],
+      "whatItDoes": "Names the utility customer as a distinct interest with standing, the party whose protection becomes the pocketbook frame's rallying point.",
+      "whereContested": "Contested over whether ratepayers or shareholders or data centers should bear new grid costs; the word centers the household in that fight.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C10-A6",
+      "term": "energy poverty",
+      "cluster": "A",
+      "domainTag": "household ledger",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 0,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -76.8,
+          "d90": 26.7,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-05-24",
+            "z": 3.01
+          },
+          {
+            "date": "2026-02-22",
+            "z": 2.27
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.020838,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "advocacy reports",
+        "policy commentary",
+        "academic commentary"
+      ],
+      "coOccurrence": [
+        "energy burden",
+        "energy affordability",
+        "rate shock"
+      ],
+      "whatItDoes": "Names the hardest edge of affordability -- households unable to afford adequate power -- raising the moral stakes of rising bills.",
+      "whereContested": "Contested over definition and prevalence in the US context; a stronger, less common frame than 'affordability'.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C10-B1",
+      "term": "grid reliability",
+      "cluster": "B",
+      "domainTag": "grid machinery",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 64,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 0.4,
+          "d90": -6,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-02-20",
+            "z": 2.49
+          },
+          {
+            "date": "2026-03-05",
+            "z": 2.06
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.04814,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "trade press",
+        "regulatory filings",
+        "policy commentary"
+      ],
+      "coOccurrence": [
+        "baseload",
+        "load growth",
+        "load growth"
+      ],
+      "whatItDoes": "Frames the goal as keeping the lights on, a value so basic it can justify almost any buildout or any objection to load growth.",
+      "whereContested": "Contested as a banner for both more generation and caution about new demand; 'reliability' is invoked by every side.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C10-B2",
+      "term": "baseload",
+      "cluster": "B",
+      "domainTag": "grid machinery",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 45,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 6,
+          "d90": -2.8,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-03-20",
+            "z": 2.63
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.029822,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "trade press",
+        "policy commentary",
+        "X"
+      ],
+      "coOccurrence": [
+        "grid reliability",
+        "load growth",
+        "energy dominance"
+      ],
+      "whatItDoes": "The always-on generation floor; the word has become a proxy argument for particular sources and against intermittent ones.",
+      "whereContested": "Contested as engineering fact versus rhetorical shield for specific fuels; 'baseload' now carries a policy stance.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C10-B3",
+      "term": "load growth",
+      "cluster": "B",
+      "domainTag": "grid machinery",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 82,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 12.6,
+          "d90": -11.2,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-02-15",
+            "z": 3.13
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.003536,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "trade press",
+        "utility filings",
+        "financial press"
+      ],
+      "coOccurrence": [
+        "AI power demand",
+        "data center boom",
+        "grid reliability"
+      ],
+      "whatItDoes": "Names the surge in electricity demand as the neutral driver of everything downstream -- the fact from which both buildout and bill arguments start.",
+      "whereContested": "Contested over how much is real versus speculative data-center requests, and who should pay to serve it.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C10-B4",
+      "term": "cost allocation",
+      "cluster": "B",
+      "domainTag": "grid machinery",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 100,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 16.2,
+          "d90": 66,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-06-25",
+            "z": 2.49
+          },
+          {
+            "date": "2026-07-09",
+            "z": 2.05
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.00147,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "regulatory filings",
+        "trade press",
+        "policy commentary"
+      ],
+      "coOccurrence": [
+        "ratepayer",
+        "interconnection queue",
+        "subsidizing Big Tech"
+      ],
+      "whatItDoes": "The regulatory mechanism deciding who pays for new grid capacity -- the quiet, technical hinge on which the whole who-pays fight turns.",
+      "whereContested": "Contested over whether new-load customers or all ratepayers bear upgrade costs; the wonky term where the real money is decided.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C10-B5",
+      "term": "data center tariff",
+      "cluster": "B",
+      "domainTag": "grid machinery",
+      "measurement": {
+        "status": "pending",
+        "reason": "coverage at noise floor (coverage_mean_30d 0.00011% < 0.001% share of monitored coverage, ~a few articles/day); velocity dominated by a near-zero baseline and not reliably rankable on the full-text ngram surface (C04 endorsement-machine failure mode). Measured raw retained in measured_raw_audit."
+      },
+      "platforms": [
+        "regulatory filings",
+        "trade press",
+        "policy commentary"
+      ],
+      "coOccurrence": [
+        "cost allocation",
+        "ratepayer",
+        "interconnection queue"
+      ],
+      "whatItDoes": "Names a special utility rate schedule for large data-center loads -- 'tariff' here in its power-sector sense, a rate class, not a trade duty.",
+      "whereContested": "Contested over whether such rate classes actually shield ordinary customers; sparse as an exact phrase and easily confused with trade tariffs.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C10-B6",
+      "term": "interconnection queue",
+      "cluster": "B",
+      "domainTag": "grid machinery",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 73,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -14.8,
+          "d90": 51.7,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-06-09",
+            "z": 2.7
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.004151,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "trade press",
+        "regulatory filings",
+        "energy commentary"
+      ],
+      "coOccurrence": [
+        "load growth",
+        "grid reliability",
+        "cost allocation"
+      ],
+      "whatItDoes": "Names the waiting line to connect new generation or load to the grid, a bottleneck word that reframes the buildout as stuck, not just planned.",
+      "whereContested": "Contested over whether the queue reflects real projects or speculative placeholders; a technical term with thin general usage.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C10-C1",
+      "term": "energy dominance",
+      "cluster": "C",
+      "domainTag": "competing banners",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 9,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -7.3,
+          "d90": 0.1,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-01-22",
+            "z": 4.74
+          },
+          {
+            "date": "2026-05-16",
+            "z": 2.48
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.006167,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "official statements",
+        "cable news",
+        "industry communications"
+      ],
+      "coOccurrence": [
+        "baseload",
+        "data center boom",
+        "AI power demand"
+      ],
+      "whatItDoes": "The buildout banner: frames maximal energy production as national strength and destiny, subordinating cost-to-households to power and primacy.",
+      "whereContested": "Contested against the affordability frame -- dominance for whom, if the bill rises; supporters cast it as security and jobs.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C10-C2",
+      "term": "data center boom",
+      "cluster": "C",
+      "domainTag": "competing banners",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 91,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 8.2,
+          "d90": 44.7,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-07-16",
+            "z": 2.36
+          },
+          {
+            "date": "2026-05-30",
+            "z": 2.25
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.059683,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "financial press",
+        "trade press",
+        "local news"
+      ],
+      "coOccurrence": [
+        "AI power demand",
+        "load growth",
+        "energy dominance"
+      ],
+      "whatItDoes": "Frames the surge in data-center construction as a boom -- investment, jobs, growth -- casting the load driving up bills as prosperity.",
+      "whereContested": "Contested over who captures the boom's gains versus who pays its grid costs; 'boom' foregrounds upside, backgrounds the bill.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C10-C3",
+      "term": "AI power demand",
+      "cluster": "C",
+      "domainTag": "competing banners",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 18,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 10.5,
+          "d90": 40.4,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-05-16",
+            "z": 4.22
+          },
+          {
+            "date": "2026-02-03",
+            "z": 2.01
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.005156,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "tech press",
+        "financial press",
+        "energy commentary"
+      ],
+      "coOccurrence": [
+        "data center boom",
+        "load growth",
+        "energy dominance"
+      ],
+      "whatItDoes": "Ties the load surge directly to AI, making artificial intelligence the named cause of both the buildout case and the bill grievance.",
+      "whereContested": "Contested over how much demand is real versus projected; the phrase links the AI story to the electricity story for better or worse.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C10-C4",
+      "term": "subsidizing Big Tech",
+      "cluster": "C",
+      "domainTag": "competing banners",
+      "measurement": {
+        "status": "pending",
+        "reason": "coverage at noise floor (coverage_mean_30d 0.00062% < 0.001% share of monitored coverage, ~a few articles/day); velocity dominated by a near-zero baseline and not reliably rankable on the full-text ngram surface (C04 endorsement-machine failure mode). Measured raw retained in measured_raw_audit."
+      },
+      "platforms": [
+        "advocacy reports",
+        "op-eds",
+        "social platforms"
+      ],
+      "coOccurrence": [
+        "ratepayer",
+        "cost allocation",
+        "data center boom"
+      ],
+      "whatItDoes": "The sharpest pocketbook accusation: that ordinary ratepayers foot the grid costs of trillion-dollar tech firms, turning a rate fight into a fairness charge.",
+      "whereContested": "Contested over whether cost-shifting amounts to a subsidy; may be sparse as an exact phrase, with 'data center subsidies' the cleaner variant.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C10-C5",
+      "term": "energy emergency",
+      "cluster": "C",
+      "domainTag": "competing banners",
+      "measurement": {
+        "status": "pending",
+        "reason": "coverage at noise floor (coverage_mean_30d 0.00072% < 0.001% share of monitored coverage, ~a few articles/day); velocity dominated by a near-zero baseline and not reliably rankable on the full-text ngram surface (C04 endorsement-machine failure mode). Measured raw retained in measured_raw_audit."
+      },
+      "platforms": [
+        "official statements",
+        "cable news",
+        "policy commentary"
+      ],
+      "coOccurrence": [
+        "grid reliability",
+        "energy dominance",
+        "load growth"
+      ],
+      "whatItDoes": "Frames the situation as a crisis demanding fast, expansive action, a banner that can license accelerated buildout over slower affordability safeguards.",
+      "whereContested": "Contested over whether an emergency exists or is being declared to bypass process; the crisis word raises the stakes for every other term.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-22T00:29:40+00:00",
+  "refDate": "2026-07-21",
+  "source": "GDELT Web NGrams 3.0 (BigQuery)"
+}
