@@ -7,6 +7,7 @@ import { Hero } from './components/Hero';
 import { CampaignIndex } from './components/CampaignIndex';
 import { FinalCTA } from './components/FinalCTA';
 import { CampaignPage } from './components/CampaignPage';
+import { CampaignReadout } from './components/CampaignReadout';
 import { HowItWorks } from './components/HowItWorks';
 import { HowItWorksTeaser } from './components/HowItWorksTeaser';
 import { ApiTeaser } from './components/ApiTeaser';
@@ -56,6 +57,7 @@ function App() {
         <Route path="/how-it-works" element={<HowItWorks />} />
         <Route path="/waitlist" element={<Waitlist />} />
         <Route path="/signal/:slug" element={<SignalPage />} />
+        <Route path="/campaigns/:id/readout" element={<CampaignReadout />} />
         <Route path="/campaigns/:id" element={<CampaignPage />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>

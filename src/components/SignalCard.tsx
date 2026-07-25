@@ -102,21 +102,29 @@ export function SignalCard({ term }: { term: CampaignTerm }) {
               {deltaGlyph(m.deltas?.yoy)} {fmtPct(m.deltas?.yoy)}
             </Stat>
           </div>
-          <div className="grid grid-cols-3 gap-4">
-            <Stat label="SENTIMENT">{m.sentiment == null ? 'n/a' : m.sentiment.toFixed(1)}</Stat>
-            <Stat label="STAGE">
-              <span className="small-caps">{m.adoptionStage || '—'}</span>
-            </Stat>
-            <Stat label="DENSITY">{m.corpusDensity ? m.corpusDensity.value : '—'}</Stat>
-          </div>
-          {m.inflections && m.inflections.length > 0 && (
-            <div>
-              <div className="small-caps text-muted mb-1">INFLECTIONS</div>
-              <div className="font-mono text-xs text-muted">
-                {m.inflections.map((p) => p.date).join('  ·  ')}
-              </div>
+          {/* Secondary signals — demoted below velocity + momentum */}
+          <div className="pt-1 grid grid-cols-3 gap-x-4 gap-y-2 text-muted">
+            <div className="min-w-0">
+              <div className="small-caps tracking-[0.18em] text-[9px] mb-0.5">SENTIMENT</div>
+              <div className="font-mono text-xs">{m.sentiment == null ? 'n/a' : m.sentiment.toFixed(1)}</div>
             </div>
-          )}
+            <div className="min-w-0">
+              <div className="small-caps tracking-[0.18em] text-[9px] mb-0.5">STAGE</div>
+              <div className="font-mono text-xs small-caps">{m.adoptionStage || '—'}</div>
+            </div>
+            <div className="min-w-0">
+              <div className="small-caps tracking-[0.18em] text-[9px] mb-0.5">DENSITY</div>
+              <div className="font-mono text-xs">{m.corpusDensity ? m.corpusDensity.value : '—'}</div>
+            </div>
+            {m.inflections && m.inflections.length > 0 && (
+              <div className="col-span-3 min-w-0">
+                <div className="small-caps tracking-[0.18em] text-[9px] mb-0.5">INFLECTIONS</div>
+                <div className="font-mono text-[11px] break-words">
+                  {m.inflections.map((p) => p.date).join('  ·  ')}
+                </div>
+              </div>
+            )}
+          </div>
           {m.corpusDensity?.proxy && (
             <div className="small-caps text-muted text-[9px] leading-relaxed">
               Coverage intensity proxy, not literal mentions/M
