@@ -16,8 +16,8 @@
     "Contextive tracks how fast each name is winning, not whether any claim about money is correct. The defining tension this cycle is velocity versus verdict, anchored on 'debasement trade': a word can dominate the coverage at the precise moment the thing it names is being abandoned. Measured, the trade word sits at velocity 100 yet is down 74 percent over ninety days — the same shape as the prior cycle's collapsed victory word, surging on the narrative of its own unwind rather than its triumph. The full seventeen-term reading sharpens the pattern rather than softening it: the bet-against-fiat trade and the haven words that priced it cool together, while the vocabulary of the dollar quietly absorbing its challengers — 'tokenization,' 'digital dollar,' 'stablecoin' — is the part still gaining. We report that velocity, not a verdict on whether scarce money is right or whether the dollar is failing."
   ],
   "definingTension": {
-    "a": "Debasement trade: velocity",
-    "b": "verdict",
+    "a": "debasement trade",
+    "b": "hard money",
     "note": "The cycle's measured spine, a single word turned against itself — and with the full set now measured, it holds. 'Debasement trade' is the Wall Street name for the bet against fiat — buying gold and Bitcoin together on the thesis that governments keep spending and currencies keep weakening. Measured, it tops the entire set at velocity 100, up more than 600 percent over thirty days yet down 74 percent over ninety. The two halves are the point: coverage spikes on the story of the trade's own unwind — the 'is the debasement trade dead?' wave — not on any conviction that it is right. It is loud precisely because it is dying, the same shape as the prior cycle's collapsed victory word. And it does not unwind alone: the trade-and-haven vocabulary cools with it — 'digital gold' down 22 percent on the quarter (velocity 0), 'store of value' down 35 percent, 'money printing' down 25 percent, 'fiscal dominance' down 41 percent. What gains instead is the language of the dollar absorbing its challengers — 'tokenization' up 86 percent year over year, 'digital dollar' up 54 percent on the quarter — while the creed words 'hard money' (up 45 percent, velocity 94) and 'fiat' (up 23 percent) argue on. We do not adjudicate whether the dollar is failing or whether scarce money is right; we report that the word for the bet is at peak visibility at the exact moment the bet is being unwound."
   },
   "clusters": [
@@ -928,7 +928,7 @@
           }
         ],
         "corpusDensity": {
-          "value": 0.000084,
+          "value": 8.4e-05,
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },

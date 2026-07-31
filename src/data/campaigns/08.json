@@ -16,8 +16,8 @@
     "The spine this cycle — now a measured reading rather than a forecast — is abundance versus scarcity, read as velocity versus verdict. The build-more vocabulary plainly dominates the headlines; what the velocities show is that dominating the coverage is not the same as gaining on it. The banner words that name the movement are cresting while the scarcity reply accelerates, the same shape a prior cycle's collapsed victory word took and the shape 'debasement trade' took at velocity 100 while down sharply on the quarter: loud because cresting, not because winning. Contextive tracks how fast each name is winning, not whether building more or living within limits is the correct answer — and the fact that the scarcity words measure as the gainers this cycle is a statement about momentum, not merit. We give the build side and the scarcity side, and the fossil and clean-energy camps, the same weight and the same benefit of the doubt; that the counter-vocabulary is gaining faster does not make it correct — it makes it the vocabulary currently gaining, and that distinction is the whole discipline."
   ],
   "definingTension": {
-    "a": "Abundance",
-    "b": "scarcity: velocity vs verdict",
+    "a": "abundance agenda",
+    "b": "degrowth",
     "note": "The cycle's spine, and the velocities confirm it. The build-more instinct ('abundance agenda,' 'YIMBY,' 'build baby build,' 'zoning reform') dominates the coverage; the scarcity instinct ('degrowth,' 'limits to growth,' 'supply skepticism,' 'scarcity mindset,' 'polycrisis') answers it in a sharpening counter-vocabulary. Measured, the loudest banner is not the one gaining: 'abundance agenda,' the frame the cycle is named for, is down 27 percent over ninety days (velocity 38), 'build baby build' down 36 percent, 'drill baby drill' down 11 percent at the floor of the set (velocity 0) — while 'degrowth' is up 10 percent on the quarter and 37 percent over thirty days (velocity 88), 'polycrisis' up 13 percent (velocity 62), 'limits to growth' up 7 percent (velocity 75), and 'supply skepticism' up 38 percent over thirty days (velocity 94). That is velocity versus verdict: dominating the headlines is not the same as gaining on them, the same shape 'debasement trade' took at velocity 100 while down sharply on the quarter — loud because cresting, not winning. The one clear build-side exception is 'YIMBY,' still climbing at 54 percent over thirty days (velocity 81). We do not adjudicate whether building more or living within limits is correct; we report that the counter-vocabulary is the part gaining — a fact about momentum, not merit."
   },
   "clusters": [
@@ -338,7 +338,7 @@
           }
         ],
         "corpusDensity": {
-          "value": 0.000026,
+          "value": 2.6e-05,
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
@@ -399,7 +399,7 @@
           }
         ],
         "corpusDensity": {
-          "value": 0.000098,
+          "value": 9.8e-05,
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
@@ -859,7 +859,7 @@
           }
         ],
         "corpusDensity": {
-          "value": 0.000023,
+          "value": 2.3e-05,
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
@@ -977,7 +977,7 @@
           }
         ],
         "corpusDensity": {
-          "value": 0.000068,
+          "value": 6.8e-05,
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
