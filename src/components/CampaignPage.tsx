@@ -3,6 +3,7 @@ import { useParams, Link, Navigate } from 'react-router-dom';
 import { getCampaignById } from '../data/campaigns';
 import { TermLeaderboard } from './TermLeaderboard';
 import { plainRead, humanPct, findTerm, tensionCaption } from '../lib/readSignal';
+import { readerHook } from '../data/readerHooks';
 import type { Campaign, CampaignTerm } from '../data/campaign';
 
 /** One pole of the defining tension, with its measured read looked up from the terms. */
@@ -113,6 +114,11 @@ export function CampaignPage() {
           <h1 className="font-display font-bold tracking-tight text-4xl sm:text-5xl lg:text-6xl leading-[0.98] text-balance">
             {c.title}
           </h1>
+          {readerHook(c.id) && (
+            <p className="font-display text-lg sm:text-xl leading-snug max-w-2xl text-balance">
+              {readerHook(c.id)}
+            </p>
+          )}
         </div>
       </section>
 
