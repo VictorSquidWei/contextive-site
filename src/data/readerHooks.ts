@@ -17,7 +17,7 @@ export const READER_HOOKS: Record<string, string> = {
   '07-money': 'The market ditched the trade faster than believers ditched the belief.',
   '08-abundance': 'The loudest words own the headlines. That is not the same as winning.',
   '09-real': 'The words that named synthetic media are no longer the ones carrying it.',
-  '10-power': 'Who pays for the AI power boom — you, or Big Tech?',
+  '10-power': "The AI power boom's loudest fight is over who pays for it.",
 };
 
 /**
