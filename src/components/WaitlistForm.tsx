@@ -18,6 +18,13 @@ interface WaitlistFormProps {
   /** Anchor id placed on the wrapper (e.g. "waitlist"). */
   anchorId?: string;
   className?: string;
+  /**
+   * API early-access waitlist mode. When true, submitting captures the email to our
+   * list and confirms with API-waitlist language WITHOUT redirecting to Substack
+   * (Substack becomes an optional secondary link). When false (default), submitting
+   * also opens Substack — used for the free-newsletter CTA.
+   */
+  apiWaitlist?: boolean;
 }
 
 /**
@@ -37,6 +44,7 @@ export function WaitlistForm({
   footnote,
   anchorId,
   className = '',
+  apiWaitlist = false,
 }: WaitlistFormProps) {
   const [email, setEmail] = useState('');
   const [submitting, setSubmitting] = useState(false);
@@ -53,8 +61,11 @@ export function WaitlistForm({
     }
     setSubmitting(true);
     setError(null);
-    // Open Substack on the click (so it isn't popup-blocked); email is pre-filled.
-    window.open(`${SUBSTACK_SUBSCRIBE}?email=${encodeURIComponent(clean)}`, '_blank', 'noopener');
+    // Newsletter mode opens Substack on the click (so it isn't popup-blocked); the API
+    // waitlist does NOT redirect — it's an early-access list, not a newsletter subscribe.
+    if (!apiWaitlist) {
+      window.open(`${SUBSTACK_SUBSCRIBE}?email=${encodeURIComponent(clean)}`, '_blank', 'noopener');
+    }
     // Record to our own list in the background, tagged by source, for later automation.
     fetch('/api/subscribe', {
       method: 'POST',
@@ -70,14 +81,25 @@ export function WaitlistForm({
       <div id={anchorId} role="status" className={`border border-ink p-5 bg-canvas space-y-3 ${className}`}>
         <div className="small-caps text-ink">{confirmTitle}</div>
         <p className="text-sm text-muted leading-relaxed">{confirmBody}</p>
-        <a
-          href={`${SUBSTACK_SUBSCRIBE}?email=${encodeURIComponent(email)}`}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 small-caps text-ink border border-ink px-4 py-2 hover:bg-ink hover:text-paper transition-colors"
-        >
-          Confirm on Substack →
-        </a>
+        {apiWaitlist ? (
+          <a
+            href={`${SUBSTACK_SUBSCRIBE}?email=${encodeURIComponent(email)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="small-caps text-muted text-[10px] underline underline-offset-4 hover:text-ink transition-colors"
+          >
+            Optional: get the free weekly dispatch on Substack →
+          </a>
+        ) : (
+          <a
+            href={`${SUBSTACK_SUBSCRIBE}?email=${encodeURIComponent(email)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 small-caps text-ink border border-ink px-4 py-2 hover:bg-ink hover:text-paper transition-colors"
+          >
+            Confirm on Substack →
+          </a>
+        )}
       </div>
     );
   }

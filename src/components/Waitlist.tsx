@@ -48,15 +48,17 @@ export function Waitlist() {
             in your stack. Velocity, not verdict.
           </p>
           <div className="max-w-md space-y-3 mt-8">
-            <span className="small-caps text-muted block">Request early access</span>
+            <span className="small-caps text-muted block">Request early access to the API</span>
             <WaitlistForm
               source="api-waitlist"
               layout="row"
-              submitLabel="Join the waitlist"
-              confirmBody="You're on the API waitlist. We've opened Substack too, so the intelligence dispatch comes with it. If the tab didn't open, use the link below."
+              apiWaitlist
+              submitLabel="Join the API waitlist"
+              confirmTitle="You're on the waitlist"
+              confirmBody="We'll email you when early access to the Contextive API opens. No spam."
             />
             <p className="small-caps text-whisper text-[10px]">
-              Joins the waitlist + the weekly dispatch. No spam.
+              Early access to the measured-signal API. We email you when it opens.
             </p>
           </div>
         </header>
@@ -191,7 +193,10 @@ export function Waitlist() {
                 <WaitlistForm
                   source="api-waitlist-footer"
                   layout="stack"
-                  submitLabel="Join the waitlist"
+                  apiWaitlist
+                  submitLabel="Join the API waitlist"
+                  confirmTitle="You're on the waitlist"
+                  confirmBody="We'll email you when early access to the Contextive API opens. No spam."
                 />
               </div>
             </div>

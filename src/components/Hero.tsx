@@ -52,9 +52,18 @@ export function Hero() {
             which words are winning the argument before the verdict is in.
           </p>
 
-          {/* Email capture — records to our list + opens the dispatch on Substack */}
+          {/* Email capture — the API early-access waitlist (records to our list; no Substack redirect) */}
           <div className="max-w-md space-y-4">
-            <WaitlistForm source="hero" layout="row" submitLabel="Access Archive" anchorId="waitlist" />
+            <WaitlistForm
+              source="hero"
+              layout="row"
+              apiWaitlist
+              label="Join the waitlist for early API access"
+              submitLabel="Get early access"
+              confirmTitle="You're on the waitlist"
+              confirmBody="We'll email you when early access to the Contextive API opens."
+              anchorId="waitlist"
+            />
 
             <div className="flex flex-col gap-2 pt-2">
               <div className="flex items-center gap-3 text-muted">
