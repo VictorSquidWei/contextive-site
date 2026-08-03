@@ -188,6 +188,29 @@
   }
 }
 
+/* Campaign index — staggered card reveal (wrapper animates; hover-lift lives on
+   the inner card, so the two transforms never fight). */
+.ci-item {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 620ms cubic-bezier(0.2, 0, 0.2, 1),
+              transform 620ms cubic-bezier(0.2, 0, 0.2, 1);
+  will-change: opacity, transform;
+}
+.ci-item.ci-in {
+  opacity: 1;
+  transform: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .ci-item,
+  .ci-item.ci-in {
+    opacity: 1;
+    transform: none;
+    transition: none;
+    transition-delay: 0ms !important;
+  }
+}
+
 /* ── How Contextive works — methodology page ───────────────────────────── */
 
 /* Data flowing through the pipeline (animated dashed strokes) */
