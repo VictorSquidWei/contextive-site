@@ -20,6 +20,18 @@ export const READER_HOOKS: Record<string, string> = {
   '10-power': 'Who pays for the AI power boom — you, or Big Tech?',
 };
 
+/**
+ * Hand-written hero-tension captions (Courtney's messaging pass), sharper than the
+ * auto-derived "X is surging while Y is steady". Number-free framing only; the hero
+ * still shows the real measured velocities on each pole. Campaigns without an entry
+ * fall back to the auto-derived caption.
+ */
+export const HERO_CAPTIONS: Record<string, string> = {
+  '10-power': 'The loud slogan is standing still. The rule that decides who pays is moving.',
+  '09-real': 'The vocabulary is shifting from naming the flood to describing what it produces at work.',
+  '05-economy': 'The mood word is surging. The policy phrase is not.',
+};
+
 /** The three campaigns whose hooks pull the widest audience — the homepage features. */
 export const FEATURED_CAMPAIGN_IDS = ['10-power', '05-economy', '03-bodies-and-food'];
 

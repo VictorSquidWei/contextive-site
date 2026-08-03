@@ -3,7 +3,7 @@ import { useParams, Link, Navigate } from 'react-router-dom';
 import { getCampaignById } from '../data/campaigns';
 import { TermLeaderboard } from './TermLeaderboard';
 import { plainRead, humanPct, findTerm, tensionCaption } from '../lib/readSignal';
-import { readerHook } from '../data/readerHooks';
+import { readerHook, HERO_CAPTIONS } from '../data/readerHooks';
 import type { Campaign, CampaignTerm } from '../data/campaign';
 
 /** One pole of the defining tension, with its measured read looked up from the terms. */
@@ -48,7 +48,7 @@ function HeroTension({ c }: { c: Campaign }) {
     );
   }
 
-  const caption = tensionCaption(c) || dt.note;
+  const caption = HERO_CAPTIONS[c.id] || tensionCaption(c) || dt.note;
   return (
     <div className="border border-ink/15 bg-canvas p-6 sm:p-8 space-y-5">
       <div className="small-caps text-muted">The word that is winning</div>
