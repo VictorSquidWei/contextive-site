@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { SUBSTACK_SUBSCRIBE } from '../data/terms';
 
 interface WaitlistFormProps {
@@ -47,6 +47,7 @@ export function WaitlistForm({
   apiWaitlist = false,
 }: WaitlistFormProps) {
   const [email, setEmail] = useState('');
+  const hpRef = useRef<HTMLInputElement>(null); // honeypot — bots fill it, humans don't
   const [submitting, setSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -70,7 +71,7 @@ export function WaitlistForm({
     fetch('/api/subscribe', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ email: clean, source }),
+      body: JSON.stringify({ email: clean, source, hp: hpRef.current?.value || '' }),
     }).catch(() => {});
     setSubmitted(true);
     setSubmitting(false);
@@ -106,6 +107,16 @@ export function WaitlistForm({
 
   return (
     <form id={anchorId} onSubmit={handleSubmit} className={`flex flex-col gap-3 ${className}`}>
+      {/* Honeypot: offscreen, not tabbable, ignored by real users; bots fill it → dropped server-side. */}
+      <input
+        ref={hpRef}
+        type="text"
+        name="hp"
+        tabIndex={-1}
+        autoComplete="off"
+        aria-hidden="true"
+        style={{ position: 'absolute', left: '-9999px', width: 1, height: 1, opacity: 0 }}
+      />
       {label && <label className="small-caps text-muted block">{label}</label>}
       <div className={`flex gap-3 ${layout === 'row' ? 'flex-col sm:flex-row' : 'flex-col'}`}>
         <input

@@ -3,19 +3,19 @@ import { TERM_FILES } from '../data/terms';
 import { DossierCard } from './DossierCard';
 import { WaitlistForm } from './WaitlistForm';
 
-const HERO_CARDS = [
-  TERM_FILES.find((t) => t.term === 'AGENTIC')!,
-  TERM_FILES.find((t) => t.term === 'PROMPTWASHING')!,
-  TERM_FILES.find((t) => t.term === 'RECIPROCAL')!,
-  TERM_FILES.find((t) => t.term === 'AI SLOP')!,
-  TERM_FILES.find((t) => t.term === 'CEASEFIRE')!,
-];
+// Resolve the rotating hero cards from the legacy term files. filter(Boolean) so a
+// missing term degrades gracefully (drops that card) instead of white-screening the
+// homepage — important because this is an ad landing page and terms.ts is slated to be pruned.
+const HERO_CARDS = (['AGENTIC', 'PROMPTWASHING', 'RECIPROCAL', 'AI SLOP', 'CEASEFIRE'] as const)
+  .map((term) => TERM_FILES.find((t) => t.term === term))
+  .filter((c): c is (typeof TERM_FILES)[number] => Boolean(c));
 
 export function Hero() {
   const [index, setIndex] = useState(0);
 
   // Auto-cycle the hero cards (honor reduced-motion: hold on the first card)
   useEffect(() => {
+    if (HERO_CARDS.length < 2) return;
     if (typeof window !== 'undefined' && window.matchMedia?.('(prefers-reduced-motion: reduce)').matches) return;
     const id = setInterval(() => {
       setIndex((i) => (i + 1) % HERO_CARDS.length);
