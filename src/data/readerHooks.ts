@@ -29,7 +29,7 @@ export const READER_HOOKS: Record<string, string> = {
 export const HERO_CAPTIONS: Record<string, string> = {
   '10-power': 'The loud slogan is standing still. The rule that decides who pays is moving.',
   '09-real': 'The vocabulary is shifting from naming the flood to describing what it produces at work.',
-  '05-economy': 'The mood word is surging. The policy phrase is not.',
+  '05-economy': 'The mood word took off. The policy phrase never did.',
 };
 
 /** The three campaigns whose hooks pull the widest audience — the homepage features. */
