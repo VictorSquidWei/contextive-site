@@ -2,7 +2,7 @@
 name: contextive-campaign
 description: >
   Operating manual for running Contextive language-intelligence campaigns end to
-  end: research brief, Courtney execution document, Substack posts, X threads,
+  end: research brief, Courtney execution document, Substack posts, Threads chains,
   Instagram carousels. Use whenever the work touches a Contextive campaign, term
   card, signal layer, brief, or weekly execution doc. Encodes the brand voice and
   political firewall, the measured signal methodology, the document architectures
@@ -21,13 +21,13 @@ source of truth for *content*.
 
 A language-intelligence brand. It tracks how specific vocabulary gains momentum,
 shifts meaning, and wins cultural arguments — often before the underlying evidence
-matures. It publishes "intelligence brief"-style campaigns across Substack, X, and
+matures. It publishes "intelligence brief"-style campaigns across Substack, Threads, and
 Instagram. Positioning: **analytically rigorous and politically neutral.** It
 tracks *how words are used and how fast they are winning*, never whether the
 underlying claim is correct. That single sentence is also the firewall line.
 
 Roles: **Victor** owns research briefs, site/infra, and strategy. **Courtney**
-executes — publishing, Figma/Canva design, scheduling, engagement; she drafts with
+executes — publishing, Claude Design visuals, scheduling, engagement; she drafts with
 ChatGPT (referred to in her docs as 你的好朋友). Victor signs off on the brief and
 on Courtney's execution doc before either is final.
 
@@ -42,7 +42,7 @@ Per campaign, in order:
    cross-cluster tensions, content pillars, visual notes, next steps.
 2. **Week 01 execution doc** — "trailer": a methodology/technical post + thread +
    carousel that sets up the cycle without leaking campaign content.
-3. **Week 02 execution doc** — launch: 2 Substack posts, 2 X threads, 1 carousel,
+3. **Week 02 execution doc** — launch: 2 Substack posts, 2 threads on Threads, 1 carousel,
    over 8 working days (Wed–Fri, weekend off, Mon–Fri).
 4. Editorial passes on Courtney's drafts; optional FB ads after posts are live.
 

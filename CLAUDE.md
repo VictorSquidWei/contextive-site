@@ -13,7 +13,9 @@ brand. Read the imports below before doing campaign or site work.
 
 ## The one-liner
 Contextive tracks how vocabulary gains momentum and shifts meaning — **velocity, not verdict** —
-and publishes intelligence-brief campaigns across Substack, X, and Instagram. Live: contextive.info.
+and publishes intelligence-brief campaigns across Substack, Threads, and Instagram. Live: contextive.info.
+(The X account `@contextive_ai` was banned in Oct 2026; Threads is `threads.com/@contextive.info`,
+inherited from the Instagram account.)
 
 ## Non-negotiables (apply to everything: site, briefs, Courtney docs)
 1. **Measure, don't estimate.** Signal numbers come from `signal_pipeline.py`, never hand-keyed.

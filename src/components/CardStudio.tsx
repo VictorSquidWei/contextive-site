@@ -12,7 +12,7 @@ import type { CardTheme, VelocityCardData } from '../lib/velocityCard';
    number is the measured reading; nothing invented; the firewall is baked into the card. */
 
 const SITE_ORIGIN = 'https://contextive.info';
-const X_HANDLE = '@contextive_ai';
+const THREADS_HANDLE = '@contextive.info';
 
 const cardPath = (t: DemoTerm) => `/cards/c${t.campaign}-${t.slug}.png`;
 const fmtSignedPct = (n: number | null): string =>
@@ -37,7 +37,7 @@ function toData(t: DemoTerm): VelocityCardData {
 // The on-brand caption people paste with the card (X intent + Copy caption).
 function caption(t: DemoTerm): string {
   const v = t.velocityIndex == null ? '—' : `${t.velocityIndex}/100`;
-  return `"${t.term}" — velocity ${v}, ${fmtSignedPct(t.deltas.d90)} / 90d. Velocity, not verdict. via ${X_HANDLE}`;
+  return `"${t.term}" — velocity ${v}, ${fmtSignedPct(t.deltas.d90)} / 90d. Velocity, not verdict. via ${THREADS_HANDLE}`;
 }
 
 async function copyText(text: string): Promise<boolean> {
@@ -86,8 +86,11 @@ export function CardStudio({ term }: { term: DemoTerm }) {
 
   const relPath = cardPath(term);
   const absUrl = `${SITE_ORIGIN}${relPath}`;
-  const shareX =
-    `https://twitter.com/intent/tweet?text=${encodeURIComponent(caption(term))}&url=${encodeURIComponent(absUrl)}`;
+  // Threads' intent endpoint takes a single `text` param — unlike X's, it has no
+  // separate `url`, so the card URL is appended to the caption instead.
+  const shareThreads =
+    `https://www.threads.com/intent/post?text=${encodeURIComponent(`${caption(term)}
+${absUrl}`)}`;
 
   useEffect(() => {
     setCopied('');
@@ -194,7 +197,7 @@ export function CardStudio({ term }: { term: DemoTerm }) {
           <button type="button" onClick={downloadPng} disabled={busy} className={btnPrimary} title="Download this Velocity Card (PNG)">
             {busy ? 'Rendering…' : 'Download card'}
           </button>
-          <a href={shareX} target="_blank" rel="noopener noreferrer" className={btnPrimary} title="Share to X">Share to X</a>
+          <a href={shareThreads} target="_blank" rel="noopener noreferrer" className={btnPrimary} title="Share to Threads">Share to Threads</a>
           <button type="button" onClick={downloadPng} disabled={busy} className={btnGhost} title="Download, then post to Instagram">Instagram</button>
           <button type="button" onClick={async () => { if (await copyText(absUrl)) flash('link'); }} className={btnGhost} title="Copy link to this card">
             {copied === 'link' ? 'Link copied' : 'Copy link'}

@@ -349,7 +349,7 @@ export const TICKER_TERMS = [
 
 export const SOCIAL_LINKS = {
   substack: 'https://open.substack.com/pub/contextive',
-  twitter: 'https://x.com/contextive_ai',
+  threads: 'https://www.threads.com/@contextive.info',
   instagram: 'https://www.instagram.com/contextive.info/',
 };
 
