@@ -1,0 +1,901 @@
+{
+  "number": "11",
+  "slug": "arrival",
+  "id": "11-arrival",
+  "label": "CAMPAIGN 11",
+  "title": "The Language of Arrival",
+  "shortTitle": "Arrival",
+  "period": "October 2026",
+  "status": "published",
+  "signalBasis": "measured",
+  "firewall": "We track how the words have been used and how fast they are winning, not whether the underlying politics is correct.",
+  "summary": "The naming war has a new leader and it is nobody's slogan. Across a 180-day full-text window, 'noncitizen' is up 89.9% while 'undocumented' is down 23.4% and 'illegal alien' is flat at -1.8%. The two words that have carried the argument for two decades — one the advocacy term, one the statutory term — are both losing ground to an administrative negative that takes no side at all. A category stated as an absence of citizenship is displacing both the word that names a missing document and the word that names an unlawful entry.",
+  "anchor": "Through 2026 the argument over arrival stayed loud, and the words used to hold it quietly changed hands. Across seventeen measured terms the vocabulary of position cooled while the vocabulary of status and process climbed. The fight did not move to the border; it moved to the file.",
+  "thesis": [
+    "The naming war has a new leader and it is nobody's slogan. Across a 180-day full-text window, 'noncitizen' is up 89.9% while 'undocumented' is down 23.4% and 'illegal alien' is flat at -1.8%. The two words that have carried the argument for two decades — one the advocacy term, one the statutory term — are both losing ground to an administrative negative that takes no side at all. A category stated as an absence of citizenship is displacing both the word that names a missing document and the word that names an unlawful entry.",
+    "The same movement runs through the machinery. 'Work permit' is up 79.8% and 'removal proceedings' up 66.8%, while 'border security' is down 8.1% and 'detention' down 23.5%. The political framings cool with them: 'sanctuary city' -30.0%, 'open borders' -17.5%. What is rising is the language of status, permission and docket; what is falling is the language of crossing, position and refuge. That is the cycle's measured finding, and it was not the one this campaign expected to make."
+  ],
+  "definingTension": {
+    "a": "noncitizen",
+    "b": "undocumented",
+    "note": "The cycle's measured collision and the campaign's spine. Both name the same person; one describes a missing document, the other an absent citizenship. Measured over 90 days, 'noncitizen' is up 89.9% and 'undocumented' is down 23.4%. The advocacy term that won the style guides is losing ground to an administrative description that concedes nothing and claims nothing."
+  },
+  "clusters": [
+    {
+      "key": "A",
+      "name": "What people are called",
+      "blurb": "The six nouns the argument reaches for when it has to name a person: the advocacy term, the statutory term, the treaty term, the claim term, the umbrella term, and the administrative term. Each chooses what to foreground — a missing document, an unlawful entry, a recognised status, a filed claim, a movement, or an absence of citizenship — and the choice is made before any argument begins."
+    },
+    {
+      "key": "B",
+      "name": "The machinery",
+      "blurb": "The vocabulary of the system itself: the expulsion and the docket that produces it, the custody between arrival and outcome, the lawful door, the permission to work, and the frame that treats the border as a security object. These are the words that appear on notices and in appropriations, and they describe process rather than position."
+    },
+    {
+      "key": "C",
+      "name": "The contested framings",
+      "blurb": "The phrases that turn arrival into a verdict: scale attached to a process, departure recast as a decision, a cooperation policy named as refuge, a position attributed to opponents, and reform described as a route. Each is used by more than one side, and each is doing argumentative work before it describes anything."
+    }
+  ],
+  "pillars": [
+    {
+      "title": "The word that's winning: 'noncitizen,' not either of the ones we argue about",
+      "body": "The cycle's lede, and it is measured. Two decades of dispute between 'undocumented' and 'illegal alien' has produced a third winner that belongs to neither camp. 'Noncitizen' is up 89.9% over 90 days; the two contenders are down 23.4% and 1.8%. A word chosen for administrative neutrality is absorbing the coverage that two words chosen for their charge are losing."
+    },
+    {
+      "title": "The argument moved from the border to the paperwork",
+      "body": "Read across the clusters, the pattern is consistent: status and process vocabulary rises — 'work permit' +79.8%, 'removal proceedings' +66.8%, 'port of entry' +6.5% — while position vocabulary falls — 'border security' -8.1%, 'sanctuary city' -30.0%, 'open borders' -17.5%. The coverage is relocating from where people arrive to what happens to their file afterwards."
+    },
+    {
+      "title": "'Migrant' is the umbrella that held",
+      "body": "At a corpus density of 0.3045 it is the densest term in the set — denser than 'deportation' — and it is up 38.2% over 90 days. The one noun that specifies neither cause nor claim is both the most used and still rising, which is what a word looks like when every side can say it without conceding anything."
+    }
+  ],
+  "tensions": [
+    {
+      "a": "noncitizen",
+      "b": "undocumented",
+      "title": "'noncitizen' vs 'undocumented'",
+      "body": "The cycle's measured collision and the campaign's spine. Both name the same person; one describes a missing document, the other an absent citizenship. Measured over 90 days, 'noncitizen' is up 89.9% and 'undocumented' is down 23.4%. The advocacy term that won the style guides is losing ground to an administrative description that concedes nothing and claims nothing."
+    },
+    {
+      "title": "'illegal alien' holds while 'undocumented' falls",
+      "body": "The expected story was a contest between these two. Measurement declines it: 'illegal alien' is effectively flat at -1.8% while 'undocumented' falls 23.4%. Neither is winning the naming war. The statutory term is not surging; the advocacy term is simply receding faster, and a third word is taking the ground both vacated."
+    },
+    {
+      "a": "work permit",
+      "b": "border security",
+      "title": "'work permit' vs 'border security'",
+      "body": "Permission to work is up 79.8%; the border framed as a security object is down 8.1%. The economic question — who may work, and after how long — is gaining the coverage that the enforcement frame is losing. The argument is migrating from the line on the map to the document in the file."
+    },
+    {
+      "a": "removal proceedings",
+      "b": "detention",
+      "title": "'removal proceedings' vs 'detention'",
+      "body": "Inside the machinery the docket rises and the custody falls: 'removal proceedings' up 66.8%, 'detention' down 23.5%. The process word is displacing the condition word, which moves the account of what happens to people from a place to a procedure."
+    },
+    {
+      "title": "The political framings cool together",
+      "body": "'Sanctuary city' is down 30.0%, 'open borders' down 17.5%, 'self-deportation' down 3.5%. The phrases built to carry a verdict are losing coverage as a group, with 'mass deportation' at +10.9% the single exception. The language that argues is thinning while the language that processes thickens."
+    }
+  ],
+  "terms": [
+    {
+      "ref": "C11-A1",
+      "term": "undocumented",
+      "cluster": "A",
+      "domainTag": "what people are called",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 25,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 19.2,
+          "d90": -23.4,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-06-27",
+            "z": 2.38
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.091583,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "wire reporting",
+        "local news",
+        "advocacy communications"
+      ],
+      "coOccurrence": [
+        "immigrant",
+        "work permit",
+        "deportation"
+      ],
+      "whatItDoes": "Describes a person by the papers they lack rather than by an act, locating the condition in documentation and leaving the crossing itself unnamed.",
+      "whereContested": "Contested as accurate description versus a softening that removes the question of legality from the sentence.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C11-A2",
+      "term": "illegal alien",
+      "cluster": "A",
+      "domainTag": "what people are called",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 81,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 37.7,
+          "d90": -1.8,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-07-03",
+            "z": 3.53
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.017498,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "political speech",
+        "legal filings",
+        "broadcast commentary"
+      ],
+      "coOccurrence": [
+        "deportation",
+        "removal proceedings",
+        "border security"
+      ],
+      "whatItDoes": "Names the person by the legal status of the entry, carrying a statutory term into general use where it reads as a judgement rather than a classification.",
+      "whereContested": "Contested as the language of the statute books versus a dehumanising description; its presence in federal code is itself part of the argument.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C11-A3",
+      "term": "migrant",
+      "cluster": "A",
+      "domainTag": "what people are called",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 88,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 40.6,
+          "d90": 38.2,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-07-29",
+            "z": 2.5
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.304496,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "wire reporting",
+        "broadcast news",
+        "international press"
+      ],
+      "coOccurrence": [
+        "asylum seeker",
+        "border security",
+        "port of entry"
+      ],
+      "whatItDoes": "Describes movement without specifying cause or claim, covering the whole span from voluntary relocation to flight, which is why it can be used by every side of the argument.",
+      "whereContested": "Contested as a neutral umbrella versus a flattening that erases the difference between someone seeking protection and someone seeking work.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C11-A4",
+      "term": "asylum seeker",
+      "cluster": "A",
+      "domainTag": "what people are called",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 19,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 40.8,
+          "d90": -36.3,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-06-23",
+            "z": 2.31
+          },
+          {
+            "date": "2026-04-22",
+            "z": 2.05
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.028048,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "court reporting",
+        "international press",
+        "policy coverage"
+      ],
+      "coOccurrence": [
+        "refugee",
+        "migrant",
+        "removal proceedings"
+      ],
+      "whatItDoes": "Names a person by a claim they have made, placing them inside a legal process and implying a pending determination rather than a settled status.",
+      "whereContested": "Contested over whether the claim is the defining fact or whether the manner of entry is, and over backlog as a description of the system.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C11-A5",
+      "term": "refugee",
+      "cluster": "A",
+      "domainTag": "what people are called",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 31,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -14,
+          "d90": -5.6,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-05-23",
+            "z": 2.35
+          },
+          {
+            "date": "2026-08-21",
+            "z": 2.04
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.196849,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "international press",
+        "humanitarian communications",
+        "policy coverage"
+      ],
+      "coOccurrence": [
+        "asylum seeker",
+        "resettlement",
+        "protection"
+      ],
+      "whatItDoes": "Carries a definition set by treaty, conferring a recognised status and an obligation on the receiving state that the other nouns do not.",
+      "whereContested": "Contested over who qualifies under the definition, and over whether the word is being extended beyond it or withheld inside it.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C11-A6",
+      "term": "noncitizen",
+      "cluster": "A",
+      "domainTag": "what people are called",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 94,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 23.7,
+          "d90": 89.9,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-07-15",
+            "z": 2.15
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.121313,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "agency communications",
+        "legal trade press",
+        "policy coverage"
+      ],
+      "coOccurrence": [
+        "illegal alien",
+        "undocumented",
+        "removal proceedings"
+      ],
+      "whatItDoes": "Replaces the statutory noun with a negative description of legal standing, keeping the category while removing the older word's charge.",
+      "whereContested": "Contested as administrative neutrality versus an avoidance of the term the law actually uses.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C11-B1",
+      "term": "deportation",
+      "cluster": "B",
+      "domainTag": "the machinery",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 38,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 0.2,
+          "d90": 2.6,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-06-27",
+            "z": 2.44
+          },
+          {
+            "date": "2026-07-13",
+            "z": 2.11
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.277485,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "wire reporting",
+        "broadcast news",
+        "court reporting"
+      ],
+      "coOccurrence": [
+        "removal proceedings",
+        "detention",
+        "mass deportation"
+      ],
+      "whatItDoes": "The plain name for state-ordered expulsion, the word most readers recognise and the one most news reporting reaches for first.",
+      "whereContested": "Contested over scale and selection — who is prioritised, and whether the number or the process is the story.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C11-B2",
+      "term": "removal proceedings",
+      "cluster": "B",
+      "domainTag": "the machinery",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 44,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -57.8,
+          "d90": 66.8,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-08-26",
+            "z": 3.55
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.022966,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "court reporting",
+        "legal trade press",
+        "agency communications"
+      ],
+      "coOccurrence": [
+        "deportation",
+        "immigration court",
+        "detention"
+      ],
+      "whatItDoes": "The statutory name for the same outcome, describing a docketed process rather than an expulsion and foregrounding the hearing over the result.",
+      "whereContested": "Contested over backlog and representation — whether proceedings are a protection or a formality before a foregone conclusion.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C11-B3",
+      "term": "detention",
+      "cluster": "B",
+      "domainTag": "the machinery",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 12,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -13.9,
+          "d90": -23.5,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-05-28",
+            "z": 2.86
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.104037,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "investigative reporting",
+        "court reporting",
+        "oversight hearings"
+      ],
+      "coOccurrence": [
+        "removal proceedings",
+        "deportation",
+        "border security"
+      ],
+      "whatItDoes": "Names the holding of people while their status is decided, a custodial fact that sits between arrival and outcome.",
+      "whereContested": "Contested over conditions, duration and whether custody is administrative or punitive.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C11-B4",
+      "term": "border security",
+      "cluster": "B",
+      "domainTag": "the machinery",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 56,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 29.9,
+          "d90": -8.1,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-09-21",
+            "z": 2.37
+          },
+          {
+            "date": "2026-06-06",
+            "z": 2.2
+          },
+          {
+            "date": "2026-05-05",
+            "z": 2.12
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.035245,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "political speech",
+        "wire reporting",
+        "appropriations coverage"
+      ],
+      "coOccurrence": [
+        "port of entry",
+        "deportation",
+        "mass deportation"
+      ],
+      "whatItDoes": "Frames the border as a security problem, which selects the instruments that follow — patrol, barrier, surveillance — before the question of who is arriving is settled.",
+      "whereContested": "Contested over whether security is the right frame for an asylum system, and over what counts as a secure border.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C11-B5",
+      "term": "work permit",
+      "cluster": "B",
+      "domainTag": "the machinery",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 69,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 14.1,
+          "d90": 79.8,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-08-21",
+            "z": 2.2
+          },
+          {
+            "date": "2026-07-28",
+            "z": 2.08
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.031229,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "business press",
+        "local news",
+        "policy coverage"
+      ],
+      "coOccurrence": [
+        "undocumented",
+        "asylum seeker",
+        "legal pathway"
+      ],
+      "whatItDoes": "Moves the question from presence to permission to work, which is where the economic argument actually lives.",
+      "whereContested": "Contested over waiting periods and eligibility — whether permission to work reduces or increases the incentive to come.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C11-B6",
+      "term": "port of entry",
+      "cluster": "B",
+      "domainTag": "the machinery",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 62,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 10.2,
+          "d90": 6.5,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-06-23",
+            "z": 2.75
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.017887,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "wire reporting",
+        "border-region local news",
+        "agency communications"
+      ],
+      "coOccurrence": [
+        "asylum seeker",
+        "border security",
+        "migrant"
+      ],
+      "whatItDoes": "Names the lawful door, and by doing so distinguishes arrival at a crossing from arrival between them — a distinction that carries much of the legal argument.",
+      "whereContested": "Contested over appointments and capacity, and whether turning people back at the door creates the crossings between doors.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C11-C1",
+      "term": "mass deportation",
+      "cluster": "C",
+      "domainTag": "the contested framings",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 75,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 45.4,
+          "d90": 10.9,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-09-04",
+            "z": 3
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.022156,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "political speech",
+        "broadcast commentary",
+        "advocacy campaigns"
+      ],
+      "coOccurrence": [
+        "deportation",
+        "self-deportation",
+        "detention"
+      ],
+      "whatItDoes": "Adds scale to the plain word, converting a case-by-case process into a programme and making the number rather than the individual the subject.",
+      "whereContested": "Contested as a description of stated policy versus a characterisation of it; both supporters and opponents use the phrase.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C11-C2",
+      "term": "self-deportation",
+      "cluster": "C",
+      "domainTag": "the contested framings",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 50,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 10,
+          "d90": -3.5,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-07-03",
+            "z": 3.82
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.005298,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "political speech",
+        "policy commentary",
+        "broadcast news"
+      ],
+      "coOccurrence": [
+        "mass deportation",
+        "deportation",
+        "work permit"
+      ],
+      "whatItDoes": "Assigns the act to the person rather than the state, describing departure under pressure as a decision that was made.",
+      "whereContested": "Contested over whether a departure prompted by enforcement conditions can be called voluntary.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C11-C3",
+      "term": "sanctuary city",
+      "cluster": "C",
+      "domainTag": "the contested framings",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 6,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": -40.3,
+          "d90": -30,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-05-29",
+            "z": 3.11
+          },
+          {
+            "date": "2026-08-12",
+            "z": 2.92
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.003743,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "local news",
+        "political speech",
+        "legal filings"
+      ],
+      "coOccurrence": [
+        "detention",
+        "deportation",
+        "border security"
+      ],
+      "whatItDoes": "Names a local limit on cooperation with federal enforcement in the language of refuge, which describes the effect rather than the policy mechanism.",
+      "whereContested": "Contested over what the policies actually do — decline detainer requests, or offer protection — and over who the sanctuary is from.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C11-C4",
+      "term": "open borders",
+      "cluster": "C",
+      "domainTag": "the contested framings",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 100,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 114,
+          "d90": -17.5,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-05-28",
+            "z": 3.64
+          },
+          {
+            "date": "2026-07-31",
+            "z": 2.53
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.005727,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "political speech",
+        "broadcast commentary",
+        "social commentary"
+      ],
+      "coOccurrence": [
+        "border security",
+        "mass deportation",
+        "migrant"
+      ],
+      "whatItDoes": "States a position almost nobody claims, which makes it function mainly as an attribution — a description of what the other side is said to want.",
+      "whereContested": "Contested as a fair summary of a policy direction versus a characterisation nobody has advanced.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C11-C5",
+      "term": "legal pathway",
+      "cluster": "C",
+      "domainTag": "the contested framings",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 0,
+        "adoptionStage": "emerging",
+        "deltas": {
+          "d30": 68,
+          "d90": 18.2,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-07-09",
+            "z": 4.06
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.003706,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        },
+        "retrievedAt": "from-raw"
+      },
+      "platforms": [
+        "policy coverage",
+        "political speech",
+        "business press"
+      ],
+      "coOccurrence": [
+        "work permit",
+        "asylum seeker",
+        "port of entry"
+      ],
+      "whatItDoes": "Describes the system as a route that exists and can be widened, shifting the argument from whether people should come to how they are meant to.",
+      "whereContested": "Contested over whether widening the route reduces unlawful crossing or increases total arrival.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    }
+  ],
+  "generatedAt": "2026-10-06T00:54:19+00:00",
+  "refDate": "2026-10-05",
+  "source": "GDELT Web NGrams 3.0 (BigQuery)"
+}

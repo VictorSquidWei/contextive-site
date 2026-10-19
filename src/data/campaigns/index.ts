@@ -20,6 +20,7 @@ import c07 from './07.json';
 import c08 from './08.json';
 import c09 from './09.json';
 import c10 from './10.json';
+import c11 from './11.json';
 
 const measuredCampaigns: Campaign[] = [
   c01 as unknown as Campaign,
@@ -32,6 +33,7 @@ const measuredCampaigns: Campaign[] = [
   c08 as unknown as Campaign,
   c09 as unknown as Campaign,
   c10 as unknown as Campaign,
+  c11 as unknown as Campaign,
 ];
 
 // C01 and C02 now ship from the measured 01.json / 02.json above; drop their

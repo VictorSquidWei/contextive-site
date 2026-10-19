@@ -1,10 +1,220 @@
 [
   {
+    "file": "cards/c01-reciprocal-tariffs.png",
+    "campaign": "01",
+    "term": "reciprocal tariffs",
+    "slug": "reciprocal-tariffs",
+    "velocityIndex": 27
+  },
+  {
+    "file": "cards/c01-de-risking.png",
+    "campaign": "01",
+    "term": "de-risking",
+    "slug": "de-risking",
+    "velocityIndex": 20
+  },
+  {
+    "file": "cards/c01-rebalancing.png",
+    "campaign": "01",
+    "term": "rebalancing",
+    "slug": "rebalancing",
+    "velocityIndex": 40
+  },
+  {
+    "file": "cards/c01-level-playing-field.png",
+    "campaign": "01",
+    "term": "level playing field",
+    "slug": "level-playing-field",
+    "velocityIndex": 67
+  },
+  {
+    "file": "cards/c01-strategic-tariffs.png",
+    "campaign": "01",
+    "term": "strategic tariffs",
+    "slug": "strategic-tariffs",
+    "velocityIndex": 7
+  },
+  {
+    "file": "cards/c01-retaliatory-tariffs.png",
+    "campaign": "01",
+    "term": "retaliatory tariffs",
+    "slug": "retaliatory-tariffs",
+    "velocityIndex": 33
+  },
+  {
+    "file": "cards/c01-trade-war.png",
+    "campaign": "01",
+    "term": "trade war",
+    "slug": "trade-war",
+    "velocityIndex": 13
+  },
+  {
+    "file": "cards/c01-decoupling.png",
+    "campaign": "01",
+    "term": "decoupling",
+    "slug": "decoupling",
+    "velocityIndex": 53
+  },
+  {
+    "file": "cards/c01-protectionism.png",
+    "campaign": "01",
+    "term": "protectionism",
+    "slug": "protectionism",
+    "velocityIndex": 47
+  },
+  {
+    "file": "cards/c01-tit-for-tat.png",
+    "campaign": "01",
+    "term": "tit-for-tat",
+    "slug": "tit-for-tat",
+    "velocityIndex": 0
+  },
+  {
+    "file": "cards/c01-reshoring.png",
+    "campaign": "01",
+    "term": "reshoring",
+    "slug": "reshoring",
+    "velocityIndex": 60
+  },
+  {
+    "file": "cards/c01-friend-shoring.png",
+    "campaign": "01",
+    "term": "friend-shoring",
+    "slug": "friend-shoring",
+    "velocityIndex": 100
+  },
+  {
+    "file": "cards/c01-near-shoring.png",
+    "campaign": "01",
+    "term": "near-shoring",
+    "slug": "near-shoring",
+    "velocityIndex": 73
+  },
+  {
+    "file": "cards/c01-supply-chain-resilience.png",
+    "campaign": "01",
+    "term": "supply chain resilience",
+    "slug": "supply-chain-resilience",
+    "velocityIndex": 93
+  },
+  {
+    "file": "cards/c01-critical-minerals.png",
+    "campaign": "01",
+    "term": "critical minerals",
+    "slug": "critical-minerals",
+    "velocityIndex": 80
+  },
+  {
+    "file": "cards/c01-export-controls.png",
+    "campaign": "01",
+    "term": "export controls",
+    "slug": "export-controls",
+    "velocityIndex": 87
+  },
+  {
+    "file": "cards/c02-workforce-optimization.png",
+    "campaign": "02",
+    "term": "workforce optimization",
+    "slug": "workforce-optimization",
+    "velocityIndex": 8
+  },
+  {
+    "file": "cards/c02-efficiency-gains.png",
+    "campaign": "02",
+    "term": "efficiency gains",
+    "slug": "efficiency-gains",
+    "velocityIndex": 0
+  },
+  {
+    "file": "cards/c02-restructuring.png",
+    "campaign": "02",
+    "term": "restructuring",
+    "slug": "restructuring",
+    "velocityIndex": 100
+  },
+  {
+    "file": "cards/c02-rightsizing.png",
+    "campaign": "02",
+    "term": "rightsizing",
+    "slug": "rightsizing",
+    "velocityIndex": 25
+  },
+  {
+    "file": "cards/c02-agentic.png",
+    "campaign": "02",
+    "term": "agentic",
+    "slug": "agentic",
+    "velocityIndex": 42
+  },
+  {
+    "file": "cards/c02-copilot.png",
+    "campaign": "02",
+    "term": "copilot",
+    "slug": "copilot",
+    "velocityIndex": 75
+  },
+  {
+    "file": "cards/c02-augmentation.png",
+    "campaign": "02",
+    "term": "augmentation",
+    "slug": "augmentation",
+    "velocityIndex": 17
+  },
+  {
+    "file": "cards/c02-human-in-the-loop.png",
+    "campaign": "02",
+    "term": "human-in-the-loop",
+    "slug": "human-in-the-loop",
+    "velocityIndex": 58
+  },
+  {
+    "file": "cards/c02-ai-adoption.png",
+    "campaign": "02",
+    "term": "AI adoption",
+    "slug": "ai-adoption",
+    "velocityIndex": 92
+  },
+  {
+    "file": "cards/c02-productivity-gains.png",
+    "campaign": "02",
+    "term": "productivity gains",
+    "slug": "productivity-gains",
+    "velocityIndex": 67
+  },
+  {
+    "file": "cards/c02-replaced-by-ai.png",
+    "campaign": "02",
+    "term": "replaced by AI",
+    "slug": "replaced-by-ai",
+    "velocityIndex": 50
+  },
+  {
+    "file": "cards/c02-job-displacement.png",
+    "campaign": "02",
+    "term": "job displacement",
+    "slug": "job-displacement",
+    "velocityIndex": 83
+  },
+  {
+    "file": "cards/c02-deskilling.png",
+    "campaign": "02",
+    "term": "deskilling",
+    "slug": "deskilling",
+    "velocityIndex": 33
+  },
+  {
+    "file": "cards/c03-ultra-processed.png",
+    "campaign": "03",
+    "term": "ultra-processed",
+    "slug": "ultra-processed",
+    "velocityIndex": 75
+  },
+  {
     "file": "cards/c03-seed-oils.png",
     "campaign": "03",
     "term": "seed oils",
     "slug": "seed-oils",
-    "velocityIndex": 0
+    "velocityIndex": 25
   },
   {
     "file": "cards/c03-chronic-disease-epidemic.png",
@@ -14,67 +224,207 @@
     "velocityIndex": 100
   },
   {
+    "file": "cards/c03-food-as-medicine.png",
+    "campaign": "03",
+    "term": "food as medicine",
+    "slug": "food-as-medicine",
+    "velocityIndex": 0
+  },
+  {
+    "file": "cards/c03-big-food.png",
+    "campaign": "03",
+    "term": "Big Food",
+    "slug": "big-food",
+    "velocityIndex": 6
+  },
+  {
+    "file": "cards/c03-real-food-raw-milk.png",
+    "campaign": "03",
+    "term": "real food / raw milk",
+    "slug": "real-food-raw-milk",
+    "velocityIndex": 81
+  },
+  {
+    "file": "cards/c03-glp-1.png",
+    "campaign": "03",
+    "term": "GLP-1",
+    "slug": "glp-1",
+    "velocityIndex": 38
+  },
+  {
+    "file": "cards/c03-anti-obesity-medication.png",
+    "campaign": "03",
+    "term": "anti-obesity medication",
+    "slug": "anti-obesity-medication",
+    "velocityIndex": 56
+  },
+  {
+    "file": "cards/c03-metabolic-health.png",
+    "campaign": "03",
+    "term": "metabolic health",
+    "slug": "metabolic-health",
+    "velocityIndex": 62
+  },
+  {
     "file": "cards/c03-evidence-based.png",
     "campaign": "03",
     "term": "evidence-based",
     "slug": "evidence-based",
-    "velocityIndex": 60
+    "velocityIndex": 69
+  },
+  {
+    "file": "cards/c03-obesity-as-a-disease.png",
+    "campaign": "03",
+    "term": "obesity as a disease",
+    "slug": "obesity-as-a-disease",
+    "velocityIndex": 19
   },
   {
     "file": "cards/c03-weight-management.png",
     "campaign": "03",
     "term": "weight management",
     "slug": "weight-management",
-    "velocityIndex": 40
+    "velocityIndex": 31
+  },
+  {
+    "file": "cards/c03-ozempic-face.png",
+    "campaign": "03",
+    "term": "Ozempic face",
+    "slug": "ozempic-face",
+    "velocityIndex": 94
   },
   {
     "file": "cards/c03-food-noise.png",
     "campaign": "03",
     "term": "food noise",
     "slug": "food-noise",
-    "velocityIndex": 20
+    "velocityIndex": 12
+  },
+  {
+    "file": "cards/c03-skinny-shot.png",
+    "campaign": "03",
+    "term": "skinny shot",
+    "slug": "skinny-shot",
+    "velocityIndex": 50
   },
   {
     "file": "cards/c03-body-neutrality.png",
     "campaign": "03",
     "term": "body neutrality",
     "slug": "body-neutrality",
-    "velocityIndex": 80
+    "velocityIndex": 88
+  },
+  {
+    "file": "cards/c03-fat-acceptance.png",
+    "campaign": "03",
+    "term": "fat acceptance",
+    "slug": "fat-acceptance",
+    "velocityIndex": 44
   },
   {
     "file": "cards/c04-maga-warrior.png",
     "campaign": "04",
     "term": "MAGA Warrior",
     "slug": "maga-warrior",
-    "velocityIndex": 50
+    "velocityIndex": 86
+  },
+  {
+    "file": "cards/c04-rino.png",
+    "campaign": "04",
+    "term": "RINO",
+    "slug": "rino",
+    "velocityIndex": 57
+  },
+  {
+    "file": "cards/c04-purge.png",
+    "campaign": "04",
+    "term": "purge",
+    "slug": "purge",
+    "velocityIndex": 79
   },
   {
     "file": "cards/c04-america-first.png",
     "campaign": "04",
     "term": "America First",
     "slug": "america-first",
+    "velocityIndex": 29
+  },
+  {
+    "file": "cards/c04-fighter.png",
+    "campaign": "04",
+    "term": "fighter",
+    "slug": "fighter",
     "velocityIndex": 0
   },
   {
-    "file": "cards/c04-endorsement-machine.png",
+    "file": "cards/c04-primary-challenger.png",
     "campaign": "04",
-    "term": "endorsement machine",
-    "slug": "endorsement-machine",
-    "velocityIndex": 100
+    "term": "primary challenger",
+    "slug": "primary-challenger",
+    "velocityIndex": 93
   },
   {
     "file": "cards/c04-open-seat.png",
     "campaign": "04",
     "term": "open seat",
     "slug": "open-seat",
-    "velocityIndex": 75
+    "velocityIndex": 43
+  },
+  {
+    "file": "cards/c04-runoff.png",
+    "campaign": "04",
+    "term": "runoff",
+    "slug": "runoff",
+    "velocityIndex": 71
+  },
+  {
+    "file": "cards/c04-electable-viable.png",
+    "campaign": "04",
+    "term": "electable / viable",
+    "slug": "electable-viable",
+    "velocityIndex": 36
   },
   {
     "file": "cards/c04-battleground.png",
     "campaign": "04",
     "term": "battleground",
     "slug": "battleground",
-    "velocityIndex": 25
+    "velocityIndex": 21
+  },
+  {
+    "file": "cards/c04-moderate.png",
+    "campaign": "04",
+    "term": "moderate",
+    "slug": "moderate",
+    "velocityIndex": 7
+  },
+  {
+    "file": "cards/c04-principled-constitutional.png",
+    "campaign": "04",
+    "term": "principled / constitutional",
+    "slug": "principled-constitutional",
+    "velocityIndex": 64
+  },
+  {
+    "file": "cards/c04-libertarian-leaning-fiscal-hawk.png",
+    "campaign": "04",
+    "term": "libertarian-leaning / fiscal hawk",
+    "slug": "libertarian-leaning-fiscal-hawk",
+    "velocityIndex": 14
+  },
+  {
+    "file": "cards/c04-dark-money.png",
+    "campaign": "04",
+    "term": "dark money",
+    "slug": "dark-money",
+    "velocityIndex": 50
+  },
+  {
+    "file": "cards/c04-revenge-campaign.png",
+    "campaign": "04",
+    "term": "revenge campaign",
+    "slug": "revenge-campaign",
+    "velocityIndex": 100
   },
   {
     "file": "cards/c05-vibecession.png",
@@ -88,42 +438,63 @@
     "campaign": "05",
     "term": "greedflation",
     "slug": "greedflation",
-    "velocityIndex": 0
+    "velocityIndex": 88
+  },
+  {
+    "file": "cards/c05-shrinkflation.png",
+    "campaign": "05",
+    "term": "shrinkflation",
+    "slug": "shrinkflation",
+    "velocityIndex": 94
   },
   {
     "file": "cards/c05-junk-fees.png",
     "campaign": "05",
     "term": "junk fees",
     "slug": "junk-fees",
-    "velocityIndex": 38
+    "velocityIndex": 31
   },
   {
     "file": "cards/c05-price-gouging.png",
     "campaign": "05",
     "term": "price gouging",
     "slug": "price-gouging",
-    "velocityIndex": 25
+    "velocityIndex": 62
   },
   {
     "file": "cards/c05-affordability.png",
     "campaign": "05",
     "term": "affordability",
     "slug": "affordability",
-    "velocityIndex": 62
+    "velocityIndex": 44
   },
   {
     "file": "cards/c05-soft-landing.png",
     "campaign": "05",
     "term": "soft landing",
     "slug": "soft-landing",
-    "velocityIndex": 12
+    "velocityIndex": 19
+  },
+  {
+    "file": "cards/c05-disinflation.png",
+    "campaign": "05",
+    "term": "disinflation",
+    "slug": "disinflation",
+    "velocityIndex": 25
   },
   {
     "file": "cards/c05-higher-for-longer.png",
     "campaign": "05",
     "term": "higher for longer",
     "slug": "higher-for-longer",
-    "velocityIndex": 50
+    "velocityIndex": 38
+  },
+  {
+    "file": "cards/c05-k-shaped.png",
+    "campaign": "05",
+    "term": "K-shaped",
+    "slug": "k-shaped",
+    "velocityIndex": 69
   },
   {
     "file": "cards/c05-real-wages.png",
@@ -133,10 +504,59 @@
     "velocityIndex": 75
   },
   {
+    "file": "cards/c05-last-mile.png",
+    "campaign": "05",
+    "term": "last mile",
+    "slug": "last-mile",
+    "velocityIndex": 12
+  },
+  {
+    "file": "cards/c05-tariff-tax.png",
+    "campaign": "05",
+    "term": "tariff tax",
+    "slug": "tariff-tax",
+    "velocityIndex": 0
+  },
+  {
+    "file": "cards/c05-admin-flation.png",
+    "campaign": "05",
+    "term": "[admin]flation",
+    "slug": "admin-flation",
+    "velocityIndex": 6
+  },
+  {
+    "file": "cards/c05-cost-of-living-crisis.png",
+    "campaign": "05",
+    "term": "cost-of-living crisis",
+    "slug": "cost-of-living-crisis",
+    "velocityIndex": 50
+  },
+  {
+    "file": "cards/c05-late-stage-capitalism.png",
+    "campaign": "05",
+    "term": "late-stage capitalism",
+    "slug": "late-stage-capitalism",
+    "velocityIndex": 56
+  },
+  {
     "file": "cards/c05-are-you-better-off.png",
     "campaign": "05",
     "term": "are you better off",
     "slug": "are-you-better-off",
+    "velocityIndex": 81
+  },
+  {
+    "file": "cards/c06-world-war-3.png",
+    "campaign": "06",
+    "term": "World War 3",
+    "slug": "world-war-3",
+    "velocityIndex": 62
+  },
+  {
+    "file": "cards/c06-the-draft.png",
+    "campaign": "06",
+    "term": "the draft",
+    "slug": "the-draft",
     "velocityIndex": 88
   },
   {
@@ -147,11 +567,25 @@
     "velocityIndex": 38
   },
   {
+    "file": "cards/c06-strait-of-hormuz.png",
+    "campaign": "06",
+    "term": "Strait of Hormuz",
+    "slug": "strait-of-hormuz",
+    "velocityIndex": 75
+  },
+  {
+    "file": "cards/c06-no-war-with-iran.png",
+    "campaign": "06",
+    "term": "no war with Iran",
+    "slug": "no-war-with-iran",
+    "velocityIndex": 44
+  },
+  {
     "file": "cards/c06-regime-change.png",
     "campaign": "06",
     "term": "regime change",
     "slug": "regime-change",
-    "velocityIndex": 12
+    "velocityIndex": 6
   },
   {
     "file": "cards/c06-obliterated.png",
@@ -165,63 +599,119 @@
     "campaign": "06",
     "term": "ceasefire",
     "slug": "ceasefire",
-    "velocityIndex": 100
+    "velocityIndex": 94
   },
   {
     "file": "cards/c06-de-escalation.png",
     "campaign": "06",
     "term": "de-escalation",
     "slug": "de-escalation",
-    "velocityIndex": 50
+    "velocityIndex": 31
+  },
+  {
+    "file": "cards/c06-bunker-buster.png",
+    "campaign": "06",
+    "term": "bunker buster",
+    "slug": "bunker-buster",
+    "velocityIndex": 12
   },
   {
     "file": "cards/c06-breakout.png",
     "campaign": "06",
     "term": "breakout",
     "slug": "breakout",
-    "velocityIndex": 88
+    "velocityIndex": 56
   },
   {
     "file": "cards/c06-america-first.png",
     "campaign": "06",
     "term": "America First",
     "slug": "america-first",
-    "velocityIndex": 25
+    "velocityIndex": 19
+  },
+  {
+    "file": "cards/c06-forever-war.png",
+    "campaign": "06",
+    "term": "forever war",
+    "slug": "forever-war",
+    "velocityIndex": 69
   },
   {
     "file": "cards/c06-peace-through-strength.png",
     "campaign": "06",
     "term": "peace through strength",
     "slug": "peace-through-strength",
-    "velocityIndex": 62
+    "velocityIndex": 50
+  },
+  {
+    "file": "cards/c06-warmonger.png",
+    "campaign": "06",
+    "term": "warmonger",
+    "slug": "warmonger",
+    "velocityIndex": 100
+  },
+  {
+    "file": "cards/c06-neocon.png",
+    "campaign": "06",
+    "term": "neocon",
+    "slug": "neocon",
+    "velocityIndex": 81
   },
   {
     "file": "cards/c06-mission-accomplished.png",
     "campaign": "06",
     "term": "mission accomplished",
     "slug": "mission-accomplished",
-    "velocityIndex": 75
+    "velocityIndex": 25
   },
   {
     "file": "cards/c07-store-of-value.png",
     "campaign": "07",
     "term": "store of value",
     "slug": "store-of-value",
-    "velocityIndex": 43
+    "velocityIndex": 31
   },
   {
     "file": "cards/c07-digital-gold.png",
     "campaign": "07",
     "term": "digital gold",
     "slug": "digital-gold",
-    "velocityIndex": 29
+    "velocityIndex": 0
+  },
+  {
+    "file": "cards/c07-death-of-the-dollar.png",
+    "campaign": "07",
+    "term": "death of the dollar",
+    "slug": "death-of-the-dollar",
+    "velocityIndex": 88
+  },
+  {
+    "file": "cards/c07-money-printing.png",
+    "campaign": "07",
+    "term": "money printing",
+    "slug": "money-printing",
+    "velocityIndex": 19
   },
   {
     "file": "cards/c07-inflation-hedge.png",
     "campaign": "07",
     "term": "inflation hedge",
     "slug": "inflation-hedge",
-    "velocityIndex": 14
+    "velocityIndex": 25
+  },
+  {
+    "file": "cards/c07-stablecoin.png",
+    "campaign": "07",
+    "term": "stablecoin",
+    "slug": "stablecoin",
+    "velocityIndex": 38
+  },
+  {
+    "file": "cards/c07-tokenization.png",
+    "campaign": "07",
+    "term": "tokenization",
+    "slug": "tokenization",
+    "velocityIndex": 56
   },
   {
     "file": "cards/c07-debasement-trade.png",
@@ -231,31 +721,507 @@
     "velocityIndex": 100
   },
   {
+    "file": "cards/c07-de-dollarization.png",
+    "campaign": "07",
+    "term": "de-dollarization",
+    "slug": "de-dollarization",
+    "velocityIndex": 44
+  },
+  {
+    "file": "cards/c07-digital-dollar.png",
+    "campaign": "07",
+    "term": "digital dollar",
+    "slug": "digital-dollar",
+    "velocityIndex": 69
+  },
+  {
     "file": "cards/c07-fiscal-dominance.png",
     "campaign": "07",
     "term": "fiscal dominance",
     "slug": "fiscal-dominance",
-    "velocityIndex": 71
+    "velocityIndex": 62
   },
   {
     "file": "cards/c07-sound-money.png",
     "campaign": "07",
     "term": "sound money",
     "slug": "sound-money",
-    "velocityIndex": 57
+    "velocityIndex": 50
+  },
+  {
+    "file": "cards/c07-fiat.png",
+    "campaign": "07",
+    "term": "fiat",
+    "slug": "fiat",
+    "velocityIndex": 81
+  },
+  {
+    "file": "cards/c07-ponzi.png",
+    "campaign": "07",
+    "term": "ponzi",
+    "slug": "ponzi",
+    "velocityIndex": 75
   },
   {
     "file": "cards/c07-magic-internet-money.png",
     "campaign": "07",
     "term": "magic internet money",
     "slug": "magic-internet-money",
-    "velocityIndex": 0
+    "velocityIndex": 6
+  },
+  {
+    "file": "cards/c07-bitcoin-standard.png",
+    "campaign": "07",
+    "term": "Bitcoin standard",
+    "slug": "bitcoin-standard",
+    "velocityIndex": 12
   },
   {
     "file": "cards/c07-hard-money.png",
     "campaign": "07",
     "term": "hard money",
     "slug": "hard-money",
-    "velocityIndex": 86
+    "velocityIndex": 94
+  },
+  {
+    "file": "cards/c08-yimby.png",
+    "campaign": "08",
+    "term": "YIMBY",
+    "slug": "yimby",
+    "velocityIndex": 81
+  },
+  {
+    "file": "cards/c08-nimby.png",
+    "campaign": "08",
+    "term": "NIMBY",
+    "slug": "nimby",
+    "velocityIndex": 69
+  },
+  {
+    "file": "cards/c08-missing-middle.png",
+    "campaign": "08",
+    "term": "missing middle",
+    "slug": "missing-middle",
+    "velocityIndex": 31
+  },
+  {
+    "file": "cards/c08-zoning-reform.png",
+    "campaign": "08",
+    "term": "zoning reform",
+    "slug": "zoning-reform",
+    "velocityIndex": 56
+  },
+  {
+    "file": "cards/c08-housing-theory-of-everything.png",
+    "campaign": "08",
+    "term": "housing theory of everything",
+    "slug": "housing-theory-of-everything",
+    "velocityIndex": 100
+  },
+  {
+    "file": "cards/c08-supply-skepticism.png",
+    "campaign": "08",
+    "term": "supply skepticism",
+    "slug": "supply-skepticism",
+    "velocityIndex": 94
+  },
+  {
+    "file": "cards/c08-abundance-agenda.png",
+    "campaign": "08",
+    "term": "abundance agenda",
+    "slug": "abundance-agenda",
+    "velocityIndex": 38
+  },
+  {
+    "file": "cards/c08-energy-dominance.png",
+    "campaign": "08",
+    "term": "energy dominance",
+    "slug": "energy-dominance",
+    "velocityIndex": 12
+  },
+  {
+    "file": "cards/c08-drill-baby-drill.png",
+    "campaign": "08",
+    "term": "drill baby drill",
+    "slug": "drill-baby-drill",
+    "velocityIndex": 0
+  },
+  {
+    "file": "cards/c08-electrify-everything.png",
+    "campaign": "08",
+    "term": "electrify everything",
+    "slug": "electrify-everything",
+    "velocityIndex": 44
+  },
+  {
+    "file": "cards/c08-degrowth.png",
+    "campaign": "08",
+    "term": "degrowth",
+    "slug": "degrowth",
+    "velocityIndex": 88
+  },
+  {
+    "file": "cards/c08-permitting-reform.png",
+    "campaign": "08",
+    "term": "permitting reform",
+    "slug": "permitting-reform",
+    "velocityIndex": 19
+  },
+  {
+    "file": "cards/c08-build-baby-build.png",
+    "campaign": "08",
+    "term": "build baby build",
+    "slug": "build-baby-build",
+    "velocityIndex": 50
+  },
+  {
+    "file": "cards/c08-everything-bagel-liberalism.png",
+    "campaign": "08",
+    "term": "everything-bagel liberalism",
+    "slug": "everything-bagel-liberalism",
+    "velocityIndex": 6
+  },
+  {
+    "file": "cards/c08-scarcity-mindset.png",
+    "campaign": "08",
+    "term": "scarcity mindset",
+    "slug": "scarcity-mindset",
+    "velocityIndex": 25
+  },
+  {
+    "file": "cards/c08-limits-to-growth.png",
+    "campaign": "08",
+    "term": "limits to growth",
+    "slug": "limits-to-growth",
+    "velocityIndex": 75
+  },
+  {
+    "file": "cards/c08-polycrisis.png",
+    "campaign": "08",
+    "term": "polycrisis",
+    "slug": "polycrisis",
+    "velocityIndex": 62
+  },
+  {
+    "file": "cards/c09-ai-slop.png",
+    "campaign": "09",
+    "term": "AI slop",
+    "slug": "ai-slop",
+    "velocityIndex": 50
+  },
+  {
+    "file": "cards/c09-dead-internet-theory.png",
+    "campaign": "09",
+    "term": "dead internet theory",
+    "slug": "dead-internet-theory",
+    "velocityIndex": 44
+  },
+  {
+    "file": "cards/c09-slopaganda.png",
+    "campaign": "09",
+    "term": "slopaganda",
+    "slug": "slopaganda",
+    "velocityIndex": 19
+  },
+  {
+    "file": "cards/c09-model-collapse.png",
+    "campaign": "09",
+    "term": "model collapse",
+    "slug": "model-collapse",
+    "velocityIndex": 62
+  },
+  {
+    "file": "cards/c09-clanker.png",
+    "campaign": "09",
+    "term": "clanker",
+    "slug": "clanker",
+    "velocityIndex": 0
+  },
+  {
+    "file": "cards/c09-deepfake.png",
+    "campaign": "09",
+    "term": "deepfake",
+    "slug": "deepfake",
+    "velocityIndex": 56
+  },
+  {
+    "file": "cards/c09-workslop.png",
+    "campaign": "09",
+    "term": "workslop",
+    "slug": "workslop",
+    "velocityIndex": 100
+  },
+  {
+    "file": "cards/c09-proof-of-personhood.png",
+    "campaign": "09",
+    "term": "proof of personhood",
+    "slug": "proof-of-personhood",
+    "velocityIndex": 81
+  },
+  {
+    "file": "cards/c09-made-by-humans.png",
+    "campaign": "09",
+    "term": "made by humans",
+    "slug": "made-by-humans",
+    "velocityIndex": 75
+  },
+  {
+    "file": "cards/c09-content-credentials.png",
+    "campaign": "09",
+    "term": "content credentials",
+    "slug": "content-credentials",
+    "velocityIndex": 25
+  },
+  {
+    "file": "cards/c09-ai-generated.png",
+    "campaign": "09",
+    "term": "AI-generated",
+    "slug": "ai-generated",
+    "velocityIndex": 88
+  },
+  {
+    "file": "cards/c09-synthetic-media.png",
+    "campaign": "09",
+    "term": "synthetic media",
+    "slug": "synthetic-media",
+    "velocityIndex": 31
+  },
+  {
+    "file": "cards/c09-ai-assisted.png",
+    "campaign": "09",
+    "term": "AI-assisted",
+    "slug": "ai-assisted",
+    "velocityIndex": 94
+  },
+  {
+    "file": "cards/c09-synthetic-data.png",
+    "campaign": "09",
+    "term": "synthetic data",
+    "slug": "synthetic-data",
+    "velocityIndex": 38
+  },
+  {
+    "file": "cards/c09-democratizing-creativity.png",
+    "campaign": "09",
+    "term": "democratizing creativity",
+    "slug": "democratizing-creativity",
+    "velocityIndex": 6
+  },
+  {
+    "file": "cards/c09-authenticity.png",
+    "campaign": "09",
+    "term": "authenticity",
+    "slug": "authenticity",
+    "velocityIndex": 69
+  },
+  {
+    "file": "cards/c09-generative-content.png",
+    "campaign": "09",
+    "term": "generative content",
+    "slug": "generative-content",
+    "velocityIndex": 12
+  },
+  {
+    "file": "cards/c10-energy-affordability.png",
+    "campaign": "10",
+    "term": "energy affordability",
+    "slug": "energy-affordability",
+    "velocityIndex": 36
+  },
+  {
+    "file": "cards/c10-electric-bill.png",
+    "campaign": "10",
+    "term": "electric bill",
+    "slug": "electric-bill",
+    "velocityIndex": 55
+  },
+  {
+    "file": "cards/c10-ratepayer.png",
+    "campaign": "10",
+    "term": "ratepayer",
+    "slug": "ratepayer",
+    "velocityIndex": 27
+  },
+  {
+    "file": "cards/c10-energy-poverty.png",
+    "campaign": "10",
+    "term": "energy poverty",
+    "slug": "energy-poverty",
+    "velocityIndex": 0
+  },
+  {
+    "file": "cards/c10-grid-reliability.png",
+    "campaign": "10",
+    "term": "grid reliability",
+    "slug": "grid-reliability",
+    "velocityIndex": 64
+  },
+  {
+    "file": "cards/c10-baseload.png",
+    "campaign": "10",
+    "term": "baseload",
+    "slug": "baseload",
+    "velocityIndex": 45
+  },
+  {
+    "file": "cards/c10-load-growth.png",
+    "campaign": "10",
+    "term": "load growth",
+    "slug": "load-growth",
+    "velocityIndex": 82
+  },
+  {
+    "file": "cards/c10-cost-allocation.png",
+    "campaign": "10",
+    "term": "cost allocation",
+    "slug": "cost-allocation",
+    "velocityIndex": 100
+  },
+  {
+    "file": "cards/c10-interconnection-queue.png",
+    "campaign": "10",
+    "term": "interconnection queue",
+    "slug": "interconnection-queue",
+    "velocityIndex": 73
+  },
+  {
+    "file": "cards/c10-energy-dominance.png",
+    "campaign": "10",
+    "term": "energy dominance",
+    "slug": "energy-dominance",
+    "velocityIndex": 9
+  },
+  {
+    "file": "cards/c10-data-center-boom.png",
+    "campaign": "10",
+    "term": "data center boom",
+    "slug": "data-center-boom",
+    "velocityIndex": 91
+  },
+  {
+    "file": "cards/c10-ai-power-demand.png",
+    "campaign": "10",
+    "term": "AI power demand",
+    "slug": "ai-power-demand",
+    "velocityIndex": 18
+  },
+  {
+    "file": "cards/c11-undocumented.png",
+    "campaign": "11",
+    "term": "undocumented",
+    "slug": "undocumented",
+    "velocityIndex": 25
+  },
+  {
+    "file": "cards/c11-illegal-alien.png",
+    "campaign": "11",
+    "term": "illegal alien",
+    "slug": "illegal-alien",
+    "velocityIndex": 81
+  },
+  {
+    "file": "cards/c11-migrant.png",
+    "campaign": "11",
+    "term": "migrant",
+    "slug": "migrant",
+    "velocityIndex": 88
+  },
+  {
+    "file": "cards/c11-asylum-seeker.png",
+    "campaign": "11",
+    "term": "asylum seeker",
+    "slug": "asylum-seeker",
+    "velocityIndex": 19
+  },
+  {
+    "file": "cards/c11-refugee.png",
+    "campaign": "11",
+    "term": "refugee",
+    "slug": "refugee",
+    "velocityIndex": 31
+  },
+  {
+    "file": "cards/c11-noncitizen.png",
+    "campaign": "11",
+    "term": "noncitizen",
+    "slug": "noncitizen",
+    "velocityIndex": 94
+  },
+  {
+    "file": "cards/c11-deportation.png",
+    "campaign": "11",
+    "term": "deportation",
+    "slug": "deportation",
+    "velocityIndex": 38
+  },
+  {
+    "file": "cards/c11-removal-proceedings.png",
+    "campaign": "11",
+    "term": "removal proceedings",
+    "slug": "removal-proceedings",
+    "velocityIndex": 44
+  },
+  {
+    "file": "cards/c11-detention.png",
+    "campaign": "11",
+    "term": "detention",
+    "slug": "detention",
+    "velocityIndex": 12
+  },
+  {
+    "file": "cards/c11-border-security.png",
+    "campaign": "11",
+    "term": "border security",
+    "slug": "border-security",
+    "velocityIndex": 56
+  },
+  {
+    "file": "cards/c11-work-permit.png",
+    "campaign": "11",
+    "term": "work permit",
+    "slug": "work-permit",
+    "velocityIndex": 69
+  },
+  {
+    "file": "cards/c11-port-of-entry.png",
+    "campaign": "11",
+    "term": "port of entry",
+    "slug": "port-of-entry",
+    "velocityIndex": 62
+  },
+  {
+    "file": "cards/c11-mass-deportation.png",
+    "campaign": "11",
+    "term": "mass deportation",
+    "slug": "mass-deportation",
+    "velocityIndex": 75
+  },
+  {
+    "file": "cards/c11-self-deportation.png",
+    "campaign": "11",
+    "term": "self-deportation",
+    "slug": "self-deportation",
+    "velocityIndex": 50
+  },
+  {
+    "file": "cards/c11-sanctuary-city.png",
+    "campaign": "11",
+    "term": "sanctuary city",
+    "slug": "sanctuary-city",
+    "velocityIndex": 6
+  },
+  {
+    "file": "cards/c11-open-borders.png",
+    "campaign": "11",
+    "term": "open borders",
+    "slug": "open-borders",
+    "velocityIndex": 100
+  },
+  {
+    "file": "cards/c11-legal-pathway.png",
+    "campaign": "11",
+    "term": "legal pathway",
+    "slug": "legal-pathway",
+    "velocityIndex": 0
   }
 ]

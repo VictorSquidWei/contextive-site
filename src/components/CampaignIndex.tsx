@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { ALL_CAMPAIGNS } from '../data/campaigns';
 import { campaignPath, measuredCount } from '../data/campaign';
 import { readerHook, FEATURED_CAMPAIGN_IDS } from '../data/readerHooks';
+import { FreshnessBadge } from './FreshnessBadge';
 import type { Campaign } from '../data/campaign';
 
 /** Fires once when the element scrolls into view; instant for reduced-motion users. */
@@ -91,6 +92,11 @@ function FeaturedCard({ c, i, inView }: { c: Campaign; i: number; inView: boolea
               See who is winning <Arrow />
             </span>
           </div>
+          <FreshnessBadge
+            campaign={c}
+            variant="inline"
+            className="text-muted group-hover:text-paper/50"
+          />
         </div>
       </Link>
     </div>
@@ -114,9 +120,10 @@ function RowCard({ c, i, inView }: { c: Campaign; i: number; inView: boolean }) 
             {hook || c.title}
           </span>
           <MeasuredBar measured={measured} total={total} inView={inView} />
-          <span className="small-caps text-muted group-hover:text-paper/60 flex flex-wrap gap-x-3">
+          <span className="small-caps text-muted group-hover:text-paper/60 flex flex-wrap items-center gap-x-3 gap-y-1">
             <span>{c.shortTitle}</span>
             <span>{measured} / {total} measured</span>
+            <FreshnessBadge campaign={c} variant="inline" />
           </span>
         </span>
         <span className="shrink-0 self-center text-muted group-hover:text-paper">

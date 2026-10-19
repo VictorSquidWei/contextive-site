@@ -4,6 +4,7 @@ import { getCampaignById } from '../data/campaigns';
 import { TermLeaderboard } from './TermLeaderboard';
 import { plainRead, humanPct, findTerm, tensionCaption } from '../lib/readSignal';
 import { readerHook, HERO_CAPTIONS } from '../data/readerHooks';
+import { FreshnessBadge } from './FreshnessBadge';
 import type { Campaign, CampaignTerm } from '../data/campaign';
 
 /** One pole of the defining tension, with its measured read looked up from the terms. */
@@ -103,12 +104,13 @@ export function CampaignPage() {
             <span aria-hidden>←</span> All campaigns
           </Link>
 
-          <div className="flex flex-wrap items-center gap-x-4 gap-y-1 small-caps text-muted">
+          <div className="flex flex-wrap items-center gap-x-4 gap-y-2 small-caps text-muted">
             <span className="text-ink">{c.label}</span>
             <span>{c.period}</span>
             <span>
               {measured} of {c.terms.length} words measured
             </span>
+            <FreshnessBadge campaign={c} />
           </div>
 
           <h1 className="font-display font-bold tracking-tight text-4xl sm:text-5xl lg:text-6xl leading-[0.98] text-balance">

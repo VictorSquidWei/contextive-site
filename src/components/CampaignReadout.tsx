@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { useParams, Link, Navigate, useLocation } from 'react-router-dom';
 import { getCampaignById } from '../data/campaigns';
 import { SignalCard } from './SignalCard';
+import { FreshnessBadge } from './FreshnessBadge';
 import { leaderboardSort } from '../lib/readSignal';
 import type { CampaignTerm } from '../data/campaign';
 
@@ -56,10 +57,11 @@ export function CampaignReadout() {
 
           <div className="mt-8 grid lg:grid-cols-12 gap-8 lg:gap-12">
             <div className="lg:col-span-8 space-y-6">
-              <div className="flex flex-wrap items-center gap-x-4 gap-y-1 small-caps text-muted">
+              <div className="flex flex-wrap items-center gap-x-4 gap-y-2 small-caps text-muted">
                 <span className="text-ink">{c.label}</span>
                 <span>Full readout</span>
                 <span>{c.period}</span>
+                <FreshnessBadge campaign={c} />
               </div>
               <h1 className="font-display font-bold tracking-tight text-3xl sm:text-4xl lg:text-5xl leading-[0.98] text-balance">
                 {c.title}

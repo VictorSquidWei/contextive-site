@@ -13,7 +13,14 @@ const CAMPAIGN_DIR = join(__dirname, '..', 'src', 'data', 'campaigns');
 const OUT_DIR = join(__dirname, '..', 'public', 'cards');
 mkdirSync(OUT_DIR, { recursive: true });
 
-const dateOnly = (s) => (s || '').slice(0, 10);
+// Only a real ISO date counts. The seed carries retrieved_at: 'from-raw' (the pipeline's
+// SOURCE MODE, not a timestamp) and that string is truthy, so a bare `||` fallback never
+// fired and every card rendered 'MEASURED from-raw'. Reject anything that is not YYYY-MM-DD
+// so the caller falls through to the campaign's refDate, which is the real measurement date.
+const dateOnly = (s) => {
+  const d = (s || '').slice(0, 10);
+  return /^\d{4}-\d{2}-\d{2}$/.test(d) ? d : '';
+};
 
 function toData(term, camp) {
   const m = term.measurement || {};
