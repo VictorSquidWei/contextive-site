@@ -19,3 +19,8 @@ dist
 gcp-key.json
 key.json
 application_default_credentials.json
+
+# Toolkit docs — internal. Moved out of this PUBLIC repo per Victor 2026-10-19.
+# Files stay on disk so the CLAUDE.md @-imports and .claude/agents still resolve
+# locally; they are simply no longer published to GitHub.
+contextive-toolkit/
