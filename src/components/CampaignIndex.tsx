@@ -6,6 +6,11 @@ import { readerHook, FEATURED_CAMPAIGN_IDS } from '../data/readerHooks';
 import { FreshnessBadge } from './FreshnessBadge';
 import type { Campaign } from '../data/campaign';
 
+// The campaign count, spelled out from the data so the section copy can't fall behind it again.
+const NUMBER_WORDS = ['Zero', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten',
+  'Eleven', 'Twelve', 'Thirteen', 'Fourteen', 'Fifteen', 'Sixteen', 'Seventeen', 'Eighteen', 'Nineteen', 'Twenty'];
+const COUNT_WORD = NUMBER_WORDS[ALL_CAMPAIGNS.length] ?? String(ALL_CAMPAIGNS.length);
+
 /** Fires once when the element scrolls into view; instant for reduced-motion users. */
 function useInView<T extends HTMLElement>(threshold = 0.12) {
   const ref = useRef<T>(null);
@@ -148,13 +153,13 @@ export function CampaignIndex() {
         <div className="mb-10 lg:mb-16">
           <span className="small-caps text-muted inline-flex items-center gap-2.5">
             <span className="inline-block w-1.5 h-1.5 bg-ink rotate-45 motion-safe:animate-pulse" aria-hidden />
-            Ten vocabulary wars
+            {COUNT_WORD} vocabulary wars
           </span>
           <h2 className="font-display font-bold tracking-tight text-4xl lg:text-6xl mt-6 leading-[0.98] text-balance max-w-4xl">
             Same event, different words. <span className="text-muted">Which one is winning?</span>
           </h2>
           <p className="text-muted mt-6 max-w-2xl leading-relaxed">
-            Ten fights over what to call the news, tracked by how fast each word is gaining ground.
+            {COUNT_WORD} fights over what to call the news, tracked by how fast each word is gaining ground.
             Measured against open coverage data, never estimated.
           </p>
         </div>

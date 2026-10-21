@@ -175,8 +175,8 @@ export function SignalCard({ term }: { term: CampaignTerm }) {
         </div>
       ) : null}
 
-      {/* Verbatim */}
-      {term.verbatims && term.verbatims.length > 0 && (
+      {/* Verbatim. Some campaigns' data carries empty verbatim objects; never print empty quote marks. */}
+      {term.verbatims?.[0]?.quote && (
         <div className="border-l-2 border-ink/30 pl-4 space-y-1">
           <p className="font-display text-sm italic leading-snug">"{term.verbatims[0].quote}"</p>
           {term.verbatims[0].attribution && (

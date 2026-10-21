@@ -92,7 +92,8 @@ function Row({
         >
           {read.pending ? (
             <p className="text-sm text-muted leading-relaxed">
-              Measurement pending: {m.reason || 'this word is not yet at a measurable level in the news coverage.'}
+              Measurement pending: this word appears too rarely in the news coverage to measure reliably,
+              so it carries no number.
             </p>
           ) : (
             <>

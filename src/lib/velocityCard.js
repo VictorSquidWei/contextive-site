@@ -64,14 +64,15 @@ function termSize(t) {
 function sparkline(d90, c, x0, y0, w, h) {
   const dir = (d90 ?? 0) >= 0 ? 1 : -1;
   const mag = Math.min(1, Math.abs(d90 ?? 0) / 120);
+  // A straight start-to-end segment. The card carries the 90-day change only, not a daily
+  // series, so the line must not carry texture that reads as a measured shape.
   const n = 11;
-  const wob = [0, .05, -.03, .07, -.02, .06, -.04, .08, -.01, .06, 0];
   const pts = [];
   for (let i = 0; i < n; i++) {
     const fx = i / (n - 1);
     const x = x0 + fx * w;
     const trend = dir * mag * fx;
-    const y = y0 + h / 2 - (trend * (h / 2)) - wob[i] * (h / 2) * 0.45 * mag;
+    const y = y0 + h / 2 - (trend * (h / 2));
     pts.push([x, y]);
   }
   const poly = pts.map(([x, y]) => `${x.toFixed(1)},${y.toFixed(1)}`).join(' ');
@@ -98,6 +99,9 @@ function metaCell(c, x, label, value) {
  */
 export function velocityCardSVG(data, theme = DEFAULT_THEME, opts = {}) {
   const c = theme || DEFAULT_THEME;
+  // The pipeline returns 'emerging' whenever there is no year-over-year figure (every
+  // 180-day scan), so without yoy the stage is a default, not a measurement. Show none.
+  const stage = data.yoy === null || data.yoy === undefined ? '' : data.adoptionStage || '';
   const w = opts.width ?? 1080, h = opts.height ?? 1080;
   const styleAttr = opts.style ? ` style="${opts.style}"` : '';
   const vel = data.velocityIndex ?? 0;
@@ -125,7 +129,7 @@ export function velocityCardSVG(data, theme = DEFAULT_THEME, opts = {}) {
   <text x="82" y="320" font-family="${mono}" font-size="19" letter-spacing="3" fill="${c.mute}">${esc(data.domainTag || '')}</text>
 
   <text x="80" y="406" font-family="${mono}" font-size="19" letter-spacing="4" fill="${c.faint}">VELOCITY INDEX</text>
-  <text x="1000" y="500" text-anchor="end" font-family="${display}" font-weight="600" font-size="38" letter-spacing="1" fill="${c.fg}">${esc(upper(data.adoptionStage || ''))}</text>
+  <text x="1000" y="500" text-anchor="end" font-family="${display}" font-weight="600" font-size="38" letter-spacing="1" fill="${c.fg}">${esc(upper(stage))}</text>
   <text x="76" y="530" font-family="${display}" font-weight="700" font-size="128" fill="${c.fg}">${esc(velLabel)}<tspan font-family="${display}" font-weight="500" font-size="46" fill="${c.faint}"> /100</tspan></text>
   <rect x="${barX}" y="566" width="${barW}" height="16" rx="8" fill="${c.hair}"/>
   <rect x="${barX}" y="566" width="${barFill}" height="16" rx="8" fill="${c.fg}"/>

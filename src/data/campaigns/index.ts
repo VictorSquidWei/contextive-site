@@ -22,6 +22,20 @@ import c09 from './09.json';
 import c10 from './10.json';
 import c11 from './11.json';
 
+// The pipeline labels a term "emerging" whenever it has no year-over-year figure, and a
+// 180-day scan never has one, so on most campaigns the stage is a default rather than a
+// measurement. Drop it there; only a term with a real yoy keeps its stage (C07 today).
+function measuredStagesOnly(c: Campaign): Campaign {
+  return {
+    ...c,
+    terms: c.terms.map((t) => {
+      const m = t.measurement;
+      if (!m || m.deltas?.yoy != null) return t;
+      return { ...t, measurement: { ...m, adoptionStage: undefined } };
+    }),
+  };
+}
+
 const measuredCampaigns: Campaign[] = [
   c01 as unknown as Campaign,
   c02 as unknown as Campaign,
@@ -34,7 +48,7 @@ const measuredCampaigns: Campaign[] = [
   c09 as unknown as Campaign,
   c10 as unknown as Campaign,
   c11 as unknown as Campaign,
-];
+].map(measuredStagesOnly);
 
 // C01 and C02 now ship from the measured 01.json / 02.json above; drop their
 // legacy entries so the measured pages (trade-war, ai-and-work) supersede them.

@@ -2,6 +2,14 @@ import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, useInView } from 'framer-motion';
 import { SUBSTACK_SUBSCRIBE } from '../data/terms';
+import { getCampaign } from '../data/campaigns';
+
+// The sample card reads the real Campaign 06 'ceasefire' reading from the campaign data, so it
+// can't drift from the campaign page. It used to be typed in by hand and had gone stale.
+const SAMPLE_CAMPAIGN = getCampaign('06');
+const SAMPLE = SAMPLE_CAMPAIGN?.terms.find((t) => t.term === 'ceasefire')?.measurement;
+const signedPct = (v: number | null | undefined) =>
+  v == null ? 'n/a' : `${v < 0 ? '−' : '+'}${Math.abs(Math.round(v))}%`;
 
 /* ─────────────────────────────────────────────────────────────────────────
    How Contextive works — the methodology / signal-layer page.
@@ -182,8 +190,9 @@ const SIGNALS: { field: string; def: string }[] = [
 function SignalDemo() {
   const ref = useRef<HTMLDivElement>(null);
   const inView = useInView(ref, { once: true, margin: '-80px' });
-  const velocity = useCountUp(100, inView, 1500);
-  const delta = useCountUp(425, inView, 1500);
+  const d90 = Math.round(SAMPLE?.deltas?.d90 ?? 0);
+  const velocity = useCountUp(SAMPLE?.velocityIndex ?? 0, inView, 1500);
+  const delta = useCountUp(Math.abs(d90), inView, 1500);
 
   return (
     <div ref={ref} className="border border-ink bg-canvas dossier-shadow p-6 sm:p-8">
@@ -197,9 +206,9 @@ function SignalDemo() {
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-px bg-rule border border-rule">
         {[
           { k: 'VELOCITY', v: `${velocity}/100` },
-          { k: '90-DAY', v: `+${delta}%` },
-          { k: 'STAGE', v: 'SPREADING' },
-          { k: 'SENTIMENT', v: '−3.5' },
+          { k: '90-DAY', v: `${d90 < 0 ? '−' : '+'}${delta}%` },
+          { k: '30-DAY', v: signedPct(SAMPLE?.deltas?.d30) },
+          { k: 'MEASURED', v: SAMPLE_CAMPAIGN?.refDate ?? '—' },
         ].map((m) => (
           <div key={m.k} className="bg-canvas p-3 sm:p-4">
             <div className="small-caps text-whisper mb-1">{m.k}</div>
@@ -209,7 +218,7 @@ function SignalDemo() {
       </div>
 
       <p className="text-sm text-muted leading-relaxed mt-5">
-        A real reading from Campaign 06. The card is filled from the measured series,
+        A real reading from Campaign 06, read straight from the campaign&rsquo;s measured data:
         the same numbers the brief and the carousel use. Nothing here is keyed by hand.
       </p>
     </div>
@@ -421,7 +430,7 @@ export function HowItWorks() {
               See the method on a live campaign
             </h2>
             <p className="text-muted leading-relaxed max-w-[460px]">
-              The signal layer, working in real time on the vocabulary of the Iran war ceasefire.
+              The signal layer on a published campaign: the vocabulary of the Iran war ceasefire.
               Measured, not estimated.
             </p>
           </div>

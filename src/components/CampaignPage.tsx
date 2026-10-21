@@ -173,7 +173,7 @@ export function CampaignPage() {
               View the full readout <span aria-hidden>→</span>
             </Link>
             <p className="small-caps text-muted text-[11px] mt-3">
-              Every word, every signal field, the methodology and the sourcing.
+              Every word, every signal field, the thesis and the tensions.
             </p>
           </div>
         </div>

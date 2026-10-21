@@ -1,5 +1,9 @@
 import { useEffect, useState } from 'react';
 import { TERM_FILES } from '../data/terms';
+import { ALL_CAMPAIGNS } from '../data/campaigns';
+
+// The newest campaign is the active cycle (ALL_CAMPAIGNS is sorted by number).
+const ACTIVE_CYCLE = ALL_CAMPAIGNS[ALL_CAMPAIGNS.length - 1]?.number ?? '';
 import { DossierCard } from './DossierCard';
 import { WaitlistForm } from './WaitlistForm';
 
@@ -31,7 +35,7 @@ export function Hero() {
           <div className="space-y-2">
             <div className="flex items-center gap-3">
               <span className="inline-block w-2 h-2 bg-ink rotate-45" />
-              <span className="small-caps text-muted">Intelligence Archive // Active Cycle 07</span>
+              <span className="small-caps text-muted">Intelligence Archive // Active Cycle {ACTIVE_CYCLE}</span>
             </div>
           </div>
 
@@ -68,7 +72,7 @@ export function Hero() {
             <div className="flex flex-col gap-2 pt-2">
               <div className="flex items-center gap-3 text-muted">
                 <div className="w-1.5 h-1.5 bg-ink rotate-45" />
-                <span className="small-caps text-[9px]">Cross platform velocity tracking</span>
+                <span className="small-caps text-[9px]">Full-text news velocity tracking</span>
               </div>
               <div className="flex items-center gap-3 text-muted">
                 <div className="w-1.5 h-1.5 bg-ink rotate-45" />
