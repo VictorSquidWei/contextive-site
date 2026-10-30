@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { lazy, Suspense, useEffect } from 'react';
 import { Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import { Nav } from './components/Nav';
 import { Footer } from './components/Footer';
@@ -14,6 +14,9 @@ import { ApiTeaser } from './components/ApiTeaser';
 import { Waitlist } from './components/Waitlist';
 import { SignalPage } from './components/SignalPage';
 import { Analytics } from '@vercel/analytics/react';
+
+// The Monitor dashboard (map + panels) ships as its own chunk, loaded on first visit.
+const MonitorPage = lazy(() => import('./components/monitor/MonitorPage'));
 
 function HomePage() {
   const { hash } = useLocation();
@@ -56,6 +59,14 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/how-it-works" element={<HowItWorks />} />
         <Route path="/waitlist" element={<Waitlist />} />
+        <Route
+          path="/monitor"
+          element={
+            <Suspense fallback={<main className="min-h-[70svh]" aria-busy="true" />}>
+              <MonitorPage />
+            </Suspense>
+          }
+        />
         <Route path="/signal/:slug" element={<SignalPage />} />
         <Route path="/campaigns/:id/readout" element={<CampaignReadout />} />
         <Route path="/campaigns/:id" element={<CampaignPage />} />

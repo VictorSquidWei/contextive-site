@@ -6,6 +6,7 @@ import { SOCIAL_LINKS } from '../data/terms';
 
 const LINKS = [
   { to: '/#campaigns', label: 'Campaigns' },
+  { to: '/monitor', label: 'Monitor' },
   { to: '/how-it-works', label: 'How it works' },
   { to: '/waitlist', label: 'API' },
 ];

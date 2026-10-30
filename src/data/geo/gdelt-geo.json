@@ -1,0 +1,13 @@
+{
+ "instrument": "gdelt-geo",
+ "methodology_version": "gdelt-geo-v2locations-v1",
+ "label": "Places named in articles that use this word",
+ "source": "GDELT Web NGrams 3.0 joined to GDELT GKG 2.0 V2Locations (BigQuery)",
+ "status": "pending",
+ "mode": null,
+ "window": null,
+ "retrieved_at": null,
+ "min_located_articles": 25,
+ "reason": "Map data not yet measured: the gdelt-geo scan awaits Victor's go on its BigQuery cost.",
+ "terms": {}
+}
