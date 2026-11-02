@@ -1,0 +1,907 @@
+{
+  "number": "12",
+  "slug": "growing-up-online",
+  "id": "12-growing-up-online",
+  "label": "CAMPAIGN 12",
+  "title": "The Language of Growing Up Online",
+  "shortTitle": "Growing Up Online",
+  "period": "November 2026",
+  "status": "published",
+  "signalBasis": "measured",
+  "firewall": "We track how the words have been used and how fast they are winning, not whether the underlying politics is correct.",
+  "summary": "Over 90 days, four of the five words for the rules lost ground in news coverage: “social media ban” −45.2% over 90 days, “phone ban” −29.1% over 90 days, “age verification” −15.0% over 90 days and “Online Safety Act” −46.0% over 90 days (+187.8% over the last 30). The one rule word that rose is “parental controls” +26.6% over 90 days (−32.3% over the last 30). Over the season “parental controls” gained coverage while “social media ban” lost it; over the last 30 days both fell, and “Online Safety Act” rose.",
+  "anchor": "Through 2026 the argument over children, phones and platforms stayed in the news, and the words used to hold it moved in different directions. Across seventeen measured terms, the vocabulary of rules and the vocabulary of blame both lost ground over 90 days, while the words for life online split down the middle.",
+  "thesis": [
+    "Over 90 days, four of the five words for the rules lost ground in news coverage: “social media ban” −45.2% over 90 days, “phone ban” −29.1% over 90 days, “age verification” −15.0% over 90 days and “Online Safety Act” −46.0% over 90 days (+187.8% over the last 30). The one rule word that rose is “parental controls” +26.6% over 90 days (−32.3% over the last 30). Over the season “parental controls” gained coverage while “social media ban” lost it; over the last 30 days both fell, and “Online Safety Act” rose.",
+    "The words for life online split. Three rose — “youth mental health” +65.0% over 90 days, “social media addiction” +39.7% over 90 days (−38.6% over the last 30), “sextortion” +19.1% over 90 days — and the three words for online behaviour fell — “screen time” −8.0% over 90 days, “cyberbullying” −26.4% over 90 days (+27.9% over the last 30), “doomscrolling” −27.5% over 90 days. Five of the six words that assign blame fell too, on both sides of the argument: “Big Tech” −48.6% over 90 days, “online harms” −23.4% over 90 days, “addictive design” −18.5% over 90 days, “digital ID” −17.6% over 90 days and “censorship” −11.8% over 90 days. Only “nanny state” +22.6% over 90 days (−16.1% over the last 30) rose, and it is the thinnest word in the set."
+  ],
+  "definingTension": {
+    "a": "parental controls",
+    "b": "social media ban",
+    "note": "The cycle's spine. Two answers to the same question — who should act. Over 90 days “parental controls” is +26.6% and “social media ban” is −45.2%. Over the last 30 days both fell, −32.3% and −73.5%. Over the season “parental controls” gained coverage while “social media ban” lost it. Neither number says which works."
+  },
+  "clusters": [
+    {
+      "key": "A",
+      "name": "What it's like",
+      "blurb": "The six words for growing up online as it is lived: the hours, the compulsion, the peer conduct, the crime, the population trend and the habit. Each locates the subject somewhere different — in the clock, the product, the classmate, the offender, the generation or the scroll — before any rule is proposed."
+    },
+    {
+      "key": "B",
+      "name": "How the rules work",
+      "blurb": "The five words for the mechanisms on offer: the check at the door, the age line, the statute, the school rule and the family setting. Each assigns the job to someone — the platform, the state, the regulator, the head teacher or the parent."
+    },
+    {
+      "key": "C",
+      "name": "Words that assign blame",
+      "blurb": "Six words that turn the debate into an argument about responsibility: three used to point at the platforms and three used to point at the regulators. Each carries a verdict before it describes anything, which is why we measure them and never adopt them."
+    }
+  ],
+  "pillars": [
+    {
+      "title": "Four of the five rule words lost ground",
+      "body": "The cycle's lede. Over 90 days, “social media ban” −45.2% over 90 days, “phone ban” −29.1% over 90 days, “age verification” −15.0% over 90 days and “Online Safety Act” −46.0% over 90 days (+187.8% over the last 30). The exception is “parental controls” +26.6% over 90 days (−32.3% over the last 30), the rule word that hands the job to the parent."
+    },
+    {
+      "title": "The words for life online split",
+      "body": "Three rose over 90 days — “youth mental health” +65.0% over 90 days, “social media addiction” +39.7% over 90 days (−38.6% over the last 30), “sextortion” +19.1% over 90 days — and the three words for online behaviour fell — “screen time” −8.0% over 90 days, “cyberbullying” −26.4% over 90 days (+27.9% over the last 30), “doomscrolling” −27.5% over 90 days."
+    },
+    {
+      "title": "The blame words cooled on both sides",
+      "body": "The three used to point at platforms fell — “Big Tech” −48.6% over 90 days, “online harms” −23.4% over 90 days, “addictive design” −18.5% over 90 days — and two of the three used to point at regulators fell too — “digital ID” −17.6% over 90 days, “censorship” −11.8% over 90 days. Only “nanny state” +22.6% over 90 days (−16.1% over the last 30) rose, the thinnest term in the set. The argument about who is responsible got quieter on both sides."
+    }
+  ],
+  "tensions": [
+    {
+      "a": "parental controls",
+      "b": "social media ban",
+      "title": "'parental controls' vs 'social media ban'",
+      "body": "The cycle's spine. Two answers to the same question — who should act. Over 90 days “parental controls” is +26.6% and “social media ban” is −45.2%. Over the last 30 days both fell, −32.3% and −73.5%. Over the season “parental controls” gained coverage while “social media ban” lost it. Neither number says which works."
+    },
+    {
+      "a": "youth mental health",
+      "b": "screen time",
+      "title": "'youth mental health' vs 'screen time'",
+      "body": "The population word climbs and the household measure sits on a line: “youth mental health” +65.0%, “screen time” −8.0%, both over 90 days. “screen time” is the densest term in the set and the one the campaign expected to move; at exactly −8.0% the page labels it Cooling, and a fall a tenth of a point smaller would read Steady."
+    },
+    {
+      "a": "social media addiction",
+      "b": "doomscrolling",
+      "title": "'social media addiction' vs 'doomscrolling'",
+      "body": "Two words for heavy use: one puts the cause in the product, the other describes the habit. “social media addiction” is +39.7% over 90 days and “doomscrolling” is −27.5%. The caution: “social media addiction”'s last 30 days are −38.6%, so the rise is a summer rise, not a current one."
+    },
+    {
+      "title": "'Online Safety Act': fading over 90 days, back in the last 30",
+      "body": "The statute is −46.0% over 90 days and +187.8% over the last 30, which gives it the highest velocity index in the set (100/100). It is one of five words whose 30-day and 90-day directions differ, and every post that cites it carries both numbers."
+    },
+    {
+      "title": "The blame words cool on both sides; 'nanny state' rises",
+      "body": "Used to point at the platforms: “Big Tech” −48.6% over 90 days, “online harms” −23.4% over 90 days, “addictive design” −18.5% over 90 days. Used to point at the regulators: “digital ID” −17.6% over 90 days, “censorship” −11.8% over 90 days, “nanny state” +22.6% over 90 days (−16.1% over the last 30). “nanny state” is the thinnest term in the set at 0.0029 share-of-coverage, about 2.9 times the floor, so it is reported as measured and flagged as thin."
+    }
+  ],
+  "terms": [
+    {
+      "ref": "C12-A1",
+      "term": "screen time",
+      "cluster": "A",
+      "domainTag": "what it's like",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 69,
+        "deltas": {
+          "d30": -10.8,
+          "d90": -8,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-06-12",
+            "z": 2.54
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.114524,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        }
+      },
+      "platforms": [
+        "parenting and lifestyle coverage",
+        "health reporting",
+        "local news"
+      ],
+      "coOccurrence": [
+        "children",
+        "parents",
+        "limits"
+      ],
+      "whatItDoes": "Measures a child's online life in hours, which makes it a quantity a family can ration. It puts the question in the home and frames the answer as a habit to manage.",
+      "whereContested": "One reading treats it as a practical everyday measure. The other says it treats every hour as the same, and leaves the design of what's on the screen out of the sentence.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C12-A2",
+      "term": "social media addiction",
+      "cluster": "A",
+      "domainTag": "what it's like",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 6,
+        "deltas": {
+          "d30": -38.6,
+          "d90": 39.7,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-08-23",
+            "z": 2.12
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.013594,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        }
+      },
+      "platforms": [
+        "court and legal reporting",
+        "health reporting",
+        "wire reporting"
+      ],
+      "coOccurrence": [
+        "lawsuit",
+        "teenagers",
+        "platforms"
+      ],
+      "whatItDoes": "Borrows the language of dependency and applies it to an app, which moves the cause from the user's habits toward the product's design.",
+      "whereContested": "One side calls it a clinical description that courtrooms now test. The other calls it a metaphor that turns heavy use into a diagnosis the evidence has not settled.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C12-A3",
+      "term": "cyberbullying",
+      "cluster": "A",
+      "domainTag": "what it's like",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 94,
+        "deltas": {
+          "d30": 27.9,
+          "d90": -26.4,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-05-30",
+            "z": 3.59
+          },
+          {
+            "date": "2026-05-05",
+            "z": 2.11
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.043977,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        }
+      },
+      "platforms": [
+        "education reporting",
+        "local news",
+        "parenting coverage"
+      ],
+      "coOccurrence": [
+        "school",
+        "students",
+        "harassment"
+      ],
+      "whatItDoes": "Takes a familiar schoolyard harm and gives it an online setting. That places it inside a frame schools and parents already know how to act on.",
+      "whereContested": "One reading sees an old behaviour on a new channel. The other says the word understates harm that follows a child home and never switches off.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C12-A4",
+      "term": "sextortion",
+      "cluster": "A",
+      "domainTag": "what it's like",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 75,
+        "deltas": {
+          "d30": 11.8,
+          "d90": 19.1,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-08-07",
+            "z": 3.19
+          },
+          {
+            "date": "2026-07-22",
+            "z": 2.31
+          },
+          {
+            "date": "2026-10-22",
+            "z": 2.02
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.018107,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        }
+      },
+      "platforms": [
+        "crime and police reporting",
+        "wire reporting",
+        "local news"
+      ],
+      "coOccurrence": [
+        "police",
+        "teenagers",
+        "scam"
+      ],
+      "whatItDoes": "Names a specific crime in a single compound word, and pulls the debate toward criminal law and police warnings.",
+      "whereContested": "There is little disagreement about the crime itself. The dispute is whether it makes the case for platform-wide rules, or for targeted enforcement against the people who commit it.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C12-A5",
+      "term": "youth mental health",
+      "cluster": "A",
+      "domainTag": "what it's like",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 50,
+        "deltas": {
+          "d30": 19.2,
+          "d90": 65,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-08-28",
+            "z": 3.86
+          },
+          {
+            "date": "2026-08-18",
+            "z": 2.27
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.046158,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        }
+      },
+      "platforms": [
+        "health reporting",
+        "education reporting",
+        "policy reporting"
+      ],
+      "coOccurrence": [
+        "anxiety",
+        "teenagers",
+        "schools"
+      ],
+      "whatItDoes": "Turns many individual cases into a population health issue, which invites public-health measures rather than a family's own choices.",
+      "whereContested": "Contested over cause. One side reads the trend as driven by phones and feeds. The other says the evidence points to many causes and the phone has become the one that is easiest to name.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C12-A6",
+      "term": "doomscrolling",
+      "cluster": "A",
+      "domainTag": "what it's like",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 56,
+        "deltas": {
+          "d30": -7.6,
+          "d90": -27.5,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-06-17",
+            "z": 3.02
+          },
+          {
+            "date": "2026-07-05",
+            "z": 2.23
+          },
+          {
+            "date": "2026-07-15",
+            "z": 2.06
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.024761,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        }
+      },
+      "platforms": [
+        "lifestyle and culture coverage",
+        "opinion pages",
+        "technology reporting"
+      ],
+      "coOccurrence": [
+        "phone",
+        "sleep",
+        "news"
+      ],
+      "whatItDoes": "Describes the act of using an app, not the person using it. It makes endless scrolling a recognisable everyday behaviour without blaming anyone for it.",
+      "whereContested": "One reading takes it as a light, shared description of a habit. The other says the light tone hides a design feature that was built on purpose.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C12-B1",
+      "term": "age verification",
+      "cluster": "B",
+      "domainTag": "how the rules work",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 19,
+        "deltas": {
+          "d30": -41.5,
+          "d90": -15,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-06-13",
+            "z": 2.67
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.042306,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        }
+      },
+      "platforms": [
+        "technology reporting",
+        "policy reporting",
+        "wire reporting"
+      ],
+      "coOccurrence": [
+        "platforms",
+        "ID",
+        "regulator"
+      ],
+      "whatItDoes": "Names the mechanism rather than the goal, which turns the debate into a technical question about checking a user's age.",
+      "whereContested": "One side calls it a basic duty that every adult-only service already has. The other calls it a step that requires everyone to prove who they are.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C12-B2",
+      "term": "social media ban",
+      "cluster": "B",
+      "domainTag": "how the rules work",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 0,
+        "deltas": {
+          "d30": -73.5,
+          "d90": -45.2,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-06-12",
+            "z": 2.29
+          },
+          {
+            "date": "2026-06-29",
+            "z": 2.06
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.019144,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        }
+      },
+      "platforms": [
+        "wire reporting",
+        "international news",
+        "policy reporting"
+      ],
+      "coOccurrence": [
+        "under-16s",
+        "government",
+        "platforms"
+      ],
+      "whatItDoes": "Describes the most direct policy available in three words. It makes a minimum age the centre of the debate.",
+      "whereContested": "One side calls it a clear line that families and schools can enforce together. The other calls it a blunt rule that pushes children toward less visible corners of the internet.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C12-B3",
+      "term": "Online Safety Act",
+      "cluster": "B",
+      "domainTag": "how the rules work",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 100,
+        "deltas": {
+          "d30": 187.8,
+          "d90": -46,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-05-24",
+            "z": 2.71
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.018784,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        }
+      },
+      "platforms": [
+        "policy reporting",
+        "technology reporting",
+        "international news"
+      ],
+      "coOccurrence": [
+        "regulator",
+        "platforms",
+        "duty of care"
+      ],
+      "whatItDoes": "Uses the name of a statute, which carries the debate into regulation, codes of practice and enforcement deadlines.",
+      "whereContested": "One side reads it as a working model of platform accountability. The other reads it as a template for compliance costs and content removal that will reach far beyond children.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C12-B4",
+      "term": "phone ban",
+      "cluster": "B",
+      "domainTag": "how the rules work",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 25,
+        "deltas": {
+          "d30": -44.6,
+          "d90": -29.1,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-05-05",
+            "z": 4.52
+          },
+          {
+            "date": "2026-05-29",
+            "z": 2.3
+          },
+          {
+            "date": "2026-07-11",
+            "z": 2.04
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.005441,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        }
+      },
+      "platforms": [
+        "education reporting",
+        "local news",
+        "wire reporting"
+      ],
+      "coOccurrence": [
+        "school",
+        "pupils",
+        "classroom"
+      ],
+      "whatItDoes": "Shrinks the debate to a building and a school day, a rule a head teacher can enforce without any new law.",
+      "whereContested": "One side calls it a common-sense rule with quick results in the classroom. The other calls it a substitute for regulating the platforms, which leaves the evenings untouched.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C12-B5",
+      "term": "parental controls",
+      "cluster": "B",
+      "domainTag": "how the rules work",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 31,
+        "deltas": {
+          "d30": -32.3,
+          "d90": 26.6,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-08-27",
+            "z": 3.05
+          },
+          {
+            "date": "2026-06-16",
+            "z": 2.24
+          },
+          {
+            "date": "2026-08-17",
+            "z": 2.03
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.035461,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        }
+      },
+      "platforms": [
+        "technology reporting",
+        "company announcements",
+        "parenting coverage"
+      ],
+      "coOccurrence": [
+        "app",
+        "settings",
+        "teen accounts"
+      ],
+      "whatItDoes": "Hands the job to the parent, with tools the platform supplies. It frames safety as a setting rather than a law.",
+      "whereContested": "One side calls them the tools that let families choose. The other says they shift the work onto parents and are switched on far less often than they are announced.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C12-C1",
+      "term": "Big Tech",
+      "cluster": "C",
+      "domainTag": "words that assign blame",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 44,
+        "deltas": {
+          "d30": -28.8,
+          "d90": -48.6,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-05-23",
+            "z": 2.23
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.007272,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        }
+      },
+      "platforms": [
+        "policy reporting",
+        "opinion pages",
+        "wire reporting"
+      ],
+      "coOccurrence": [
+        "regulation",
+        "children",
+        "platforms"
+      ],
+      "whatItDoes": "Groups a handful of companies into one actor, which makes them a single opponent the sentence can hold responsible.",
+      "whereContested": "One side calls it accurate shorthand for concentrated power. The other calls it a label that treats different companies and different products as a single defendant.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C12-C2",
+      "term": "online harms",
+      "cluster": "C",
+      "domainTag": "words that assign blame",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 81,
+        "deltas": {
+          "d30": -32.6,
+          "d90": -23.4,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-05-28",
+            "z": 2.07
+          },
+          {
+            "date": "2026-08-27",
+            "z": 2.03
+          },
+          {
+            "date": "2026-06-11",
+            "z": 2.02
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.018659,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        }
+      },
+      "platforms": [
+        "policy reporting",
+        "international news",
+        "technology reporting"
+      ],
+      "coOccurrence": [
+        "regulation",
+        "platforms",
+        "children"
+      ],
+      "whatItDoes": "Collects many different problems into one category of harm, which justifies a single regulatory response to all of them.",
+      "whereContested": "One side calls it the right umbrella for a regulator's remit. The other calls it a term broad enough to cover lawful speech along with crime.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C12-C3",
+      "term": "addictive design",
+      "cluster": "C",
+      "domainTag": "words that assign blame",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 12,
+        "deltas": {
+          "d30": -48.2,
+          "d90": -18.5,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-07-12",
+            "z": 2.66
+          },
+          {
+            "date": "2026-08-29",
+            "z": 2.07
+          },
+          {
+            "date": "2026-05-23",
+            "z": 2.05
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.01593,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        }
+      },
+      "platforms": [
+        "court and legal reporting",
+        "technology reporting",
+        "policy reporting"
+      ],
+      "coOccurrence": [
+        "lawsuit",
+        "algorithm",
+        "features"
+      ],
+      "whatItDoes": "Puts the cause inside the product's features, such as infinite scroll, autoplay and notifications. It turns a parenting problem into a product-liability question.",
+      "whereContested": "One side calls it a description of features built to keep people engaged. The other calls it a legal theory that holds companies responsible for ordinary product choices.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C12-C4",
+      "term": "censorship",
+      "cluster": "C",
+      "domainTag": "words that assign blame",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 88,
+        "deltas": {
+          "d30": -28.4,
+          "d90": -11.8,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-05-06",
+            "z": 4
+          },
+          {
+            "date": "2026-09-10",
+            "z": 2.99
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.027924,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        }
+      },
+      "platforms": [
+        "opinion pages",
+        "technology reporting",
+        "policy reporting"
+      ],
+      "coOccurrence": [
+        "free speech",
+        "regulator",
+        "platforms"
+      ],
+      "whatItDoes": "Recasts child-safety rules as limits on speech, which moves the debate from protection to rights.",
+      "whereContested": "One side says rules written for children will end up governing what adults can say and see. The other says the word is used to resist any accountability for platforms at all.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C12-C5",
+      "term": "digital ID",
+      "cluster": "C",
+      "domainTag": "words that assign blame",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 38,
+        "deltas": {
+          "d30": -30.4,
+          "d90": -17.6,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-06-17",
+            "z": 4.14
+          },
+          {
+            "date": "2026-09-13",
+            "z": 2
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.008309,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        }
+      },
+      "platforms": [
+        "technology reporting",
+        "opinion pages",
+        "policy reporting"
+      ],
+      "coOccurrence": [
+        "privacy",
+        "age verification",
+        "government"
+      ],
+      "whatItDoes": "Points to what age checks might require of everyone, which reframes a child-safety measure as an identity system.",
+      "whereContested": "One side says it names a real privacy cost that age checks bring with them. The other calls it a slippery-slope label applied to checks that store no identity at all.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    },
+    {
+      "ref": "C12-C6",
+      "term": "nanny state",
+      "cluster": "C",
+      "domainTag": "words that assign blame",
+      "measurement": {
+        "status": "measured",
+        "velocityIndex": 62,
+        "deltas": {
+          "d30": -16.1,
+          "d90": 22.6,
+          "yoy": null
+        },
+        "sentiment": null,
+        "inflections": [
+          {
+            "date": "2026-05-24",
+            "z": 2.58
+          },
+          {
+            "date": "2026-08-13",
+            "z": 2.06
+          }
+        ],
+        "corpusDensity": {
+          "value": 0.0029,
+          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
+          "proxy": true
+        }
+      },
+      "platforms": [
+        "opinion pages",
+        "political reporting",
+        "talk radio transcripts"
+      ],
+      "coOccurrence": [
+        "government",
+        "parents",
+        "ban"
+      ],
+      "whatItDoes": "Casts the state as an overbearing guardian, which frames a rule as interference in a family's choices.",
+      "whereContested": "One side calls it a fair objection to the state replacing parents. The other calls it a dismissive label that avoids engaging with any evidence of harm.",
+      "verbatims": [
+        {},
+        {},
+        {}
+      ]
+    }
+  ],
+  "generatedAt": "2026-11-02T20:25:53+00:00",
+  "refDate": "2026-11-01",
+  "source": "GDELT Web NGrams 3.0 (BigQuery)"
+}

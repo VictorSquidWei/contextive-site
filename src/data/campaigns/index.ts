@@ -21,6 +21,7 @@ import c08 from './08.json';
 import c09 from './09.json';
 import c10 from './10.json';
 import c11 from './11.json';
+import c12 from './12.json';
 
 // The pipeline labels a term "emerging" whenever it has no year-over-year figure, and a
 // 180-day scan never has one, so on most campaigns the stage is a default rather than a
@@ -48,6 +49,7 @@ const measuredCampaigns: Campaign[] = [
   c09 as unknown as Campaign,
   c10 as unknown as Campaign,
   c11 as unknown as Campaign,
+  c12 as unknown as Campaign,
 ].map(measuredStagesOnly);
 
 // C01 and C02 now ship from the measured 01.json / 02.json above; drop their

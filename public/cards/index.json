@@ -1223,5 +1223,124 @@
     "term": "legal pathway",
     "slug": "legal-pathway",
     "velocityIndex": 0
+  },
+  {
+    "file": "cards/c12-screen-time.png",
+    "campaign": "12",
+    "term": "screen time",
+    "slug": "screen-time",
+    "velocityIndex": 69
+  },
+  {
+    "file": "cards/c12-social-media-addiction.png",
+    "campaign": "12",
+    "term": "social media addiction",
+    "slug": "social-media-addiction",
+    "velocityIndex": 6
+  },
+  {
+    "file": "cards/c12-cyberbullying.png",
+    "campaign": "12",
+    "term": "cyberbullying",
+    "slug": "cyberbullying",
+    "velocityIndex": 94
+  },
+  {
+    "file": "cards/c12-sextortion.png",
+    "campaign": "12",
+    "term": "sextortion",
+    "slug": "sextortion",
+    "velocityIndex": 75
+  },
+  {
+    "file": "cards/c12-youth-mental-health.png",
+    "campaign": "12",
+    "term": "youth mental health",
+    "slug": "youth-mental-health",
+    "velocityIndex": 50
+  },
+  {
+    "file": "cards/c12-doomscrolling.png",
+    "campaign": "12",
+    "term": "doomscrolling",
+    "slug": "doomscrolling",
+    "velocityIndex": 56
+  },
+  {
+    "file": "cards/c12-age-verification.png",
+    "campaign": "12",
+    "term": "age verification",
+    "slug": "age-verification",
+    "velocityIndex": 19
+  },
+  {
+    "file": "cards/c12-social-media-ban.png",
+    "campaign": "12",
+    "term": "social media ban",
+    "slug": "social-media-ban",
+    "velocityIndex": 0
+  },
+  {
+    "file": "cards/c12-online-safety-act.png",
+    "campaign": "12",
+    "term": "Online Safety Act",
+    "slug": "online-safety-act",
+    "velocityIndex": 100
+  },
+  {
+    "file": "cards/c12-phone-ban.png",
+    "campaign": "12",
+    "term": "phone ban",
+    "slug": "phone-ban",
+    "velocityIndex": 25
+  },
+  {
+    "file": "cards/c12-parental-controls.png",
+    "campaign": "12",
+    "term": "parental controls",
+    "slug": "parental-controls",
+    "velocityIndex": 31
+  },
+  {
+    "file": "cards/c12-big-tech.png",
+    "campaign": "12",
+    "term": "Big Tech",
+    "slug": "big-tech",
+    "velocityIndex": 44
+  },
+  {
+    "file": "cards/c12-online-harms.png",
+    "campaign": "12",
+    "term": "online harms",
+    "slug": "online-harms",
+    "velocityIndex": 81
+  },
+  {
+    "file": "cards/c12-addictive-design.png",
+    "campaign": "12",
+    "term": "addictive design",
+    "slug": "addictive-design",
+    "velocityIndex": 12
+  },
+  {
+    "file": "cards/c12-censorship.png",
+    "campaign": "12",
+    "term": "censorship",
+    "slug": "censorship",
+    "velocityIndex": 88
+  },
+  {
+    "file": "cards/c12-digital-id.png",
+    "campaign": "12",
+    "term": "digital ID",
+    "slug": "digital-id",
+    "velocityIndex": 38
+  },
+  {
+    "file": "cards/c12-nanny-state.png",
+    "campaign": "12",
+    "term": "nanny state",
+    "slug": "nanny-state",
+    "velocityIndex": 62
   }
 ]
