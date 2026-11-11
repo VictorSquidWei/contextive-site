@@ -8,13 +8,16 @@
 
 import raw from '../../data/geo/gdelt-geo.json';
 
+// The site file is a trim of the full measured output (geo_pipeline.py site_trim):
+// the top countries the word card lists and every place the density layer spreads,
+// with only the fields drawn here. The full record stays in the toolkit.
 export interface GeoPoint {
   /** GDELT's geocoded name, e.g. "Austin, Texas, United States". */
   name: string;
-  /** FIPS 10-4 country code (GDELT's convention, not ISO). */
-  cc: string;
-  lat: number | null;
-  lon: number | null;
+  /** FIPS 10-4 country code (GDELT's convention, not ISO); countries only. */
+  cc?: string;
+  lat?: number | null;
+  lon?: number | null;
   /** Distinct articles using the word that name this place. */
   articles: number;
   /** articles ÷ the word's located articles (an article can name many places). */
@@ -28,7 +31,7 @@ export interface GeoTerm {
   term: string;
   window: { start: string; end: string };
   articles: number;
-  gkg_articles: number;
+  gkg_articles?: number;
   located_articles: number;
   status: 'measured' | 'pending';
   reason?: string;
@@ -48,10 +51,17 @@ export interface GeoFile {
   min_located_articles: number;
   reason?: string;
   notes?: string[];
+  site_trim?: string;
   terms: Record<string, GeoTerm>;
 }
 
 export const GEO = raw as unknown as GeoFile;
+
+/** From methodology v2 the file counts GDELT's Gaza Strip and West Bank codes, the
+    Gaza and West Bank places GDELT files under Israel's code, and the words
+    "Palestinian" and "Palestine" as one row, "Palestinian territories", and counts an
+    article reached at several web addresses once. v1 kept GDELT's own coding. */
+export const GEO_TERRITORIES_ROW = Number(/-v(\d+)$/.exec(GEO.methodology_version ?? '')?.[1] ?? 0) >= 2;
 
 /** Key a term the way geo_pipeline.py does: campaign number + lowercased term. */
 export function geoKey(campaign: string, term: string): string {
@@ -76,11 +86,12 @@ export function fmtDate(iso?: string | null): string | null {
   return `${MONTHS[mi]} ${Number(m[3])}, ${m[1]}`;
 }
 
-/** "Jul 15 – Jul 21, 2026" (year once when both ends share it). */
+/** "Oct 19–25, 2026", "Sep 29 – Oct 5, 2026" or "May 4, 2026 – Jan 2, 2027". */
 export function fmtRange(a?: string | null, b?: string | null): string | null {
   const fa = fmtDate(a);
   const fb = fmtDate(b);
   if (!fa || !fb) return null;
+  if (a!.slice(0, 7) === b!.slice(0, 7)) return `${fa.replace(/, \d{4}$/, '')}–${Number(b!.slice(8, 10))}, ${b!.slice(0, 4)}`;
   if (a!.slice(0, 4) === b!.slice(0, 4)) return `${fa.replace(/, \d{4}$/, '')} – ${fb}`;
   return `${fa} – ${fb}`;
 }

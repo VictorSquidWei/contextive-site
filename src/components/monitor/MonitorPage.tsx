@@ -1,21 +1,22 @@
-// Monitor — a full-page dashboard of the tracked words: which are moving, and (once
-// the gdelt-geo instrument has run) where the articles using them name places.
+// Monitor — the tracked words on a world map: which are moving, and where the
+// articles using them name places. The map is the page; the essentials float over it.
 //
 // Two instruments, never mixed:
 //   * velocity (gdelt-coverage): the measured campaign data and its plainRead() labels;
-//   * gdelt-geo: places named in articles that use the word (./geo.ts). Pending until
-//     a measured run lands; the map then draws only measured places.
+//   * gdelt-geo: places named in articles that use the word (./geo.ts). A word without a
+//     measured map shows no points and no numbers for it.
 // Freshness is honest: "Measured as of {date}" until FreshnessBadge's LIVE_MODE is
 // flipped, which only happens once the daily refresh loop is verified live.
 
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState, type CSSProperties } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { ALL_CAMPAIGNS } from '../../data/campaigns';
 import { FIREWALL, campaignPath, type Campaign, type CampaignTerm } from '../../data/campaign';
 import { plainRead, humanPct, type PlainRead, type Trend } from '../../lib/readSignal';
 import { LIVE_MODE } from '../FreshnessBadge';
-import { WorldMap, type MapLayers } from './WorldMap';
-import { GEO, geoFor, fmtDate, fmtRange } from './geo';
+import { WorldMap, MAP_ASPECT, LEGEND_OPACITIES, project, type MapLayers } from './WorldMap';
+import { GEO, GEO_TERRITORIES_ROW, geoFor, fmtDate, fmtRange } from './geo';
+import { WORLD_DOTS } from './worldDots';
 
 interface Row {
   key: string;
@@ -24,7 +25,7 @@ interface Row {
   read: PlainRead;
   /** 90-day momentum, falling back to 30-day: the same figure plainRead() labels. */
   delta: number | null;
-  span: '90-day' | '30-day' | null;
+  span: '90 days' | '30 days' | null;
 }
 
 const CAMPAIGNS = ALL_CAMPAIGNS.filter((c) => c.signalBasis === 'measured');
@@ -32,19 +33,50 @@ const CAMPAIGNS = ALL_CAMPAIGNS.filter((c) => c.signalBasis === 'measured');
 const ROWS: Row[] = CAMPAIGNS.flatMap((c) =>
   c.terms.map((t) => {
     const d = t.measurement.deltas;
-    const delta = d?.d90 ?? d?.d30 ?? null;
     return {
       key: `${c.number}|${t.term.trim().toLowerCase()}`,
       c,
       t,
       read: plainRead(t),
-      delta,
-      span: d?.d90 != null ? '90-day' : d?.d30 != null ? '30-day' : null,
+      delta: d?.d90 ?? d?.d30 ?? null,
+      span: d?.d90 != null ? '90 days' : d?.d30 != null ? '30 days' : null,
     } as Row;
   })
 );
 
-const TRENDS: { key: Trend | 'all'; label: string }[] = [
+// "Most named" chips: the countries named in the most articles across every measured
+// word's map this week. Data-driven, never an editorial list of places; a chip opens
+// the word with the most articles naming that country.
+const ROW_BY_KEY = new Map(ROWS.filter((r) => !r.read.pending).map((r) => [r.key, r] as const));
+interface PlaceChip {
+  cc: string;
+  name: string;
+  articles: number;
+  /** The word with the most articles naming this country, and that count. */
+  best: Row;
+  top: number;
+}
+const PLACE_CHIPS: PlaceChip[] = (() => {
+  if (GEO.status !== 'measured') return [];
+  const tally = new Map<string, PlaceChip>();
+  for (const [k, g] of Object.entries(GEO.terms)) {
+    const row = ROW_BY_KEY.get(k);
+    if (!row || g.status !== 'measured') continue;
+    for (const p of g.countries ?? []) {
+      if (!p.cc) continue;
+      const t = tally.get(p.cc);
+      if (!t) tally.set(p.cc, { cc: p.cc, name: p.name, articles: p.articles, best: row, top: p.articles });
+      else {
+        t.articles += p.articles;
+        if (p.articles > t.top) Object.assign(t, { best: row, top: p.articles });
+      }
+    }
+  }
+  return [...tally.values()].sort((a, b) => b.articles - a.articles).slice(0, 6);
+})();
+
+type TrendKey = Trend | 'all';
+const TRENDS: { key: TrendKey; label: string }[] = [
   { key: 'all', label: 'All' },
   { key: 'surging', label: 'Surging' },
   { key: 'rising', label: 'Rising' },
@@ -58,6 +90,24 @@ const byMove = (a: Row, b: Row) =>
 
 const readoutHref = (r: Row) =>
   `/campaigns/${r.c.id}/readout#${(r.t.ref || r.t.term).replace(/[^a-zA-Z0-9-]/g, '-')}`;
+
+const geoWindow = GEO.status === 'measured' && GEO.window ? fmtRange(GEO.window.start, GEO.window.end) : null;
+const pct = (v: number) => `${(v * 100).toFixed(v >= 0.1 ? 0 : 1)}%`;
+
+function useScoped(scope: Campaign | null, trend: TrendKey) {
+  return useMemo(() => {
+    const inScope = scope ? ROWS.filter((r) => r.c === scope) : ROWS;
+    const measured = inScope.filter((r) => !r.read.pending).sort(byMove);
+    const pending = inScope.filter((r) => r.read.pending);
+    const shown = trend === 'all' ? measured : measured.filter((r) => r.read.trend === trend);
+    const count = (k: TrendKey) => (k === 'all' ? measured.length : measured.filter((r) => r.read.trend === k).length);
+    return { inScope, measured, pending, shown, count };
+  }, [scope, trend]);
+}
+
+// ── Small parts ───────────────────────────────────────────────────────────────
+const LABEL = 'small-caps text-[9px] tracking-[0.2em] text-muted';
+const PANEL = 'bg-canvas/95 border border-ink/15 backdrop-blur-sm';
 
 function Diamond({ filled = false, className = '' }: { filled?: boolean; className?: string }) {
   return (
@@ -80,194 +130,351 @@ function Chip({ read }: { read: PlainRead }) {
   );
 }
 
+function IconButton({ label, onClick, children }: { label: string; onClick: () => void; children: string }) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      aria-label={label}
+      className="w-5 h-5 shrink-0 grid place-items-center font-mono text-xs text-muted hover:text-ink border border-transparent hover:border-ink/25"
+    >
+      {children}
+    </button>
+  );
+}
+
 // ── Status bar ────────────────────────────────────────────────────────────────
 function StatusBar({ scope }: { scope: Campaign | null }) {
+  const { measured } = useScoped(scope, 'all');
   const dates = CAMPAIGNS.map((c) => c.refDate).filter(Boolean).sort() as string[];
-  const inScope = scope ? ROWS.filter((r) => r.c === scope) : ROWS;
-  const measured = inScope.filter((r) => !r.read.pending).length;
   const freshness = LIVE_MODE
     ? 'Live · updated daily'
     : scope
       ? `Measured as of ${fmtDate(scope.refDate)}`
-      : `Measured ${fmtRange(dates[0], dates[dates.length - 1])}`;
-  const mapState =
-    GEO.status === 'measured' && GEO.window
-      ? `Map ${fmtRange(GEO.window.start, GEO.window.end)}`
-      : 'Map pending';
+      : `Campaigns ${fmtRange(dates[0], dates[dates.length - 1])}`;
 
   return (
-    <div className="border-b border-rule bg-canvas">
-      <div className="px-4 lg:px-6 py-2.5 flex items-center gap-x-5 gap-y-1.5 flex-wrap small-caps text-[10px] text-muted">
-        <span className="flex items-center gap-2 text-ink">
-          <Diamond filled />
-          <span className="font-display font-bold text-[13px] tracking-[0.18em]">Monitor</span>
-        </span>
-        <span className="flex items-center gap-1.5 text-ink">
-          {LIVE_MODE && <Diamond filled className="motion-safe:animate-pulse" />}
-          {freshness}
-        </span>
-        <span className="tabular-nums">
-          {measured} measured · {inScope.length - measured} pending
-        </span>
-        <span className="hidden sm:inline">Velocity · gdelt-coverage</span>
-        <span className="flex items-center gap-1.5">
-          <Diamond filled={GEO.status === 'measured'} />
-          {mapState} · gdelt-geo
-        </span>
-        <span className="hidden xl:inline ml-auto text-ink">Velocity, not verdict</span>
-      </div>
+    <div className="border-b border-rule bg-canvas px-4 xl:px-5 py-2 flex items-center gap-x-5 gap-y-1 flex-wrap small-caps text-[9px] tracking-[0.2em] text-muted">
+      <span className="flex items-center gap-2 text-ink">
+        <Diamond filled className="motion-safe:animate-pulse" />
+        <span className="font-display font-bold text-[12px] tracking-[0.18em]">Monitor</span>
+      </span>
+      <span className="tabular-nums text-ink">{measured.length} words</span>
+      <span className="flex items-center gap-1.5">{freshness}</span>
+      <span>Map · {geoWindow ?? 'pending'}</span>
     </div>
   );
 }
 
-// ── Words panel ───────────────────────────────────────────────────────────────
-function WordsPanel({
-  scope,
-  setScope,
-  trend,
-  setTrend,
-  selected,
-  onSelect,
+// ── "Most named" place chips ─────────────────────────────────────────────────
+function PlaceChips({
+  selectedKey,
+  onPick,
+  className = '',
 }: {
+  selectedKey: string | null;
+  onPick: (r: Row) => void;
+  className?: string;
+}) {
+  const [picked, setPicked] = useState<string | null>(null);
+  if (!PLACE_CHIPS.length) return null;
+  return (
+    <div className={`flex items-center gap-1.5 flex-wrap ${className}`}>
+      <span className={`${LABEL} mr-1`}>Most named · all words</span>
+      {PLACE_CHIPS.map((p, i) => {
+        // Several countries can open the same word; only the chip clicked shows as on.
+        const on = picked === p.cc && p.best.key === selectedKey;
+        return (
+          <button
+            key={p.cc}
+            type="button"
+            aria-pressed={on}
+            onClick={() => {
+              setPicked(p.cc);
+              onPick(p.best);
+            }}
+            title={`Opens “${p.best.t.term}”, the word with the most articles naming ${p.name}`}
+            className={`mon-rise small-caps text-[9px] tracking-[0.16em] px-2 py-1 border transition-colors ${
+              on ? 'bg-ink text-paper border-ink' : 'border-ink/25 text-ink hover:border-ink'
+            }`}
+            style={{ animationDelay: `${i * 60}ms` }}
+          >
+            {p.name}
+          </button>
+        );
+      })}
+    </div>
+  );
+}
+
+// ── Word filters + rows ───────────────────────────────────────────────────────
+interface FilterProps {
   scope: Campaign | null;
   setScope: (c: Campaign | null) => void;
-  trend: Trend | 'all';
-  setTrend: (t: Trend | 'all') => void;
-  selected: string | null;
-  onSelect: (r: Row) => void;
-}) {
-  const inScope = scope ? ROWS.filter((r) => r.c === scope) : ROWS;
-  const measured = inScope.filter((r) => !r.read.pending).sort(byMove);
-  const pending = inScope.filter((r) => r.read.pending);
-  const shown = trend === 'all' ? measured : measured.filter((r) => r.read.trend === trend);
-  const count = (k: Trend | 'all') =>
-    k === 'all' ? measured.length : measured.filter((r) => r.read.trend === k).length;
+  trend: TrendKey;
+  setTrend: (t: TrendKey) => void;
+}
 
-  return (
-    <div className="flex flex-col min-h-0 flex-1">
-      <div className="px-4 lg:px-5 pt-4 pb-3 space-y-3 border-b border-rule">
-        <div className="flex items-baseline justify-between gap-3">
-          <h2 className="small-caps text-ink">Words moving</h2>
-          <span className="small-caps text-[9px] text-muted tabular-nums">{shown.length} shown</span>
-        </div>
+const SELECT =
+  'w-full bg-canvas border border-rule hover:border-ink/40 focus:border-ink px-2.5 py-1.5 font-mono text-[10px] uppercase tracking-[0.12em] text-ink rounded-none';
 
+function WordFilters({ scope, setScope, trend, setTrend, compact = false }: FilterProps & { compact?: boolean }) {
+  const { count } = useScoped(scope, trend);
+  const campaignSelect = (
+    <label className="block">
+      <span className="sr-only">Campaign</span>
+      <select
+        value={scope?.number ?? 'all'}
+        onChange={(e) => setScope(CAMPAIGNS.find((c) => c.number === e.target.value) ?? null)}
+        className={SELECT}
+      >
+        <option value="all">All {CAMPAIGNS.length} campaigns</option>
+        {CAMPAIGNS.map((c) => (
+          <option key={c.id} value={c.number}>
+            C{c.number} · {c.shortTitle}
+          </option>
+        ))}
+      </select>
+    </label>
+  );
+
+  if (compact) {
+    return (
+      <div className="space-y-1.5">
+        {campaignSelect}
         <label className="block">
-          <span className="sr-only">Campaign</span>
-          <select
-            value={scope?.number ?? 'all'}
-            onChange={(e) => setScope(CAMPAIGNS.find((c) => c.number === e.target.value) ?? null)}
-            className="w-full bg-canvas border border-rule hover:border-ink/40 focus:border-ink px-3 py-2 font-mono text-[11px] uppercase tracking-[0.14em] text-ink rounded-none"
-          >
-            <option value="all">All {CAMPAIGNS.length} campaigns</option>
-            {CAMPAIGNS.map((c) => (
-              <option key={c.id} value={c.number}>
-                C{c.number} · {c.shortTitle}
+          <span className="sr-only">Momentum label</span>
+          <select value={trend} onChange={(e) => setTrend(e.target.value as TrendKey)} className={SELECT}>
+            {TRENDS.map((t) => (
+              <option key={t.key} value={t.key} disabled={count(t.key) === 0 && t.key !== trend}>
+                {t.key === 'all' ? 'All labels' : t.label} · {count(t.key)}
               </option>
             ))}
           </select>
         </label>
-
-        <div className="flex flex-wrap gap-1" role="group" aria-label="Filter by momentum label">
-          {TRENDS.map((t) => {
-            const n = count(t.key);
-            const on = t.key === trend;
-            return (
-              <button
-                key={t.key}
-                type="button"
-                aria-pressed={on}
-                disabled={n === 0 && !on}
-                onClick={() => setTrend(t.key)}
-                className={`small-caps text-[9px] tracking-[0.18em] px-2 py-1 border transition-colors disabled:opacity-35 ${
-                  on ? 'bg-ink text-paper border-ink' : 'border-rule text-muted hover:text-ink hover:border-ink/40'
-                }`}
-              >
-                {t.label} <span className="tabular-nums opacity-70">{n}</span>
-              </button>
-            );
-          })}
-        </div>
-
-        <p className="text-[11px] leading-snug text-muted">
-          Sorted by the size of each word's measured move. Every figure carries the date it was measured.
-        </p>
       </div>
+    );
+  }
 
-      <ol className="flex-1 min-h-0 overflow-y-auto divide-y divide-rule">
-        {shown.map((r, i) => {
-          const on = r.key === selected;
+  return (
+    <div className="flex flex-col sm:flex-row sm:items-center gap-2">
+      <div className="sm:w-56 shrink-0">{campaignSelect}</div>
+      <div className="flex flex-wrap gap-1" role="group" aria-label="Filter by momentum label">
+        {TRENDS.map((t) => {
+          const n = count(t.key);
+          const on = t.key === trend;
           return (
-            <li key={r.key}>
-              <button
-                type="button"
-                onClick={() => onSelect(r)}
-                aria-current={on ? 'true' : undefined}
-                className={`w-full text-left pl-3 pr-4 lg:pr-5 py-3 flex items-start gap-3 border-l-2 transition-colors ${
-                  on ? 'border-ink bg-ink/[0.045]' : 'border-transparent hover:bg-ink/[0.025]'
-                }`}
-              >
-                <span className="font-mono text-[10px] text-muted w-5 pt-0.5 tabular-nums shrink-0">
-                  {String(i + 1).padStart(2, '0')}
-                </span>
-                <span className="flex-1 min-w-0 space-y-1">
-                  <span className="flex items-center gap-2 flex-wrap">
-                    <span className="font-display font-bold text-[15px] leading-tight uppercase tracking-tight break-words min-w-0">
-                      {r.t.term}
-                    </span>
-                    <Chip read={r.read} />
-                  </span>
-                  <span className="block font-mono text-[10px] text-muted tracking-wide">
-                    C{r.c.number} · {fmtDate(r.c.refDate)}
-                  </span>
-                </span>
-                <span className="text-right shrink-0 leading-tight">
-                  <span className="block font-mono text-sm font-medium tabular-nums">{humanPct(r.delta)}</span>
-                  <span className="small-caps text-[8px] text-muted">{r.span}</span>
-                </span>
-              </button>
-            </li>
+            <button
+              key={t.key}
+              type="button"
+              aria-pressed={on}
+              disabled={n === 0 && !on}
+              onClick={() => setTrend(t.key)}
+              className={`small-caps text-[9px] tracking-[0.18em] px-2 py-1 border transition-colors disabled:opacity-35 ${
+                on ? 'bg-ink text-paper border-ink' : 'border-rule text-muted hover:text-ink hover:border-ink/40'
+              }`}
+            >
+              {t.label} <span className="tabular-nums opacity-70">{n}</span>
+            </button>
           );
         })}
-        {shown.length === 0 && (
-          <li className="px-5 py-6 text-sm text-muted">No measured word carries this label here.</li>
-        )}
-        {pending.length > 0 && (
-          <li>
-            <details className="group px-4 lg:px-5 py-3">
-              <summary className="cursor-pointer small-caps text-[10px] text-muted hover:text-ink list-none flex items-center gap-2">
-                <span className="transition-transform group-open:rotate-90" aria-hidden>›</span>
-                Pending · {pending.length} {pending.length === 1 ? 'word' : 'words'}
-              </summary>
-              <p className="mt-2 text-[11px] text-muted leading-snug">
-                Too rare in the coverage to measure reliably, so they carry no number.
-              </p>
-              <ul className="mt-2 flex flex-wrap gap-1.5">
-                {pending.map((r) => (
-                  <li key={r.key} className="font-mono text-[10px] uppercase tracking-wide border border-dashed border-ink/25 px-1.5 py-0.5 text-muted">
-                    {r.t.term}
-                  </li>
-                ))}
-              </ul>
-            </details>
-          </li>
-        )}
-      </ol>
+      </div>
     </div>
   );
 }
 
-// ── Map panel ─────────────────────────────────────────────────────────────────
-function LayerToggle({
-  label,
-  on,
-  disabled,
-  onClick,
+function WordRow({
+  r,
+  rank,
+  selected,
+  onSelect,
 }: {
-  label: string;
-  on: boolean;
-  disabled?: boolean;
-  onClick: () => void;
+  r: Row;
+  rank: number;
+  selected: boolean;
+  onSelect: (r: Row) => void;
 }) {
+  return (
+    <button
+      type="button"
+      onClick={() => onSelect(r)}
+      aria-current={selected ? 'true' : undefined}
+      className={`w-full text-left pl-2 pr-3 py-2 flex items-start gap-2 border-l-2 transition-colors ${
+        selected ? 'border-ink bg-ink/[0.05]' : 'border-transparent hover:bg-ink/[0.03]'
+      }`}
+    >
+      <span className="font-mono text-[9px] text-muted w-4 pt-[3px] tabular-nums shrink-0">
+        {String(rank).padStart(2, '0')}
+      </span>
+      <span className="flex-1 min-w-0">
+        <span className="flex items-baseline justify-between gap-2">
+          <span className="font-display font-bold text-[13px] leading-tight uppercase tracking-tight break-words min-w-0">
+            {r.t.term}
+          </span>
+          <span className="font-mono text-[12px] font-medium tabular-nums shrink-0">{humanPct(r.delta)}</span>
+        </span>
+        <span className="block mt-0.5 small-caps text-[8px] tracking-[0.14em] text-muted truncate">
+          {r.read.chip} · {r.span === '30 days' ? '30d' : '90d'} · C{r.c.number} · {fmtDate(r.c.refDate)}
+        </span>
+      </span>
+    </button>
+  );
+}
+
+// ── Floating word rail (desktop) ──────────────────────────────────────────────
+function WordsRail({
+  filters,
+  selected,
+  onSelect,
+  onShowAll,
+}: {
+  filters: FilterProps;
+  selected: string | null;
+  onSelect: (r: Row) => void;
+  onShowAll: () => void;
+}) {
+  const [open, setOpen] = useState(true);
+  const { shown } = useScoped(filters.scope, filters.trend);
+
+  if (!open) {
+    return (
+      <button
+        type="button"
+        onClick={() => setOpen(true)}
+        aria-expanded={false}
+        className={`${PANEL} absolute left-3 top-3 px-3 py-2 small-caps text-[9px] tracking-[0.2em] text-ink hover:border-ink/40`}
+      >
+        Words moving ›
+      </button>
+    );
+  }
+  return (
+    <div className={`${PANEL} absolute left-3 top-3 w-[196px] 2xl:w-[212px] max-h-[calc(100%-24px)] flex flex-col`}>
+      <div className="px-3 pt-2.5 pb-2 space-y-2 border-b border-rule">
+        <div className="flex items-center justify-between gap-2">
+          <h2 className="small-caps text-[9px] tracking-[0.2em] text-ink">Words moving</h2>
+          <IconButton label="Collapse the word list" onClick={() => setOpen(false)}>
+            −
+          </IconButton>
+        </div>
+        <WordFilters {...filters} compact />
+      </div>
+      <ol
+        key={`${filters.scope?.number ?? 'all'}-${filters.trend}`}
+        className="flex-1 min-h-0 overflow-y-auto divide-y divide-rule"
+      >
+        {shown.slice(0, 8).map((r, i) => (
+          <li key={r.key} className="mon-rise" style={{ animationDelay: `${i * 45}ms` }}>
+            <WordRow r={r} rank={i + 1} selected={r.key === selected} onSelect={onSelect} />
+          </li>
+        ))}
+        {shown.length === 0 && <li className="px-3 py-3 text-[11px] text-muted">No measured word here.</li>}
+      </ol>
+      <button
+        type="button"
+        onClick={onShowAll}
+        className="border-t border-rule px-3 py-2 text-left small-caps text-[9px] tracking-[0.2em] text-muted hover:text-ink"
+      >
+        All {shown.length} words ↓
+      </button>
+    </div>
+  );
+}
+
+// ── Selected-word card ────────────────────────────────────────────────────────
+// Kept short on purpose: over the map it sits on Siberia and should end above
+// East Asia, so it lists 5 countries, uses inline bars, and keeps the reading and
+// the link on one line each.
+function SelectedCard({
+  row,
+  onCollapse,
+  maxCountries = 5,
+}: {
+  row: Row | undefined;
+  onCollapse?: () => void;
+  maxCountries?: number;
+}) {
+  if (!row) return <p className="p-4 text-sm text-muted">Select a word to see its reading.</p>;
+  const { c, t, read } = row;
+  const geo = geoFor(c.number, t.term);
+  const countries = (geo?.countries ?? []).slice(0, maxCountries);
+  const top = countries[0]?.share || 1;
+
+  return (
+    <div key={row.key} className="mon-fade px-3.5 py-3 space-y-2.5">
+      <div className="flex items-center justify-between gap-2">
+        <Link to={campaignPath(c)} className={`${LABEL} hover:text-ink truncate min-w-0`}>
+          C{c.number} · {c.shortTitle}
+        </Link>
+        <span className="flex items-center gap-2 shrink-0">
+          <Link to={readoutHref(row)} className={`${LABEL} text-ink hover:underline underline-offset-4`}>
+            Reading →
+          </Link>
+          {onCollapse && (
+            <IconButton label="Collapse the word card" onClick={onCollapse}>
+              −
+            </IconButton>
+          )}
+        </span>
+      </div>
+
+      <div className="space-y-1.5">
+        <h2 className="font-display font-bold uppercase tracking-tight leading-[0.95] text-[22px] break-words">{t.term}</h2>
+        <div className="flex items-center gap-2 flex-wrap">
+          <Chip read={read} />
+          <span className="font-mono text-[12px] font-medium tabular-nums">{humanPct(row.delta)}</span>
+          <span className="font-mono text-[9.5px] text-muted">
+            in {row.span} to {fmtDate(c.refDate)}
+          </span>
+        </div>
+      </div>
+
+      <div className="border-t border-rule pt-2 space-y-1.5">
+        <div className={LABEL}>Most named{geo ? ` · ${fmtRange(geo.window.start, geo.window.end)}` : ''}</div>
+        {geo ? (
+          <>
+            <ol className="space-y-1">
+              {countries.map((p, i) => (
+                <li key={p.cc ?? p.name} className="grid grid-cols-[minmax(0,1fr)_52px_34px] gap-x-2 items-center">
+                  <span
+                    className={`leading-tight truncate ${i === 0 ? 'font-display font-bold text-[14px]' : 'text-[11.5px]'}`}
+                  >
+                    {p.name}
+                  </span>
+                  <span className={`block bg-ink/10 ${i === 0 ? 'h-[5px]' : 'h-[3px]'}`} aria-hidden>
+                    <span
+                      className="mon-grow block h-full bg-ink"
+                      style={{ width: `${(p.share / top) * 100}%`, animationDelay: `${120 + i * 70}ms` }}
+                    />
+                  </span>
+                  <span
+                    className={`font-mono tabular-nums text-right ${i === 0 ? 'text-[12px] text-ink font-medium' : 'text-[10px] text-muted'}`}
+                  >
+                    {pct(p.share)}
+                  </span>
+                </li>
+              ))}
+            </ol>
+            <p className="font-mono text-[9.5px] text-muted leading-snug">
+              Share of {geo.located_articles.toLocaleString('en-US')} articles that named a place. One article
+              can name several, so shares add past 100%.
+            </p>
+            {!GEO_TERRITORIES_ROW && countries.some((p) => p.cc === 'IS') && (
+              <p className="text-[10.5px] text-muted leading-snug">Israel&rsquo;s row includes some Gaza mentions (GDELT coding).</p>
+            )}
+          </>
+        ) : (
+          <p className="text-[11px] text-muted leading-snug border border-dashed border-ink/25 px-2.5 py-2">
+            {GEO.status !== 'measured' ? 'Map pending.' : `Map pending: too few located articles in ${geoWindow}.`}
+          </p>
+        )}
+      </div>
+    </div>
+  );
+}
+
+// ── Map chips: layers + legend ────────────────────────────────────────────────
+function LayerToggle({ label, on, disabled, onClick }: { label: string; on: boolean; disabled?: boolean; onClick: () => void }) {
   return (
     <button
       type="button"
@@ -275,12 +482,9 @@ function LayerToggle({
       aria-checked={on && !disabled}
       disabled={disabled}
       onClick={onClick}
-      className="flex items-center gap-2 small-caps text-[9px] tracking-[0.18em] text-ink disabled:text-muted disabled:opacity-60 py-0.5"
+      className="flex items-center gap-1.5 small-caps text-[9px] tracking-[0.18em] text-ink disabled:text-muted disabled:opacity-60"
     >
-      <span
-        aria-hidden
-        className={`w-2.5 h-2.5 border border-current flex items-center justify-center ${on && !disabled ? '' : 'opacity-60'}`}
-      >
+      <span aria-hidden className="w-2.5 h-2.5 border border-current grid place-items-center">
         {on && !disabled && <span className="w-1 h-1 bg-current" />}
       </span>
       {label}
@@ -288,89 +492,45 @@ function LayerToggle({
   );
 }
 
-function MapPanel({ row }: { row: Row | undefined }) {
-  const [layers, setLayers] = useState<MapLayers>({ grid: true, density: true, labels: true });
-  const geo = row ? geoFor(row.c.number, row.t.term) : undefined;
-  const points = geo?.places ?? null;
-  const flip = (k: keyof MapLayers) => setLayers((l) => ({ ...l, [k]: !l[k] }));
-  const measuredFile = GEO.status === 'measured';
-  const win = geo?.window ?? GEO.window;
-
-  const aria = points
-    ? `World map of places named in articles that use "${row?.t.term}". Most named: ${points
-        .slice(0, 3)
-        .map((p) => p.name)
-        .join('; ')}.`
-    : 'World map. The places layer is pending, so no places are drawn.';
-
-  // Why the map has no points, stated in one line above it (never a synthesized point).
-  const pendingNote = !measuredFile
-    ? 'The places layer has not been measured yet. Until that scan runs the map carries no points: we never draw a place we have not measured.'
-    : row && !geo
-      ? row.read.pending
-        ? 'This word is too rare in the coverage to measure, so it has no map.'
-        : 'Too few articles using this word named a place in this window to draw a map.'
-      : null;
-
+function MapChips({
+  layers,
+  flip,
+  hasPoints,
+  legendOnly = false,
+  className = '',
+}: {
+  layers: MapLayers;
+  flip: (k: keyof MapLayers) => void;
+  hasPoints: boolean;
+  legendOnly?: boolean;
+  className?: string;
+}) {
   return (
-    <div className="flex flex-col">
-      <div className="px-4 lg:px-5 py-2.5 border-b border-rule flex items-center gap-x-4 gap-y-1 flex-wrap">
-        <span className="small-caps text-[10px] text-muted">Places named in articles that use</span>
-        <span className="font-display font-bold uppercase tracking-tight text-sm leading-tight">
-          {row ? `“${row.t.term}”` : '—'}
-        </span>
-        <span className="ml-auto font-mono text-[10px] text-muted tabular-nums">
-          {measuredFile && win ? fmtRange(win.start, win.end) : 'window pending'}
-        </span>
-      </div>
-
-      {pendingNote && (
-        <p className="px-4 lg:px-5 py-2 border-b border-rule bg-canvas flex flex-col sm:flex-row sm:items-start gap-1 sm:gap-2 text-[12px] leading-snug text-muted">
-          <span className="small-caps text-[9px] text-ink flex items-center gap-1.5 shrink-0 pt-px">
-            <Diamond /> {measuredFile ? 'No map' : 'gdelt-geo · pending'}
-          </span>
-          <span>{pendingNote}</span>
-        </p>
-      )}
-
-      {/* The map keeps its own aspect; the campaign panel takes the height below it. */}
-      <div className="relative bg-paper overflow-hidden">
-        <div className="relative w-full aspect-[240/94]">
-          <WorldMap points={points} layers={layers} ariaLabel={aria} />
-        </div>
-
-        <div className="hidden lg:block absolute top-3 right-3 bg-canvas/90 border border-rule px-3 py-2 space-y-1">
-          <div className="small-caps text-[9px] text-muted mb-1">Layers</div>
+    <div className={`flex items-center gap-x-4 gap-y-1.5 flex-wrap ${className}`}>
+      {!legendOnly && (
+        <>
           <LayerToggle label="Grid" on={layers.grid} onClick={() => flip('grid')} />
-          <LayerToggle label="Density" on={layers.density} disabled={!points} onClick={() => flip('density')} />
-          <LayerToggle label="Labels" on={layers.labels} disabled={!points} onClick={() => flip('labels')} />
-        </div>
-
-        {points && (
-        <div className="hidden lg:flex absolute bottom-3 left-3 bg-canvas/90 border border-rule px-3 py-2 items-center gap-3">
-          <span className="small-caps text-[9px] text-muted">Fewer</span>
-          <span className="flex items-center gap-1" aria-hidden>
-            {[0.2, 0.34, 0.55, 0.78, 1].map((o) => (
+          <LayerToggle label="Density" on={layers.density} disabled={!hasPoints} onClick={() => flip('density')} />
+          <LayerToggle label="Labels" on={layers.labels} disabled={!hasPoints} onClick={() => flip('labels')} />
+        </>
+      )}
+      {hasPoints && (
+        <span className="flex items-center gap-1.5" aria-label="Darker dots: more articles name a place nearby">
+          <span className={LABEL}>Fewer</span>
+          <span className="flex items-center gap-[3px]" aria-hidden>
+            {LEGEND_OPACITIES.map((o) => (
               <span key={o} className="w-1.5 h-1.5 rounded-full bg-ink" style={{ opacity: o }} />
             ))}
           </span>
-          <span className="small-caps text-[9px] text-muted">More articles</span>
-        </div>
-        )}
-      </div>
-
-      {/* Small screens: the layer controls sit under the map. */}
-      <div className="lg:hidden border-t border-rule px-4 py-2.5 bg-canvas flex flex-wrap gap-x-5 gap-y-1">
-        <span className="small-caps text-[9px] text-muted">Layers</span>
-        <LayerToggle label="Grid" on={layers.grid} onClick={() => flip('grid')} />
-        <LayerToggle label="Density" on={layers.density} disabled={!points} onClick={() => flip('density')} />
-        <LayerToggle label="Labels" on={layers.labels} disabled={!points} onClick={() => flip('labels')} />
-      </div>
+          <span className={LABEL}>More</span>
+        </span>
+      )}
+      {hasPoints && <span className={LABEL}>01–03 · most named for this word</span>}
     </div>
   );
 }
 
-// ── Campaign pulse ────────────────────────────────────────────────────────────
+// ── Campaign strip ────────────────────────────────────────────────────────────
 // How each campaign's measured words split across the five labels: a count of
 // plainRead() outputs, so nothing here is new measurement.
 const LABEL_SHADES: { key: Trend; label: string; opacity: number }[] = [
@@ -384,7 +544,7 @@ const LABEL_SHADES: { key: Trend; label: string; opacity: number }[] = [
 function LabelBar({ rows }: { rows: Row[] }) {
   const measured = rows.filter((r) => !r.read.pending);
   return (
-    <span className="flex h-2 w-full border border-ink/20" aria-hidden>
+    <span className="flex h-1.5 w-full border border-ink/20" aria-hidden>
       {LABEL_SHADES.map((s) => {
         const n = measured.filter((r) => r.read.trend === s.key).length;
         return n ? (
@@ -399,15 +559,9 @@ function LabelBar({ rows }: { rows: Row[] }) {
   );
 }
 
-function CampaignPulse({
-  scope,
-  setScope,
-}: {
-  scope: Campaign | null;
-  setScope: (c: Campaign | null) => void;
-}) {
+function CampaignStrip({ scope, setScope }: { scope: Campaign | null; setScope: (c: Campaign | null) => void }) {
   return (
-    <div className="p-4 lg:p-5 space-y-3">
+    <div className="space-y-3">
       <div className="flex items-baseline justify-between gap-3 flex-wrap">
         <h2 className="small-caps text-ink">Campaigns</h2>
         <span className="flex items-center gap-3 flex-wrap" aria-hidden>
@@ -419,11 +573,11 @@ function CampaignPulse({
           ))}
         </span>
       </div>
-      <ul className="grid gap-px bg-rule border border-rule sm:grid-cols-2 2xl:grid-cols-3">
+      <ul className="grid gap-px bg-rule border border-rule grid-cols-2 md:grid-cols-3 xl:grid-cols-6">
         {CAMPAIGNS.map((c) => {
           const rows = ROWS.filter((r) => r.c === c);
           const measured = rows.filter((r) => !r.read.pending);
-          const top = [...measured].sort(byMove)[0];
+          const topMove = [...measured].sort(byMove)[0];
           const on = scope === c;
           const split = LABEL_SHADES.map(
             (s) => `${measured.filter((r) => r.read.trend === s.key).length} ${s.label.toLowerCase()}`
@@ -435,23 +589,23 @@ function CampaignPulse({
                 aria-pressed={on}
                 aria-label={`${c.label}, ${c.shortTitle}: ${split}. Measured as of ${fmtDate(c.refDate)}.`}
                 onClick={() => setScope(on ? null : c)}
-                className={`w-full text-left px-3.5 py-3 space-y-2 transition-colors ${
+                className={`w-full text-left px-3 py-2.5 space-y-1.5 transition-colors ${
                   on ? 'bg-ink/[0.06] outline outline-1 outline-ink -outline-offset-1' : 'hover:bg-ink/[0.025]'
                 }`}
               >
-                <span className="flex items-baseline justify-between gap-2 font-mono text-[10px] text-muted">
+                <span className="flex items-baseline justify-between gap-2 font-mono text-[9px] text-muted">
                   <span className="text-ink">C{c.number}</span>
                   <span className="tabular-nums">{fmtDate(c.refDate)}</span>
                 </span>
-                <span className="block font-display font-bold uppercase tracking-tight text-[13px] leading-tight truncate">
+                <span className="block font-display font-bold uppercase tracking-tight text-[12px] leading-tight truncate">
                   {c.shortTitle}
                 </span>
                 <LabelBar rows={rows} />
-                <span className="flex items-baseline justify-between gap-2 font-mono text-[10px] text-muted">
+                <span className="flex items-baseline justify-between gap-2 font-mono text-[9px] text-muted">
                   <span className="truncate">
-                    {top ? (
+                    {topMove ? (
                       <>
-                        <span className="uppercase text-ink">{top.t.term}</span> {humanPct(top.delta)}
+                        <span className="uppercase text-ink">{topMove.t.term}</span> {humanPct(topMove.delta)}
                       </>
                     ) : (
                       'no measured move'
@@ -465,119 +619,93 @@ function CampaignPulse({
             </li>
           );
         })}
+        {/* 11 tiles: one blank cell squares off the 2-, 3- and 6-column grids. */}
+        {CAMPAIGNS.length % 2 === 1 && <li aria-hidden className="bg-canvas" />}
       </ul>
     </div>
   );
 }
 
-// ── Selected-word detail ──────────────────────────────────────────────────────
-function Stat({ label, value }: { label: string; value: string }) {
-  return (
-    <div className="bg-canvas px-3 py-2.5">
-      <div className="small-caps text-[9px] text-muted mb-1">{label}</div>
-      <div className="font-mono text-base font-medium tabular-nums leading-none">{value}</div>
-    </div>
-  );
-}
+// ── All words (below the map) ─────────────────────────────────────────────────
+const PREVIEW = 24;
 
-function DetailPanel({ row }: { row: Row | undefined }) {
-  if (!row) {
-    return <div className="p-5 text-sm text-muted">Select a word to see its reading.</div>;
-  }
-  const { c, t, read } = row;
-  const m = t.measurement;
-  const geo = geoFor(c.number, t.term);
-  const peaks = [...(m.inflections ?? [])].sort((a, b) => b.date.localeCompare(a.date));
-  const countries = geo?.countries?.slice(0, 8) ?? [];
-  const top = countries[0]?.share || 1;
+function AllWords({
+  filters,
+  selected,
+  onSelect,
+}: {
+  filters: FilterProps;
+  selected: string | null;
+  onSelect: (r: Row) => void;
+}) {
+  const [expanded, setExpanded] = useState(false);
+  const { shown, pending } = useScoped(filters.scope, filters.trend);
+  const visible = expanded ? shown : shown.slice(0, PREVIEW);
+  const filtered = filters.scope || filters.trend !== 'all';
 
   return (
-    <div className="p-4 lg:p-5 space-y-5">
-      <div className="space-y-2">
-        <div className="flex items-baseline justify-between gap-3 small-caps text-[10px] text-muted">
-          <span className="shrink-0">Selected word</span>
-          <Link
-            to={campaignPath(c)}
-            className="min-w-0 truncate text-right hover:text-ink underline-offset-4 hover:underline"
-          >
-            C{c.number} · {c.shortTitle}
-          </Link>
-        </div>
-        <h2 className="font-display font-bold uppercase tracking-tight leading-[0.95] text-3xl break-words">
-          {t.term}
+    <div className="space-y-3">
+      <div className="flex items-baseline justify-between gap-3 flex-wrap">
+        <h2 className="small-caps text-ink">
+          Words moving <span className="text-muted tabular-nums">· {shown.length}</span>
         </h2>
-        <div className="flex items-center gap-2 flex-wrap">
-          <Chip read={read} />
-          <span className="text-sm text-muted">{read.blurb}</span>
-        </div>
-      </div>
-
-      {read.pending ? (
-        <p className="text-sm text-muted leading-relaxed border border-dashed border-ink/25 p-3">
-          Measurement pending: this word appears too rarely in the coverage to measure reliably, so it
-          carries no number.
-        </p>
-      ) : (
-        <div className="space-y-2">
-          <div className="grid grid-cols-2 gap-px bg-rule border border-rule">
-            <Stat label="30-day" value={humanPct(m.deltas?.d30)} />
-            <Stat label="90-day" value={humanPct(m.deltas?.d90)} />
-            <Stat label={`Rank in C${c.number}`} value={`${m.velocityIndex ?? '—'} / 100`} />
-            <Stat label="Latest peak" value={peaks[0] ? fmtDate(peaks[0].date) ?? '—' : '—'} />
-          </div>
-          <p className="font-mono text-[10px] text-muted leading-relaxed">
-            Measured as of {fmtDate(c.refDate)} · change in share of English-language news coverage ·
-            rank is within this campaign's {c.terms.length} words
-          </p>
-        </div>
-      )}
-
-      {t.whatItDoes && <p className="text-sm leading-relaxed text-balance">{t.whatItDoes}</p>}
-
-      <div className="space-y-2.5 border-t border-rule pt-4">
-        <div className="flex items-baseline justify-between gap-3">
-          <h3 className="small-caps text-ink">Where it is named</h3>
-          <span className="small-caps text-[9px] text-muted">gdelt-geo</span>
-        </div>
-        <p className="text-[11px] text-muted leading-snug">Places named in articles that use this word.</p>
-        {geo ? (
-          <>
-            <ol className="space-y-1.5">
-              {countries.map((p) => (
-                <li key={p.cc} className="grid grid-cols-[1fr_auto] gap-x-3 items-baseline">
-                  <span className="text-sm truncate">{p.name}</span>
-                  <span className="font-mono text-[11px] tabular-nums text-muted">
-                    {(p.share * 100).toFixed(1)}%
-                  </span>
-                  <span className="col-span-2 block h-1 bg-ink/10" aria-hidden>
-                    <span className="block h-1 bg-ink" style={{ width: `${(p.share / top) * 100}%` }} />
-                  </span>
-                </li>
-              ))}
-            </ol>
-            <p className="font-mono text-[10px] text-muted leading-relaxed">
-              {geo.located_articles.toLocaleString('en-US')} of {geo.articles.toLocaleString('en-US')} articles
-              named a place · {fmtRange(geo.window.start, geo.window.end)}
-              {GEO.retrieved_at ? ` · retrieved ${fmtDate(GEO.retrieved_at)}` : ''}
-            </p>
-          </>
-        ) : (
-          <p className="text-[13px] text-muted leading-relaxed border border-dashed border-ink/25 p-3">
-            {GEO.status !== 'measured'
-              ? 'Pending. The places layer has not been measured yet, so it shows nothing for this word.'
-              : read.pending
-                ? 'Pending, like the word itself.'
-                : 'Too few articles using this word named a place in this window to show.'}
-          </p>
+        {/* On desktop the filters live in the rail over the map; this echoes them. */}
+        {filtered && (
+          <span className="hidden xl:flex items-center gap-3 small-caps text-[9px] text-muted">
+            {filters.scope ? `C${filters.scope.number} · ${filters.scope.shortTitle}` : 'All campaigns'}
+            {filters.trend !== 'all' && ` · ${filters.trend}`}
+            <button
+              type="button"
+              onClick={() => {
+                filters.setScope(null);
+                filters.setTrend('all');
+              }}
+              className="text-ink underline underline-offset-4 hover:no-underline"
+            >
+              Clear
+            </button>
+          </span>
         )}
       </div>
-
-      <Link
-        to={readoutHref(row)}
-        className="inline-flex items-center gap-2 border border-ink px-4 py-2.5 small-caps hover:bg-ink hover:text-paper transition-colors"
-      >
-        Full reading <span aria-hidden>→</span>
-      </Link>
+      <div className="xl:hidden">
+        <WordFilters {...filters} />
+      </div>
+      <p className="text-[11px] text-muted">Biggest measured moves first, each with its date.</p>
+      <ol className="grid gap-px bg-rule border border-rule sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        {visible.map((r, i) => (
+          <li key={r.key} className="bg-canvas">
+            <WordRow r={r} rank={i + 1} selected={r.key === selected} onSelect={onSelect} />
+          </li>
+        ))}
+        {shown.length === 0 && <li className="bg-canvas px-4 py-4 text-sm text-muted">No measured word carries this label here.</li>}
+      </ol>
+      <div className="flex items-center gap-6 flex-wrap">
+        {shown.length > PREVIEW && (
+          <button
+            type="button"
+            onClick={() => setExpanded((v) => !v)}
+            aria-expanded={expanded}
+            className="small-caps text-[10px] text-ink underline underline-offset-4 hover:no-underline"
+          >
+            {expanded ? 'Show fewer' : `Show all ${shown.length}`}
+          </button>
+        )}
+        {pending.length > 0 && (
+          <details className="group">
+            <summary className="cursor-pointer small-caps text-[10px] text-muted hover:text-ink list-none inline-flex items-center gap-2">
+              <span className="transition-transform group-open:rotate-90" aria-hidden>›</span>
+              {pending.length} pending: too rare to measure, so no number
+            </summary>
+            <ul className="mt-2 flex flex-wrap gap-1.5">
+              {pending.map((r) => (
+                <li key={r.key} className="font-mono text-[10px] uppercase tracking-wide border border-dashed border-ink/25 px-1.5 py-0.5 text-muted">
+                  {r.t.term}
+                </li>
+              ))}
+            </ul>
+          </details>
+        )}
+      </div>
     </div>
   );
 }
@@ -586,8 +714,13 @@ function DetailPanel({ row }: { row: Row | undefined }) {
 export default function MonitorPage() {
   const [params, setParams] = useSearchParams();
   const scope = CAMPAIGNS.find((c) => c.number === params.get('c')) ?? null;
-  const [trend, setTrend] = useState<Trend | 'all'>('all');
-  const mapRef = useRef<HTMLDivElement>(null);
+  const [trend, setTrend] = useState<TrendKey>('all');
+  const [layers, setLayers] = useState<MapLayers>({ grid: true, density: true, labels: true });
+  const [cardOpen, setCardOpen] = useState(true);
+  const [canPan, setCanPan] = useState(false);
+  const heroRef = useRef<HTMLElement>(null);
+  const scrollerRef = useRef<HTMLDivElement>(null);
+  const listRef = useRef<HTMLElement>(null);
 
   const defaultRow = useMemo(() => {
     const pool = (scope ? ROWS.filter((r) => r.c === scope) : ROWS).filter((r) => !r.read.pending);
@@ -595,8 +728,9 @@ export default function MonitorPage() {
   }, [scope]);
   const wanted = params.get('w');
   const row =
-    ROWS.find((r) => r.key === `${scope?.number ?? params.get('wc')}|${wanted}` && !r.read.pending) ??
-    defaultRow;
+    ROWS.find((r) => r.key === `${scope?.number ?? params.get('wc')}|${wanted}` && !r.read.pending) ?? defaultRow;
+  const geo = row ? geoFor(row.c.number, row.t.term) : undefined;
+  const points = geo?.places ?? null;
 
   useEffect(() => {
     const prev = document.title;
@@ -606,89 +740,163 @@ export default function MonitorPage() {
     };
   }, []);
 
+  // Narrow screens: the map is wider than the screen and pans sideways. Centre it
+  // on the selected word's most-named place (or on 20°E when there is none).
+  useEffect(() => {
+    const el = scrollerRef.current;
+    if (!el) return;
+    const fit = () => {
+      const overflow = el.scrollWidth > el.clientWidth + 2;
+      setCanPan(overflow);
+      if (!overflow) return;
+      const p = points?.find((q) => q.lat != null && q.lon != null);
+      const fx = project(p?.lon ?? 20, 0)[0] / WORLD_DOTS.cols;
+      el.scrollLeft = Math.max(0, fx * el.scrollWidth - el.clientWidth / 2);
+    };
+    fit();
+    window.addEventListener('resize', fit);
+    return () => window.removeEventListener('resize', fit);
+  }, [points]);
+
+  const reduceMotion = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const scrollTo = (el: HTMLElement | null) =>
+    el?.scrollIntoView({ behavior: reduceMotion() ? 'auto' : 'smooth', block: 'start' });
+
   const setScope = (c: Campaign | null) => {
     setTrend('all');
     setParams(c ? { c: c.number } : {}, { replace: true });
   };
-
-  const onSelect = (r: Row) => {
+  const select = (r: Row, reveal: boolean) => {
     const next: Record<string, string> = { w: r.t.term.trim().toLowerCase() };
     if (scope) next.c = scope.number;
     else next.wc = r.c.number;
     setParams(next, { replace: true });
-    if (window.matchMedia('(max-width: 1023px)').matches) {
-      const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-      mapRef.current?.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
-    }
+    setCardOpen(true);
+    if (reveal) scrollTo(heroRef.current);
   };
+  const filters: FilterProps = { scope, setScope, trend, setTrend };
+  const flip = (k: keyof MapLayers) => setLayers((l) => ({ ...l, [k]: !l[k] }));
+  const isNarrow = () => window.matchMedia('(max-width: 1279px)').matches;
+
+  const aria = points
+    ? `World map of places named in articles that use "${row?.t.term}" (${geoWindow}). Most named: ${points
+        .slice(0, 3)
+        .map((p) => p.name)
+        .join('; ')}.`
+    : 'World map. No places are drawn for this word.';
+  const caption = row ? (
+    <>
+      <span className="font-display font-bold uppercase tracking-tight text-[13px] text-ink">“{row.t.term}”</span>{' '}
+      <span className={LABEL}>· places in its coverage ·</span>{' '}
+      <span className="font-mono text-[10px] text-muted tabular-nums">{geo ? fmtRange(geo.window.start, geo.window.end) : 'no map'}</span>
+    </>
+  ) : null;
 
   return (
     <main className="bg-paper text-ink">
-      <section
-        aria-label="Monitor"
-        className="flex flex-col border-b border-rule lg:h-[calc(100svh-75px)] lg:min-h-[600px]"
-      >
-        <h1 className="sr-only">Contextive Monitor: the tracked words, how they are moving, and where they are named</h1>
-        <StatusBar scope={scope} />
-        <div className="flex-1 min-h-0 flex flex-col lg:grid lg:grid-cols-[300px_minmax(0,1fr)_340px] xl:grid-cols-[330px_minmax(0,1fr)_360px] lg:grid-rows-[auto_minmax(0,1fr)]">
-          <div
-            ref={mapRef}
-            className="order-1 lg:col-start-2 lg:row-start-1 scroll-mt-20 border-b border-rule"
-          >
-            <MapPanel row={row} />
+      <h1 className="sr-only">Contextive Monitor: the tracked words, how they are moving, and where they are named</h1>
+      <StatusBar scope={scope} />
+
+      {/* ── The map ── */}
+      <section ref={heroRef} aria-label="Map" className="relative border-b border-rule scroll-mt-20">
+        <div className="xl:hidden px-4 py-2 border-b border-rule bg-canvas leading-snug space-y-2">
+          <div>{caption}</div>
+          <PlaceChips selectedKey={row?.key ?? null} onPick={(r) => select(r, false)} />
+        </div>
+
+        <div
+          ref={scrollerRef}
+          style={{ '--map-aspect': MAP_ASPECT } as CSSProperties}
+          className="no-scrollbar relative bg-paper h-[50svh] min-h-[280px] overflow-x-auto overflow-y-hidden xl:overflow-hidden xl:h-[min(85svh,calc(100svh-106px))] xl:min-h-[560px] xl:[container-type:size]"
+        >
+          <div className="relative h-full mx-auto w-[calc(max(50svh,280px)*var(--map-aspect))] xl:absolute xl:inset-0 xl:m-auto xl:w-[min(100cqw,calc(100cqh*var(--map-aspect)))] xl:h-[min(100cqh,calc(100cqw/var(--map-aspect)))]">
+            <WorldMap points={points} layers={layers} ariaLabel={aria} motionKey={row?.key ?? 'none'} />
           </div>
-          <aside
-            aria-label="Selected word"
-            className="order-2 lg:col-start-3 lg:row-start-1 lg:row-span-2 min-h-0 lg:overflow-y-auto bg-canvas border-b lg:border-b-0 lg:border-l border-rule"
-          >
-            <DetailPanel row={row} />
-          </aside>
-          <section
-            aria-label="Campaigns"
-            className="order-4 lg:col-start-2 lg:row-start-2 min-h-0 lg:overflow-y-auto"
-          >
-            <CampaignPulse scope={scope} setScope={setScope} />
-          </section>
-          <nav
-            aria-label="Words"
-            className="order-3 lg:col-start-1 lg:row-start-1 lg:row-span-2 min-h-0 max-h-[80svh] lg:max-h-none flex flex-col bg-canvas border-b lg:border-b-0 lg:border-r border-rule"
-          >
-            <WordsPanel
-              scope={scope}
-              setScope={setScope}
-              trend={trend}
-              setTrend={setTrend}
+
+          {/* Desktop: the essentials float over sparse parts of the map (Pacific,
+              Siberia, the Arctic, the Southern Ocean) and collapse out of the way. */}
+          <div className="hidden xl:block">
+            <WordsRail
+              filters={filters}
               selected={row?.key ?? null}
-              onSelect={onSelect}
+              onSelect={(r) => select(r, false)}
+              onShowAll={() => scrollTo(listRef.current)}
             />
-          </nav>
+            {cardOpen ? (
+              <div className={`${PANEL} absolute right-3 top-3 w-[268px] max-h-[calc(100%-24px)] overflow-y-auto`}>
+                <SelectedCard row={row} onCollapse={() => setCardOpen(false)} maxCountries={5} />
+              </div>
+            ) : (
+              <button
+                type="button"
+                onClick={() => setCardOpen(true)}
+                aria-expanded={false}
+                className={`${PANEL} absolute right-3 top-3 px-3 py-2 small-caps text-[9px] tracking-[0.2em] text-ink hover:border-ink/40 max-w-[268px] truncate`}
+              >
+                ‹ {row?.t.term ?? 'Word'}
+              </button>
+            )}
+            <div className={`${PANEL} absolute top-3 left-1/2 -translate-x-1/2 max-w-[46%] px-3 py-2 space-y-2`}>
+              <div className="truncate text-center">{caption}</div>
+              <PlaceChips selectedKey={row?.key ?? null} onPick={(r) => select(r, false)} className="justify-center" />
+            </div>
+            <div className={`${PANEL} absolute bottom-3 left-1/2 -translate-x-1/2 px-3 py-1.5`}>
+              <MapChips layers={layers} flip={flip} hasPoints={!!points} />
+            </div>
+          </div>
+        </div>
+
+        <div className="xl:hidden px-4 py-2 border-t border-rule bg-canvas flex items-center justify-between gap-3 flex-wrap">
+          <MapChips layers={layers} flip={flip} hasPoints={!!points} legendOnly />
+          {canPan && <span className={LABEL}>Swipe ↔</span>}
         </div>
       </section>
 
-      <section className="px-6 lg:px-12 py-12 lg:py-16">
-        <div className="max-w-screen-xl mx-auto space-y-8">
-          <div className="small-caps text-muted">How to read the Monitor</div>
+      {/* ── Narrow screens: the selected word under the map ── */}
+      <section aria-label="Selected word" className="xl:hidden border-b border-rule bg-canvas">
+        <SelectedCard row={row} />
+      </section>
+
+      {/* ── Below the map: the full list, the campaigns, how to read ── */}
+      <div className="px-4 sm:px-6 xl:px-10 py-8 xl:py-10 space-y-10 max-w-screen-2xl mx-auto">
+        <section ref={listRef} aria-label="Words" className="scroll-mt-20">
+          <AllWords filters={filters} selected={row?.key ?? null} onSelect={(r) => select(r, true)} />
+        </section>
+
+        <section aria-label="Campaigns">
+          <CampaignStrip
+            scope={scope}
+            setScope={(c) => {
+              setScope(c);
+              if (!isNarrow()) scrollTo(heroRef.current);
+            }}
+          />
+        </section>
+
+        <section aria-label="How to read the Monitor" className="space-y-5 border-t border-rule pt-8">
+          <h2 className="small-caps text-ink">How to read the Monitor</h2>
           <div className="grid gap-px bg-rule border border-rule md:grid-cols-3">
-            <div className="bg-canvas p-6 space-y-3">
-              <div className="small-caps text-ink">01 · The labels</div>
-              <p className="text-sm leading-relaxed text-muted">
-                Surging, Rising, Steady, Cooling and Fading are fixed cut-offs on a word's measured 90-day
-                change in news coverage (30-day where 90 is missing): ±25% and ±8%. No editor chooses them.
+            <div className="bg-canvas p-5 space-y-2">
+              <div className={LABEL}>01 · The labels</div>
+              <p className="text-[13px] leading-relaxed text-muted">
+                Fixed cut-offs on a word&rsquo;s 90-day change in news coverage: ±25% and ±8%. No editor picks them.
               </p>
             </div>
-            <div className="bg-canvas p-6 space-y-3">
-              <div className="small-caps text-ink">02 · The map</div>
-              <p className="text-sm leading-relaxed text-muted">
-                A separate instrument: the places GDELT finds named in English-language articles that use
-                the word. A place named is not where an article was written or read, and the map never
-                feeds the momentum labels or the rankings.
+            <div className="bg-canvas p-5 space-y-2">
+              <div className={LABEL}>02 · The map</div>
+              <p className="text-[13px] leading-relaxed text-muted">
+                A separate, one-week measurement: the places GDELT finds named in English-language articles that
+                use the word, as a share of articles that named any place.{' '}
+                {GEO_TERRITORIES_ROW
+                  ? 'Gaza, the West Bank and the words Palestinian and Palestine count as one row, Palestinian territories. Addresses that differ only after ? or # count as one article.'
+                  : 'GDELT files some Gaza mentions under Israel.'}{' '}
+                Named is not where it was written, and the map never feeds the labels.
               </p>
             </div>
-            <div className="bg-canvas p-6 space-y-3">
-              <div className="small-caps text-ink">03 · The dates</div>
-              <p className="text-sm leading-relaxed text-muted">
-                Every figure carries the date it was measured, and each campaign has its own. A word too rare
-                to measure reliably is marked pending and shows no number.
+            <div className="bg-canvas p-5 space-y-2">
+              <div className={LABEL}>03 · The dates</div>
+              <p className="text-[13px] leading-relaxed text-muted">
+                Every figure carries its measurement date. A word too rare to measure is pending: no number, no map.
               </p>
             </div>
           </div>
@@ -702,8 +910,8 @@ export default function MonitorPage() {
           >
             How Contextive measures <span aria-hidden>→</span>
           </Link>
-        </div>
-      </section>
+        </section>
+      </div>
     </main>
   );
 }

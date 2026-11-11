@@ -282,3 +282,24 @@
   .crowd-dot { opacity: 0.5; }
   .api-cursor { opacity: 1; }
 }
+
+/* ── Monitor map motion. Every class here is a no-op under reduced motion. ── */
+@keyframes mon-fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes mon-pop  { from { opacity: 0; transform: scale(0.15); } to { opacity: 1; transform: scale(1); } }
+@keyframes mon-pulse { 0% { opacity: 0.7; transform: scale(1); } 100% { opacity: 0; transform: scale(2.8); } }
+@keyframes mon-rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+@keyframes mon-grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@keyframes mon-scan { from { transform: translateX(-100%); } to { transform: translateX(600%); } }
+@media (prefers-reduced-motion: no-preference) {
+  .mon-fade  { animation: mon-fade 0.7s ease-out both; }
+  .mon-pop   { animation: mon-pop 0.5s cubic-bezier(0.2, 0.8, 0.2, 1) both; transform-box: fill-box; transform-origin: center; }
+  .mon-pulse { animation: mon-pulse 2.4s cubic-bezier(0.2, 0.6, 0.3, 1) infinite; transform-box: fill-box; transform-origin: center; }
+  .mon-rise  { animation: mon-rise 0.45s ease-out both; }
+  .mon-grow  { animation: mon-grow 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) both; transform-origin: left center; }
+  .mon-scan  { animation: mon-scan 11s linear infinite; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .mon-pulse, .mon-scan { display: none; }
+}
+.no-scrollbar { scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
