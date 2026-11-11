@@ -75,6 +75,11 @@ export function geoFor(campaign: string, term: string): GeoTerm | undefined {
   return g && g.status === 'measured' ? g : undefined;
 }
 
+/** GDELT's raw geocoded name with its "(General)" qualifier removed, for display. */
+export function placeName(name: string): string {
+  return name.replace(/\s*\(General\)/g, '').trim();
+}
+
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
 /** "2026-07-21" → "Jul 21, 2026", parsed by hand so it never shifts across a timezone. */

@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { WORLD_DOTS } from './worldDots';
-import type { GeoPoint } from './geo';
+import { placeName, type GeoPoint } from './geo';
 
 // Dot-matrix world map in the Miller projection, drawn in grid-cell units (one land
 // cell = one dot). Monochrome by construction: every mark is currentColor at some
@@ -89,7 +89,7 @@ const LAT_LINES = [60, 30, 0, -30];
 const LON_LINES = [-120, -60, 0, 60, 120];
 const latLabel = (v: number) => (v === 0 ? '0°' : `${Math.abs(v)}°${v > 0 ? 'N' : 'S'}`);
 const lonLabel = (v: number) => (v === 0 ? '0°' : `${Math.abs(v)}°${v > 0 ? 'E' : 'W'}`);
-const shortName = (n: string) => n.split(',')[0].trim();
+const shortName = (n: string) => placeName(n).split(',')[0].trim();
 
 // Label metrics in px (9px mono small caps, 0.18em tracking, 4px padding each side).
 const LABEL_CHAR_PX = 7;
@@ -327,7 +327,7 @@ export function WorldMap({
 
       {/* A slow, faint sweep across the map: decoration only, off under reduced motion. */}
       <div aria-hidden className="pointer-events-none absolute inset-0 overflow-hidden">
-        <div className="mon-scan absolute inset-y-0 left-0 w-[16%] bg-gradient-to-r from-transparent via-ink/[0.06] to-transparent" />
+        <div key={`scan-${motionKey}`} className="mon-scan absolute inset-y-0 left-0 w-[16%] bg-gradient-to-r from-transparent via-ink/[0.06] to-transparent" />
       </div>
 
       {/* Graticule labels: HTML so they stay a constant, readable size. */}
@@ -398,7 +398,7 @@ export function WorldMap({
         >
           {hovered.members.slice(0, 4).map((m, k) => (
             <div key={`${m.name}-${k}`} className={k ? 'pt-1' : undefined}>
-              <div className={`font-display leading-tight ${k ? 'text-xs' : 'font-semibold text-sm'}`}>{m.name}</div>
+              <div className={`font-display leading-tight ${k ? 'text-xs' : 'font-semibold text-sm'}`}>{placeName(m.name)}</div>
               <div className="font-mono text-[11px] text-muted tabular-nums">
                 {m.articles.toLocaleString('en-US')} articles · {pct(m.share)}
               </div>

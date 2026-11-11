@@ -15,7 +15,7 @@ import { FIREWALL, campaignPath, type Campaign, type CampaignTerm } from '../../
 import { plainRead, humanPct, type PlainRead, type Trend } from '../../lib/readSignal';
 import { LIVE_MODE } from '../FreshnessBadge';
 import { WorldMap, MAP_ASPECT, LEGEND_OPACITIES, project, type MapLayers } from './WorldMap';
-import { GEO, GEO_TERRITORIES_ROW, geoFor, fmtDate, fmtRange } from './geo';
+import { GEO, GEO_TERRITORIES_ROW, geoFor, fmtDate, fmtRange, placeName } from './geo';
 import { WORLD_DOTS } from './worldDots';
 
 interface Row {
@@ -151,12 +151,12 @@ function StatusBar({ scope }: { scope: Campaign | null }) {
     ? 'Live · updated daily'
     : scope
       ? `Measured as of ${fmtDate(scope.refDate)}`
-      : `Campaigns ${fmtRange(dates[0], dates[dates.length - 1])}`;
+      : `Measured ${fmtRange(dates[0], dates[dates.length - 1])}`;
 
   return (
     <div className="border-b border-rule bg-canvas px-4 xl:px-5 py-2 flex items-center gap-x-5 gap-y-1 flex-wrap small-caps text-[9px] tracking-[0.2em] text-muted">
       <span className="flex items-center gap-2 text-ink">
-        <Diamond filled className="motion-safe:animate-pulse" />
+        <Diamond filled className={LIVE_MODE ? 'motion-safe:animate-pulse' : ''} />
         <span className="font-display font-bold text-[12px] tracking-[0.18em]">Monitor</span>
       </span>
       <span className="tabular-nums text-ink">{measured.length} words</span>
@@ -199,7 +199,7 @@ function PlaceChips({
             }`}
             style={{ animationDelay: `${i * 60}ms` }}
           >
-            {p.name}
+            {placeName(p.name)}
           </button>
         );
       })}
@@ -439,7 +439,7 @@ function SelectedCard({
                   <span
                     className={`leading-tight truncate ${i === 0 ? 'font-display font-bold text-[14px]' : 'text-[11.5px]'}`}
                   >
-                    {p.name}
+                    {placeName(p.name)}
                   </span>
                   <span className={`block bg-ink/10 ${i === 0 ? 'h-[5px]' : 'h-[3px]'}`} aria-hidden>
                     <span
@@ -459,6 +459,11 @@ function SelectedCard({
               Share of {geo.located_articles.toLocaleString('en-US')} articles that named a place. One article
               can name several, so shares add past 100%.
             </p>
+            {GEO_TERRITORIES_ROW && countries.some((p) => p.cc === 'GZWE') && (
+              <p className="text-[10.5px] text-muted leading-snug">
+                Palestinian territories: Gaza, the West Bank and the words Palestinian and Palestine, counted as one row.
+              </p>
+            )}
             {!GEO_TERRITORIES_ROW && countries.some((p) => p.cc === 'IS') && (
               <p className="text-[10.5px] text-muted leading-snug">Israel&rsquo;s row includes some Gaza mentions (GDELT coding).</p>
             )}
