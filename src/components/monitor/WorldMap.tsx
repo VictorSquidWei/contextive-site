@@ -407,6 +407,7 @@ export function WorldMap({
           {hovered.members.length > 4 && (
             <div className="font-mono text-[11px] text-muted pt-1">+{hovered.members.length - 4} more places here</div>
           )}
+          <div className="font-mono text-[9px] text-muted pt-1 border-t border-ink/10">Place names as GDELT geocodes them</div>
         </div>
       )}
     </div>

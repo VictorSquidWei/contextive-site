@@ -75,9 +75,15 @@ export function geoFor(campaign: string, term: string): GeoTerm | undefined {
   return g && g.status === 'measured' ? g : undefined;
 }
 
-/** GDELT's raw geocoded name with its "(General)" qualifier removed, for display. */
+/** GDELT's geocoded name for display: no "(General)" qualifier, no empty parts, and
+    no repeated segment ("Paris, France (General), France" -> "Paris, France"). */
 export function placeName(name: string): string {
-  return name.replace(/\s*\(General\)/g, '').trim();
+  const parts = name
+    .replace(/\s*\(General\)/g, '')
+    .split(',')
+    .map((s) => s.trim())
+    .filter(Boolean);
+  return parts.filter((s, i) => parts.indexOf(s) === i).join(', ');
 }
 
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
