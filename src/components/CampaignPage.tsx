@@ -7,12 +7,23 @@ import { readerHook, HERO_CAPTIONS } from '../data/readerHooks';
 import { FreshnessBadge } from './FreshnessBadge';
 import type { Campaign, CampaignTerm } from '../data/campaign';
 
+/** The figure plainRead() labels: 90-day momentum, falling back to 30-day. */
+const poleDelta = (t?: CampaignTerm) =>
+  t && t.measurement.status !== 'pending' ? t.measurement.deltas?.d90 ?? t.measurement.deltas?.d30 ?? null : null;
+
 /** One pole of the defining tension, with its measured read looked up from the terms. */
-function TensionPole({ c, name }: { c: Campaign; name: string }) {
+function TensionPole({ c, name, ahead }: { c: Campaign; name: string; ahead: boolean }) {
   const term = findTerm(c, name);
   const read = term ? plainRead(term) : undefined;
   return (
     <div className="flex-1 min-w-0 space-y-2">
+      <div
+        className={`small-caps text-[10px] items-center gap-1.5 ${ahead ? 'flex text-ink' : 'hidden sm:flex sm:invisible'}`}
+        aria-hidden={!ahead}
+      >
+        <span className="inline-block w-1.5 h-1.5 rotate-45 bg-ink" aria-hidden />
+        Ahead over 90 days
+      </div>
       <div className="font-display font-bold uppercase leading-[0.95] tracking-tight text-xl sm:text-2xl lg:text-3xl text-balance">
         {name}
       </div>
@@ -50,13 +61,19 @@ function HeroTension({ c }: { c: Campaign }) {
   }
 
   const caption = HERO_CAPTIONS[c.id] || tensionCaption(c) || dt.note;
+  // "Ahead" marks whichever pole has the larger measured move, and only when both
+  // poles carry one; it is a reading of the same figure each pole shows.
+  const da = poleDelta(findTerm(c, dt.a));
+  const db = poleDelta(findTerm(c, dt.b));
+  const aAhead = da != null && db != null && da > db;
+  const bAhead = da != null && db != null && db > da;
   return (
     <div className="border border-ink/15 bg-canvas p-6 sm:p-8 space-y-5">
-      <div className="small-caps text-muted">The word that is winning</div>
+      <div className="small-caps text-muted">Which word is winning</div>
       <div className="flex flex-col sm:flex-row items-start gap-5 sm:gap-4">
-        <TensionPole c={c} name={dt.a} />
+        <TensionPole c={c} name={dt.a} ahead={aAhead} />
         <div className="shrink-0 self-center small-caps text-muted py-1">vs</div>
-        <TensionPole c={c} name={dt.b} />
+        <TensionPole c={c} name={dt.b} ahead={bAhead} />
       </div>
       {caption && (
         <p className="text-sm sm:text-base leading-relaxed text-balance line-clamp-3">{caption}</p>
@@ -158,8 +175,8 @@ export function CampaignPage() {
           )}
 
           <p className="small-caps text-muted text-[11px] leading-relaxed">
-            Ranked by how fast each word is gaining ground in the news. Tap a word for detail. We track
-            how the words move, not who is right.
+            Ranked by the bar: each word&rsquo;s last 30 days against the 90 before, among the words here.
+            The number is its 90-day change. Tap a word for detail.
           </p>
 
           <TermLeaderboard terms={active.terms} campaignId={c.id} />

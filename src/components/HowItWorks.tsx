@@ -265,9 +265,9 @@ export function HowItWorks() {
               It starts with the crowd
             </h2>
             <p className="text-muted leading-relaxed">
-              Every cultural argument is fought in public, across millions of posts, headlines,
-              broadcasts and threads. No single account decides a word's fate; the pattern
-              does. Contextive watches the whole field, never the loudest voice.
+              Every argument is fought in words, and no single voice decides a word&rsquo;s fate:
+              the pattern does. Contextive reads that pattern across the world&rsquo;s news
+              coverage, not the loudest voice.
             </p>
           </motion.div>
           <div className="lg:col-span-7">
