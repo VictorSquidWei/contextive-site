@@ -92,7 +92,6 @@
       "measurement": {
         "status": "measured",
         "velocityIndex": 27,
-        "adoptionStage": "emerging",
         "deltas": {
           "d30": -26.5,
           "d90": -69.7,
@@ -114,7 +113,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-22T00:29:40+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       },
       "platforms": [
         "official statements",
@@ -142,7 +143,6 @@
       "measurement": {
         "status": "measured",
         "velocityIndex": 20,
-        "adoptionStage": "emerging",
         "deltas": {
           "d30": -41.7,
           "d90": -12.3,
@@ -164,7 +164,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-22T00:29:40+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       },
       "platforms": [
         "diplomatic readouts",
@@ -192,7 +194,6 @@
       "measurement": {
         "status": "measured",
         "velocityIndex": 40,
-        "adoptionStage": "emerging",
         "deltas": {
           "d30": -32.2,
           "d90": 20.4,
@@ -214,7 +215,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-22T00:29:40+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       },
       "platforms": [
         "policy commentary",
@@ -241,7 +244,7 @@
       "domainTag": "trade policy",
       "measurement": {
         "status": "pending",
-        "reason": "coverage at noise floor (coverage_mean_30d 0.00064% < 0.001% share of monitored coverage, ~a few articles/day); velocity dominated by a near-zero baseline and not reliably rankable on the full-text ngram surface (C04 endorsement-machine failure mode). Measured raw retained in measured_raw_audit."
+        "reason": "coverage below the 0.001% noise floor (share of monitored coverage), too sparse to rank reliably; measured raw retained in measured_raw_audit."
       },
       "platforms": [
         "official statements",
@@ -269,7 +272,6 @@
       "measurement": {
         "status": "measured",
         "velocityIndex": 67,
-        "adoptionStage": "emerging",
         "deltas": {
           "d30": -16.4,
           "d90": -17.7,
@@ -295,7 +297,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-22T00:29:40+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       },
       "platforms": [
         "official statements",
@@ -323,7 +327,6 @@
       "measurement": {
         "status": "measured",
         "velocityIndex": 7,
-        "adoptionStage": "emerging",
         "deltas": {
           "d30": -52.5,
           "d90": -27.6,
@@ -349,7 +352,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-22T00:29:40+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       },
       "platforms": [
         "policy commentary",
@@ -377,7 +382,6 @@
       "measurement": {
         "status": "measured",
         "velocityIndex": 33,
-        "adoptionStage": "emerging",
         "deltas": {
           "d30": -13.9,
           "d90": -44.4,
@@ -399,7 +403,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-22T00:29:40+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       },
       "platforms": [
         "financial press",
@@ -427,7 +433,6 @@
       "measurement": {
         "status": "measured",
         "velocityIndex": 13,
-        "adoptionStage": "emerging",
         "deltas": {
           "d30": -19.9,
           "d90": -29.9,
@@ -449,7 +454,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-22T00:29:40+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       },
       "platforms": [
         "cable news",
@@ -477,7 +484,6 @@
       "measurement": {
         "status": "measured",
         "velocityIndex": 53,
-        "adoptionStage": "emerging",
         "deltas": {
           "d30": -3.9,
           "d90": -14.3,
@@ -503,7 +509,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-22T00:29:40+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       },
       "platforms": [
         "policy commentary",
@@ -531,7 +539,6 @@
       "measurement": {
         "status": "measured",
         "velocityIndex": 47,
-        "adoptionStage": "emerging",
         "deltas": {
           "d30": -11.2,
           "d90": -14.9,
@@ -549,7 +556,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-22T00:29:40+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       },
       "platforms": [
         "op-eds",
@@ -577,7 +586,6 @@
       "measurement": {
         "status": "measured",
         "velocityIndex": 0,
-        "adoptionStage": "emerging",
         "deltas": {
           "d30": -21.3,
           "d90": -20.5,
@@ -599,7 +607,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-22T00:29:40+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       },
       "platforms": [
         "financial press",
@@ -627,7 +637,6 @@
       "measurement": {
         "status": "measured",
         "velocityIndex": 60,
-        "adoptionStage": "emerging",
         "deltas": {
           "d30": -6.1,
           "d90": -3.4,
@@ -640,7 +649,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-22T00:29:40+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       },
       "platforms": [
         "industry press",
@@ -668,7 +679,6 @@
       "measurement": {
         "status": "measured",
         "velocityIndex": 100,
-        "adoptionStage": "emerging",
         "deltas": {
           "d30": 55.1,
           "d90": -31,
@@ -690,7 +700,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-22T00:29:40+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       },
       "platforms": [
         "policy commentary",
@@ -718,7 +730,6 @@
       "measurement": {
         "status": "measured",
         "velocityIndex": 73,
-        "adoptionStage": "emerging",
         "deltas": {
           "d30": -1.2,
           "d90": -3.8,
@@ -744,7 +755,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-22T00:29:40+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       },
       "platforms": [
         "industry press",
@@ -772,7 +785,6 @@
       "measurement": {
         "status": "measured",
         "velocityIndex": 93,
-        "adoptionStage": "emerging",
         "deltas": {
           "d30": 15.5,
           "d90": 32.5,
@@ -794,7 +806,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-22T00:29:40+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       },
       "platforms": [
         "corporate communications",
@@ -822,7 +836,6 @@
       "measurement": {
         "status": "measured",
         "velocityIndex": 80,
-        "adoptionStage": "emerging",
         "deltas": {
           "d30": -2.9,
           "d90": 2.1,
@@ -844,7 +857,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-22T00:29:40+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       },
       "platforms": [
         "policy commentary",
@@ -872,7 +887,6 @@
       "measurement": {
         "status": "measured",
         "velocityIndex": 87,
-        "adoptionStage": "emerging",
         "deltas": {
           "d30": -2,
           "d90": 40.4,
@@ -894,7 +908,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-22T00:29:40+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       },
       "platforms": [
         "policy commentary",

@@ -24,22 +24,22 @@ export const API_DEMO_TERMS: DemoTerm[] = [
     "campaign": "06",
     "campaignTitle": "The Iran War",
     "domain": "STRATEGIC / TERMINATION",
-    "velocityIndex": 100,
-    "adoptionStage": "spreading",
+    "velocityIndex": 93,
+    "adoptionStage": null,
     "deltas": {
-      "d30": -2.4,
-      "d90": 424.9,
-      "yoy": 250.6
+      "d30": 2.6,
+      "d90": 455.1,
+      "yoy": null
     },
-    "sentiment": -3.48,
+    "sentiment": null,
     "inflections": [
       {
-        "date": "2026-04-15",
-        "z": 3.37
+        "date": "2026-04-07",
+        "z": 2.16
       },
       {
-        "date": "2026-04-05",
-        "z": 2.02
+        "date": "2026-04-17",
+        "z": 2
       }
     ],
     "coOccurrence": [
@@ -57,21 +57,21 @@ export const API_DEMO_TERMS: DemoTerm[] = [
     "campaignTitle": "The Iran War",
     "domain": "STRATEGIC / BATTLE DAMAGE",
     "velocityIndex": 0,
-    "adoptionStage": "rising",
+    "adoptionStage": null,
     "deltas": {
-      "d30": -11.5,
-      "d90": -63.4,
-      "yoy": 135.5
+      "d30": -2.6,
+      "d90": -22,
+      "yoy": null
     },
     "sentiment": null,
     "inflections": [
       {
-        "date": "2026-02-25",
-        "z": 5.43
+        "date": "2026-03-20",
+        "z": 2.78
       },
       {
-        "date": "2026-03-12",
-        "z": 2.06
+        "date": "2026-02-26",
+        "z": 2.43
       }
     ],
     "coOccurrence": [
@@ -89,25 +89,25 @@ export const API_DEMO_TERMS: DemoTerm[] = [
     "campaignTitle": "Money",
     "domain": "INSTITUTIONAL / THE BET",
     "velocityIndex": 100,
-    "adoptionStage": "emerging",
+    "adoptionStage": null,
     "deltas": {
-      "d30": 374.2,
-      "d90": -73.4,
+      "d30": 622.7,
+      "d90": -74,
       "yoy": null
     },
-    "sentiment": -0.28,
+    "sentiment": null,
     "inflections": [
       {
-        "date": "2025-10-05",
-        "z": 2.86
+        "date": "2026-02-03",
+        "z": 2.65
       },
       {
-        "date": "2026-01-26",
-        "z": 2.66
+        "date": "2026-01-24",
+        "z": 2.25
       },
       {
-        "date": "2025-10-15",
-        "z": 2.06
+        "date": "2025-10-08",
+        "z": 2.24
       }
     ],
     "coOccurrence": [
@@ -124,94 +124,87 @@ export const API_DEMO_TERMS: DemoTerm[] = [
     "campaign": "05",
     "campaignTitle": "The Economy",
     "domain": "MACRO OUTLOOK / INSTITUTIONAL",
-    "velocityIndex": 12,
-    "adoptionStage": "fading",
+    "velocityIndex": 15,
+    "adoptionStage": null,
     "deltas": {
-      "d30": -7.2,
-      "d90": -48,
-      "yoy": -35.6
+      "d30": 17.4,
+      "d90": -27.5,
+      "yoy": null
     },
-    "sentiment": -0.79,
+    "sentiment": null,
     "inflections": [
       {
-        "date": "2025-09-15",
-        "z": 2.69
-      },
-      {
-        "date": "2025-10-11",
-        "z": 2.53
+        "date": "2026-02-03",
+        "z": 2.77
       },
       {
         "date": "2026-02-14",
-        "z": 2.07
+        "z": 2.41
       }
     ],
-    "coOccurrence": [
-      "Fed",
-      "rate cuts",
-      "recession",
-      "labor market",
-      "no landing",
-      "disinflation"
-    ],
+    "coOccurrence": [],
     "featured": true
   },
   {
-    "term": "vibecession",
-    "slug": "vibecession",
+    "term": "shrinkflation",
+    "slug": "shrinkflation",
     "campaign": "05",
     "campaignTitle": "The Economy",
-    "domain": "LIVED EXPERIENCE / SENTIMENT",
+    "domain": "LIVED EXPERIENCE / PRODUCT",
     "velocityIndex": 100,
-    "adoptionStage": "spreading",
+    "adoptionStage": null,
     "deltas": {
-      "d30": 275,
-      "d90": 188,
-      "yoy": 617
+      "d30": 179.5,
+      "d90": 46.1,
+      "yoy": null
     },
-    "sentiment": -1.6,
+    "sentiment": null,
     "inflections": [
       {
-        "date": "2026-05-28",
-        "z": 2.9
+        "date": "2026-05-18",
+        "z": 2.39
+      },
+      {
+        "date": "2026-05-08",
+        "z": 2.18
+      },
+      {
+        "date": "2026-03-17",
+        "z": 2.14
       }
     ],
-    "coOccurrence": [
-      "affordability",
-      "real economy",
-      "data vs vibes",
-      "consumer sentiment",
-      "soft landing",
-      "groceries"
-    ],
+    "coOccurrence": [],
     "featured": true
   },
   {
-    "term": "greedflation",
-    "slug": "greedflation",
-    "campaign": "05",
-    "campaignTitle": "The Economy",
-    "domain": "ATTRIBUTION / POPULIST",
-    "velocityIndex": 0,
-    "adoptionStage": "declining",
+    "term": "digital dollar",
+    "slug": "digital-dollar",
+    "campaign": "07",
+    "campaignTitle": "Money",
+    "domain": "INSTITUTIONAL / STATE MONEY",
+    "velocityIndex": 67,
+    "adoptionStage": "rising",
     "deltas": {
-      "d30": -41,
-      "d90": -58,
-      "yoy": -86
+      "d30": 3.4,
+      "d90": 53.8,
+      "yoy": 78.4
     },
-    "sentiment": -2.4,
+    "sentiment": null,
     "inflections": [
       {
-        "date": "2025-07-12",
-        "z": 2.5
+        "date": "2025-07-13",
+        "z": 3.1
+      },
+      {
+        "date": "2026-04-29",
+        "z": 2.03
       }
     ],
     "coOccurrence": [
-      "corporate profits",
-      "price gouging",
-      "margins",
-      "shrinkflation",
-      "record profits"
+      "surveillance",
+      "stablecoin",
+      "Fed",
+      "privacy"
     ],
     "featured": true
   },
@@ -221,18 +214,22 @@ export const API_DEMO_TERMS: DemoTerm[] = [
     "campaign": "06",
     "campaignTitle": "The Iran War",
     "domain": "ATTRIBUTION / CONTESTED CREED",
-    "velocityIndex": 25,
-    "adoptionStage": "contested",
+    "velocityIndex": 21,
+    "adoptionStage": null,
     "deltas": {
-      "d30": -15.4,
-      "d90": -54.8,
-      "yoy": -11.3
+      "d30": -43.1,
+      "d90": -51.3,
+      "yoy": null
     },
-    "sentiment": -1.75,
+    "sentiment": null,
     "inflections": [
       {
-        "date": "2026-02-25",
-        "z": 4.07
+        "date": "2026-03-14",
+        "z": 3.53
+      },
+      {
+        "date": "2026-03-01",
+        "z": 3.08
       }
     ],
     "coOccurrence": [
@@ -249,22 +246,22 @@ export const API_DEMO_TERMS: DemoTerm[] = [
     "campaign": "04",
     "campaignTitle": "Primaries",
     "domain": "LOYALTY COMMS / GOP PRIMARY",
-    "velocityIndex": 50,
-    "adoptionStage": "rising",
+    "velocityIndex": 86,
+    "adoptionStage": null,
     "deltas": {
-      "d30": 613,
-      "d90": 290.6,
-      "yoy": 704.3
+      "d30": 599,
+      "d90": 225.4,
+      "yoy": null
     },
     "sentiment": null,
     "inflections": [
       {
-        "date": "2026-03-02",
-        "z": 4.26
+        "date": "2026-05-16",
+        "z": 3.48
       },
       {
-        "date": "2026-05-16",
-        "z": 3.14
+        "date": "2026-03-02",
+        "z": 2.41
       }
     ],
     "coOccurrence": [
@@ -283,18 +280,22 @@ export const API_DEMO_TERMS: DemoTerm[] = [
     "campaign": "03",
     "campaignTitle": "Bodies and Food",
     "domain": "WELLNESS / FUNCTIONAL MEDICINE",
-    "velocityIndex": 0,
-    "adoptionStage": "fading",
+    "velocityIndex": 20,
+    "adoptionStage": null,
     "deltas": {
-      "d30": -9.8,
-      "d90": 87.9,
-      "yoy": -39.8
+      "d30": 6.6,
+      "d90": 47.2,
+      "yoy": null
     },
-    "sentiment": 0.63,
+    "sentiment": null,
     "inflections": [
       {
         "date": "2026-02-10",
-        "z": 7.08
+        "z": 4.63
+      },
+      {
+        "date": "2026-01-02",
+        "z": 2
       }
     ],
     "coOccurrence": [
@@ -309,32 +310,33 @@ export const API_DEMO_TERMS: DemoTerm[] = [
     "featured": true
   },
   {
-    "term": "body neutrality",
-    "slug": "body-neutrality",
+    "term": "anti-obesity medication",
+    "slug": "anti-obesity-medication",
     "campaign": "03",
     "campaignTitle": "Bodies and Food",
-    "domain": "CONSUMER IDENTITY / SUCCESSOR",
-    "velocityIndex": 80,
-    "adoptionStage": "contested",
+    "domain": "CLINICAL / PAYER / PHARMA",
+    "velocityIndex": 50,
+    "adoptionStage": null,
     "deltas": {
-      "d30": -20,
-      "d90": 78.4,
-      "yoy": 1.6
+      "d30": -52.7,
+      "d90": 12.8,
+      "yoy": null
     },
     "sentiment": null,
     "inflections": [
       {
-        "date": "2025-10-16",
-        "z": 6.28
+        "date": "2026-03-20",
+        "z": 4.73
       }
     ],
     "coOccurrence": [
-      "body positivity",
-      "self-image",
-      "intuitive eating",
-      "mental health",
-      "neutral",
-      "peace"
+      "GLP-1",
+      "chronic disease",
+      "obesity",
+      "comorbidity",
+      "indication",
+      "coverage",
+      "formulary"
     ],
     "featured": false
   },
@@ -345,25 +347,21 @@ export const API_DEMO_TERMS: DemoTerm[] = [
     "campaignTitle": "Bodies and Food",
     "domain": "FEDERAL HEALTH COMMS",
     "velocityIndex": 100,
-    "adoptionStage": "fading",
+    "adoptionStage": null,
     "deltas": {
-      "d30": 177.9,
-      "d90": 19.2,
-      "yoy": -57.2
+      "d30": 90,
+      "d90": 22.8,
+      "yoy": null
     },
-    "sentiment": -0.42,
+    "sentiment": null,
     "inflections": [
       {
-        "date": "2025-05-27",
-        "z": 2.94
+        "date": "2025-11-12",
+        "z": 2.79
       },
       {
-        "date": "2025-03-30",
-        "z": 2.81
-      },
-      {
-        "date": "2025-09-11",
-        "z": 2.29
+        "date": "2026-05-02",
+        "z": 2.37
       }
     ],
     "coOccurrence": [
@@ -382,26 +380,22 @@ export const API_DEMO_TERMS: DemoTerm[] = [
     "campaign": "03",
     "campaignTitle": "Bodies and Food",
     "domain": "GATEKEEPING / AUTHORITY",
-    "velocityIndex": 60,
-    "adoptionStage": "contested",
+    "velocityIndex": 70,
+    "adoptionStage": null,
     "deltas": {
-      "d30": 6.4,
-      "d90": -7.2,
-      "yoy": 28.7
+      "d30": -0.5,
+      "d90": -25.1,
+      "yoy": null
     },
-    "sentiment": 0.32,
+    "sentiment": null,
     "inflections": [
       {
-        "date": "2026-01-05",
-        "z": 2.67
-      },
-      {
         "date": "2025-12-14",
-        "z": 2.11
+        "z": 3.37
       },
       {
-        "date": "2025-08-25",
-        "z": 2
+        "date": "2025-12-02",
+        "z": 2.51
       }
     ],
     "coOccurrence": [
@@ -415,31 +409,52 @@ export const API_DEMO_TERMS: DemoTerm[] = [
     "featured": false
   },
   {
+    "term": "food as medicine",
+    "slug": "food-as-medicine",
+    "campaign": "03",
+    "campaignTitle": "Bodies and Food",
+    "domain": "INTEGRATIVE HEALTH / MARKETING",
+    "velocityIndex": 0,
+    "adoptionStage": null,
+    "deltas": {
+      "d30": -65,
+      "d90": -64.8,
+      "yoy": null
+    },
+    "sentiment": null,
+    "inflections": [
+      {
+        "date": "2026-01-18",
+        "z": 4.97
+      }
+    ],
+    "coOccurrence": [
+      "produce prescription",
+      "medically-tailored meals",
+      "social determinants",
+      "lifestyle medicine",
+      "prevention"
+    ],
+    "featured": false
+  },
+  {
     "term": "food noise",
     "slug": "food-noise",
     "campaign": "03",
     "campaignTitle": "Bodies and Food",
     "domain": "PATIENT / USER (ENDOGENOUS)",
-    "velocityIndex": 20,
-    "adoptionStage": "rising",
+    "velocityIndex": 10,
+    "adoptionStage": null,
     "deltas": {
-      "d30": -21.4,
-      "d90": 89.6,
-      "yoy": 262.5
+      "d30": -52.6,
+      "d90": 43.9,
+      "yoy": null
     },
     "sentiment": null,
     "inflections": [
       {
         "date": "2026-02-11",
-        "z": 4.77
-      },
-      {
-        "date": "2026-01-31",
-        "z": 3.01
-      },
-      {
-        "date": "2025-06-02",
-        "z": 2.13
+        "z": 3.84
       }
     ],
     "coOccurrence": [
@@ -454,31 +469,157 @@ export const API_DEMO_TERMS: DemoTerm[] = [
     "featured": false
   },
   {
+    "term": "GLP-1",
+    "slug": "glp-1",
+    "campaign": "03",
+    "campaignTitle": "Bodies and Food",
+    "domain": "PHARMACOLOGY / CLINICAL (ESCAPED)",
+    "velocityIndex": 40,
+    "adoptionStage": null,
+    "deltas": {
+      "d30": -33.5,
+      "d90": 9.2,
+      "yoy": null
+    },
+    "sentiment": null,
+    "inflections": [
+      {
+        "date": "2026-02-05",
+        "z": 2.33
+      }
+    ],
+    "coOccurrence": [
+      "semaglutide",
+      "tirzepatide",
+      "Ozempic",
+      "Wegovy",
+      "Mounjaro",
+      "agonist",
+      "side effects"
+    ],
+    "featured": false
+  },
+  {
+    "term": "metabolic health",
+    "slug": "metabolic-health",
+    "campaign": "03",
+    "campaignTitle": "Bodies and Food",
+    "domain": "BRIDGE / CROSS-CLUSTER",
+    "velocityIndex": 60,
+    "adoptionStage": null,
+    "deltas": {
+      "d30": -11.9,
+      "d90": -5.5,
+      "yoy": null
+    },
+    "sentiment": null,
+    "inflections": [
+      {
+        "date": "2025-11-22",
+        "z": 2.08
+      }
+    ],
+    "coOccurrence": [
+      "insulin resistance",
+      "blood glucose",
+      "A1C",
+      "mitochondrial",
+      "fasting",
+      "insulin sensitivity"
+    ],
+    "featured": false
+  },
+  {
+    "term": "real food / raw milk",
+    "slug": "real-food-raw-milk",
+    "campaign": "03",
+    "campaignTitle": "Bodies and Food",
+    "domain": "AUTHENTICITY / MOVEMENT IDENTITY",
+    "velocityIndex": 90,
+    "adoptionStage": null,
+    "deltas": {
+      "d30": -10.9,
+      "d90": -7.1,
+      "yoy": null
+    },
+    "sentiment": null,
+    "inflections": [
+      {
+        "date": "2025-11-22",
+        "z": 2.12
+      }
+    ],
+    "coOccurrence": [
+      "whole",
+      "ancestral",
+      "pasteurization",
+      "farm-direct",
+      "regulation",
+      "freedom",
+      "food sovereignty"
+    ],
+    "featured": false
+  },
+  {
+    "term": "ultra-processed",
+    "slug": "ultra-processed",
+    "campaign": "03",
+    "campaignTitle": "Bodies and Food",
+    "domain": "PUBLIC HEALTH / NUTRITION POLICY",
+    "velocityIndex": 80,
+    "adoptionStage": null,
+    "deltas": {
+      "d30": 35,
+      "d90": -12.1,
+      "yoy": null
+    },
+    "sentiment": null,
+    "inflections": [
+      {
+        "date": "2026-01-04",
+        "z": 2.73
+      },
+      {
+        "date": "2025-11-13",
+        "z": 2.41
+      },
+      {
+        "date": "2026-04-12",
+        "z": 2.03
+      }
+    ],
+    "coOccurrence": [
+      "hyperpalatable",
+      "NOVA",
+      "additives",
+      "real food",
+      "ingredient list",
+      "formulation"
+    ],
+    "featured": false
+  },
+  {
     "term": "weight management",
     "slug": "weight-management",
     "campaign": "03",
     "campaignTitle": "Bodies and Food",
     "domain": "SOFT CLINICAL / MARKETING",
-    "velocityIndex": 40,
-    "adoptionStage": "contested",
+    "velocityIndex": 30,
+    "adoptionStage": null,
     "deltas": {
-      "d30": -25.7,
-      "d90": -12.4,
-      "yoy": -28.4
+      "d30": -22.2,
+      "d90": -19.1,
+      "yoy": null
     },
     "sentiment": null,
     "inflections": [
       {
-        "date": "2025-12-03",
-        "z": 3.45
+        "date": "2025-11-14",
+        "z": 3.33
       },
       {
         "date": "2026-02-20",
-        "z": 2.22
-      },
-      {
-        "date": "2025-09-30",
-        "z": 2.2
+        "z": 2.6
       }
     ],
     "coOccurrence": [
@@ -497,26 +638,22 @@ export const API_DEMO_TERMS: DemoTerm[] = [
     "campaign": "04",
     "campaignTitle": "Primaries",
     "domain": "STRATEGIC MAPPING",
-    "velocityIndex": 25,
-    "adoptionStage": "contested",
+    "velocityIndex": 21,
+    "adoptionStage": null,
     "deltas": {
-      "d30": -7.6,
-      "d90": 6.2,
-      "yoy": -22.7
+      "d30": 1.1,
+      "d90": 27.9,
+      "yoy": null
     },
-    "sentiment": -2.26,
+    "sentiment": null,
     "inflections": [
       {
-        "date": "2025-05-01",
-        "z": 4.36
+        "date": "2026-03-01",
+        "z": 2.26
       },
       {
-        "date": "2025-12-07",
-        "z": 2.71
-      },
-      {
-        "date": "2025-08-08",
-        "z": 2.27
+        "date": "2026-05-03",
+        "z": 2.01
       }
     ],
     "coOccurrence": [
@@ -530,40 +667,168 @@ export const API_DEMO_TERMS: DemoTerm[] = [
     "featured": false
   },
   {
-    "term": "endorsement machine",
-    "slug": "endorsement-machine",
+    "term": "dark money",
+    "slug": "dark-money",
     "campaign": "04",
     "campaignTitle": "Primaries",
-    "domain": "PRIMARY MECHANICS / PRESS",
-    "velocityIndex": 100,
-    "adoptionStage": "rising",
+    "domain": "CAMPAIGN FINANCE / DISSIDENT",
+    "velocityIndex": 50,
+    "adoptionStage": null,
     "deltas": {
-      "d30": 173.7,
-      "d90": 6.1,
-      "yoy": 126.1
+      "d30": 19.2,
+      "d90": 70.4,
+      "yoy": null
     },
     "sentiment": null,
     "inflections": [
       {
-        "date": "2025-12-14",
-        "z": 4.51
+        "date": "2026-05-01",
+        "z": 2.24
       },
       {
-        "date": "2026-05-14",
-        "z": 2.76
-      },
-      {
-        "date": "2025-08-12",
-        "z": 2.29
+        "date": "2026-04-18",
+        "z": 2.03
       }
     ],
     "coOccurrence": [
-      "hand-picked",
-      "scorecard",
-      "win rate",
-      "primary cycle",
-      "hold the line",
-      "backed"
+      "super PAC",
+      "undisclosed donors",
+      "foreign-aligned",
+      "independent expenditure",
+      "late money",
+      "shadow campaign"
+    ],
+    "featured": false
+  },
+  {
+    "term": "electable / viable",
+    "slug": "electable-viable",
+    "campaign": "04",
+    "campaignTitle": "Primaries",
+    "domain": "ANALYST / DONOR CLASS",
+    "velocityIndex": 36,
+    "adoptionStage": null,
+    "deltas": {
+      "d30": 58.4,
+      "d90": 66,
+      "yoy": null
+    },
+    "sentiment": null,
+    "inflections": [
+      {
+        "date": "2026-03-01",
+        "z": 3.94
+      },
+      {
+        "date": "2026-05-17",
+        "z": 2.07
+      }
+    ],
+    "coOccurrence": [
+      "general election",
+      "swing district",
+      "moderate",
+      "suburban",
+      "persuasion",
+      "crossover"
+    ],
+    "featured": false
+  },
+  {
+    "term": "fighter",
+    "slug": "fighter",
+    "campaign": "04",
+    "campaignTitle": "Primaries",
+    "domain": "CANDIDATE PERFORMANCE",
+    "velocityIndex": 0,
+    "adoptionStage": null,
+    "deltas": {
+      "d30": 24.7,
+      "d90": 38.4,
+      "yoy": null
+    },
+    "sentiment": null,
+    "inflections": [
+      {
+        "date": "2026-02-26",
+        "z": 2.08
+      }
+    ],
+    "coOccurrence": [
+      "tough",
+      "never back down",
+      "takes on",
+      "will not quit",
+      "working class",
+      "stand up"
+    ],
+    "featured": false
+  },
+  {
+    "term": "libertarian-leaning / fiscal hawk",
+    "slug": "libertarian-leaning-fiscal-hawk",
+    "campaign": "04",
+    "campaignTitle": "Primaries",
+    "domain": "PRESS / DESCRIPTIVE",
+    "velocityIndex": 14,
+    "adoptionStage": null,
+    "deltas": {
+      "d30": 75.8,
+      "d90": 73.6,
+      "yoy": null
+    },
+    "sentiment": null,
+    "inflections": [
+      {
+        "date": "2026-02-24",
+        "z": 2.93
+      },
+      {
+        "date": "2026-05-21",
+        "z": 2.03
+      }
+    ],
+    "coOccurrence": [
+      "fiscal conservative",
+      "deficit hawk",
+      "audit the Fed",
+      "debt ceiling",
+      "lonely vote",
+      "limited government"
+    ],
+    "featured": false
+  },
+  {
+    "term": "moderate",
+    "slug": "moderate",
+    "campaign": "04",
+    "campaignTitle": "Primaries",
+    "domain": "IDEOLOGICAL MAPPING / PRESS",
+    "velocityIndex": 7,
+    "adoptionStage": null,
+    "deltas": {
+      "d30": 7.8,
+      "d90": -20.8,
+      "yoy": null
+    },
+    "sentiment": null,
+    "inflections": [
+      {
+        "date": "2026-01-26",
+        "z": 2.47
+      },
+      {
+        "date": "2025-12-17",
+        "z": 2.18
+      }
+    ],
+    "coOccurrence": [
+      "centrist",
+      "bipartisan",
+      "deal-maker",
+      "compromise",
+      "swing voter",
+      "persuasion"
     ],
     "featured": false
   },
@@ -573,26 +838,22 @@ export const API_DEMO_TERMS: DemoTerm[] = [
     "campaign": "04",
     "campaignTitle": "Primaries",
     "domain": "ELECTION MECHANICS",
-    "velocityIndex": 75,
-    "adoptionStage": "rising",
+    "velocityIndex": 43,
+    "adoptionStage": null,
     "deltas": {
-      "d30": 94.6,
-      "d90": 45.9,
-      "yoy": 75.2
+      "d30": 74.6,
+      "d90": 32.6,
+      "yoy": null
     },
-    "sentiment": 0.14,
+    "sentiment": null,
     "inflections": [
       {
-        "date": "2026-05-17",
-        "z": 3.49
+        "date": "2026-03-15",
+        "z": 2.13
       },
       {
-        "date": "2025-07-24",
-        "z": 2.95
-      },
-      {
-        "date": "2025-10-26",
-        "z": 2.02
+        "date": "2025-12-03",
+        "z": 2.04
       }
     ],
     "coOccurrence": [
@@ -606,38 +867,269 @@ export const API_DEMO_TERMS: DemoTerm[] = [
     "featured": false
   },
   {
+    "term": "primary challenger",
+    "slug": "primary-challenger",
+    "campaign": "04",
+    "campaignTitle": "Primaries",
+    "domain": "INSTITUTIONAL / ANALYST",
+    "velocityIndex": 93,
+    "adoptionStage": null,
+    "deltas": {
+      "d30": 152.9,
+      "d90": 155.6,
+      "yoy": null
+    },
+    "sentiment": null,
+    "inflections": [
+      {
+        "date": "2026-05-17",
+        "z": 2.37
+      },
+      {
+        "date": "2026-05-03",
+        "z": 2.33
+      }
+    ],
+    "coOccurrence": [
+      "incumbent",
+      "challenger",
+      "vulnerable",
+      "two-term",
+      "district",
+      "redistricting"
+    ],
+    "featured": false
+  },
+  {
+    "term": "principled / constitutional",
+    "slug": "principled-constitutional",
+    "campaign": "04",
+    "campaignTitle": "Primaries",
+    "domain": "DISSIDENT GOP / SELF-ID",
+    "velocityIndex": 64,
+    "adoptionStage": null,
+    "deltas": {
+      "d30": 77.4,
+      "d90": -23.3,
+      "yoy": null
+    },
+    "sentiment": null,
+    "inflections": [
+      {
+        "date": "2026-01-03",
+        "z": 3.99
+      }
+    ],
+    "coOccurrence": [
+      "Constitution",
+      "republic",
+      "oath",
+      "separation of powers",
+      "hold the line",
+      "never voted for"
+    ],
+    "featured": false
+  },
+  {
+    "term": "purge",
+    "slug": "purge",
+    "campaign": "04",
+    "campaignTitle": "Primaries",
+    "domain": "PRESS / ANALYTICAL",
+    "velocityIndex": 79,
+    "adoptionStage": null,
+    "deltas": {
+      "d30": 227.6,
+      "d90": 8.3,
+      "yoy": null
+    },
+    "sentiment": null,
+    "inflections": [
+      {
+        "date": "2026-05-14",
+        "z": 2.26
+      },
+      {
+        "date": "2026-01-23",
+        "z": 2.12
+      },
+      {
+        "date": "2025-11-26",
+        "z": 2.08
+      }
+    ],
+    "coOccurrence": [
+      "revenge campaign",
+      "loyalty test",
+      "ouster",
+      "target list",
+      "dissent",
+      "knock off"
+    ],
+    "featured": false
+  },
+  {
+    "term": "revenge campaign",
+    "slug": "revenge-campaign",
+    "campaign": "04",
+    "campaignTitle": "Primaries",
+    "domain": "PRESS ANALYTICAL",
+    "velocityIndex": 100,
+    "adoptionStage": null,
+    "deltas": {
+      "d30": 295.7,
+      "d90": 1.3,
+      "yoy": null
+    },
+    "sentiment": null,
+    "inflections": [
+      {
+        "date": "2026-05-18",
+        "z": 2.2
+      },
+      {
+        "date": "2026-02-01",
+        "z": 2.07
+      }
+    ],
+    "coOccurrence": [
+      "purge",
+      "target list",
+      "retaliation",
+      "settle scores",
+      "payback",
+      "retribution"
+    ],
+    "featured": false
+  },
+  {
+    "term": "RINO",
+    "slug": "rino",
+    "campaign": "04",
+    "campaignTitle": "Primaries",
+    "domain": "INTRA-GOP ADVERSARIAL",
+    "velocityIndex": 57,
+    "adoptionStage": null,
+    "deltas": {
+      "d30": 134.5,
+      "d90": -4.4,
+      "yoy": null
+    },
+    "sentiment": null,
+    "inflections": [
+      {
+        "date": "2026-02-18",
+        "z": 3.5
+      },
+      {
+        "date": "2026-05-05",
+        "z": 2.23
+      },
+      {
+        "date": "2026-05-23",
+        "z": 2.22
+      }
+    ],
+    "coOccurrence": [
+      "uniparty",
+      "swamp",
+      "establishment",
+      "weak",
+      "sellout",
+      "donor class"
+    ],
+    "featured": false
+  },
+  {
+    "term": "runoff",
+    "slug": "runoff",
+    "campaign": "04",
+    "campaignTitle": "Primaries",
+    "domain": "STATE-LEVEL MECHANICS",
+    "velocityIndex": 71,
+    "adoptionStage": null,
+    "deltas": {
+      "d30": 103.9,
+      "d90": 135.3,
+      "yoy": null
+    },
+    "sentiment": null,
+    "inflections": [
+      {
+        "date": "2026-05-16",
+        "z": 2.68
+      },
+      {
+        "date": "2026-03-02",
+        "z": 2.42
+      }
+    ],
+    "coOccurrence": [
+      "fifty-percent threshold",
+      "second round",
+      "advance",
+      "turnout collapse",
+      "consolidation",
+      "late money"
+    ],
+    "featured": false
+  },
+  {
+    "term": "[admin]flation",
+    "slug": "admin-flation",
+    "campaign": "05",
+    "campaignTitle": "The Economy",
+    "domain": "ATTRIBUTION / PARTISAN",
+    "velocityIndex": 8,
+    "adoptionStage": null,
+    "deltas": {
+      "d30": -14.9,
+      "d90": 89.5,
+      "yoy": null
+    },
+    "sentiment": null,
+    "inflections": [
+      {
+        "date": "2026-01-03",
+        "z": 3.08
+      },
+      {
+        "date": "2026-03-18",
+        "z": 2.23
+      },
+      {
+        "date": "2026-04-05",
+        "z": 2.18
+      }
+    ],
+    "coOccurrence": [],
+    "featured": false
+  },
+  {
     "term": "affordability",
     "slug": "affordability",
     "campaign": "05",
     "campaignTitle": "The Economy",
-    "domain": "LIVED EXPERIENCE / LEVEL",
-    "velocityIndex": 62,
-    "adoptionStage": "rising",
+    "domain": "LIVED EXPERIENCE / FRAME",
+    "velocityIndex": 46,
+    "adoptionStage": null,
     "deltas": {
-      "d30": 9,
-      "d90": -6.8,
-      "yoy": 99.8
+      "d30": 18.5,
+      "d90": -12.8,
+      "yoy": null
     },
-    "sentiment": -0.54,
+    "sentiment": null,
     "inflections": [
       {
         "date": "2026-02-22",
-        "z": 2.6
+        "z": 2.72
       },
       {
-        "date": "2025-12-07",
-        "z": 2.1
+        "date": "2026-01-02",
+        "z": 2.14
       }
     ],
-    "coOccurrence": [
-      "cost of living",
-      "prices",
-      "wages",
-      "rent",
-      "groceries",
-      "squeeze",
-      "still high"
-    ],
+    "coOccurrence": [],
     "featured": false
   },
   {
@@ -646,36 +1138,87 @@ export const API_DEMO_TERMS: DemoTerm[] = [
     "campaign": "05",
     "campaignTitle": "The Economy",
     "domain": "MOBILIZATION / CYCLICAL",
-    "velocityIndex": 88,
-    "adoptionStage": "rising",
+    "velocityIndex": 92,
+    "adoptionStage": null,
     "deltas": {
-      "d30": 81,
-      "d90": 10.5,
-      "yoy": 56.2
+      "d30": 34.1,
+      "d90": 17,
+      "yoy": null
     },
     "sentiment": null,
     "inflections": [
       {
-        "date": "2025-08-08",
-        "z": 4.89
+        "date": "2025-12-26",
+        "z": 2.56
       },
       {
-        "date": "2025-12-07",
-        "z": 3.22
+        "date": "2026-06-09",
+        "z": 2.31
       },
       {
-        "date": "2025-07-11",
-        "z": 2.19
+        "date": "2026-05-21",
+        "z": 2.09
       }
     ],
-    "coOccurrence": [
-      "four years ago",
-      "midterms",
-      "kitchen table",
-      "referendum",
-      "worse off",
-      "your wallet"
+    "coOccurrence": [],
+    "featured": false
+  },
+  {
+    "term": "cost-of-living crisis",
+    "slug": "cost-of-living-crisis",
+    "campaign": "05",
+    "campaignTitle": "The Economy",
+    "domain": "MOBILIZATION / SLOGAN",
+    "velocityIndex": 54,
+    "adoptionStage": null,
+    "deltas": {
+      "d30": -14.1,
+      "d90": 57.2,
+      "yoy": null
+    },
+    "sentiment": null,
+    "inflections": [
+      {
+        "date": "2026-05-01",
+        "z": 2.16
+      },
+      {
+        "date": "2026-05-29",
+        "z": 2.04
+      }
     ],
+    "coOccurrence": [],
+    "featured": false
+  },
+  {
+    "term": "disinflation",
+    "slug": "disinflation",
+    "campaign": "05",
+    "campaignTitle": "The Economy",
+    "domain": "MACRO / TECHNICAL",
+    "velocityIndex": 23,
+    "adoptionStage": null,
+    "deltas": {
+      "d30": 45.8,
+      "d90": -28,
+      "yoy": null
+    },
+    "sentiment": null,
+    "inflections": [
+      {
+        "date": "2026-02-16",
+        "z": 2.68
+      },
+      {
+        "date": "2026-06-09",
+        "z": 2.58
+      },
+      {
+        "date": "2026-03-21",
+        "z": 2.5
+      }
+    ],
+    "coOccurrence": [],
     "featured": false
   },
   {
@@ -684,36 +1227,25 @@ export const API_DEMO_TERMS: DemoTerm[] = [
     "campaign": "05",
     "campaignTitle": "The Economy",
     "domain": "MACRO / RATES",
-    "velocityIndex": 50,
-    "adoptionStage": "rising",
+    "velocityIndex": 38,
+    "adoptionStage": null,
     "deltas": {
-      "d30": -19.8,
-      "d90": 115.8,
-      "yoy": 293.6
+      "d30": 7.9,
+      "d90": 206.9,
+      "yoy": null
     },
-    "sentiment": -1.34,
+    "sentiment": null,
     "inflections": [
       {
-        "date": "2026-03-09",
-        "z": 2.88
+        "date": "2026-03-10",
+        "z": 2.78
       },
       {
-        "date": "2026-03-29",
-        "z": 2.21
-      },
-      {
-        "date": "2026-03-19",
-        "z": 2.19
+        "date": "2026-03-22",
+        "z": 2.29
       }
     ],
-    "coOccurrence": [
-      "rate cuts",
-      "restrictive",
-      "terminal rate",
-      "hawkish",
-      "2 percent",
-      "policy path"
-    ],
+    "coOccurrence": [],
     "featured": false
   },
   {
@@ -721,37 +1253,76 @@ export const API_DEMO_TERMS: DemoTerm[] = [
     "slug": "junk-fees",
     "campaign": "05",
     "campaignTitle": "The Economy",
-    "domain": "REGULATORY / CONSUMER",
-    "velocityIndex": 38,
-    "adoptionStage": "declining",
+    "domain": "LIVED EXPERIENCE / PRICING",
+    "velocityIndex": 31,
+    "adoptionStage": null,
     "deltas": {
-      "d30": -33.5,
-      "d90": -30.8,
-      "yoy": -79.1
+      "d30": 10.4,
+      "d90": -27,
+      "yoy": null
     },
     "sentiment": null,
     "inflections": [
       {
-        "date": "2025-05-09",
-        "z": 4.18
-      },
-      {
-        "date": "2025-10-01",
-        "z": 2.76
-      },
-      {
-        "date": "2025-09-16",
-        "z": 2.21
+        "date": "2025-12-31",
+        "z": 2.4
       }
     ],
-    "coOccurrence": [
-      "hidden fees",
-      "drip pricing",
-      "all-in pricing",
-      "surcharge",
-      "resort fee",
-      "transparency"
+    "coOccurrence": [],
+    "featured": false
+  },
+  {
+    "term": "K-shaped",
+    "slug": "k-shaped",
+    "campaign": "05",
+    "campaignTitle": "The Economy",
+    "domain": "MACRO / DISTRIBUTION",
+    "velocityIndex": 77,
+    "adoptionStage": null,
+    "deltas": {
+      "d30": 79.6,
+      "d90": -26.3,
+      "yoy": null
+    },
+    "sentiment": null,
+    "inflections": [
+      {
+        "date": "2026-05-25",
+        "z": 2.45
+      },
+      {
+        "date": "2025-12-24",
+        "z": 2.16
+      },
+      {
+        "date": "2026-02-22",
+        "z": 2.05
+      }
     ],
+    "coOccurrence": [],
+    "featured": false
+  },
+  {
+    "term": "late-stage capitalism",
+    "slug": "late-stage-capitalism",
+    "campaign": "05",
+    "campaignTitle": "The Economy",
+    "domain": "SYSTEMIC CRITIQUE / LEFT",
+    "velocityIndex": 62,
+    "adoptionStage": null,
+    "deltas": {
+      "d30": 20.2,
+      "d90": -1.5,
+      "yoy": null
+    },
+    "sentiment": null,
+    "inflections": [
+      {
+        "date": "2025-12-20",
+        "z": 2.41
+      }
+    ],
+    "coOccurrence": [],
     "featured": false
   },
   {
@@ -759,37 +1330,26 @@ export const API_DEMO_TERMS: DemoTerm[] = [
     "slug": "price-gouging",
     "campaign": "05",
     "campaignTitle": "The Economy",
-    "domain": "MORAL-LEGAL / POPULIST",
-    "velocityIndex": 25,
-    "adoptionStage": "rising",
+    "domain": "BLAME / SELLER",
+    "velocityIndex": 69,
+    "adoptionStage": null,
     "deltas": {
-      "d30": 18.1,
-      "d90": 92.1,
-      "yoy": 88.5
+      "d30": 76.8,
+      "d90": 94,
+      "yoy": null
     },
-    "sentiment": -1.79,
+    "sentiment": null,
     "inflections": [
       {
-        "date": "2026-03-17",
-        "z": 2.65
+        "date": "2026-03-08",
+        "z": 2.2
       },
       {
-        "date": "2026-03-27",
-        "z": 2.55
-      },
-      {
-        "date": "2026-03-07",
-        "z": 2.39
+        "date": "2026-03-21",
+        "z": 2.02
       }
     ],
-    "coOccurrence": [
-      "gouging",
-      "shortage",
-      "emergency",
-      "groceries",
-      "windfall",
-      "crackdown"
-    ],
+    "coOccurrence": [],
     "featured": false
   },
   {
@@ -798,36 +1358,44 @@ export const API_DEMO_TERMS: DemoTerm[] = [
     "campaign": "05",
     "campaignTitle": "The Economy",
     "domain": "MACRO / LABOR",
-    "velocityIndex": 75,
-    "adoptionStage": "contested",
+    "velocityIndex": 85,
+    "adoptionStage": null,
     "deltas": {
-      "d30": 90.3,
-      "d90": -28.7,
-      "yoy": 20
+      "d30": 96.3,
+      "d90": -16.4,
+      "yoy": null
     },
-    "sentiment": -1.78,
+    "sentiment": null,
     "inflections": [
       {
-        "date": "2025-08-04",
-        "z": 2.59
-      },
-      {
-        "date": "2026-02-18",
-        "z": 2.29
-      },
-      {
-        "date": "2025-05-05",
-        "z": 2.26
+        "date": "2026-02-16",
+        "z": 2.37
       }
     ],
-    "coOccurrence": [
-      "inflation-adjusted",
-      "median",
-      "purchasing power",
-      "earnings",
-      "compensation",
-      "CPI"
+    "coOccurrence": [],
+    "featured": false
+  },
+  {
+    "term": "tariff tax",
+    "slug": "tariff-tax",
+    "campaign": "05",
+    "campaignTitle": "The Economy",
+    "domain": "ATTRIBUTION / SYMMETRIC",
+    "velocityIndex": 0,
+    "adoptionStage": null,
+    "deltas": {
+      "d30": -52.6,
+      "d90": -71,
+      "yoy": null
+    },
+    "sentiment": null,
+    "inflections": [
+      {
+        "date": "2026-02-17",
+        "z": 2.28
+      }
     ],
+    "coOccurrence": [],
     "featured": false
   },
   {
@@ -836,22 +1404,22 @@ export const API_DEMO_TERMS: DemoTerm[] = [
     "campaign": "06",
     "campaignTitle": "The Iran War",
     "domain": "LIVED EXPERIENCE / COMMITMENT",
-    "velocityIndex": 38,
-    "adoptionStage": "contested",
+    "velocityIndex": 36,
+    "adoptionStage": null,
     "deltas": {
-      "d30": 14.5,
-      "d90": -55.9,
-      "yoy": 20.6
+      "d30": 28.9,
+      "d90": -51.3,
+      "yoy": null
     },
-    "sentiment": -1.12,
+    "sentiment": null,
     "inflections": [
       {
         "date": "2026-01-01",
-        "z": 3.45
+        "z": 2.38
       },
       {
-        "date": "2026-02-28",
-        "z": 2.71
+        "date": "2026-03-02",
+        "z": 2.29
       }
     ],
     "coOccurrence": [
@@ -868,25 +1436,17 @@ export const API_DEMO_TERMS: DemoTerm[] = [
     "campaign": "06",
     "campaignTitle": "The Iran War",
     "domain": "STRATEGIC / NUCLEAR TIMELINE",
-    "velocityIndex": 88,
-    "adoptionStage": "rising",
+    "velocityIndex": 50,
+    "adoptionStage": null,
     "deltas": {
-      "d30": -12.5,
-      "d90": 31.2,
-      "yoy": 74.2
+      "d30": -35.8,
+      "d90": 31.6,
+      "yoy": null
     },
     "sentiment": null,
     "inflections": [
       {
-        "date": "2026-04-20",
-        "z": 2.99
-      },
-      {
-        "date": "2026-03-25",
-        "z": 2.17
-      },
-      {
-        "date": "2026-04-10",
+        "date": "2026-03-02",
         "z": 2.04
       }
     ],
@@ -899,31 +1459,59 @@ export const API_DEMO_TERMS: DemoTerm[] = [
     "featured": false
   },
   {
+    "term": "bunker buster",
+    "slug": "bunker-buster",
+    "campaign": "06",
+    "campaignTitle": "The Iran War",
+    "domain": "STRATEGIC / WEAPONS",
+    "velocityIndex": 14,
+    "adoptionStage": null,
+    "deltas": {
+      "d30": -6.2,
+      "d90": -59.7,
+      "yoy": null
+    },
+    "sentiment": null,
+    "inflections": [
+      {
+        "date": "2026-03-18",
+        "z": 2.19
+      },
+      {
+        "date": "2026-02-26",
+        "z": 2.02
+      }
+    ],
+    "coOccurrence": [
+      "Fordow",
+      "GBU-57",
+      "deep penetration",
+      "fortified sites"
+    ],
+    "featured": false
+  },
+  {
     "term": "de-escalation",
     "slug": "de-escalation",
     "campaign": "06",
     "campaignTitle": "The Iran War",
     "domain": "STRATEGIC / OFF-RAMP",
-    "velocityIndex": 50,
-    "adoptionStage": "contested",
+    "velocityIndex": 29,
+    "adoptionStage": null,
     "deltas": {
-      "d30": -1.3,
-      "d90": 7.2,
-      "yoy": -2.1
+      "d30": 6.1,
+      "d90": 31.5,
+      "yoy": null
     },
     "sentiment": null,
     "inflections": [
       {
-        "date": "2026-04-08",
-        "z": 2.45
+        "date": "2026-03-22",
+        "z": 2.1
       },
       {
-        "date": "2026-03-29",
-        "z": 2.42
-      },
-      {
-        "date": "2026-02-26",
-        "z": 2.34
+        "date": "2026-03-03",
+        "z": 2.09
       }
     ],
     "coOccurrence": [
@@ -935,34 +1523,66 @@ export const API_DEMO_TERMS: DemoTerm[] = [
     "featured": false
   },
   {
-    "term": "mission accomplished",
-    "slug": "mission-accomplished",
+    "term": "forever war",
+    "slug": "forever-war",
     "campaign": "06",
     "campaignTitle": "The Iran War",
-    "domain": "ATTRIBUTION / PREMATURE-VICTORY ECHO",
-    "velocityIndex": 75,
-    "adoptionStage": "contested",
+    "domain": "ATTRIBUTION / QUAGMIRE FRAME",
+    "velocityIndex": 64,
+    "adoptionStage": null,
     "deltas": {
-      "d30": 20.7,
-      "d90": -20,
-      "yoy": -6.9
+      "d30": 42.7,
+      "d90": -32.6,
+      "yoy": null
     },
     "sentiment": null,
     "inflections": [
       {
-        "date": "2025-08-13",
-        "z": 5.56
+        "date": "2026-02-28",
+        "z": 2.49
+      }
+    ],
+    "coOccurrence": [
+      "quagmire",
+      "exit strategy",
+      "Iraq",
+      "endless"
+    ],
+    "featured": false
+  },
+  {
+    "term": "neocon",
+    "slug": "neocon",
+    "campaign": "06",
+    "campaignTitle": "The Iran War",
+    "domain": "ATTRIBUTION / REVIVED LABEL",
+    "velocityIndex": 79,
+    "adoptionStage": null,
+    "deltas": {
+      "d30": 29.1,
+      "d90": -0.8,
+      "yoy": null
+    },
+    "sentiment": null,
+    "inflections": [
+      {
+        "date": "2026-03-03",
+        "z": 2.66
       },
       {
-        "date": "2026-04-04",
+        "date": "2026-01-01",
+        "z": 2.27
+      },
+      {
+        "date": "2026-03-31",
         "z": 2.03
       }
     ],
     "coOccurrence": [
-      "premature",
-      "declared victory",
-      "hubris",
-      "Iraq"
+      "interventionist",
+      "hawk",
+      "Iraq",
+      "Bush era"
     ],
     "featured": false
   },
@@ -972,26 +1592,22 @@ export const API_DEMO_TERMS: DemoTerm[] = [
     "campaign": "06",
     "campaignTitle": "The Iran War",
     "domain": "ATTRIBUTION / VICTORY FRAME",
-    "velocityIndex": 62,
-    "adoptionStage": "fading",
+    "velocityIndex": 43,
+    "adoptionStage": null,
     "deltas": {
-      "d30": 37.1,
-      "d90": -52.8,
-      "yoy": -51.7
+      "d30": 18.1,
+      "d90": -55.2,
+      "yoy": null
     },
     "sentiment": null,
     "inflections": [
       {
-        "date": "2026-01-05",
-        "z": 3.24
+        "date": "2026-01-04",
+        "z": 2.15
       },
       {
-        "date": "2025-12-03",
-        "z": 3.19
-      },
-      {
-        "date": "2026-02-27",
-        "z": 2.17
+        "date": "2026-02-28",
+        "z": 2.01
       }
     ],
     "coOccurrence": [
@@ -1008,29 +1624,221 @@ export const API_DEMO_TERMS: DemoTerm[] = [
     "campaign": "06",
     "campaignTitle": "The Iran War",
     "domain": "STRATEGIC / WAR AIM",
-    "velocityIndex": 12,
-    "adoptionStage": "rising",
+    "velocityIndex": 7,
+    "adoptionStage": null,
     "deltas": {
-      "d30": -9.2,
-      "d90": -51.1,
-      "yoy": 250
+      "d30": -1.9,
+      "d90": -57,
+      "yoy": null
     },
-    "sentiment": -3.46,
+    "sentiment": null,
     "inflections": [
       {
-        "date": "2026-02-25",
-        "z": 2.65
-      },
-      {
-        "date": "2026-03-07",
-        "z": 2.37
+        "date": "2026-02-26",
+        "z": 2.36
       }
     ],
     "coOccurrence": [
       "sovereignty",
       "war aim",
       "Tehran",
-      "nation building"
+      "nation-building"
+    ],
+    "featured": false
+  },
+  {
+    "term": "Strait of Hormuz",
+    "slug": "strait-of-hormuz",
+    "campaign": "06",
+    "campaignTitle": "The Iran War",
+    "domain": "LIVED EXPERIENCE / PRICES",
+    "velocityIndex": 71,
+    "adoptionStage": null,
+    "deltas": {
+      "d30": -7.7,
+      "d90": 237,
+      "yoy": null
+    },
+    "sentiment": null,
+    "inflections": [
+      {
+        "date": "2026-04-09",
+        "z": 2.03
+      }
+    ],
+    "coOccurrence": [
+      "oil prices",
+      "blockade",
+      "fuel crisis",
+      "shipping"
+    ],
+    "featured": false
+  },
+  {
+    "term": "the draft",
+    "slug": "the-draft",
+    "campaign": "06",
+    "campaignTitle": "The Iran War",
+    "domain": "LIVED EXPERIENCE / CONSCRIPTION",
+    "velocityIndex": 86,
+    "adoptionStage": null,
+    "deltas": {
+      "d30": 43.3,
+      "d90": 160.6,
+      "yoy": null
+    },
+    "sentiment": null,
+    "inflections": [
+      {
+        "date": "2026-04-06",
+        "z": 2.3
+      },
+      {
+        "date": "2026-06-04",
+        "z": 2
+      }
+    ],
+    "coOccurrence": [
+      "Selective Service",
+      "registration",
+      "World War 3",
+      "boots on the ground"
+    ],
+    "featured": false
+  },
+  {
+    "term": "warmonger",
+    "slug": "warmonger",
+    "campaign": "06",
+    "campaignTitle": "The Iran War",
+    "domain": "ATTRIBUTION / EPITHET",
+    "velocityIndex": 100,
+    "adoptionStage": null,
+    "deltas": {
+      "d30": 75.1,
+      "d90": 24,
+      "yoy": null
+    },
+    "sentiment": null,
+    "inflections": [
+      {
+        "date": "2026-06-05",
+        "z": 2.2
+      },
+      {
+        "date": "2026-03-03",
+        "z": 2.17
+      },
+      {
+        "date": "2026-05-20",
+        "z": 2.1
+      }
+    ],
+    "coOccurrence": [
+      "neocon",
+      "chickenhawk",
+      "defense industry",
+      "restraint"
+    ],
+    "featured": false
+  },
+  {
+    "term": "World War 3",
+    "slug": "world-war-3",
+    "campaign": "06",
+    "campaignTitle": "The Iran War",
+    "domain": "LIVED EXPERIENCE / FEAR",
+    "velocityIndex": 57,
+    "adoptionStage": null,
+    "deltas": {
+      "d30": 31.4,
+      "d90": -36.3,
+      "yoy": null
+    },
+    "sentiment": null,
+    "inflections": [
+      {
+        "date": "2026-02-26",
+        "z": 2.39
+      }
+    ],
+    "coOccurrence": [
+      "draft",
+      "escalation",
+      "Hormuz",
+      "Iran"
+    ],
+    "featured": false
+  },
+  {
+    "term": "de-dollarization",
+    "slug": "de-dollarization",
+    "campaign": "07",
+    "campaignTitle": "Money",
+    "domain": "INSTITUTIONAL / RESERVE SHIFT",
+    "velocityIndex": 42,
+    "adoptionStage": "rising",
+    "deltas": {
+      "d30": 7,
+      "d90": 3,
+      "yoy": 56.5
+    },
+    "sentiment": null,
+    "inflections": [
+      {
+        "date": "2026-03-24",
+        "z": 3.96
+      },
+      {
+        "date": "2025-12-25",
+        "z": 3.35
+      },
+      {
+        "date": "2025-11-18",
+        "z": 2.29
+      }
+    ],
+    "coOccurrence": [
+      "BRICS",
+      "reserve currency",
+      "yuan",
+      "gold"
+    ],
+    "featured": false
+  },
+  {
+    "term": "death of the dollar",
+    "slug": "death-of-the-dollar",
+    "campaign": "07",
+    "campaignTitle": "Money",
+    "domain": "LIVED EXPERIENCE / FEAR",
+    "velocityIndex": 92,
+    "adoptionStage": "rising",
+    "deltas": {
+      "d30": 106.7,
+      "d90": -5.1,
+      "yoy": 40.8
+    },
+    "sentiment": null,
+    "inflections": [
+      {
+        "date": "2026-06-06",
+        "z": 3.35
+      },
+      {
+        "date": "2026-01-24",
+        "z": 2.62
+      },
+      {
+        "date": "2025-07-29",
+        "z": 2.56
+      }
+    ],
+    "coOccurrence": [
+      "de-dollarization",
+      "BRICS",
+      "reserve currency",
+      "gold"
     ],
     "featured": false
   },
@@ -1040,26 +1848,26 @@ export const API_DEMO_TERMS: DemoTerm[] = [
     "campaign": "07",
     "campaignTitle": "Money",
     "domain": "LIVED EXPERIENCE / THE PITCH",
-    "velocityIndex": 29,
+    "velocityIndex": 0,
     "adoptionStage": "contested",
     "deltas": {
-      "d30": 15.9,
-      "d90": -42.9,
-      "yoy": 4.6
+      "d30": -4.1,
+      "d90": -21.7,
+      "yoy": -19.1
     },
     "sentiment": null,
     "inflections": [
       {
-        "date": "2025-09-03",
-        "z": 3.29
+        "date": "2025-10-15",
+        "z": 2.82
       },
       {
-        "date": "2026-02-25",
-        "z": 2.9
+        "date": "2026-04-15",
+        "z": 2.8
       },
       {
-        "date": "2026-02-02",
-        "z": 2.55
+        "date": "2025-11-09",
+        "z": 2.74
       }
     ],
     "coOccurrence": [
@@ -1071,70 +1879,38 @@ export const API_DEMO_TERMS: DemoTerm[] = [
     "featured": false
   },
   {
-    "term": "fiscal dominance",
-    "slug": "fiscal-dominance",
+    "term": "fiat",
+    "slug": "fiat",
     "campaign": "07",
     "campaignTitle": "Money",
-    "domain": "INSTITUTIONAL / THE DIAGNOSIS",
-    "velocityIndex": 71,
-    "adoptionStage": "spreading",
+    "domain": "ATTRIBUTION / THE EPITHET",
+    "velocityIndex": 83,
+    "adoptionStage": "contested",
     "deltas": {
-      "d30": -29.4,
-      "d90": -35.5,
-      "yoy": 300
+      "d30": 6.3,
+      "d90": 23.1,
+      "yoy": 22.9
     },
     "sentiment": null,
     "inflections": [
       {
-        "date": "2026-01-03",
-        "z": 2.47
+        "date": "2026-05-07",
+        "z": 3.38
       },
       {
-        "date": "2025-08-29",
-        "z": 2.39
+        "date": "2026-06-06",
+        "z": 2.14
       },
       {
-        "date": "2026-02-07",
-        "z": 2.2
+        "date": "2025-11-30",
+        "z": 2.05
       }
     ],
     "coOccurrence": [
-      "deficit",
-      "debt",
-      "Fed independence",
-      "yields"
-    ],
-    "featured": false
-  },
-  {
-    "term": "hard money",
-    "slug": "hard-money",
-    "campaign": "07",
-    "campaignTitle": "Money",
-    "domain": "ATTRIBUTION / THE VIRTUE",
-    "velocityIndex": 86,
-    "adoptionStage": "spreading",
-    "deltas": {
-      "d30": 49.5,
-      "d90": 88.6,
-      "yoy": 199
-    },
-    "sentiment": null,
-    "inflections": [
-      {
-        "date": "2025-10-02",
-        "z": 6.22
-      },
-      {
-        "date": "2026-06-02",
-        "z": 2.02
-      }
-    ],
-    "coOccurrence": [
-      "scarcity",
-      "gold",
-      "discipline",
-      "deflation"
+      "debasement",
+      "dollar",
+      "decree",
+      "bitcoin"
     ],
     "featured": false
   },
@@ -1144,26 +1920,26 @@ export const API_DEMO_TERMS: DemoTerm[] = [
     "campaign": "07",
     "campaignTitle": "Money",
     "domain": "LIVED EXPERIENCE / PROTECTION",
-    "velocityIndex": 14,
-    "adoptionStage": "fading",
+    "velocityIndex": 17,
+    "adoptionStage": "contested",
     "deltas": {
-      "d30": -44.7,
-      "d90": -0.5,
-      "yoy": -38.9
+      "d30": -32.5,
+      "d90": 15.5,
+      "yoy": -25.6
     },
     "sentiment": null,
     "inflections": [
       {
-        "date": "2025-10-09",
-        "z": 3.12
-      },
-      {
         "date": "2025-06-07",
-        "z": 3.09
+        "z": 2.4
       },
       {
-        "date": "2025-10-19",
-        "z": 2.78
+        "date": "2025-10-14",
+        "z": 2.38
+      },
+      {
+        "date": "2025-10-24",
+        "z": 2.22
       }
     ],
     "coOccurrence": [
@@ -1175,38 +1951,74 @@ export const API_DEMO_TERMS: DemoTerm[] = [
     "featured": false
   },
   {
-    "term": "magic internet money",
-    "slug": "magic-internet-money",
+    "term": "money printing",
+    "slug": "money-printing",
     "campaign": "07",
     "campaignTitle": "Money",
-    "domain": "ATTRIBUTION / THE DISMISSAL",
-    "velocityIndex": 0,
-    "adoptionStage": "dormant",
+    "domain": "LIVED EXPERIENCE / BLAME",
+    "velocityIndex": 8,
+    "adoptionStage": "contested",
     "deltas": {
-      "d30": -100,
-      "d90": -79.8,
-      "yoy": -100
+      "d30": -15.6,
+      "d90": -24.9,
+      "yoy": -2.4
     },
-    "sentiment": 0.08,
+    "sentiment": null,
     "inflections": [
       {
-        "date": "2025-12-08",
-        "z": 2.48
+        "date": "2025-09-22",
+        "z": 3.51
       },
       {
-        "date": "2026-02-22",
-        "z": 2.3
+        "date": "2026-01-20",
+        "z": 3.03
       },
       {
-        "date": "2026-06-24",
-        "z": 2.27
+        "date": "2025-12-31",
+        "z": 2.64
       }
     ],
     "coOccurrence": [
-      "scam",
-      "HODL",
-      "irony",
-      "speculation"
+      "inflation",
+      "Fed",
+      "debasement",
+      "stimulus"
+    ],
+    "featured": false
+  },
+  {
+    "term": "ponzi",
+    "slug": "ponzi",
+    "campaign": "07",
+    "campaignTitle": "Money",
+    "domain": "ATTRIBUTION / THE CHARGE",
+    "velocityIndex": 75,
+    "adoptionStage": "fading",
+    "deltas": {
+      "d30": 7.8,
+      "d90": 21.7,
+      "yoy": -42.8
+    },
+    "sentiment": null,
+    "inflections": [
+      {
+        "date": "2025-06-04",
+        "z": 3.52
+      },
+      {
+        "date": "2025-10-30",
+        "z": 3.26
+      },
+      {
+        "date": "2025-10-20",
+        "z": 2.28
+      }
+    ],
+    "coOccurrence": [
+      "scheme",
+      "greater fool",
+      "fraud",
+      "crash"
     ],
     "featured": false
   },
@@ -1216,22 +2028,22 @@ export const API_DEMO_TERMS: DemoTerm[] = [
     "campaign": "07",
     "campaignTitle": "Money",
     "domain": "ATTRIBUTION / THE CREED",
-    "velocityIndex": 57,
-    "adoptionStage": "fading",
+    "velocityIndex": 50,
+    "adoptionStage": "declining",
     "deltas": {
-      "d30": 52.5,
-      "d90": -15.8,
-      "yoy": -46
+      "d30": 29.6,
+      "d90": -19.3,
+      "yoy": -63.1
     },
     "sentiment": null,
     "inflections": [
       {
         "date": "2025-10-02",
-        "z": 5.05
+        "z": 6.21
       },
       {
         "date": "2025-05-27",
-        "z": 4.01
+        "z": 2.7
       }
     ],
     "coOccurrence": [
@@ -1243,31 +2055,59 @@ export const API_DEMO_TERMS: DemoTerm[] = [
     "featured": false
   },
   {
+    "term": "stablecoin",
+    "slug": "stablecoin",
+    "campaign": "07",
+    "campaignTitle": "Money",
+    "domain": "INSTITUTIONAL / DOLLAR RAILS",
+    "velocityIndex": 33,
+    "adoptionStage": "contested",
+    "deltas": {
+      "d30": -2.8,
+      "d90": -10.5,
+      "yoy": -4.5
+    },
+    "sentiment": null,
+    "inflections": [
+      {
+        "date": "2025-07-14",
+        "z": 2.48
+      }
+    ],
+    "coOccurrence": [
+      "GENIUS Act",
+      "Tether",
+      "USDC",
+      "reserves"
+    ],
+    "featured": false
+  },
+  {
     "term": "store of value",
     "slug": "store-of-value",
     "campaign": "07",
     "campaignTitle": "Money",
     "domain": "LIVED EXPERIENCE / SAVINGS",
-    "velocityIndex": 43,
+    "velocityIndex": 25,
     "adoptionStage": "contested",
     "deltas": {
-      "d30": 23.3,
-      "d90": -42.4,
-      "yoy": -20.2
+      "d30": 28.4,
+      "d90": -34.6,
+      "yoy": -9.2
     },
-    "sentiment": 0.89,
+    "sentiment": null,
     "inflections": [
       {
-        "date": "2026-02-05",
-        "z": 2.42
-      },
-      {
-        "date": "2025-10-17",
-        "z": 2.36
-      },
-      {
         "date": "2025-10-05",
-        "z": 2.35
+        "z": 2.93
+      },
+      {
+        "date": "2025-10-15",
+        "z": 2.21
+      },
+      {
+        "date": "2026-02-06",
+        "z": 2.05
       }
     ],
     "coOccurrence": [
@@ -1275,6 +2115,34 @@ export const API_DEMO_TERMS: DemoTerm[] = [
       "bitcoin",
       "inflation",
       "savings"
+    ],
+    "featured": false
+  },
+  {
+    "term": "tokenization",
+    "slug": "tokenization",
+    "campaign": "07",
+    "campaignTitle": "Money",
+    "domain": "INSTITUTIONAL / REAL-WORLD ASSETS",
+    "velocityIndex": 58,
+    "adoptionStage": "rising",
+    "deltas": {
+      "d30": 11.3,
+      "d90": -2.8,
+      "yoy": 85.8
+    },
+    "sentiment": null,
+    "inflections": [
+      {
+        "date": "2025-12-11",
+        "z": 2.06
+      }
+    ],
+    "coOccurrence": [
+      "real-world assets",
+      "RWA",
+      "treasuries",
+      "settlement"
     ],
     "featured": false
   }

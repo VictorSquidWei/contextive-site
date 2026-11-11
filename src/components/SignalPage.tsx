@@ -70,9 +70,9 @@ function useSignalSeo(t: DemoTerm | undefined, slug: string | undefined) {
       : 'Term not tracked yet — Contextive';
     const description = t
       ? `Velocity report for "${t.term}": velocity ${fmtVelocity(t.velocityIndex)}, ` +
-        `${fmtPct(t.deltas.d90)} over 90 days, adoption ${t.adoptionStage ?? 'pending'}. ` +
+        `${fmtPct(t.deltas.d90)} over 90 days${t.adoptionStage ? `, adoption ${t.adoptionStage}` : ''}. ` +
         `Measured signal — velocity, not verdict.`
-      : 'This phrase is not yet under measurement on Contextive. Velocity, not verdict.';
+      : 'No velocity report for this phrase on Contextive. Velocity, not verdict.';
     const canonical = `${SITE_ORIGIN}/signal/${slug ?? ''}`;
     const ogImage = t ? cardAbs(t) : DEFAULT_OG;
 
@@ -190,12 +190,11 @@ function NotTracked({ slug }: { slug: string | undefined }) {
         </h1>
         <div className="mt-6 border border-dashed border-rule px-5 py-4 small-caps text-muted flex items-center gap-3">
           <span aria-hidden>◷</span>
-          Not tracked yet — measurement pending
+          No report page for this phrase
         </div>
         <p className="text-muted leading-relaxed mt-6 max-w-prose">
-          This phrase is not yet under continuous measurement. Contextive reports only what the
-          pipeline measures, never a guess — so there is no reading to show here. Request early
-          access to the API and tell us the phrases you want tracked first.
+          It may be measured in a campaign, not tracked yet, or too rare in news coverage to measure
+          reliably. Contextive shows only what it measures, never a guess.
         </p>
         <p className="font-display text-ink text-lg leading-snug mt-6 max-w-prose">
           &ldquo;{FIREWALL}&rdquo;
@@ -257,8 +256,8 @@ export function SignalPage() {
           </h1>
           <p className="text-base lg:text-lg text-muted max-w-[560px] leading-relaxed text-balance mt-5">
             How fast &ldquo;{t.term}&rdquo; is moving in the open news and media record: velocity{' '}
-            {fmtVelocity(t.velocityIndex)}, {fmtPct(t.deltas.d90)} over 90 days, currently{' '}
-            {t.adoptionStage ?? 'pending'}. Velocity, not verdict.
+            {fmtVelocity(t.velocityIndex)}, {fmtPct(t.deltas.d90)} over 90 days
+            {t.adoptionStage ? `, currently ${t.adoptionStage}` : ''}. Velocity, not verdict.
           </p>
         </header>
 

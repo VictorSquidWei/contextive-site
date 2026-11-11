@@ -34,8 +34,8 @@ function toResponse(t: DemoTerm) {
     status: 'measured',
     campaign: t.campaign,
     domain_tag: t.domain,
-    source: 'gdelt-doc-2.0',
-    methodology_version: '1.0',
+    source: 'gdelt-webngrams',
+    methodology_version: 'gdelt-webngrams-fulltext-v1',
     velocity_index: t.velocityIndex,
     adoption_stage: t.adoptionStage,
     momentum: t.deltas,
@@ -76,9 +76,11 @@ function SignalCard({ t, compact = false }: { t: DemoTerm; compact?: boolean }) 
             <div className="font-display font-bold text-xl sm:text-2xl text-ink leading-tight truncate">{t.term}</div>
             <div className="small-caps text-whisper text-[10px] mt-1 truncate">{t.domain} · C{t.campaign}</div>
           </div>
-          <span className="small-caps text-[10px] text-muted border border-rule px-2 py-1 shrink-0 whitespace-nowrap">
-            {t.adoptionStage}
-          </span>
+          {t.adoptionStage && (
+            <span className="small-caps text-[10px] text-muted border border-rule px-2 py-1 shrink-0 whitespace-nowrap">
+              {t.adoptionStage}
+            </span>
+          )}
         </div>
 
         {/* velocity */}

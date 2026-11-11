@@ -12,8 +12,8 @@ const SOURCES = ['03', '04', '05', '06', '07'];
 
 // Curated chips shown by default in the explorer (vivid, cross-campaign, good for compare()).
 const FEATURED = new Set([
-  'ceasefire', 'obliterated', 'debasement-trade', 'soft-landing', 'vibecession',
-  'greedflation', 'america-first', 'maga-warrior', 'seed-oils',
+  'ceasefire', 'obliterated', 'debasement-trade', 'soft-landing', 'shrinkflation',
+  'digital-dollar', 'america-first', 'maga-warrior', 'seed-oils',
 ]);
 
 const slugify = (t) => t.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
@@ -32,7 +32,9 @@ for (const nn of SOURCES) {
       campaignTitle: data.shortTitle || data.title,
       domain: t.domainTag || '',
       velocityIndex: m.velocityIndex ?? null,
-      adoptionStage: m.adoptionStage ?? null,
+      // The pipeline labels a term "emerging" whenever it has no year-over-year figure, so without
+      // yoy the stage is a default, not a measurement (same rule as campaigns/index.ts).
+      adoptionStage: m.deltas?.yoy != null ? (m.adoptionStage ?? null) : null,
       deltas: {
         d30: m.deltas?.d30 ?? null,
         d90: m.deltas?.d90 ?? null,
@@ -41,19 +43,20 @@ for (const nn of SOURCES) {
       sentiment: m.sentiment ?? null,
       inflections: (m.inflections || []).map((i) => ({ date: i.date, z: i.z })),
       coOccurrence: t.coOccurrence || [],
-      retrievedAt: m.retrievedAt || '',
+      refDate: data.refDate || '',
       featured: FEATURED.has(slug),
     };
-    // dedupe by phrase: keep the most recently retrieved (e.g. "America First" C04 vs C06)
+    // dedupe by phrase: keep the most recent measurement (e.g. "America First" C04 vs C06). Compare
+    // the campaign refDate: retrievedAt holds the pipeline's source mode ("from-raw"), not a date.
     const prev = bySlug.get(slug);
-    if (!prev || entry.retrievedAt > prev.retrievedAt) bySlug.set(slug, entry);
+    if (!prev || entry.refDate > prev.refDate) bySlug.set(slug, entry);
   }
 }
 
 // Featured first (in the curated order), then the rest by campaign+term.
 const order = [...FEATURED];
 const all = [...bySlug.values()].map((e) => {
-  const { retrievedAt, ...rest } = e;
+  const { refDate, ...rest } = e;
   return rest;
 });
 all.sort((a, b) => {

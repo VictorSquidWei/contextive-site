@@ -56,8 +56,11 @@ export interface Measurement {
   sentiment?: number | null;
   inflections?: Inflection[];
   corpusDensity?: CorpusDensity;
-  /** Retrieval timestamp for measured figures (audit trail). */
+  /** Retrieval timestamp for measured figures (audit trail). Not the reference date. */
   retrievedAt?: string;
+  /** Provenance from the pipeline card, e.g. "gdelt-webngrams" / "gdelt-coverage". */
+  sourceChannel?: string;
+  instrument?: string;
   /** Why a term is pending (e.g. "awaiting pipeline run"). */
   reason?: string;
   /** Legacy editorial volume metric (campaigns 01-02 only). */

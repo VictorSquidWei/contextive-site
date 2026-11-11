@@ -37,7 +37,10 @@ function toData(term, camp) {
     campaignNumber: camp.number,
     campaignShort: camp.shortTitle || camp.title,
     firewall: camp.firewall || '',
-    asOf: dateOnly(m.retrievedAt) || camp.refDate || '',
+    // The card states the measurement's reference date. retrievedAt is when the readings
+    // were fetched (for C03-C09, weeks after the window they describe), so it is only a
+    // fallback for a campaign with no refDate.
+    asOf: camp.refDate || dateOnly(m.retrievedAt) || '',
   };
 }
 

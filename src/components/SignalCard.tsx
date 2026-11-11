@@ -78,7 +78,8 @@ export function SignalCard({ term }: { term: CampaignTerm }) {
           <span className="velocity-pulse" aria-hidden>
             ◷
           </span>
-          MEASUREMENT PENDING: {m.reason || 'awaiting pipeline run'}
+          {/* The data's reason field is an internal audit note; readers get the plain version. */}
+          Pending: too rare in news coverage to measure reliably, so no number
         </div>
       ) : measured ? (
         <div className="space-y-4 border-y border-ink/10 py-4">

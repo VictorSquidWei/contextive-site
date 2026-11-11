@@ -9,16 +9,16 @@
   "status": "published",
   "signalBasis": "measured",
   "firewall": "We track how the words have been used and how fast they are winning, not whether the underlying politics is correct.",
-  "summary": "One economy, three names — and with all seventeen terms now measured against full-text coverage, the gap between the data and the mood is legible in the velocities. When inflation re-accelerated to a three-year high while markets hit records, the same economy acquired three incompatible vocabularies — the institutional one that measures a rate, the lived-experience one that feels a price level, and the political one that assigns a blame. Measured, it is the lived-experience vocabulary that is running away with the cycle: 'vibecession' is the fastest mover in the set, up 573 percent over thirty days at velocity 100, and 'shrinkflation' (velocity 94, up 180 percent over thirty days) and 'are you better off' (velocity 81) are close behind, while the institutional-optimism word 'soft landing' has faded to velocity 19, down 28 percent on the quarter. Year-over-year change is not computed this cycle — the full-text series runs a 180-day window — so every figure here is 30-day and 90-day momentum.",
+  "summary": "One economy, three names — and measured against full-text coverage, the gap between the rate and the price level is legible in the velocities. When inflation re-accelerated to a three-year high while markets hit records, the same economy acquired three incompatible vocabularies — the institutional one that measures a rate, the lived-experience one that feels a price level, and the political one that assigns a blame. Measured, it is the price-level vocabulary that leads the cycle: 'shrinkflation' is the fastest mover in the set, up 180 percent over thirty days and 46 percent on the quarter at velocity 100, 'price gouging' is up 94 percent on the quarter and 'cost-of-living crisis' up 57 percent, while the institutional-optimism word 'soft landing' has faded to velocity 15, down 28 percent on the quarter. Year-over-year change is not computed this cycle — the full-text series runs a 180-day window — so every figure here is 30-day and 90-day momentum, and fourteen of the seventeen terms returned a clean reading while three — 'vibecession,' 'greedflation' and 'last mile' — sit below the measurable threshold and are marked pending.",
   "anchor": "June 2026: consumer inflation hit a three-year high on an energy-and-tariff shock, even as equity markets set records and roughly two of three households reported cutting back — with a Fed leadership handoff and the 2026 midterms underneath. The data and the lived experience point in opposite directions, and three vocabularies have formed to name the gap.",
   "thesis": [
-    "One economy, three names — and with all seventeen terms now measured against full-text coverage, the gap between the data and the mood is legible in the velocities. When inflation re-accelerated to a three-year high while markets hit records, the same economy acquired three incompatible vocabularies — the institutional one that measures a rate, the lived-experience one that feels a price level, and the political one that assigns a blame. Measured, it is the lived-experience vocabulary that is running away with the cycle: 'vibecession' is the fastest mover in the set, up 573 percent over thirty days at velocity 100, and 'shrinkflation' (velocity 94, up 180 percent over thirty days) and 'are you better off' (velocity 81) are close behind, while the institutional-optimism word 'soft landing' has faded to velocity 19, down 28 percent on the quarter. Year-over-year change is not computed this cycle — the full-text series runs a 180-day window — so every figure here is 30-day and 90-day momentum.",
-    "The defining tension is 'soft landing' versus 'vibecession': the institutional-optimism vocabulary is fading exactly as the lived-experience vocabulary surges, the same data-turning producing opposite vocabulary movements. The one institutional term gaining is not the reassuring one — 'higher for longer' is up 207 percent over ninety days (velocity 38), so the market's own message is not that the landing was soft but that rates will stay high. Contextive tracks how fast each name is winning, not whether the economy is actually good or bad; that the vibe word is winning the argument the data word is presumed to be winning is a statement about momentum, not a verdict on the print."
+    "One economy, three names — and measured against full-text coverage, the gap between the rate and the price level is legible in the velocities. When inflation re-accelerated to a three-year high while markets hit records, the same economy acquired three incompatible vocabularies — the institutional one that measures a rate, the lived-experience one that feels a price level, and the political one that assigns a blame. Measured, it is the price-level vocabulary that leads the cycle: 'shrinkflation' is the fastest mover in the set, up 180 percent over thirty days and 46 percent on the quarter at velocity 100, 'price gouging' is up 94 percent on the quarter and 'cost-of-living crisis' up 57 percent, while the institutional-optimism word 'soft landing' has faded to velocity 15, down 28 percent on the quarter. Year-over-year change is not computed this cycle — the full-text series runs a 180-day window — so every figure here is 30-day and 90-day momentum, and fourteen of the seventeen terms returned a clean reading while three — 'vibecession,' 'greedflation' and 'last mile' — sit below the measurable threshold and are marked pending.",
+    "The defining tension is 'soft landing' versus 'shrinkflation': the institutional-optimism vocabulary is fading exactly as the price-level vocabulary surges, the same data-turning producing opposite vocabulary movements. The one institutional term gaining is not the reassuring one — 'higher for longer' is up 207 percent over ninety days (velocity 38), so the market's own message is not that the landing was soft but that rates will stay high. The word coined for the mood itself, 'vibecession,' is too sparse in news body text to measure this cycle and is marked pending, so this cycle the measurable movement sits with the price words. Contextive tracks how fast each name is winning, not whether the economy is actually good or bad; that the price word is winning the argument the rate word is presumed to be winning is a statement about momentum, not a verdict on the print."
   ],
   "definingTension": {
     "a": "Soft landing",
-    "b": "vibecession",
-    "note": "The cycle's defining collision, and it is measured. As inflation re-accelerated, the institutional-optimism term faded while the lived-pessimism term surged — the same data-turning producing opposite vocabulary movements. 'Vibecession' is the fastest mover in the set (velocity 100, up 573 percent over thirty days and up 7 percent on the quarter) while 'soft landing' has fallen to velocity 19, down 28 percent over ninety days. The vibe word is winning the argument the data word is presumed to be winning: the feeling is outrunning the rate."
+    "b": "shrinkflation",
+    "note": "The cycle's defining collision, and it is measured. As inflation re-accelerated, the institutional-optimism term faded while the price-level term surged — the same data-turning producing opposite vocabulary movements. 'Shrinkflation,' the checkout-line name for paying the same for less, is the fastest mover in the set (velocity 100, up 180 percent over thirty days and 46 percent on the quarter) while 'soft landing' has fallen to velocity 15, down 28 percent over ninety days. The price word is winning the argument the rate word is presumed to be winning: the cost is outrunning the rate."
   },
   "clusters": [
     {
@@ -40,7 +40,7 @@
   "pillars": [
     {
       "title": "The vocabulary of an economy that doesn't feel like the data",
-      "body": "Cluster A against the inflation print — 'vibecession,' 'affordability,' 'shrinkflation,' 'greedflation' — using the data-vs-vibes gap as the spine. Measured, this is the loudest cluster: 'vibecession' tops the set (velocity 100, up 573 percent over thirty days), 'shrinkflation' is close behind (velocity 94, up 180 percent over thirty days and 46 percent on the quarter), 'greedflation' holds high (velocity 88) and 'price gouging' is up 94 percent on the quarter (velocity 62). The highest-recognition piece; every reader has paid the prices, and the numbers say the words for paying them are the ones winning."
+      "body": "Cluster A against the inflation print — 'shrinkflation,' 'price gouging,' 'affordability,' 'junk fees' — using the data-versus-checkout gap as the spine. Measured, this cluster holds the top of the set: 'shrinkflation' leads everything (velocity 100, up 180 percent over thirty days and 46 percent on the quarter) and 'price gouging' is up 94 percent on the quarter (velocity 69), while 'affordability' (velocity 46, down 13 percent on the quarter) and 'junk fees' (velocity 31, down 27 percent) are losing ground. The cluster's mood word, 'vibecession,' and its blame word, 'greedflation,' sit below the measurable threshold and are marked pending. The highest-recognition piece; every reader has paid the prices, and the numbers say the most concrete words for paying them are the ones winning."
     },
     {
       "title": "One number, three vocabularies",
@@ -48,39 +48,39 @@
     },
     {
       "title": "The signal issue",
-      "body": "What the inflation spike looks like through the velocity index — the highest-velocity terms against the declining ones, demonstrating the signal layer working in real time on the live print. At the top, 'vibecession' (velocity 100) and 'shrinkflation' (velocity 94); at the floor, 'tariff tax' (velocity 0, down 71 percent on the quarter) and 'last mile' (velocity 12, down 62 percent). The gap between them is the measured shape of a cycle where the mood is outrunning the metric — reported as velocity, never as a verdict on the print."
+      "body": "What the inflation spike looks like through the velocity index — the highest-velocity terms against the declining ones, demonstrating the signal layer on the live print. At the top, 'shrinkflation' (velocity 100) and 'are you better off' (velocity 92); at and near the floor, 'tariff tax' (velocity 0, down 71 percent on the quarter) and 'soft landing' (velocity 15, down 28 percent). The gap between them is the measured shape of a cycle where the price level is outrunning the rate — reported as velocity, never as a verdict on the print."
     }
   ],
   "tensions": [
     {
       "a": "Soft landing",
-      "b": "vibecession",
-      "title": "Soft landing vs vibecession",
-      "body": "The cycle's defining collision, and it is measured. As inflation re-accelerated, the institutional-optimism term faded while the lived-pessimism term surged — the same data-turning producing opposite vocabulary movements. 'Vibecession' is the fastest mover in the set (velocity 100, up 573 percent over thirty days and up 7 percent on the quarter) while 'soft landing' has fallen to velocity 19, down 28 percent over ninety days. The vibe word is winning the argument the data word is presumed to be winning: the feeling is outrunning the rate."
+      "b": "shrinkflation",
+      "title": "Soft landing vs shrinkflation",
+      "body": "The cycle's defining collision, and it is measured. As inflation re-accelerated, the institutional-optimism term faded while the price-level term surged — the same data-turning producing opposite vocabulary movements. 'Shrinkflation,' the checkout-line name for paying the same for less, is the fastest mover in the set (velocity 100, up 180 percent over thirty days and 46 percent on the quarter) while 'soft landing' has fallen to velocity 15, down 28 percent over ninety days. The price word is winning the argument the rate word is presumed to be winning: the cost is outrunning the rate."
     },
     {
       "a": "Disinflation",
       "b": "affordability",
       "title": "Disinflation vs affordability",
-      "body": "Rate versus level. 'Disinflation' is the technically precise term for prices rising more slowly; 'affordability' is the populist term for prices that are still high. Both describe the same economy truthfully with opposite emotional valence, and measured, both are cooling on the quarter — 'disinflation' down 28 percent (velocity 25, though up 46 percent in the last thirty) and 'affordability' down 13 percent (velocity 44). The institutional metric can improve every month while the populist metric never falls, and neither is the word carrying the cycle — that word is 'vibecession.'"
+      "body": "Rate versus level. 'Disinflation' is the technically precise term for prices rising more slowly; 'affordability' is the populist term for prices that are still high. Both describe the same economy truthfully with opposite emotional valence, and measured, both are cooling on the quarter — 'disinflation' down 28 percent (velocity 23, though up 46 percent in the last thirty) and 'affordability' down 13 percent (velocity 46). The institutional metric can improve every month while the populist metric never falls, and neither is the word carrying the cycle — that word is 'shrinkflation.'"
     },
     {
       "a": "Greedflation",
       "b": "[admin]flation",
       "title": "Greedflation vs [admin]flation",
-      "body": "Two attribution vocabularies competing to assign the cause of high prices — the firms or the government. Measured, the blame is migrating on the quarter: the corporation-blaming frame 'greedflation' is down 36 percent over ninety days (velocity 88, though it ticked up 11 percent in the last thirty), while the incumbent-blaming frame is up 90 percent over the same window (velocity 6, still rising off a small base). The blame is moving from the boardroom toward the ballot box as the midterms approach — with the caveat that the partisan frame is fast-rising, not yet loud, and the corporation frame is cooling from a still-high base rather than burned out."
+      "body": "Two attribution vocabularies competing to assign the cause of high prices — the firms or the government. Only one of the pair can be measured: the corporation-blaming frame 'greedflation' sits below the measurable threshold in news body text and is marked pending, while the incumbent-blaming frame, '[admin]flation,' is up 90 percent over ninety days (velocity 8, rising off a small base). The firm-blaming side is still legible through 'price gouging,' up 94 percent on the quarter (velocity 69) — so on the measured evidence, blame is rising on both sides as the midterms approach rather than migrating from one to the other, with the caveat that the partisan frame is fast-rising, not yet loud."
     },
     {
       "a": "K-shaped",
       "b": "real wages",
       "title": "K-shaped vs real wages",
-      "body": "The institutional bridge. 'K-shaped' is analyst vocabulary that concedes the populist point — aggregate 'real wages' can rise while the median experience splits between asset-holders and wage-earners. Measured, both are among the sharpest thirty-day movers in the set: 'real wages' is up 96 percent over thirty days (velocity 75) and 'K-shaped' up 80 percent (velocity 69), even as both ease on the quarter. It is the rare institutional pair that validates the lived-experience complaint in the institutional cluster's own language — and that it is spiking now, as 'vibecession' tops the set, is the establishment vocabulary reaching for the words that admit the split."
+      "body": "The institutional bridge. 'K-shaped' is analyst vocabulary that concedes the populist point — aggregate 'real wages' can rise while the median experience splits between asset-holders and wage-earners. Measured, both are among the sharpest thirty-day movers in the set: 'real wages' is up 96 percent over thirty days (velocity 85) and 'K-shaped' up 80 percent (velocity 77), even as both ease on the quarter. It is the rare institutional pair that validates the lived-experience complaint in the institutional cluster's own language — and that it is spiking now, as 'shrinkflation' tops the set, is the establishment vocabulary reaching for the words that admit the split."
     },
     {
       "a": "Tariff tax",
       "b": "soft landing",
       "title": "Tariff tax vs soft landing",
-      "body": "Is the policy a cost or a strategy — and here a measured number cuts against the tidy story. 'Tariff tax' reframes tariffs as a consumer tax paid at home, and the energy-and-tariff shock is precisely what ended the 'soft landing' narrative this cycle; yet 'tariff tax' has collapsed to the floor of the set (velocity 0, down 71 percent on the quarter) even as the cost it names is felt loudly through 'vibecession' and 'shrinkflation.' 'Soft landing' has faded too (velocity 19, down 28 percent). The lived cost is unmistakably the story; the specific partisan cost-label is not the word carrying it — the pain is named by the vibe vocabulary, not by the policy indictment. That divergence leads rather than hides."
+      "body": "Is the policy a cost or a strategy — and here a measured number cuts against the tidy story. 'Tariff tax' reframes tariffs as a consumer tax paid at home, and the energy-and-tariff shock is precisely what ended the 'soft landing' narrative this cycle; yet 'tariff tax' has collapsed to the floor of the set (velocity 0, down 71 percent on the quarter) even as the cost it names is felt loudly through 'shrinkflation' and 'price gouging.' 'Soft landing' has faded too (velocity 15, down 28 percent). The lived cost is unmistakably the story; the specific partisan cost-label is not the word carrying it — the pain is named by the price vocabulary, not by the policy indictment. That divergence leads rather than hides."
     }
   ],
   "terms": [
@@ -90,35 +90,8 @@
       "cluster": "A",
       "domainTag": "LIVED EXPERIENCE / SENTIMENT",
       "measurement": {
-        "status": "measured",
-        "velocityIndex": 100,
-        "adoptionStage": "emerging",
-        "deltas": {
-          "d30": 572.5,
-          "d90": 7.4,
-          "yoy": null
-        },
-        "sentiment": null,
-        "inflections": [
-          {
-            "date": "2025-12-20",
-            "z": 2.54
-          },
-          {
-            "date": "2026-05-21",
-            "z": 2.44
-          },
-          {
-            "date": "2026-06-03",
-            "z": 2.29
-          }
-        ],
-        "corpusDensity": {
-          "value": 0.000159,
-          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
-          "proxy": true
-        },
-        "retrievedAt": "from-raw"
+        "status": "pending",
+        "reason": "coverage below the 0.001% noise floor (share of monitored coverage), too sparse to rank reliably on the full-text ngram surface. Demoted to pending on 2026-10-25, when the floor was applied to C03-C09; measured raw retained in measured_raw_audit."
       }
     },
     {
@@ -127,31 +100,8 @@
       "cluster": "A",
       "domainTag": "BLAME / CORPORATE",
       "measurement": {
-        "status": "measured",
-        "velocityIndex": 88,
-        "adoptionStage": "emerging",
-        "deltas": {
-          "d30": 11.2,
-          "d90": -35.8,
-          "yoy": null
-        },
-        "sentiment": null,
-        "inflections": [
-          {
-            "date": "2025-12-11",
-            "z": 5.6
-          },
-          {
-            "date": "2025-12-24",
-            "z": 2.27
-          }
-        ],
-        "corpusDensity": {
-          "value": 0.000136,
-          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
-          "proxy": true
-        },
-        "retrievedAt": "from-raw"
+        "status": "pending",
+        "reason": "coverage below the 0.001% noise floor (share of monitored coverage), too sparse to rank reliably on the full-text ngram surface. Demoted to pending on 2026-10-25, when the floor was applied to C03-C09; measured raw retained in measured_raw_audit."
       }
     },
     {
@@ -161,8 +111,7 @@
       "domainTag": "LIVED EXPERIENCE / PRODUCT",
       "measurement": {
         "status": "measured",
-        "velocityIndex": 94,
-        "adoptionStage": "emerging",
+        "velocityIndex": 100,
         "deltas": {
           "d30": 179.5,
           "d90": 46.1,
@@ -188,7 +137,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-11T09:15:53+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       }
     },
     {
@@ -199,7 +150,6 @@
       "measurement": {
         "status": "measured",
         "velocityIndex": 31,
-        "adoptionStage": "emerging",
         "deltas": {
           "d30": 10.4,
           "d90": -27,
@@ -217,7 +167,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-11T09:15:53+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       }
     },
     {
@@ -227,8 +179,7 @@
       "domainTag": "BLAME / SELLER",
       "measurement": {
         "status": "measured",
-        "velocityIndex": 62,
-        "adoptionStage": "emerging",
+        "velocityIndex": 69,
         "deltas": {
           "d30": 76.8,
           "d90": 94,
@@ -250,7 +201,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-11T09:15:53+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       }
     },
     {
@@ -260,8 +213,7 @@
       "domainTag": "LIVED EXPERIENCE / FRAME",
       "measurement": {
         "status": "measured",
-        "velocityIndex": 44,
-        "adoptionStage": "emerging",
+        "velocityIndex": 46,
         "deltas": {
           "d30": 18.5,
           "d90": -12.8,
@@ -283,7 +235,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-11T09:15:53+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       }
     },
     {
@@ -293,8 +247,7 @@
       "domainTag": "MACRO OUTLOOK / INSTITUTIONAL",
       "measurement": {
         "status": "measured",
-        "velocityIndex": 19,
-        "adoptionStage": "emerging",
+        "velocityIndex": 15,
         "deltas": {
           "d30": 17.4,
           "d90": -27.5,
@@ -316,7 +269,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-11T09:15:53+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       }
     },
     {
@@ -326,8 +281,7 @@
       "domainTag": "MACRO / TECHNICAL",
       "measurement": {
         "status": "measured",
-        "velocityIndex": 25,
-        "adoptionStage": "emerging",
+        "velocityIndex": 23,
         "deltas": {
           "d30": 45.8,
           "d90": -28,
@@ -353,7 +307,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-11T09:15:53+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       }
     },
     {
@@ -364,7 +320,6 @@
       "measurement": {
         "status": "measured",
         "velocityIndex": 38,
-        "adoptionStage": "emerging",
         "deltas": {
           "d30": 7.9,
           "d90": 206.9,
@@ -386,7 +341,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-11T09:15:53+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       }
     },
     {
@@ -396,8 +353,7 @@
       "domainTag": "MACRO / DISTRIBUTION",
       "measurement": {
         "status": "measured",
-        "velocityIndex": 69,
-        "adoptionStage": "emerging",
+        "velocityIndex": 77,
         "deltas": {
           "d30": 79.6,
           "d90": -26.3,
@@ -423,7 +379,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-11T09:15:53+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       }
     },
     {
@@ -433,8 +391,7 @@
       "domainTag": "MACRO / LABOR",
       "measurement": {
         "status": "measured",
-        "velocityIndex": 75,
-        "adoptionStage": "emerging",
+        "velocityIndex": 85,
         "deltas": {
           "d30": 96.3,
           "d90": -16.4,
@@ -452,7 +409,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-11T09:15:53+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       }
     },
     {
@@ -461,27 +420,8 @@
       "cluster": "B",
       "domainTag": "MACRO / INFLATION PATH",
       "measurement": {
-        "status": "measured",
-        "velocityIndex": 12,
-        "adoptionStage": "emerging",
-        "deltas": {
-          "d30": -39.2,
-          "d90": -61.7,
-          "yoy": null
-        },
-        "sentiment": null,
-        "inflections": [
-          {
-            "date": "2026-01-31",
-            "z": 2.63
-          }
-        ],
-        "corpusDensity": {
-          "value": 0.000073,
-          "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
-          "proxy": true
-        },
-        "retrievedAt": "from-raw"
+        "status": "pending",
+        "reason": "coverage below the 0.001% noise floor (share of monitored coverage), too sparse to rank reliably on the full-text ngram surface. Demoted to pending on 2026-10-25, when the floor was applied to C03-C09; measured raw retained in measured_raw_audit."
       }
     },
     {
@@ -492,7 +432,6 @@
       "measurement": {
         "status": "measured",
         "velocityIndex": 0,
-        "adoptionStage": "emerging",
         "deltas": {
           "d30": -52.6,
           "d90": -71,
@@ -510,7 +449,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-11T09:15:53+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       }
     },
     {
@@ -520,8 +461,7 @@
       "domainTag": "ATTRIBUTION / PARTISAN",
       "measurement": {
         "status": "measured",
-        "velocityIndex": 6,
-        "adoptionStage": "emerging",
+        "velocityIndex": 8,
         "deltas": {
           "d30": -14.9,
           "d90": 89.5,
@@ -547,7 +487,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-11T09:15:53+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       }
     },
     {
@@ -557,8 +499,7 @@
       "domainTag": "MOBILIZATION / SLOGAN",
       "measurement": {
         "status": "measured",
-        "velocityIndex": 50,
-        "adoptionStage": "emerging",
+        "velocityIndex": 54,
         "deltas": {
           "d30": -14.1,
           "d90": 57.2,
@@ -580,7 +521,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-11T09:15:53+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       }
     },
     {
@@ -590,8 +533,7 @@
       "domainTag": "SYSTEMIC CRITIQUE / LEFT",
       "measurement": {
         "status": "measured",
-        "velocityIndex": 56,
-        "adoptionStage": "emerging",
+        "velocityIndex": 62,
         "deltas": {
           "d30": 20.2,
           "d90": -1.5,
@@ -609,7 +551,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-11T09:15:53+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       }
     },
     {
@@ -619,8 +563,7 @@
       "domainTag": "MOBILIZATION / CYCLICAL",
       "measurement": {
         "status": "measured",
-        "velocityIndex": 81,
-        "adoptionStage": "emerging",
+        "velocityIndex": 92,
         "deltas": {
           "d30": 34.1,
           "d90": 17,
@@ -646,7 +589,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-11T09:15:53+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       }
     }
   ],

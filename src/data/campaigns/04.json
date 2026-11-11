@@ -92,7 +92,6 @@
       "measurement": {
         "status": "measured",
         "velocityIndex": 86,
-        "adoptionStage": "emerging",
         "deltas": {
           "d30": 599,
           "d90": 225.4,
@@ -114,7 +113,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-11T09:46:40+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       },
       "platforms": [
         "Truth Social",
@@ -148,7 +149,6 @@
       "measurement": {
         "status": "measured",
         "velocityIndex": 57,
-        "adoptionStage": "emerging",
         "deltas": {
           "d30": 134.5,
           "d90": -4.4,
@@ -174,7 +174,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-11T09:46:40+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       },
       "platforms": [
         "Truth Social",
@@ -208,7 +210,6 @@
       "measurement": {
         "status": "measured",
         "velocityIndex": 79,
-        "adoptionStage": "emerging",
         "deltas": {
           "d30": 227.6,
           "d90": 8.3,
@@ -234,7 +235,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-11T09:46:40+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       },
       "platforms": [
         "national political journalism",
@@ -267,7 +270,6 @@
       "measurement": {
         "status": "measured",
         "velocityIndex": 29,
-        "adoptionStage": "emerging",
         "deltas": {
           "d30": 23.6,
           "d90": 21.7,
@@ -289,7 +291,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-11T09:46:40+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       },
       "platforms": [
         "rally communications",
@@ -322,7 +326,6 @@
       "measurement": {
         "status": "measured",
         "velocityIndex": 0,
-        "adoptionStage": "emerging",
         "deltas": {
           "d30": 24.7,
           "d90": 38.4,
@@ -340,7 +343,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-11T09:46:40+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       },
       "platforms": [
         "campaign ads",
@@ -373,7 +378,7 @@
       "domainTag": "PRIMARY MECHANICS / PRESS",
       "measurement": {
         "status": "pending",
-        "reason": "Token too sparse on the full-text ngram surface to rank: near-zero coverage baseline (30d mean ~4.6e-05) yields no computable 30d/90d/yoy deltas and a single inflection point. Marked pending rather than assigned a degenerate velocity."
+        "reason": "coverage below the 0.001% noise floor (share of monitored coverage), too sparse to rank reliably; measured raw retained in measured_raw_audit."
       },
       "platforms": [
         "national political journalism",
@@ -407,7 +412,6 @@
       "measurement": {
         "status": "measured",
         "velocityIndex": 93,
-        "adoptionStage": "emerging",
         "deltas": {
           "d30": 152.9,
           "d90": 155.6,
@@ -429,7 +433,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-11T09:46:40+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       },
       "platforms": [
         "wire services",
@@ -462,7 +468,6 @@
       "measurement": {
         "status": "measured",
         "velocityIndex": 43,
-        "adoptionStage": "emerging",
         "deltas": {
           "d30": 74.6,
           "d90": 32.6,
@@ -484,7 +489,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-11T09:46:40+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       },
       "platforms": [
         "analyst desks",
@@ -517,7 +524,6 @@
       "measurement": {
         "status": "measured",
         "velocityIndex": 71,
-        "adoptionStage": "emerging",
         "deltas": {
           "d30": 103.9,
           "d90": 135.3,
@@ -539,7 +545,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-11T09:46:40+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       },
       "platforms": [
         "southern state political reporting",
@@ -572,7 +580,6 @@
       "measurement": {
         "status": "measured",
         "velocityIndex": 36,
-        "adoptionStage": "emerging",
         "deltas": {
           "d30": 58.4,
           "d90": 66,
@@ -594,7 +601,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-11T09:46:40+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       },
       "platforms": [
         "donor briefings",
@@ -627,7 +636,6 @@
       "measurement": {
         "status": "measured",
         "velocityIndex": 21,
-        "adoptionStage": "emerging",
         "deltas": {
           "d30": 1.1,
           "d90": 27.9,
@@ -649,7 +657,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-11T09:46:40+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       },
       "platforms": [
         "analyst desks",
@@ -682,7 +692,6 @@
       "measurement": {
         "status": "measured",
         "velocityIndex": 7,
-        "adoptionStage": "emerging",
         "deltas": {
           "d30": 7.8,
           "d90": -20.8,
@@ -704,7 +713,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-11T09:46:40+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       },
       "platforms": [
         "mainstream political press",
@@ -737,7 +748,6 @@
       "measurement": {
         "status": "measured",
         "velocityIndex": 64,
-        "adoptionStage": "emerging",
         "deltas": {
           "d30": 77.4,
           "d90": -23.3,
@@ -755,7 +765,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-11T09:46:40+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       },
       "platforms": [
         "dissident campaign communications",
@@ -788,7 +800,6 @@
       "measurement": {
         "status": "measured",
         "velocityIndex": 14,
-        "adoptionStage": "emerging",
         "deltas": {
           "d30": 75.8,
           "d90": 73.6,
@@ -810,7 +821,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-11T09:46:40+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       },
       "platforms": [
         "national political journalism",
@@ -843,7 +856,6 @@
       "measurement": {
         "status": "measured",
         "velocityIndex": 50,
-        "adoptionStage": "emerging",
         "deltas": {
           "d30": 19.2,
           "d90": 70.4,
@@ -865,7 +877,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-11T09:46:40+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       },
       "platforms": [
         "campaign-finance reform Substacks",
@@ -898,7 +912,6 @@
       "measurement": {
         "status": "measured",
         "velocityIndex": 100,
-        "adoptionStage": "emerging",
         "deltas": {
           "d30": 295.7,
           "d90": 1.3,
@@ -920,7 +933,9 @@
           "note": "GDELT Web NGrams 3.0 full-text coverage via BigQuery (body-text ngram+snippet match); share-of-coverage %, DOC-comparable pending calibration",
           "proxy": true
         },
-        "retrievedAt": "from-raw"
+        "retrievedAt": "2026-07-11T09:46:40+00:00",
+        "sourceChannel": "gdelt-webngrams",
+        "instrument": "gdelt-coverage"
       },
       "platforms": [
         "national newspapers",
@@ -952,7 +967,7 @@
       "domainTag": "OPPOSITION CAMPAIGN / ADVOCACY",
       "measurement": {
         "status": "pending",
-        "reason": "Token too sparse/degenerate on the full-text ngram surface to rank: near-zero coverage baseline (30d mean ~2.2e-05) yields no computable 30d/90d/yoy deltas after query-tightening. Marked pending rather than ranked on a spurious ratio."
+        "reason": "coverage below the 0.001% noise floor (share of monitored coverage), too sparse to rank reliably; measured raw retained in measured_raw_audit."
       },
       "platforms": [
         "opposition campaign communications",

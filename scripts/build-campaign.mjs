@@ -97,6 +97,9 @@ function mapTerm(card, clusterCounters) {
     }
     if (cd) measurement.corpusDensity = { value: cd.value, note: cd.note, proxy: true };
     if (m.retrieved_at) measurement.retrievedAt = m.retrieved_at;
+    // provenance, so downstream readers (the API seed) label the channel honestly
+    if (m.source_channel) measurement.sourceChannel = m.source_channel;
+    if (m.instrument) measurement.instrument = m.instrument;
   } else if (m.reason) {
     measurement.reason = m.reason;
   }
