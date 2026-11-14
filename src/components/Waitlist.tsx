@@ -48,18 +48,15 @@ export function Waitlist() {
             in your stack. Velocity, not verdict.
           </p>
           <div className="max-w-md space-y-3 mt-8">
-            <span className="small-caps text-muted block">Request early access to the API</span>
             <WaitlistForm
               source="api-waitlist"
               layout="row"
               apiWaitlist
+              label="API early access"
               submitLabel="Join the API waitlist"
               confirmTitle="You're on the waitlist"
               confirmBody="We'll email you when early access to the Contextive API opens. No spam."
             />
-            <p className="small-caps text-whisper text-[10px]">
-              Early access to the measured-signal API. We email you when it opens.
-            </p>
           </div>
         </header>
 
@@ -185,11 +182,8 @@ export function Waitlist() {
               </p>
             </div>
             <div className="lg:col-span-5">
-              <div className="border border-ink p-6 space-y-4 bg-canvas">
+              <div className="space-y-4">
                 <div className="font-display font-bold text-xl text-ink">Get on the list</div>
-                <p className="text-sm text-muted leading-relaxed">
-                  Early access opens to a small first group. Tell us the phrases you would track first.
-                </p>
                 <WaitlistForm
                   source="api-waitlist-footer"
                   layout="stack"

@@ -124,7 +124,7 @@ export function Hero() {
               source="hero"
               layout="row"
               apiWaitlist
-              label="Join the waitlist for early API access"
+              label="Early API access"
               submitLabel="Get early access"
               confirmTitle="You're on the waitlist"
               confirmBody="We'll email you when early access to the Contextive API opens."

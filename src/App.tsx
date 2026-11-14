@@ -12,6 +12,7 @@ import { HowItWorks } from './components/HowItWorks';
 import { HowItWorksTeaser } from './components/HowItWorksTeaser';
 import { ApiTeaser } from './components/ApiTeaser';
 import { Waitlist } from './components/Waitlist';
+import { Privacy } from './components/Privacy';
 import { SignalPage } from './components/SignalPage';
 import { Analytics } from '@vercel/analytics/react';
 
@@ -59,6 +60,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/how-it-works" element={<HowItWorks />} />
         <Route path="/waitlist" element={<Waitlist />} />
+        <Route path="/privacy" element={<Privacy />} />
         <Route
           path="/monitor"
           element={
